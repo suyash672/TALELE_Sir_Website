@@ -1,27 +1,24 @@
 import React from 'react';
-import Hero from './components/sections/Hero';
-import About from './components/sections/About';
-import CurrentPositions from './components/sections/CurrentPositions';
-import AreasOfInterest from './components/sections/AreasOfInterest';
-import AwardsAndRecognition from './components/sections/AwardsAndRecognition';
-import TeachingExperience from './components/sections/TeachingExperience';
-import VisitingFaculty from './components/sections/VisitingFaculty';
-import PastPositions from './components/sections/PastPositions';
-import Contact from './components/sections/Contact';
+import { Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import Projects from './pages/Projects';
+import Publications from './pages/Publications';
+import OutreachActivities from './pages/OutreachActivities';
+import Events from './pages/Events';
 
 function App() {
   return (
-    <main className="min-h-screen bg-background">
-      <Hero />
-      <About />
-      <CurrentPositions />
-      <AreasOfInterest />
-      <AwardsAndRecognition />
-      <TeachingExperience />
-      <VisitingFaculty />
-      <PastPositions />
-      <Contact />
-    </main>
+    <div className="min-h-screen bg-background">
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/publications" element={<Publications />} />
+        <Route path="/outreach-activities" element={<OutreachActivities />} />
+        <Route path="/events" element={<Events />} />
+      </Routes>
+    </div>
   );
 }
 
