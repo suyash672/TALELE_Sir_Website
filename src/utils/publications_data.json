@@ -1,0 +1,1301 @@
+{
+  "publications": {
+    "conferencepapers": [
+      {
+        "id": 1,
+        "date": "2006-02-10",
+        "title": "Face Recognition Using Isodensity Maps: A Neural Network Approach",
+        "conferencename": "International Conference on Emerging Applications in Information Technology (EAIT-2006)",
+        "authors": [
+          "S.T. Gandhe",
+          "K.T. Talele",
+          "A.G. Keskar"
+        ],
+        "hostingvenue": "Calcutta, India",
+        "organizedby": "Computer Society of India (CSI) Calcutta chapter",
+        "doi": "Not available",
+        "reference_link": "https://www.spit.ac.in/wp-content/uploads/profkttalele/website/project.html",
+        "remark": ""
+      },
+      {
+        "id": 2,
+        "date": "2005-10-19",
+        "title": "Morphological Image Processing Software Toolkit For Undergraduate IT Courses",
+        "conferencename": "National Conference on Recent Trends in Information Technology based Education and Training (RTITET-2005)",
+        "authors": [
+          "K.T. Talele"
+        ],
+        "hostingvenue": "Bannari Amman Institute of Technology, Sathyamangalam, Tamil Nadu",
+        "proceedingpages": "241-252",
+        "doi": "Not available",
+        "reference_link": "https://www.spit.ac.in/wp-content/uploads/profkttalele/website/project.html",
+        "remark": ""
+      },
+      {
+        "id": 3,
+        "date": "2005-10-19",
+        "title": "Designing Information Security Laboratories For Undergraduate Engineering Courses",
+        "conferencename": "National Conference on Recent Trends in Information Technology based Education and Training (RTITET-2005)",
+        "authors": [
+          "D.N. Shah",
+          "K.T. Talele"
+        ],
+        "hostingvenue": "Bannari Amman Institute of Technology, Sathyamangalam, Tamil Nadu",
+        "proceedingpages": "37-42",
+        "doi": "Not available",
+        "remark": ""
+      },
+      {
+        "id": 4,
+        "date": "2005-11-11",
+        "title": "A Novel Approach To Design Intelligent Path Finder",
+        "conferencename": "National Conference on Control Instrumentation System (CISCON-2005)",
+        "authors": [
+          "S.T. Gandhe",
+          "S.S. Pukale",
+          "T.E. Gosavi",
+          "K.T. Talele"
+        ],
+        "hostingvenue": "Manipal Institute of Technology, Manipal, Karnataka",
+        "proceedingpages": "57-60",
+        "doi": "Not available",
+        "remark": "Won best paper award"
+      },
+      {
+        "id": 5,
+        "date": "2005-11-25",
+        "title": "Low Cost Design Of Automatic Robot : 'Microcart'",
+        "conferencename": "National Conference on Innovations 2005",
+        "authors": [
+          "S.T. Gandhe",
+          "S.S. Pukale",
+          "B.M. Bhadricha",
+          "K.T. Talele"
+        ],
+        "hostingvenue": "Baba Banda Singh Bahadur Engineering College, Fatehgarh Sahib, Punjab",
+        "doi": "Not available",
+        "remark": ""
+      },
+      {
+        "id": 6,
+        "date": "2005-11-26",
+        "title": "Face Recognition Using Soft Computing Tools",
+        "conferencename": "National Conference on Artificial Neural Networks Applications in Engineering and Technology (ANNET-2005)",
+        "authors": [
+          "S.T. Gandhe",
+          "K.T. Talele"
+        ],
+        "hostingvenue": "Sreenidhi Institute of Science And Technology, Hyderabad, AP",
+        "proceedingpages": "45-49",
+        "doi": "Not available",
+        "reference_link": "https://www.spit.ac.in/wp-content/uploads/profkttalele/website/publication05_06.html",
+        "remark": ""
+      },
+      {
+        "id": 7,
+        "date": "2005-12-05",
+        "title": "Image Compression using Hybrid AMBTC+VQ Technique",
+        "conferencename": "National Conference on Signal Processing and Communication (SPCOM-2005)",
+        "authors": [
+          "K.T. Talele"
+        ],
+        "hostingvenue": "Sreenidhi Institute of Science And Technology, Hyderabad",
+        "proceedingpages": "01-05",
+        "doi": "Not available",
+        "reference_link": "https://www.spit.ac.in/wp-content/uploads/profkttalele/website/publication05_06.html",
+        "remark": ""
+      },
+      {
+        "id": 8,
+        "date": "2006-01-23",
+        "title": "VLSI Implementation of Viterbi Decoder",
+        "conferencename": "National Conference under TEQIP",
+        "authors": [
+          "S.S. Rathod",
+          "Saurabh Kulkarni",
+          "Sachin Chhothani",
+          "K.T. Talele"
+        ],
+        "hostingvenue": "Government College of Engineering, Aurangabad",
+        "doi": "Not available",
+        "remark": ""
+      },
+      {
+        "id": 9,
+        "date": "2006-03-09",
+        "title": "PC Based Multimedia Messaging Service Transcoding",
+        "conferencename": "National Conference on Wireless Information and Networking in Global System (WINGS-2006)",
+        "authors": [
+          "Haresh Jola",
+          "Rajesh Rathod",
+          "K.T. Talele"
+        ],
+        "hostingvenue": "KLN College of Engineering, Pottapalayam, Tamil Nadu",
+        "doi": "Not available",
+        "remark": ""
+      },
+      {
+        "id": 10,
+        "date": "2006-03-28",
+        "title": "Bio-Medical Image Enhancement",
+        "conferencename": "National Conference on Biomedical Engineering (NCBME-2006)",
+        "authors": [
+          "K.T. Talele",
+          "S.T. Gandhe",
+          "Rinki Gupta",
+          "Vricha Chavan",
+          "Kirti Rajadnya"
+        ],
+        "hostingvenue": "Sardar Patel College of Engineering, Andheri(W), Mumbai",
+        "doi": "Not available",
+        "remark": ""
+      },
+      {
+        "id": 11,
+        "date": "2006-03-28",
+        "title": "Secure Transfer of Biomedical Images and Patients Information over Public Data Network",
+        "conferencename": "National Conference on Biomedical Engineering (NCBME-2006)",
+        "authors": [
+          "Annu Binny",
+          "K.T. Talele"
+        ],
+        "hostingvenue": "Sardar Patel College of Engineering, Andheri(W), Mumbai",
+        "doi": "Not available",
+        "remark": ""
+      },
+      {
+        "id": 12,
+        "date": "2006-03-28",
+        "title": "Human Visual System Based Medical Image Compression Using Set Partitioning In Hierarchical Trees (SPIHT)",
+        "conferencename": "National Conference on Biomedical Engineering (NCBME-2006)",
+        "authors": [
+          "N.A. Bhagat",
+          "K.T. Talele",
+          "S.T. Gandhe"
+        ],
+        "hostingvenue": "Sardar Patel College of Engineering, Andheri(W), Mumbai",
+        "doi": "Not available",
+        "remark": ""
+      },
+      {
+        "id": 13,
+        "date": "2006-03-28",
+        "title": "Telemedicine System Based On Public Network",
+        "conferencename": "National Conference on Biomedical Engineering (NCBME-2006)",
+        "authors": [
+          "Amol Madane",
+          "K.T. Talele",
+          "S.T. Gandhe"
+        ],
+        "hostingvenue": "Sardar Patel College of Engineering, Andheri(W), Mumbai",
+        "doi": "Not available",
+        "remark": ""
+      },
+      {
+        "id": 14,
+        "date": "2006-09-15",
+        "title": "Fault Detection In PCB Using Homotopic Morphological Operator",
+        "conferencename": "IEEE International Conference INDICON-2006",
+        "authors": [
+          "K.T. Talele",
+          "S.T. Gandhe",
+          "M.M. Shah"
+        ],
+        "hostingvenue": "Delhi, India",
+        "doi": "10.1109/INDICON.2006.302857",
+        "reference_link": "https://ieeexplore.ieee.org/document/4086266",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 15,
+        "date": "2007-01-04",
+        "title": "An overview of JPEG 2000",
+        "conferencename": "National Conference on Electro Info Com 2007",
+        "authors": [
+          "Annu Binny",
+          "K.T. Talele"
+        ],
+        "hostingvenue": "ST Francis Institute of Technology, Mumbai",
+        "doi": "Not available",
+        "reference_link": "https://www.spit.ac.in/wp-content/uploads/profkttalele/website/publication06_07.html",
+        "remark": ""
+      },
+      {
+        "id": 16,
+        "date": "2006-12-01",
+        "title": "Web Based Education: Pros And Cons",
+        "conferencename": "National Conference on Information and Communication Technology (NCICT-2006)",
+        "authors": [
+          "B.L. Mali",
+          "K.T. Talele",
+          "Gitesh Mahajan",
+          "Shraddha Kharate"
+        ],
+        "hostingvenue": "D.J. Sanghavi College of Engineering, Vile-Parle, Mumbai",
+        "doi": "Not available",
+        "remark": ""
+      },
+      {
+        "id": 17,
+        "date": "2006-12-01",
+        "title": "Wireless Software Device : A Modern Approach To Radio Engineering",
+        "conferencename": "National Conference on Information and Communication Technology (NCICT-2006)",
+        "authors": [
+          "Jimit Shah",
+          "S.T. Gandhe",
+          "K.T. Talele"
+        ],
+        "hostingvenue": "D.J. Sanghavi College of Engineering, Vile-Parle, Mumbai",
+        "doi": "Not available",
+        "remark": ""
+      },
+      {
+        "id": 18,
+        "date": "2006-12-01",
+        "title": "PID CONTROLLER USING DSP TMS320VC5416 PROCESSOR",
+        "conferencename": "National Conference on Information and Communication Technology (NCICT-2006)",
+        "authors": [
+          "Mohit Daptardar",
+          "Rohit Gharat",
+          "Jayesh Parab",
+          "Tejas Makwana",
+          "K.T. Talele"
+        ],
+        "hostingvenue": "D.J. Sanghavi College of Engineering, Vile-Parle, Mumbai",
+        "doi": "Not available",
+        "remark": ""
+      },
+      {
+        "id": 19,
+        "date": "2006-12-01",
+        "title": "Review of Image Segmentation Techniques",
+        "conferencename": "National Conference on Information and Communication Technology (NCICT-2006)",
+        "authors": [
+          "S.G. Manwatkar",
+          "K.S. Naidu",
+          "S.S. Shetty",
+          "H.A. Pagare",
+          "K.T. Talele",
+          "S.T. Gandhe"
+        ],
+        "hostingvenue": "D.J. Sanghavi College of Engineering, Vile-Parle, Mumbai",
+        "doi": "Not available",
+        "remark": ""
+      },
+      {
+        "id": 22,
+        "date": "2007-09-12",
+        "title": "Image Recognition with Discrete Wavelet Transform",
+        "conferencename": "11th KES International Conference",
+        "authors": [
+          "S.T. Gandhe",
+          "K.T. Talele",
+          "A.G. Keskar"
+        ],
+        "hostingvenue": "Vietri Sul Mare, Italy",
+        "doi": "Not available",
+        "remark": ""
+      },
+      {
+        "id": 23,
+        "date": "2007-09-12",
+        "title": "Image Mining using Wavelet Transform",
+        "conferencename": "Lecture Notes in Computer Science, Springer Link",
+        "authors": [
+          "S.T. Gandhe",
+          "K.T. Talele",
+          "A.G. Keskar"
+        ],
+        "hostingvenue": "Springer",
+        "doi": "10.1007/978-3-540-74819-9_98",
+        "reference_link": "https://link.springer.com/chapter/10.1007/978-3-540-74819-9_98",
+        "remark": "Published September 12, 2007"
+      },
+      {
+        "id": 24,
+        "date": "2007-09-06",
+        "title": "Face Recognition using DWT + PCA",
+        "conferencename": "IEEE International Conference INDICON-2007",
+        "authors": [
+          "S.T. Gandhe",
+          "K.T. Talele",
+          "A.G. Keskar"
+        ],
+        "hostingvenue": "Bangalore, India",
+        "doi": "10.1109/INDICON.2007.4208638",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 25,
+        "date": "2007-11-28",
+        "title": "CDMA MODEM Using Direct Sequence Spread Spectrum",
+        "conferencename": "IEEE - ACVIT-07 International Conference on Advances in Computer Vision and Information Technology",
+        "authors": [
+          "Srinath Iyer",
+          "Siddharth Gupta",
+          "Amol Madane",
+          "K.T. Talele"
+        ],
+        "hostingvenue": "BAMU Aurangabad, Maharashtra",
+        "doi": "Not available",
+        "remark": ""
+      },
+      {
+        "id": 26,
+        "date": "2007-11-28",
+        "title": "AudioWatermarking",
+        "conferencename": "IEEE - ACVIT-07 International Conference on Advances in Computer Vision and Information Technology",
+        "authors": [
+          "Suchit Shah",
+          "Manthan Shah",
+          "Amol Madane",
+          "K.T. Talele"
+        ],
+        "hostingvenue": "BAMU Aurangabad, Maharashtra",
+        "doi": "Not available",
+        "remark": ""
+      },
+      {
+        "id": 27,
+        "date": "2008-02-04",
+        "title": "Burrow Wheeler's Transform For Efficient RLE Compression Applied to Audio Files",
+        "conferencename": "SPIT - IEEE R-10 Colloquium & International Conference",
+        "authors": [
+          "Harsh Shah",
+          "Chinmay Sane",
+          "Swapnil Sheth",
+          "K.T. Talele"
+        ],
+        "hostingvenue": "Mumbai, India",
+        "doi": "Not available",
+        "reference_link": "https://etrx.spit.ac.in/wp-content/blogs.dir/19/files/2012/ieee_colloquium/Image_Processing/spit-46.pdf",
+        "remark": ""
+      },
+      {
+        "id": 28,
+        "date": "2008-02-04",
+        "title": "Fracture Detection Using Euler Numbers",
+        "conferencename": "SPIT - IEEE R-10 Colloquium & International Conference",
+        "authors": [
+          "Amrapali Sawant",
+          "Amita Shinde",
+          "K.T. Talele"
+        ],
+        "hostingvenue": "Mumbai, India",
+        "doi": "Not available",
+        "reference_link": "https://etrx.spit.ac.in/wp-content/blogs.dir/19/files/2012/ieee_colloquium/Image_Processing/spit-279.pdf",
+        "remark": ""
+      },
+      {
+        "id": 29,
+        "date": "2008-02-04",
+        "title": "Image Enhancement Techniques Pixel Operation In Spatial Domain",
+        "conferencename": "SPIT - IEEE R-10 Colloquium & International Conference",
+        "authors": [
+          "Kirti Rajadnya",
+          "K.T. Talele"
+        ],
+        "hostingvenue": "Mumbai, India",
+        "doi": "Not available",
+        "reference_link": "https://etrx.spit.ac.in/wp-content/blogs.dir/19/files/2012/ieee_colloquium/Image_Processing/spit-136.pdf",
+        "remark": ""
+      },
+      {
+        "id": 30,
+        "date": "2008-02-04",
+        "title": "Watermark Logo in Digital Image Using DWT",
+        "conferencename": "SPIT - IEEE R-10 Colloquium & International Conference",
+        "authors": [
+          "Amol Madane",
+          "K.T. Talele",
+          "M.M. Shah"
+        ],
+        "hostingvenue": "Mumbai, India",
+        "doi": "Not available",
+        "reference_link": "https://etrx.spit.ac.in/wp-content/blogs.dir/19/files/2012/ieee_colloquium/Image_Processing/spit-101.pdf",
+        "remark": ""
+      },
+      {
+        "id": 32,
+        "date": "2008-06-01",
+        "title": "Comparison of MPEG Video Encryption Algorithms",
+        "conferencename": "ACM Special Interest Group on Artificial Intelligence",
+        "authors": [
+          "Ujwala Potdar",
+          "K.T. Talele",
+          "S.T. Gandhe"
+        ],
+        "hostingvenue": "ACM Digital Library",
+        "doi": "10.1145/1523103.1523163",
+        "reference_link": "https://dl.acm.org/doi/10.1145/1523103.1523163",
+        "remark": ""
+      },
+      {
+        "id": 33,
+        "date": "2008-09-18",
+        "title": "Modified Set Partitioning in Hierarchical Tree",
+        "conferencename": "4th International Conference on Soft Computing and Intelligent Systems and 9th International Symposium on Advanced Intelligent Systems (SCIS & ISIS 2008)",
+        "authors": [
+          "N.A. Bhagat",
+          "S.T. Gandhe",
+          "K.T. Talele"
+        ],
+        "hostingvenue": "Nagoya University, Nagoya, Japan",
+        "doi": "Not available (J-STAGE available)",
+        "reference_link": "https://www.jstage.jst.go.jp/article/softscis/2008/0/2008_0_1765/_article",
+        "remark": ""
+      },
+      {
+        "id": 35,
+        "date": "2009-11-23",
+        "title": "Face Detection and Geometric Face Normalization",
+        "conferencename": "International Conference on Emerging Technologies for Sustainable Development TENCON",
+        "authors": [
+          "K.T. Talele",
+          "Sunil Kadam"
+        ],
+        "hostingvenue": "Not specified",
+        "doi": "10.1109/TENCON.2009.5395980",
+        "reference_link": "https://ieeexplore.ieee.org/document/5395980",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 36,
+        "date": "2009-12-28",
+        "title": "Dual Watermarking in Video using Discrete Wavelet Transform",
+        "conferencename": "2nd International Conference on Machine Vision",
+        "authors": [
+          "Ujwala Potdar",
+          "K.T. Talele",
+          "S.T. Gandhe"
+        ],
+        "hostingvenue": "Dubai, UAE",
+        "doi": "10.1109/ICMV.2009.5381116",
+        "reference_link": "https://ieeexplore.ieee.org/document/5381116",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 37,
+        "date": "2010-03-01",
+        "title": "Perceptual Video Encryption for Multimedia Applications",
+        "conferencename": "2nd International Conference on Computer Engineering and Applications - Volume 01",
+        "authors": [
+          "Ujwala Potdar",
+          "K.T. Talele",
+          "S.T. Gandhe"
+        ],
+        "hostingvenue": "Not specified",
+        "doi": "10.1109/ICCENG.2010.47",
+        "reference_link": "https://ieeexplore.ieee.org/document/5445761",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 38,
+        "date": "2010-11-01",
+        "title": "Face Expression and Detection",
+        "conferencename": "3rd International Conference on Machine Vision (ICMV-2010)",
+        "authors": [
+          "Michelle Araujo",
+          "K.T. Talele",
+          "S.T. Gandhe"
+        ],
+        "hostingvenue": "Not specified",
+        "doi": "Not available",
+        "remark": ""
+      },
+      {
+        "id": 40,
+        "date": "2011-02-25",
+        "title": "Audio Steganography Using Spectrum Manipulation",
+        "conferencename": "International Conference on Technology Systems and Management",
+        "authors": [
+          "Mark Nathan",
+          "Nikhil Parab",
+          "K.T. Talele"
+        ],
+        "hostingvenue": "Not specified",
+        "doi": "10.1007/978-3-642-20209-4_21",
+        "reference_link": "https://link.springer.com/chapter/10.1007/978-3-642-20209-4_21",
+        "remark": "Springer Link available"
+      },
+      {
+        "id": 41,
+        "date": "2011-02-25",
+        "title": "ECG feature Extraction using Wavelet Based Derivative Approach",
+        "conferencename": "International Conference on Technology Systems and Management",
+        "authors": [
+          "Anita P",
+          "K.T. Talele"
+        ],
+        "hostingvenue": "Not specified",
+        "doi": "10.1007/978-3-642-20209-4_34",
+        "reference_link": "https://link.springer.com/chapter/10.1007/978-3-642-20209-4_34",
+        "remark": "Springer Link available"
+      },
+      {
+        "id": 42,
+        "date": "2011-02-26",
+        "title": "Novel Steganography Technique For Dual Independent Data Hiding In An Avi File",
+        "conferencename": "3rd International Conference on Signal Acquisition and Processing (ICSAP-2011)",
+        "authors": [
+          "Balaji M.",
+          "Iyengar Santosh A.",
+          "K.T. Talele"
+        ],
+        "hostingvenue": "Not specified",
+        "doi": "Not available",
+        "reference_link": "https://www.spit.ac.in/wp-content/uploads/profkttalele/website/publication10_11.html",
+        "remark": ""
+      },
+      {
+        "id": 43,
+        "date": "2011-05-01",
+        "title": "Broad Band Power Line Communication",
+        "conferencename": "ICWET 11 - International Conference & Workshop on Emerging Trends in Technology",
+        "authors": [
+          "Anita Purushottam",
+          "Prachi Dhannawat",
+          "K.T. Talele"
+        ],
+        "hostingvenue": "Not specified",
+        "proceedingpage": "1365",
+        "doi": "Not available",
+        "remark": ""
+      },
+      {
+        "id": 45,
+        "date": "2012-01-01",
+        "title": "Performance Enhancement of Face Recognition Algorithm Using DWT+PCA",
+        "conferencename": "International Conference on Signal, Image and Video Processing",
+        "authors": [
+          "K.T. Talele",
+          "S.T. Gandhe",
+          "A.G. Keskar"
+        ],
+        "hostingvenue": "IIT Patna, India",
+        "doi": "Not available",
+        "remark": ""
+      },
+      {
+        "id": 46,
+        "date": "2012-03-01",
+        "title": "Speech Compression using ADPCM",
+        "conferencename": "IJCA Proceedings on International Conference in Computational Intelligence (ICCIA2012)",
+        "authors": [
+          "K.T. Talele",
+          "S.T. Gandhe"
+        ],
+        "hostingvenue": "Not specified",
+        "doi": "Not available",
+        "reference_link": "https://www.ijcaonline.org/proceedings/iccia/number8/5149-1061/",
+        "remark": "Published by Foundation of Computer Science, New York, USA"
+      },
+      {
+        "id": 47,
+        "date": "2012-03-01",
+        "title": "Efficient Face Detection using Adaboost",
+        "conferencename": "IJCA Proceedings on International Conference in Computational Intelligence (ICCIA2012)",
+        "authors": [
+          "K.T. Talele",
+          "Sunil Kadam",
+          "Atul Tikare"
+        ],
+        "hostingvenue": "Not specified",
+        "doi": "Not available",
+        "reference_link": "https://www.ijcaonline.org/proceedings/iccia/number10/5164-1076/",
+        "remark": "Published by Foundation of Computer Science, New York, USA"
+      },
+      {
+        "id": 50,
+        "date": "2013-09-20",
+        "title": "Comparison of various Image Registration Techniques with the Proposed Hybrid System",
+        "conferencename": "International Conference on Advances in Recent Technologies in Electrical and Electronics (ARTEE)",
+        "authors": [
+          "Neha Prakash Athavale",
+          "K.T. Talele"
+        ],
+        "hostingvenue": "Bangalore, India",
+        "doi": "Not available",
+        "reference_link": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3f306fc299dcdd0ba1008e1da6ef7d5475986c87",
+        "remark": ""
+      },
+      {
+        "id": 51,
+        "date": "2013-11-01",
+        "title": "Highway Traffic Surveillance by Unsupervised Learning",
+        "conferencename": "International Conference on Electrical, Electronics, Computer Science and Mathematics Physical Education and Management (ICEECMPE)",
+        "authors": [
+          "Arunkumar Mishra",
+          "K.T. Talele"
+        ],
+        "hostingvenue": "New Delhi, India",
+        "doi": "Not available",
+        "remark": ""
+      },
+      {
+        "id": 52,
+        "date": "2013-09-19",
+        "title": "Efficient Heterogeneous Face Recognition using Scale Invariant Feature Transform",
+        "conferencename": "International Conference Advances in Recent Technologies in Electrical and Electronics (ARTEE 2013)",
+        "authors": [
+          "Vrushali Purandare",
+          "K.T. Talele"
+        ],
+        "hostingvenue": "Bangalore, India",
+        "doi": "Not available",
+        "reference_link": "https://www.researchgate.net/publication/271481829",
+        "remark": ""
+      },
+      {
+        "id": 53,
+        "date": "2013-12-13",
+        "title": "Modified Enhanced Steady State Genetic Algorithm for Scheduling and Optimization Problem",
+        "conferencename": "IEEE International Conference INDICON",
+        "authors": [
+          "Shiburaj Pappu",
+          "K.T. Talele",
+          "K.V. Mehul"
+        ],
+        "hostingvenue": "Victor Menezes Convention Centre, Indian Institute of Technology (IIT) Bombay, Mumbai, India",
+        "doi": "10.1109/INDICON.2013.6726018",
+        "reference_link": "https://ieeexplore.ieee.org/document/6726018",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 54,
+        "date": "2015-01-16",
+        "title": "Person Tracking using Mean Shift with Gray Level Grouping",
+        "conferencename": "IEEE Sponsored International Conference on Communication, Information & Computing Technology (ICCICT-2015)",
+        "authors": [
+          "Ashish Sahi",
+          "K.T. Talele"
+        ],
+        "hostingvenue": "Sardar Patel Institute of Technology, Andheri(W), Mumbai",
+        "doi": "10.1109/ICCICT.2015.7045705",
+        "reference_link": "https://ieeexplore.ieee.org/document/7045705",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 55,
+        "date": "2015-01-16",
+        "title": "Suspicious Movement Detection and Tracking based on Colour Histogram",
+        "conferencename": "IEEE Sponsored International Conference on Communication, Information & Computing Technology (ICCICT-2015)",
+        "authors": [
+          "Sandesh Patil",
+          "K.T. Talele"
+        ],
+        "hostingvenue": "Sardar Patel Institute of Technology, Andheri(W), Mumbai",
+        "doi": "10.1109/ICCICT.2015.7045698",
+        "reference_link": "https://ieeexplore.ieee.org/document/7045698",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 56,
+        "date": "2015-01-16",
+        "title": "Voice Conversion using Gaussian Mixture Models",
+        "conferencename": "IEEE Sponsored International Conference on Communication, Information & Computing Technology (ICCICT-2015)",
+        "authors": [
+          "Kevin D'souza",
+          "K.T. Talele"
+        ],
+        "hostingvenue": "Sardar Patel Institute of Technology, Andheri(W), Mumbai",
+        "doi": "10.1109/ICCICT.2015.7045743",
+        "reference_link": "https://ieeexplore.ieee.org/document/7045743",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 57,
+        "date": "2015-04-20",
+        "title": "Comparison of various Image Registration Techniques with the Proposed Hybrid System",
+        "conferencename": "IEEE Sponsored 4th International Conference on Computation of Power, Energy, Information and Communication (CPEIC-2015)",
+        "authors": [
+          "Ayesha Hakim",
+          "K.T. Talele"
+        ],
+        "hostingvenue": "Adhiparasakthi Engineering College, Melmaruvathur, Tamil Nadu",
+        "doi": "Not available",
+        "remark": ""
+      },
+      {
+        "id": 58,
+        "date": "2015-09-10",
+        "title": "Determination of Patient Setup Error in Radiotherapy using Feature-Based Multimodal Rigid Image Registration",
+        "conferencename": "IEEE Bombay Section Signature Symposium (IBSS 2015)",
+        "authors": [
+          "Aayesha Hakim",
+          "K.T.V. Talele",
+          "Rajesh Harsh",
+          "Dharmesh Verma"
+        ],
+        "hostingvenue": "Mumbai, India",
+        "doi": "10.1109/IBSS.2015.7456629",
+        "reference_link": "https://ieeexplore.ieee.org/document/7456629",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 59,
+        "date": "2016-05-30",
+        "title": "Facial Expression Classification using Support Vector Machine Based on Bidirectional Local Binary Pattern Histogram Feature Descriptor",
+        "conferencename": "17th IEEE/ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD 2016)",
+        "authors": [
+          "Kiran Talele",
+          "Kushal Tuckley"
+        ],
+        "hostingvenue": "Shanghai, China",
+        "doi": "10.1109/SNPD.2016.7515888",
+        "reference_link": "https://ieeexplore.ieee.org/document/7515888",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 60,
+        "date": "2016-05-20",
+        "title": "Two Channel Reconfigurable Digital Receiver for Cloud Radar Applications",
+        "conferencename": "IEEE International Conference on Recent Trends in Electronics Communication Technology",
+        "authors": [
+          "Tanmay Patel",
+          "K. Aurobindo",
+          "K.T. Talele"
+        ],
+        "hostingvenue": "Bangalore, India",
+        "doi": "10.1109/RTECT.2016.7808027",
+        "reference_link": "https://ieeexplore.ieee.org/abstract/document/7808027",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 61,
+        "date": "2016-08-12",
+        "title": "Edge Preserving and Smoothing and Enhancement For Electronic Portal Images",
+        "conferencename": "2nd International Conference on Computing, Communication, Control & Automation",
+        "authors": [
+          "Swati Darange",
+          "K.T.V. Talele",
+          "Soumyabrata Ghosh"
+        ],
+        "hostingvenue": "Pimpri Chinchwad College Of Engineering, organized by IEEE Pune Section",
+        "doi": "10.1109/ICCUBEA.2016.7860058",
+        "reference_link": "https://ieeexplore.ieee.org/document/7860058",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 62,
+        "date": "2016-11-22",
+        "title": "Human Action Unit Detection of Patient using Geometric Feature Analysis",
+        "conferencename": "IEEE TENCON 2016 - Technologies for Smart Nation",
+        "authors": [
+          "Kiran Talele",
+          "Kushal Tuckley"
+        ],
+        "hostingvenue": "Marina Bay Sands, Singapore",
+        "doi": "10.1109/TENCON.2016.7848408",
+        "reference_link": "https://ieeexplore.ieee.org/document/7848408",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 63,
+        "date": "2016-12-14",
+        "title": "Human Body Language Understanding for Action Detection using Geometric Features",
+        "conferencename": "2nd International Conference on Contemporary Computing and Informatics",
+        "authors": [
+          "Neha Shirbhate",
+          "Kiran Talele"
+        ],
+        "hostingvenue": "Not specified",
+        "doi": "10.1109/CCIS.2016.7918034",
+        "reference_link": "https://ieeexplore.ieee.org/document/7918034",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 64,
+        "date": "2016-12-22",
+        "title": "Facial Expression Recognition Using General Regression Neural Network",
+        "conferencename": "IEEE Bombay Section Symposium",
+        "authors": [
+          "Kiran Talele",
+          "Archana Shirsat",
+          "Tejal Uplenchwar",
+          "Kushal Tuckley"
+        ],
+        "hostingvenue": "VPKBIET, India",
+        "doi": "10.1109/IBSS.2016.7940203",
+        "reference_link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7940203",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 65,
+        "date": "2018-04-06",
+        "title": "C-Indicator : A Mobile App for Crowd Control and Management in Suburban Railways",
+        "conferencename": "ICAST-2018",
+        "authors": [
+          "Jyoti Singh",
+          "Divya Sawant",
+          "Sean Pereira",
+          "Crispin Lobo",
+          "Kiran Talele"
+        ],
+        "hostingvenue": "K.J.Somaiya Institute of Engineering and Information Technology, Sion, Mumbai",
+        "doi": "Not available",
+        "remark": ""
+      },
+      {
+        "id": 66,
+        "date": "2019-03-29",
+        "title": "Genetic Algorithm for Optimal Feature Vector Selection in Facial Recognition",
+        "conferencename": "Asia Pacific IEEE 5th International Conference for Convergence in Technology 2019",
+        "authors": [
+          "Sai Yerremreddy",
+          "K.T.V. Talele",
+          "Yash Kokate"
+        ],
+        "hostingvenue": "Pune, India",
+        "doi": "10.1109/I4CT.2019.9033608",
+        "reference_link": "https://ieeexplore.ieee.org/document/9033608",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 67,
+        "date": "2019-04-23",
+        "title": "Driver Assistant System using Haar Cascade and Convolution Neural Networks (CNN)",
+        "conferencename": "3rd International Conference on Trends in Electronics and Informatics (ICOEI 2019)",
+        "authors": [
+          "Aditya Nair",
+          "Shoaib Mansoori",
+          "Rajeev Moghe",
+          "Payal Shah",
+          "Kiran Talele"
+        ],
+        "hostingvenue": "SCAD College of Engineering and Technology, India",
+        "doi": "10.1109/ICOEI.2019.8862779",
+        "reference_link": "https://ieeexplore.ieee.org/document/8862779",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 69,
+        "date": "2021-06-25",
+        "title": "Twitter Sentiment Analysis for COVID-19",
+        "conferencename": "IEEE 4th International Conference on Communication, Information and Computing Technology (ICCICT-2021)",
+        "authors": [
+          "Sanket Andhale",
+          "Pratik Mane",
+          "Mandar Vaigankar",
+          "Deepak Karia",
+          "Kiran Talele"
+        ],
+        "hostingvenue": "Mumbai, India",
+        "doi": "10.1109/ICCICT50916.2021.9509933",
+        "reference_link": "https://ieeexplore.ieee.org/document/9509933",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 70,
+        "date": "2021-07-06",
+        "title": "CYBER-BULLYING DETECTION VIA TEXT MINING AND MACHINE LEARNING",
+        "conferencename": "IEEE 12th International Conference On Computing, Communication & Networking Technologies (ICCCNT) 2021",
+        "authors": [
+          "Chetna Sharma",
+          "Rahul Ramakrishnan",
+          "Ayusha Pendse",
+          "Priya Chimurkar",
+          "Kiran Talele"
+        ],
+        "hostingvenue": "IIT Khargpur, India",
+        "doi": "10.1109/ICCCNT51525.2021.9579625",
+        "reference_link": "https://ieeexplore.ieee.org/document/9579625",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 71,
+        "date": "2021-07-06",
+        "title": "Early Detection of Lung Cancer Using Computer Aided Tomography Images",
+        "conferencename": "IEEE 12th International Conference On Computing, Communication & Networking Technologies (ICCCNT) 2021",
+        "authors": [
+          "Varun Mhatre",
+          "Vishwesh Vispute",
+          "Kiran Talele",
+          "Nitin Mishra"
+        ],
+        "hostingvenue": "IIT Khargpur, India",
+        "doi": "10.1109/ICCCNT51525.2021.9579977",
+        "reference_link": "https://ieeexplore.ieee.org/document/9579977",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 72,
+        "date": "2021-08-27",
+        "title": "Smart Accident Detection And Alert System",
+        "conferencename": "IEEE India Council International Subsections Conference (INDISCON)",
+        "authors": [
+          "Arnav Chaudhari",
+          "Harsh Agrawal",
+          "Smiti Poddar",
+          "Kiran Talele",
+          "Manisha Bansode"
+        ],
+        "hostingvenue": "Not specified",
+        "doi": "10.1109/INDISCON52576.2021.9582163",
+        "reference_link": "https://ieeexplore.ieee.org/document/9582163",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 73,
+        "date": "2021-09-15",
+        "title": "A Review-and-Reviewer based approach for Fake Review Detection",
+        "conferencename": "Fourth International Conference on Electrical, Computer and Communication Technologies (ICECCT)",
+        "authors": [
+          "Janhavi Bhopale",
+          "Rugved Bhise",
+          "Arthav Mane",
+          "Kiran Talele"
+        ],
+        "hostingvenue": "Not specified",
+        "doi": "10.1109/ICECCT52121.2021.9616697",
+        "reference_link": "https://ieeexplore.ieee.org/document/9616697",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 74,
+        "date": "2021-10-07",
+        "title": "Mental stress detection using machine learning algorithm",
+        "conferencename": "International Conference on Electrical, Computer, Communications and Mechatronics Engineering (ICECCME)",
+        "authors": [
+          "Aishwarya Bannore",
+          "Tejashree Gore",
+          "Apoorva Raut",
+          "Kiran Talele"
+        ],
+        "hostingvenue": "Mauritius",
+        "doi": "10.1109/ICECCME52200.2021.9590847",
+        "reference_link": "https://ieeexplore.ieee.org/document/9590847",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 75,
+        "date": "2021-11-11",
+        "title": "Microcontroller based Substation Disaster Monitoring System",
+        "conferencename": "2021 Fifth International Conference on I-SMAC (IoT in Social, Mobile, Analytics and Cloud) (I-SMAC)",
+        "authors": [
+          "Divit Kalathil",
+          "Kuldeep Vaishnav",
+          "Aditya Tarade",
+          "Kiran Talele",
+          "Manisha Bansode"
+        ],
+        "hostingvenue": "Not specified",
+        "doi": "10.1109/I-SMAC52330.2021.9640909",
+        "reference_link": "https://ieeexplore.ieee.org/document/9640909",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 76,
+        "date": "2022-05-09",
+        "title": "Co-Mart - A Daily Necessity Price Comparison Application",
+        "conferencename": "2022 International Conference on Applied Artificial Intelligence and Computing (ICAAIC)",
+        "authors": [
+          "Ayush Asawa",
+          "Swapnil Dabre",
+          "Shravani Rahise",
+          "Manisha Bansode",
+          "Kiran Talele",
+          "Priya Chimurkar"
+        ],
+        "hostingvenue": "Not specified",
+        "doi": "10.1109/ICAAIC53929.2022.9792935",
+        "reference_link": "https://ieeexplore.ieee.org/document/9792935",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 77,
+        "date": "2022-05-09",
+        "title": "Self Driving Car using Neural Networks",
+        "conferencename": "2022 International Conference on Applied Artificial Intelligence and Computing (ICAAIC)",
+        "authors": [
+          "Divit Kalathil",
+          "Vivek Kumar Mandal",
+          "Archis Gune",
+          "Kiran Talele",
+          "Priya Chimurkar",
+          "Manisha Bansode"
+        ],
+        "hostingvenue": "Not specified",
+        "doi": "10.1109/ICAAIC53929.2022.9792595",
+        "reference_link": "https://ieeexplore.ieee.org/document/9792595",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 78,
+        "date": "2022-03-31",
+        "title": "An Empirical Approach for Tuning an Autonomous Mobile Robot in Gazebo",
+        "conferencename": "Computational Vision and Bio-Inspired Computing (ICCVBIC 2021)",
+        "authors": [
+          "Naveen Bharathiraman",
+          "Adwait Kaundanya",
+          "Jaiesh Singhal",
+          "Yash Wadalkar",
+          "Kiran Talele"
+        ],
+        "hostingvenue": "Coimbatore, India",
+        "doi": "10.1007/978-981-16-9573-5_22",
+        "reference_link": "https://link.springer.com/chapter/10.1007/978-981-16-9573-5_22",
+        "remark": "Springer Link available"
+      },
+      {
+        "id": 79,
+        "date": "2022-07-01",
+        "title": "EEG Based Human Emotion Analysis",
+        "conferencename": "2022 IEEE Region 10 Symposium (TENSYMP)",
+        "authors": [
+          "Aakanksha Garg",
+          "Krish Mankar",
+          "Shauryavir Singh Manhas",
+          "Isha Naik",
+          "Hrithik Jain",
+          "Harshada Patil",
+          "Pranjal Pimpale",
+          "Divit Kalathil",
+          "Shravani Rahise",
+          "Smiti Poddar",
+          "Laukik Deshmukh",
+          "Akash Hake",
+          "Kiran Talele"
+        ],
+        "hostingvenue": "Not specified",
+        "doi": "10.1109/TENSYMP54529.2022.9864507",
+        "reference_link": "https://ieeexplore.ieee.org/document/9864507",
+        "remark": "IEEE Xplore available, organized by IEEE Bombay Section"
+      },
+      {
+        "id": 80,
+        "date": "2022-12-08",
+        "title": "Implementation of RFID-based Lab Inventory System",
+        "conferencename": "2022 IEEE Bombay Section Signature Conference (IBSSC)",
+        "authors": [
+          "Vishrut Chokshi",
+          "Mitash Shah",
+          "Param Mehta",
+          "Malhar Vairale",
+          "Saurabh Mehta",
+          "Kiran Talele"
+        ],
+        "hostingvenue": "Not specified",
+        "doi": "10.1109/IBSSC56953.2022.10037518",
+        "reference_link": "https://ieeexplore.ieee.org/document/10037518",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 81,
+        "date": "2023-12-19",
+        "title": "Enhancing Government Scheme Accessibility, User Profiling and Personalized Recommendations using Data Mining",
+        "conferencename": "2023 4th IEEE Global Conference for Advancement in Technology (GCAT)",
+        "authors": [
+          "Vinayak Tripathi",
+          "Sandeep Suthar",
+          "Bhavika Vaishnavi",
+          "Narendra Bhagat",
+          "Kiran Talele"
+        ],
+        "hostingvenue": "Not specified",
+        "doi": "10.1109/GCAT58271.2023.10353528",
+        "reference_link": "https://ieeexplore.ieee.org/document/10353528",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 82,
+        "date": "2024-09-13",
+        "title": "Enhanced Detection of Maize Leaf Blight in Dynamic Field Conditions Using Modified YOLOv9",
+        "conferencename": "2024 IEEE Space, Aerospace and Defence Conference (SPACE)",
+        "authors": [
+          "Kaustubh Gharat",
+          "Harshita Jogi",
+          "Kaustubh Gode",
+          "Dr. Kiran Talele",
+          "Dr. Sujata Kulkarni",
+          "Dr. Maheshkumar H. Kolekar"
+        ],
+        "hostingvenue": "Not specified",
+        "doi": "10.1109/SPACE62968.2024.10668319",
+        "reference_link": "https://ieeexplore.ieee.org/document/10668319",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 83,
+        "date": "2024-09-13",
+        "title": "Multi-Stage UAV-Based System for Scalable and Accurate Crop Health Monitoring",
+        "conferencename": "2024 IEEE Space, Aerospace and Defense Conference (SPACE)",
+        "authors": [
+          "Kaustubh Gharat",
+          "Harshita Jogi",
+          "Kaustubh Gode",
+          "Advait Sapkal",
+          "Ronak Thakar",
+          "Shubham Vishwakarma",
+          "Dr. Kiran Talele",
+          "Dr. Sujata Kulkarni",
+          "Dr. Maheshkumar H. Kolekar"
+        ],
+        "hostingvenue": "Not specified",
+        "doi": "10.1109/SPACE62968.2024.10667804",
+        "reference_link": "https://ieeexplore.ieee.org/document/10667804",
+        "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 84,
+        "date": "2024-12-16",
+        "title": "Audio Deepfake Detection using Deep Scattering Network",
+        "conferencename": "2024 9th International Conference on Communication and Electronics Systems (ICCES)",
+        "authors": [
+          "Utsav Avaiva",
+          "Naman Badlani",
+          "Rajas Baadkar",
+          "Kiran Talele"
+        ],
+        "hostingvenue": "Not specified",
+        "doi": "10.1109/ICCES61813.2024.10859322",
+        "reference_link": "https://ieeexplore.ieee.org/document/10859322",
+        "remark": "IEEE Xplore available"
+      }
+    ],
+    "journalpapers": [
+      {
+        "id": 20,
+        "title": "Intelligent Face Recognition Techniques: A Comparative Study",
+        "journaltitle": "Graphics Vision & Image Processing International Journal (GVIP)",
+        "volume": 2,
+        "pages": "53-60",
+        "publicationyear": 2007,
+        "publicationdate": "2007-07-01",
+        "authors": [
+          "S.T. Gandhe",
+          "K.T. Talele",
+          "A.G. Keskar"
+        ],
+        "issn": "Not available",
+        "doi": "Not available",
+        "remark": ""
+      },
+      {
+        "id": 21,
+        "title": "Face Recognition Using Contour Matching",
+        "journaltitle": "IAENG International Journal of Computer Science",
+        "volume": 35,
+        "issue": 2,
+        "pages": "226-233",
+        "publicationyear": 2008,
+        "publicationdate": "2008-07-01",
+        "authors": [
+          "S.T. Gandhe",
+          "K.T. Talele",
+          "A.G. Keskar"
+        ],
+        "issn": "Not available",
+        "doi": "Not available",
+        "reference_link": "https://openurl.ebsco.com/EPDB%3Agcd%3A9%3A21377081/detailv2?sid=ebsco%3Aplink%3Ascholar&id=ebsco%3Agcd%3A33424113&crl=c",
+        "remark": ""
+      },
+      {
+        "id": 31,
+        "title": "Face Recognition Using Principal Component Analysis",
+        "journaltitle": "International Journal of Systemic, Cybernetics and Informatics",
+        "publisher": "Pentagram",
+        "publicationyear": 2008,
+        "publicationdate": "2008-06-01",
+        "authors": [
+          "S.T. Gandhe",
+          "K.T. Talele",
+          "A.G. Keskar"
+        ],
+        "issn": "Not available",
+        "doi": "Not available",
+        "remark": ""
+      },
+      {
+        "id": 34,
+        "title": "Steganography Security for Copyright Protections of Digital Images Using DWT",
+        "journaltitle": "International Journal of Computer and Network Security",
+        "volume": 2,
+        "issue": 4,
+        "pages": "21",
+        "publicationyear": 2010,
+        "publicationdate": "2010-04-01",
+        "authors": [
+          "K.T. Talele",
+          "S.T. Gandhe",
+          "A.G. Keskar"
+        ],
+        "issn": "Not available",
+        "doi": "Not available",
+        "reference_link": "https://www.researchgate.net/publication/49582818_Steganography_Security_for_Copyright_Protection_of_Digital_Images_Using_DWT",
+        "remark": ""
+      },
+      {
+        "id": 39,
+        "title": "Performance of Reed-Solomon Codes in AWGN Channel",
+        "journaltitle": "International Journal of Electronics and Communication Engineering (IJECE)",
+        "volume": 4,
+        "issue": 3,
+        "publicationyear": 2011,
+        "authors": [
+          "Anish S. Sanghvi",
+          "Nishant B. Mishra",
+          "Rajkumar Waghmode",
+          "K.T. Talele"
+        ],
+        "issn": "Not available",
+        "doi": "Not available",
+        "reference_link": "http://www.irphouse.com/ijece/ijecev4n3_02.pdf",
+        "remark": ""
+      },
+      {
+        "id": 44,
+        "title": "DTMF Generation and Detection",
+        "journaltitle": "International Journal of Information Sciences and Application (IJISA)",
+        "volume": 3,
+        "issue": 2,
+        "pages": "79-85",
+        "publicationyear": 2011,
+        "authors": [
+          "Karna Shah",
+          "Nishit Shah",
+          "Siddhesh Supekar",
+          "K.T. Talele"
+        ],
+        "issn": "Not available",
+        "doi": "Not available",
+        "reference_link": "http://www.irphouse.com/ijisa/IJISAv3n2_3.pdf",
+        "remark": ""
+      },
+      {
+        "id": 48,
+        "title": "Application of Parallel Genetic algorithm for Exam Timetabling Problem",
+        "journaltitle": "International Journal of Scientific & Engineering Research",
+        "volume": 3,
+        "issue": 9,
+        "publicationyear": 2012,
+        "publicationdate": "2012-09-01",
+        "authors": [
+          "Shiburaj Pappu",
+          "K.T. Talele",
+          "Junaid Mandviwala"
+        ],
+        "issn": "Not available",
+        "doi": "Not available",
+        "reference_link": "https://www.ijser.org/researchpaper/application-of-parallel-genetic-algorithm-for-exam-timetabling-problem.pdf",
+        "remark": ""
+      },
+      {
+        "id": 68,
+        "title": "Facial Expression Recognition using Digital Signature Feature Descriptor",
+        "journaltitle": "Signal, Image and Video Processing",
+        "publisher": "Springer",
+        "publicationyear": 2019,
+        "publicationdate": "2019-11-21",
+        "authors": [
+          "Kiran Talele",
+          "Kushal Tuckley"
+        ],
+        "issn": "Not available",
+        "doi": "10.1007/s11760-019-01595-1",
+        "reference_link": "https://link.springer.com/article/10.1007/s11760-019-01595-1",
+        "remark": "Springer Link available"
+      }
+    ]
+  }
+}

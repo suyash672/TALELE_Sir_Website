@@ -1,0 +1,445 @@
+{
+  "patents": [
+    {
+      "id": 1,
+      "date": "2013-06-24",
+      "title": "SUSTAINABLE PICOHYDRO POWER GENERATION SYSTEM",
+      "authors": [
+        "Sanjay Trymbak Gandhe",
+        "Talele Kiran"
+      ],
+      "organisation": "India Patent Office",
+      "applicationnumber": "2140/MUM/2013",
+      "publicationdate": "2013-07-12",
+      "patentnumber": "389177",
+      "status": "Granted",
+      "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
+      "remark": "Patent Granted - First granted patent"
+    },
+    {
+      "id": 2,
+      "date": "2012-06-25",
+      "title": "PORTABLE, VEHICLE INDEPENDENT AND INTEGRATED DRIVER ALERT, SECURITY, GPS NAVIGATION & ENTERTAINMENT SYSTEM",
+      "authors": [
+        "Aditya Anand Naravane",
+        "Anasree Chatterjee",
+        "Talele Kiran",
+        "Ruchir Kanakia",
+        "Shivani Prashant Nadkarni"
+      ],
+      "organisation": "India Patent Office",
+      "applicationnumber": "1824/MUM/2012",
+      "publicationdate": "2013-12-27",
+      "status": "Abandoned",
+      "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
+      "remark": "Abandoned U/s 21(1)"
+    },
+    {
+      "id": 3,
+      "date": "2013-04-15",
+      "title": "SYSTEM FOR PROVIDING INSTANT ASSISTANCE DURING URGENT SITUATIONS",
+      "authors": [
+        "Ghurye Ankita",
+        "Kamat Jagruti",
+        "Gharpure Prachi",
+        "Talele Kiran",
+        "Ramaswamy Aparna"
+      ],
+      "organisation": "India Patent Office",
+      "applicationnumber": "1404/MUM/2013",
+      "publicationdate": "2015-04-17",
+      "status": "Deemed to be withdrawn",
+      "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
+      "remark": "Deemed to be withdrawn u/s 11B(4)"
+    },
+    {
+      "id": 4,
+      "date": "2013-04-15",
+      "title": "BIOMETRIC PATTERN RECOGNITION SYSTEM",
+      "authors": [
+        "Kanchar Akshay",
+        "Panchal Dhruv",
+        "Saxena Richa",
+        "Talele Kiran"
+      ],
+      "organisation": "India Patent Office",
+      "applicationnumber": "1406/MUM/2013",
+      "publicationdate": "2015-04-17",
+      "status": "Deemed to be withdrawn",
+      "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
+      "remark": "Deemed to be withdrawn u/s 11B(4)"
+    },
+    {
+      "id": 5,
+      "date": "2013-04-15",
+      "title": "DETECTION OF BLOOD ALCOHOL LEVEL BY BREATH ANALYSIS USING SEMICONDUCTOR",
+      "authors": [
+        "Mane Dhanashree",
+        "Shaikh Banafsha Nikhat",
+        "Avanish Balaji",
+        "Talele Kiran"
+      ],
+      "organisation": "India Patent Office",
+      "applicationnumber": "1405/MUM/2013",
+      "publicationdate": "2015-07-10",
+      "status": "Deemed to be withdrawn",
+      "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
+      "remark": "Deemed to be withdrawn u/s 11B(4)"
+    },
+    {
+      "id": 6,
+      "date": "2013-04-15",
+      "title": "A SYSTEM AND METHOD FOR HUMAN FACE IDENTIFICATION",
+      "authors": [
+        "Bairathi Neha",
+        "Talele Kiran",
+        "Daga Rahul",
+        "Darji Jignesh",
+        "Panda Rekha"
+      ],
+      "organisation": "India Patent Office",
+      "applicationnumber": "1408/MUM/2013",
+      "publicationdate": "2015-07-10",
+      "status": "Deemed to be withdrawn",
+      "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
+      "remark": "Deemed to be withdrawn u/s 11B(4)"
+    },
+    {
+      "id": 7,
+      "date": "2013-04-15",
+      "title": "SYSTEM AND METHODS FOR GSM BASED SOIL MONITORING",
+      "authors": [
+        "Patil Tushar",
+        "Gedam Mrunal",
+        "Gharat Adwait",
+        "Talele Kiran"
+      ],
+      "organisation": "India Patent Office",
+      "applicationnumber": "1409/MUM/2013",
+      "publicationdate": "2015-07-10",
+      "status": "Deemed to be withdrawn",
+      "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
+      "remark": "Deemed to be withdrawn u/s 11B(4)"
+    },
+    {
+      "id": 8,
+      "date": "2015-03-13",
+      "title": "COMBINATION OF CELLULAR PHONE HAVING ELECTROSHOCKING DEVICE AND REMOTE ALERT SYSTEM",
+      "authors": [
+        "Jadhav Ninad",
+        "Jain Manish",
+        "Ostwal Prajakta",
+        "Talele Kiran"
+      ],
+      "organisation": "India Patent Office",
+      "applicant": "Gharpure Prachi",
+      "applicationnumber": "817/MUM/2015",
+      "publicationdate": "2016-09-16",
+      "status": "Abandoned",
+      "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
+      "remark": "Abandoned U/s 21(1)"
+    },
+    {
+      "id": 9,
+      "date": "2015-11-30",
+      "title": "SYSTEM AND METHOD TO ENABLE VISUALLY CHALLENGED TO DIRECT SIGNALS",
+      "authors": [
+        "A Jgaonkar Aarohi",
+        "Vishwasrao Priyanka",
+        "Jaiswal Supriya",
+        "Chakole Kartik",
+        "Kabdule Sahil",
+        "Tulsiram Anurag",
+        "Gandhi Harshit",
+        "Mangaonkar Nikhita",
+        "Talele Kiran"
+      ],
+      "organisation": "India Patent Office",
+      "applicant": "Gharpure Prachi",
+      "applicationnumber": "4482/MUM/2015",
+      "publicationdate": "2017-06-02",
+      "status": "Deemed to be withdrawn",
+      "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
+      "remark": "Deemed to be withdrawn u/s 11B(4)"
+    },
+    {
+      "id": 10,
+      "date": "2019-04-16",
+      "title": "SYSTEMS AND METHODS FOR DECOMPOSITION OF BIOMASS",
+      "authors": [
+        "Sutar Rajendra",
+        "Modi Arpan",
+        "Ghadi Apurv",
+        "Ghosh Arijit",
+        "Talele Kiran"
+      ],
+      "organisation": "India Patent Office",
+      "applicationnumber": "201921015246",
+      "publicationdate": "2019-05-10",
+      "status": "Deemed to be withdrawn",
+      "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
+      "remark": "Deemed to be withdrawn u/s 11B(4)"
+    },
+    {
+      "id": 11,
+      "date": "2019-06-11",
+      "title": "SYSTEMS AND METHODS TO FACILITATE COLLECTION & FORWARDING DONATED COMMODITY TO AUTHORIZED CENTRAL COLLECTION CENTRES",
+      "authors": [
+        "Rajput Ravi",
+        "Rajput Anshul",
+        "Pandey Sumit",
+        "Raundale Pooja",
+        "Talele Kiran"
+      ],
+      "organisation": "India Patent Office",
+      "applicant": "Raundale Pooja",
+      "applicationnumber": "201921023085",
+      "publicationdate": "2019-06-21",
+      "status": "Deemed to be withdrawn",
+      "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
+      "remark": "Deemed to be withdrawn u/s 11B(4)"
+    },
+    {
+      "id": 12,
+      "date": "2019-06-11",
+      "title": "VIRTUAL FITNESS SYSTEM",
+      "authors": [
+        "Dichwalkar Vaibhavi",
+        "Patil Pranali",
+        "Santosh Sania",
+        "Talele Kiran"
+      ],
+      "organisation": "India Patent Office",
+      "applicant": "Talele Kiran",
+      "applicationnumber": "201921023082",
+      "publicationdate": "2019-06-21",
+      "status": "Deemed to be withdrawn",
+      "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
+      "remark": "Deemed to be withdrawn u/s 11B(4)"
+    },
+    {
+      "id": 13,
+      "date": "2019-06-11",
+      "title": "SYSTEMS AND METHODS TO TRAIN AND TEST USING AUGMENTED REALITY",
+      "authors": [
+        "Babu Alwin Eldhose",
+        "Gaikwad Abhishek",
+        "Desai Saish",
+        "Shah Payal",
+        "Talele Kiran"
+      ],
+      "organisation": "India Patent Office",
+      "applicant": "Shah Payal",
+      "applicationnumber": "201921023090",
+      "publicationdate": "2019-07-19",
+      "status": "Deemed to be withdrawn",
+      "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
+      "remark": "Deemed to be withdrawn u/s 11B(4)"
+    },
+    {
+      "id": 14,
+      "date": "2018-02-19",
+      "title": "SYSTEM AND METHODS FOR INFORMATION DISPLAY, EVALUATION OF EVENTS AND PERFORMING ACTIONS RELATED TO EVENTS",
+      "authors": [
+        "Sonawane Amit",
+        "Shastri Akshata",
+        "Raut Viraj",
+        "Talele Kiran"
+      ],
+      "organisation": "India Patent Office",
+      "applicant": "Sardar Patel Institute of Technology",
+      "applicationnumber": "201821006156",
+      "publicationdate": "2019-08-23",
+      "status": "Deemed to be withdrawn",
+      "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
+      "remark": "Deemed to be withdrawn u/s 11B(4)"
+    },
+    {
+      "id": 15,
+      "date": "2021-08-13",
+      "title": "GUIDED VISION CONTROLLED PROCTORING SYSTEM FOR DISTANT EXAMINATION",
+      "authors": [
+        "Jay Mehta",
+        "Vaidehi Vatsaraj",
+        "Jainam Jain",
+        "Kiran Talele"
+      ],
+      "organisation": "India Patent Office",
+      "applicationnumber": "202121036663",
+      "publicationdate": "2021-08-27",
+      "status": "Application Awaiting Examination",
+      "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
+      "remark": "Awaiting examination at Patent Office"
+    },
+    {
+      "id": 16,
+      "date": "2021-10-13",
+      "title": "SMART WEARABLES FOR TRAINING",
+      "authors": [
+        "Talele Kiran",
+        "Benn Melita",
+        "Pulapaka Anay",
+        "Pulapaka Atharv"
+      ],
+      "organisation": "India Patent Office",
+      "applicationnumber": "202121046623",
+      "publicationdate": "2021-10-29",
+      "status": "Application Awaiting Examination",
+      "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewDocuments",
+      "remark": "Awaiting examination at Patent Office"
+    },
+    {
+      "id": 17,
+      "date": "2021-08-27",
+      "title": "SYSTEM AND METHOD FOR GENERATING INTELLIGENT RESPONSES WITH A SPEAKER",
+      "authors": [
+        "Darshan Gohil",
+        "Akhilesh Aralikatti",
+        "Riya Haldar",
+        "Kiran Talele"
+      ],
+      "organisation": "India Patent Office",
+      "applicationnumber": "202121038834",
+      "publicationdate": "2023-03-03",
+      "status": "Application Awaiting Examination",
+      "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
+      "remark": "Awaiting examination at Patent Office"
+    },
+    {
+      "id": 18,
+      "date": "2023-04-13",
+      "title": "REAL-TIME OBSTACLE DETECTION AND RESPONSE SYSTEM FOR SAFER DRIVING",
+      "authors": [
+        "Talele Kiran",
+        "Parasnis Guruprasad",
+        "Gadgil Tanmay",
+        "Bhope Rajas",
+        "Joshi Aarnav",
+        "Kanhere Shubham"
+      ],
+      "organisation": "India Patent Office",
+      "applicationnumber": "202321027303",
+      "publicationdate": "2023-05-05",
+      "status": "Awaiting Request for Examination",
+      "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
+      "remark": "Awaiting request for examination"
+    },
+    {
+      "id": 19,
+      "date": "2023-08-09",
+      "title": "SYSTEMS AND METHODS FOR A WEB-BASED LEARNING PLATFORM FOR ONLINE COURSES",
+      "authors": [
+        "Shubham Sawant",
+        "Bilal Sani",
+        "Niharika Mehta",
+        "Kiran Talele"
+      ],
+      "organisation": "India Patent Office",
+      "applicationnumber": "202321053296",
+      "publicationdate": "2023-10-06",
+      "status": "Awaiting Request for Examination",
+      "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
+      "remark": "Awaiting request for examination"
+    },
+    {
+      "id": 20,
+      "date": "2023-11-30",
+      "title": "REMOTESAK - A REAL-TIME PERSON DETECTION AND SURVEILLANCE SYSTEM",
+      "authors": [
+        "Shubham Kanhere",
+        "Kaustubh Ghare",
+        "Alisha Kadam",
+        "Kiran Talele",
+        "Anand Mane"
+      ],
+      "organisation": "India Patent Office",
+      "applicationnumber": "202321081174",
+      "publicationdate": "2024-02-02",
+      "status": "Awaiting Request for Examination",
+      "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
+      "remark": "Awaiting request for examination"
+    },
+    {
+      "id": 21,
+      "date": "2024-04-30",
+      "title": "ELECTRIFY MOBILITY",
+      "authors": [
+        "Patil Arpit Sanjay",
+        "Bhagwat Atharav Rajendra",
+        "Vasani Chirag Vidyut",
+        "Rodricks Ferdinand",
+        "Kiran Talele",
+        "Govind Haldankar"
+      ],
+      "organisation": "India Patent Office",
+      "applicationnumber": "202421034129",
+      "publicationdate": "2024-06-14",
+      "status": "Awaiting Request for Examination",
+      "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
+      "remark": "Awaiting request for examination"
+    },
+    {
+      "id": 22,
+      "date": "2024-05-13",
+      "title": "EYESTREAM : A SECURE, REAL-TIME DRONE SURVEILLANCE SYSTEM",
+      "authors": [
+        "Devraj Panchal",
+        "Srushti Gavand",
+        "Hiba Fatima",
+        "Kiran Talele",
+        "Dayanand Ambawade"
+      ],
+      "organisation": "India Patent Office",
+      "applicationnumber": "202421037477",
+      "publicationdate": "2024-07-12",
+      "status": "Awaiting Request for Examination",
+      "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
+      "remark": "Awaiting request for examination"
+    },
+    {
+      "id": 23,
+      "date": "2024-07-23",
+      "title": "DOPPEL SCAN: DUAL AUTHENTICATION CONTACTLESS ATTENDANCE SYSTEM",
+      "authors": [
+        "Kiran Tulshiram Talele",
+        "Bhavisha Chafekar",
+        "Kris Dcosta",
+        "Saket Lad"
+      ],
+      "organisation": "India Patent Office",
+      "applicationnumber": "202421056179",
+      "publicationdate": "2024-08-16",
+      "status": "Awaiting Request for Examination",
+      "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
+      "remark": "Awaiting request for examination"
+    },
+    {
+      "id": 24,
+      "date": "2024-06-04",
+      "title": "AUTOMATED CROP HEALTH MONITORING SYSTEM USING UNMANNED AERIAL VEHICLE",
+      "authors": [
+        "Harshita Jogi",
+        "Kaustubh Gode",
+        "Kaustubh Gharat",
+        "Dr Sujata Kulkarni",
+        "Dr Kiran Talele",
+        "Dr Maheshkumar H. Kolekar"
+      ],
+      "organisation": "India Patent Office",
+      "applicationnumber": "202421043217",
+      "publicationdate": "2024-07-26",
+      "status": "Awaiting Request for Examination",
+      "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
+      "remark": "Awaiting request for examination"
+    }
+  ],
+  "summary": {
+    "totalpatents": 24,
+    "granted": 1,
+    "abandoned": 3,
+    "deemedbewithdrawn": 9,
+    "awaitingexamination": 11,
+    "periodfrom": "2013-06-24",
+    "periodto": "2024-07-26"
+  }
+}
