@@ -97,12 +97,61 @@ const ConferencePublications = () => {
   const activeYears = years.length;
   const yearRange = years.length > 0 ? `${years[years.length - 1]}-${years[0]}` : '';
 
+  // Enhanced search function that tokenizes query and searches across multiple fields
+  const matchesSearchQuery = (pub, query) => {
+    if (!query || query.trim() === '') return true;
+    
+    const queryLower = query.toLowerCase().trim();
+    const searchTerms = queryLower.split(/\s+/).filter(term => term.length > 0);
+    
+    // Create a searchable text string from all relevant fields
+    const searchableText = [
+      pub.title,
+      pub.authors,
+      pub.conference,
+      pub.venue,
+      pub.publisher,
+      pub.doi || '',
+      pub.proceedingpages || '',
+    ].join(' ').toLowerCase();
+    
+    // Check if all search terms are found in the searchable text
+    return searchTerms.every(term => searchableText.includes(term));
+  };
+
+  // Highlight search terms in text
+  const highlightText = (text, query) => {
+    if (!query || query.trim() === '') return text;
+    
+    // Escape HTML to prevent XSS
+    const escapeHtml = (str) => {
+      if (!str) return '';
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+    };
+    
+    const escapedText = escapeHtml(text);
+    const searchTerms = query.toLowerCase().trim().split(/\s+/).filter(term => term.length > 0);
+    let highlightedText = escapedText;
+    
+    searchTerms.forEach(term => {
+      // Escape special regex characters
+      const escapedTerm = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const regex = new RegExp(`(${escapedTerm})`, 'gi');
+      highlightedText = highlightedText.replace(regex, '<mark class="bg-yellow-200 font-semibold">$1</mark>');
+    });
+    
+    return highlightedText;
+  };
+
   // Filter publications
   const filteredPublications = useMemo(() => {
     return publications.filter(pub => {
-      const matchesSearch = searchQuery === '' || 
-        pub.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        pub.authors.toLowerCase().includes(searchQuery.toLowerCase());
+      const matchesSearch = matchesSearchQuery(pub, searchQuery);
       
       const matchesYear = selectedYear === 'all' || pub.year === parseInt(selectedYear);
       
@@ -179,14 +228,19 @@ const ConferencePublications = () => {
           {/* Filter & Search Bar */}
           <div className="mb-8 space-y-4">
             {/* Search Input */}
-            <div>
+            <div className="relative">
               <input
                 type="text"
-                placeholder="Search by paper title or keyword..."
+                placeholder="Search by title, authors, conference, venue, DOI, or keywords..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full px-4 py-2.5 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent text-gray-900 placeholder-gray-400"
               />
+              {searchQuery && (
+                <div className="absolute right-3 top-1/2 -translate-y-1/2 text-sm text-gray-500">
+                  {filteredPublications.length} {filteredPublications.length === 1 ? 'result' : 'results'}
+                </div>
+              )}
             </div>
 
             {/* Filters */}
@@ -196,7 +250,7 @@ const ConferencePublications = () => {
                 <select
                   value={selectedYear}
                   onChange={(e) => setSelectedYear(e.target.value)}
-                  className="w-full px-4 py-2.5 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent text-gray-900 bg-white"
+                  className="w-full px-4 py-2.5 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent text-gray-900 bg-white cursor-pointer"
                 >
                   <option value="all">All Years</option>
                   {years.map(year => (
@@ -210,7 +264,7 @@ const ConferencePublications = () => {
                 <select
                   value={selectedPublisher}
                   onChange={(e) => setSelectedPublisher(e.target.value)}
-                  className="w-full px-4 py-2.5 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent text-gray-900 bg-white"
+                  className="w-full px-4 py-2.5 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent text-gray-900 bg-white cursor-pointer"
                 >
                   <option value="all">All Publishers</option>
                   {publishers.map(publisher => (
@@ -259,25 +313,33 @@ const ConferencePublications = () => {
                         className="border-b border-gray-200 pb-6 last:border-b-0 last:pb-0"
                       >
                         {/* Paper Title */}
-                        <h3 className="text-xl font-bold text-gray-900 mb-2">
-                          {pub.title}
-                        </h3>
+                        <h3 
+                          className="text-xl font-bold text-gray-900 mb-2"
+                          dangerouslySetInnerHTML={{ __html: highlightText(pub.title, searchQuery) }}
+                        />
 
                         {/* Authors */}
-                        <p className="text-base text-gray-700 mb-2">
-                          {pub.authors}
-                        </p>
+                        <p 
+                          className="text-base text-gray-700 mb-2"
+                          dangerouslySetInnerHTML={{ __html: highlightText(pub.authors, searchQuery) }}
+                        />
 
                         {/* Conference Name */}
-                        <p className="text-base font-semibold text-gray-800 mb-1 italic">
-                          {pub.conference}
-                        </p>
+                        <p 
+                          className="text-base font-semibold text-gray-800 mb-1 italic"
+                          dangerouslySetInnerHTML={{ __html: highlightText(pub.conference, searchQuery) }}
+                        />
 
                         {/* Venue and Date */}
-                        <p className="text-sm text-gray-600 mb-4">
-                          {pub.venue} • {pub.date}
-                          {pub.proceedingpages && ` • Pages: ${pub.proceedingpages}`}
-                        </p>
+                        <p 
+                          className="text-sm text-gray-600 mb-4"
+                          dangerouslySetInnerHTML={{ 
+                            __html: highlightText(
+                              `${pub.venue} • ${pub.date}${pub.proceedingpages ? ` • Pages: ${pub.proceedingpages}` : ''}`,
+                              searchQuery
+                            )
+                          }}
+                        />
 
                         {/* Badges and Action Links */}
                         <div className="flex flex-wrap items-center gap-3">
@@ -298,7 +360,7 @@ const ConferencePublications = () => {
                             {pub.doi && (
                               <a
                                 href={`https://doi.org/${pub.doi}`}
-                                className="flex items-center gap-1 text-sm text-gray-700 hover:text-gray-900 underline"
+                                className="flex items-center gap-1 text-sm text-gray-700 hover:text-gray-900 underline cursor-pointer"
                                 target="_blank"
                                 rel="noopener noreferrer"
                               >
@@ -309,7 +371,7 @@ const ConferencePublications = () => {
                             {pub.paperLink && (
                               <a
                                 href={pub.paperLink}
-                                className="flex items-center gap-1 text-sm text-gray-700 hover:text-gray-900 underline"
+                                className="flex items-center gap-1 text-sm text-gray-700 hover:text-gray-900 underline cursor-pointer"
                                 target="_blank"
                                 rel="noopener noreferrer"
                               >

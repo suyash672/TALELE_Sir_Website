@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Youtube, FileText, X, Play } from 'lucide-react';
+import React, { useState, useEffect, useRef } from 'react';
+import { Youtube, FileText, X, Play, ChevronDown, ChevronUp } from 'lucide-react';
 
 // Modal Component for Video/Report
 const Modal = ({ isOpen, onClose, title, children }) => {
@@ -8,7 +8,7 @@ const Modal = ({ isOpen, onClose, title, children }) => {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
       <div 
-        className="absolute inset-0 bg-black/60 backdrop-blur-sm"
+        className="absolute inset-0 bg-black/60 backdrop-blur-sm cursor-pointer"
         onClick={onClose}
       />
       <div className="relative bg-white rounded-2xl shadow-2xl w-full max-w-4xl max-h-[90vh] overflow-hidden animate-in fade-in zoom-in duration-200">
@@ -16,7 +16,7 @@ const Modal = ({ isOpen, onClose, title, children }) => {
           <h3 className="text-lg font-semibold text-foreground">{title}</h3>
           <button 
             onClick={onClose}
-            className="p-2 hover:bg-muted rounded-full transition-colors"
+            className="p-2 hover:bg-muted rounded-full transition-colors cursor-pointer"
           >
             <X className="w-5 h-5 text-muted-foreground" />
           </button>
@@ -29,73 +29,146 @@ const Modal = ({ isOpen, onClose, title, children }) => {
   );
 };
 
-// Unified Project Card Component (Image left, Info right)
+// Project Card Component with Accordion-style Design
 const ProjectCard = ({ project, showButtons = true }) => {
   const [showVideo, setShowVideo] = useState(false);
   const [showReport, setShowReport] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const hasDetails = project.description || project.abstract || project.group;
 
   return (
     <>
-      <div className="group bg-white rounded-2xl border border-border/50 shadow-sm hover:-translate-y-1 hover:shadow-[0_10px_25px_-5px_rgba(0,0,0,0.05),0_8px_10px_-6px_rgba(0,0,0,0.01)] hover:border-primary transition-all duration-300 overflow-hidden">
+      <article className="border border-gray-200 rounded-md bg-white hover:border-gray-300 transition-colors overflow-hidden">
         <div className="flex flex-col md:flex-row">
           {/* Image Section */}
-          <div className="md:w-80 lg:w-96 flex-shrink-0 relative overflow-hidden">
-            <div className="aspect-[4/3] md:aspect-auto md:h-full bg-gradient-to-br from-gray-100 to-gray-200">
-              <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-teal-50/50 to-cyan-50/50">
-                <div className="text-center space-y-3 p-8">
-                  <div className="w-20 h-20 mx-auto rounded-full bg-white/90 flex items-center justify-center shadow-md">
-                    <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary/20 to-cyan-300/20 flex items-center justify-center">
-                      <div className="w-8 h-8 rounded-full bg-gradient-to-br from-primary to-cyan-400"></div>
+          {project.image ? (
+            <div className="md:w-80 lg:w-96 flex-shrink-0 relative overflow-hidden">
+              <div className="aspect-[4/3] md:aspect-auto md:h-full bg-gradient-to-br from-gray-100 to-gray-200">
+                <img 
+                  src={project.image} 
+                  alt={project.title}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
+          ) : (
+            <div className="md:w-80 lg:w-96 flex-shrink-0 relative overflow-hidden">
+              <div className="aspect-[4/3] md:aspect-auto md:h-full bg-gradient-to-br from-gray-100 to-gray-200">
+                <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-teal-50/50 to-cyan-50/50">
+                  <div className="text-center space-y-3 p-8">
+                    <div className="w-20 h-20 mx-auto rounded-full bg-white/90 flex items-center justify-center shadow-md">
+                      <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary/20 to-cyan-300/20 flex items-center justify-center">
+                        <div className="w-8 h-8 rounded-full bg-gradient-to-br from-primary to-cyan-400"></div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+          )}
 
-          {/* Info Section */}
-          <div className="flex-1 p-6 lg:p-8 flex flex-col justify-between">
-            <div className="space-y-4">
-              {/* Metadata */}
-              {project.metadata && (
-                <div className="flex items-center gap-2 text-sm font-medium text-primary">
-                  <span>{project.metadata}</span>
+          {/* Card Header - Always Visible */}
+          <div className="flex-1">
+            <div
+              className={`p-5 ${hasDetails ? 'cursor-pointer' : ''}`}
+              onClick={() => hasDetails && setIsExpanded(!isExpanded)}
+            >
+              <div className="flex items-start justify-between gap-4">
+                <div className="flex-1 min-w-0">
+                  {/* Metadata */}
+                  {project.metadata && (
+                    <div className="text-xs text-gray-500 mb-2">
+                      {project.metadata}
+                    </div>
+                  )}
+
+                  {/* Title */}
+                  <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                    {project.title}
+                  </h3>
+
+                  {/* Description Preview (collapsed) */}
+                  {!isExpanded && project.description && (
+                    <p className="text-sm text-gray-600 line-clamp-2 mb-3">
+                      {project.description}
+                    </p>
+                  )}
+
+                  {/* Action Buttons */}
+                  {showButtons && (
+                    <div className="flex items-center gap-3 mt-4">
+                      <button 
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setShowReport(true);
+                        }}
+                        className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 hover:bg-gray-50 rounded-md transition-colors cursor-pointer"
+                      >
+                        <FileText className="w-4 h-4" />
+                        <span>Read Report</span>
+                      </button>
+                      <button 
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setShowVideo(true);
+                        }}
+                        className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 hover:bg-gray-50 rounded-md transition-colors cursor-pointer"
+                      >
+                        <Play className="w-4 h-4" />
+                        <span>Watch Demo</span>
+                      </button>
+                    </div>
+                  )}
                 </div>
-              )}
-              
-              {/* Title */}
-              <h3 className="text-2xl lg:text-3xl font-semibold text-foreground leading-tight">
-                {project.title}
-              </h3>
-              
-              {/* Description */}
-              <p className="text-muted-foreground leading-relaxed text-base">
-                {project.description || project.abstract}
-              </p>
+
+                {/* Expand/Collapse Icon */}
+                {hasDetails && (
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setIsExpanded(!isExpanded);
+                    }}
+                    className="flex-shrink-0 p-1 text-gray-400 hover:text-gray-600 transition-colors cursor-pointer"
+                    aria-label={isExpanded ? 'Collapse' : 'Expand'}
+                  >
+                    {isExpanded ? (
+                      <ChevronUp className="w-5 h-5" />
+                    ) : (
+                      <ChevronDown className="w-5 h-5" />
+                    )}
+                  </button>
+                )}
+              </div>
             </div>
 
-            {/* Action Buttons */}
-            {showButtons && (
-              <div className="flex items-center gap-3 mt-8 pt-6 border-t border-border/50">
-                <button 
-                  onClick={() => setShowReport(true)}
-                  className="flex items-center gap-2 px-5 py-2.5 cursor-pointer bg-white border border-border hover:bg-muted rounded-lg transition-all duration-200 text-foreground"
-                >
-                  <FileText className="w-4 h-4" />
-                  <span className="text-sm font-medium">Read Report</span>
-                </button>
-                <button 
-                  onClick={() => setShowVideo(true)}
-                  className="flex items-center gap-2 px-5 py-2.5 cursor-pointer bg-white border border-border hover:bg-muted rounded-lg transition-all duration-200 text-foreground"
-                >
-                  <Play className="w-4 h-4" />
-                  <span className="text-sm font-medium">Watch Demo</span>
-                </button>
+            {/* Expanded Content */}
+            {isExpanded && hasDetails && (
+              <div className="px-5 pb-5 pt-0 border-t border-gray-100 transition-all duration-200 ease-in-out">
+                <div className="space-y-4 mt-4">
+                  {/* Group/Team */}
+                  {project.group && (
+                    <div>
+                      <h4 className="text-sm font-semibold text-gray-700 mb-1.5">Project Team</h4>
+                      <p className="text-sm text-gray-600">{project.group}</p>
+                    </div>
+                  )}
+
+                  {/* Full Description */}
+                  {(project.description || project.abstract) && (
+                    <div>
+                      <h4 className="text-sm font-semibold text-gray-700 mb-1.5">Description</h4>
+                      <p className="text-sm text-gray-600 leading-relaxed">
+                        {project.description || project.abstract}
+                      </p>
+                    </div>
+                  )}
+                </div>
               </div>
             )}
           </div>
         </div>
-      </div>
+      </article>
 
       {/* Video Modal */}
       {showButtons && (
@@ -141,21 +214,18 @@ const ProjectCard = ({ project, showButtons = true }) => {
   );
 };
 
-// Section Header Component - Minimalistic Design
-const SectionHeader = ({ title }) => {
-  return (
-    <div className="mb-12">
-      <div className="flex items-center gap-4">
-        <div className="w-1 h-8 bg-primary"></div>
-        <h2 className="text-2xl lg:text-3xl font-medium text-foreground uppercase tracking-wide">
-          {title}
-        </h2>
-      </div>
-    </div>
-  );
-};
+// Section configuration
+const PROJECT_SECTIONS = [
+  { id: 'funded_research', label: 'Funded Research Projects', key: 'funded' },
+  { id: 'sponsored', label: 'Mentored Sponsored Projects', key: 'sponsored' },
+  { id: 'undergraduate', label: 'Undergraduate Projects', key: 'undergraduate' },
+  { id: 'postgraduate', label: 'Postgraduate Projects', key: 'postgraduate' },
+];
 
 const Projects = () => {
+  const [activeSection, setActiveSection] = useState('funded_research');
+  const sectionRefs = useRef({});
+
   // Funded Research Projects Data
   const fundedProjects = [
     {
@@ -267,60 +337,146 @@ const Projects = () => {
     }
   ];
 
+  // Group projects by section
+  const groupedProjects = {
+    funded_research: fundedProjects,
+    sponsored: sponsoredProjects,
+    undergraduate: undergraduateProjects,
+    postgraduate: postgraduateProjects,
+  };
+
+  // Get section counts
+  const sectionCounts = {
+    funded_research: fundedProjects.length,
+    sponsored: sponsoredProjects.length,
+    undergraduate: undergraduateProjects.length,
+    postgraduate: postgraduateProjects.length,
+  };
+
+  // Scroll to section with smooth transition
+  const scrollToSection = (sectionId) => {
+    const element = sectionRefs.current[sectionId];
+    if (element) {
+      setActiveSection(sectionId);
+      const offset = 100; // Account for sticky nav
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - offset;
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+    }
+  };
+
+  // Handle scroll to update active section
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY + 150;
+      PROJECT_SECTIONS.forEach(section => {
+        const element = sectionRefs.current[section.id];
+        if (element) {
+          const { offsetTop, offsetHeight } = element;
+          if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
+            setActiveSection(section.id);
+          }
+        }
+      });
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const totalProjects = fundedProjects.length + sponsoredProjects.length + 
+                       undergraduateProjects.length + postgraduateProjects.length;
+
   return (
-    <main className="min-h-screen bg-gradient-to-b from-gray-50/50 to-white pt-24 lg:pt-28">
-      <div className="container mx-auto px-4 py-12 lg:py-16">
+    <main className="min-h-screen bg-white pt-24 lg:pt-28">
+      <div className="container mx-auto px-4 py-8 lg:py-12">
         <div className="max-w-7xl mx-auto">
-          {/* Page Header */}
-          <div className="text-center mb-16 lg:mb-20">
-            <h1 className="text-5xl lg:text-6xl xl:text-7xl font-semibold text-foreground mb-4">
+          {/* Header Section */}
+          <div className="mb-8 lg:mb-12">
+            <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-2">
               Projects
             </h1>
-            <div className="w-24 h-1.5 bg-gradient-to-r from-primary to-cyan-300 rounded-full mx-auto mb-6" />
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-lg text-gray-600 mb-3">
               A comprehensive collection of research projects, funded initiatives, and student innovations
+            </p>
+            <p className="text-sm text-gray-500">
+              {totalProjects} {totalProjects === 1 ? 'project' : 'projects'} across {PROJECT_SECTIONS.length} categories
             </p>
           </div>
 
-          {/* Funded Research Projects */}
-          <section className="mb-20">
-            <SectionHeader title="Funded Research Projects" />
-            <div className="space-y-6">
-              {fundedProjects.map((project, index) => (
-                <ProjectCard key={index} project={project} showButtons={false} />
-              ))}
-            </div>
-          </section>
+          <div className="flex flex-col lg:flex-row gap-8">
+            {/* Sticky Side Navigation */}
+            <aside className="lg:w-64 flex-shrink-0">
+              <div className="lg:sticky lg:top-24">
+                <nav className="lg:space-y-1 lg:border-r lg:border-gray-200 lg:pr-4">
+                  {/* Mobile: Wrap navigation items */}
+                  <div className="flex flex-wrap lg:flex-col gap-2 lg:gap-0">
+                    {PROJECT_SECTIONS.map(section => (
+                      <button
+                        key={section.id}
+                        onClick={() => scrollToSection(section.id)}
+                        className={`flex-shrink-0 lg:w-full text-left px-4 py-2.5 rounded-md text-sm font-medium transition-all duration-300 ease-in-out cursor-pointer ${
+                          activeSection === section.id
+                            ? 'bg-gray-100 text-gray-900 lg:border-l-2 lg:border-gray-900'
+                            : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
+                        }`}
+                      >
+                        <div className="flex items-center justify-between gap-2">
+                          <span>{section.label}</span>
+                          <span className="text-xs text-gray-500">
+                            ({sectionCounts[section.id]})
+                          </span>
+                        </div>
+                      </button>
+                    ))}
+                  </div>
+                </nav>
+              </div>
+            </aside>
 
-          {/* Mentored Sponsored Projects */}
-          <section className="mb-20">
-            <SectionHeader title="Mentored Sponsored Projects" />
-            <div className="space-y-6">
-              {sponsoredProjects.map((project, index) => (
-                <ProjectCard key={index} project={project} showButtons={false} />
-              ))}
-            </div>
-          </section>
+            {/* Main Content */}
+            <div className="flex-1 min-w-0">
+              <div className="space-y-16">
+                {PROJECT_SECTIONS.map(section => {
+                  const projects = groupedProjects[section.id] || [];
+                  if (projects.length === 0) return null;
 
-          {/* Undergraduate Projects */}
-          <section className="mb-20">
-            <SectionHeader title="Undergraduate Projects" />
-            <div className="space-y-6">
-              {undergraduateProjects.map((project, index) => (
-                <ProjectCard key={index} project={project} showButtons={true} />
-              ))}
-            </div>
-          </section>
+                  return (
+                    <section
+                      key={section.id}
+                      id={section.id}
+                      ref={el => sectionRefs.current[section.id] = el}
+                      className="scroll-mt-24"
+                    >
+                      {/* Section Header */}
+                      <div className="mb-8 pb-3 border-b-2 border-gray-300">
+                        <h2 className="text-3xl font-semibold text-gray-900 mb-1">
+                          {section.label}
+                        </h2>
+                        <p className="text-sm text-gray-600">
+                          {projects.length} {projects.length === 1 ? 'project' : 'projects'}
+                        </p>
+                      </div>
 
-          {/* Postgraduate Projects */}
-          <section className="mb-12">
-            <SectionHeader title="Postgraduate Projects" />
-            <div className="space-y-6">
-              {postgraduateProjects.map((project, index) => (
-                <ProjectCard key={index} project={project} showButtons={true} />
-              ))}
+                      {/* Projects List */}
+                      <div className="space-y-4">
+                        {projects.map((project, index) => (
+                          <ProjectCard 
+                            key={index} 
+                            project={project} 
+                            showButtons={section.id === 'undergraduate' || section.id === 'postgraduate'}
+                          />
+                        ))}
+                      </div>
+                    </section>
+                  );
+                })}
+              </div>
             </div>
-          </section>
+          </div>
         </div>
       </div>
     </main>

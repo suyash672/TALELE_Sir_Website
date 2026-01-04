@@ -10,7 +10,7 @@ const Contact = () => {
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             {/* Left Column - Professor Info */}
             <div className="space-y-4">
-              <h3 className="text-3xl font-bold text-teal-900">Prof. K.T.V Talele</h3>
+              <h3 className="text-3xl font-bold text-teal-900">Dr. K.T.V Talele</h3>
               <p className="text-gray-700 leading-relaxed text-base">
                 Dean of Students, Alumni & External Relations
                 <br />
@@ -25,7 +25,7 @@ const Contact = () => {
               <h3 className="text-2xl font-semibold text-teal-900">Contact</h3>
               <a
                 href="mailto:kiran.talele@spit.ac.in"
-                className="flex items-center gap-3 text-teal-600 hover:text-teal-700 transition-colors group"
+                className="flex items-center gap-3 text-teal-600 hover:text-teal-700 transition-colors group cursor-pointer"
               >
                 <div className="p-2 bg-teal-100 rounded-lg group-hover:bg-teal-200 transition-colors">
                   <Mail className="w-5 h-5" />
@@ -38,12 +38,11 @@ const Contact = () => {
           {/* Bottom Bar */}
           <div className="pt-8 border-t border-teal-100">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-base text-gray-600">
-              <p>© {new Date().getFullYear()} Prof. K.T.V Talele. All rights reserved.</p>
+              <p>© {new Date().getFullYear()} Dr. K.T.V Talele. All rights reserved.</p>
               <div className="text-center md:text-right">
                 <p>
                   Developed by <span className="font-semibold text-teal-700">Vansh Parate</span>
                 </p>
-                <p className="text-xs mt-1">Under Guidance of Dr. Aarti Karande</p>
               </div>
             </div>
           </div>

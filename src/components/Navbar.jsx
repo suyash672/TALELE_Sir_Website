@@ -15,7 +15,7 @@ const Navbar = () => {
     { name: 'Projects', path: '/projects' },
     { name: 'Publications', path: '/publications', hasDropdown: true },
     { name: 'Outreach Activities', path: '/outreach-activities' },
-    { name: 'Events', path: '/events' },
+    { name: 'Contact', path: '/contact' },
   ];
 
   const publicationsSubItems = [
@@ -48,10 +48,10 @@ const Navbar = () => {
           {/* Logo/Brand */}
           <Link
             to="/"
-            className="flex items-center space-x-2 group"
+            className="flex items-center space-x-2 group cursor-pointer"
           >
             <span className="text-2xl lg:text-3xl font-bold text-foreground group-hover:text-primary transition-colors">
-              Prof. K.T.V <span className="text-primary">Talele</span>
+              Dr. K.T.V <span className="text-primary">Talele</span>
             </span>
           </Link>
 
@@ -71,7 +71,7 @@ const Navbar = () => {
                     onMouseLeave={() => setIsPublicationsDropdownOpen(false)}
                   >
                     <button
-                      className={`px-5 py-3 text-base font-semibold rounded-lg transition-all duration-200 relative flex items-center gap-1 ${
+                      className={`px-5 py-3 text-base font-semibold rounded-lg transition-all duration-200 relative flex items-center gap-1 cursor-pointer ${
                         isActive
                           ? 'text-primary bg-primary/15 shadow-sm'
                           : 'text-foreground hover:text-primary hover:bg-primary/5'
@@ -94,7 +94,7 @@ const Navbar = () => {
                             <Link
                               key={subItem.path}
                               to={subItem.path}
-                              className={`block px-4 py-3 text-sm font-medium transition-colors ${
+                              className={`block px-4 py-3 text-sm font-medium transition-colors cursor-pointer ${
                                 location.pathname === subItem.path
                                   ? 'bg-primary/10 text-primary'
                                   : 'text-foreground hover:bg-primary/5 hover:text-primary'
@@ -114,7 +114,7 @@ const Navbar = () => {
                 <Link
                   key={item.path}
                   to={item.path}
-                  className={`px-5 py-3 text-base font-semibold rounded-lg transition-all duration-200 relative ${
+                  className={`px-5 py-3 text-base font-semibold rounded-lg transition-all duration-200 relative cursor-pointer ${
                     isActive
                       ? 'text-primary bg-primary/15 shadow-sm'
                       : 'text-foreground hover:text-primary hover:bg-primary/5'
@@ -132,7 +132,7 @@ const Navbar = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="lg:hidden p-2.5 text-foreground hover:text-primary transition-colors rounded-lg hover:bg-accent"
+            className="lg:hidden p-2.5 text-foreground hover:text-primary transition-colors rounded-lg hover:bg-accent cursor-pointer"
             aria-label="Toggle menu"
           >
             {isMobileMenuOpen ? (
@@ -159,7 +159,7 @@ const Navbar = () => {
                   <div key={item.path}>
                     <button
                       onClick={() => setIsMobilePublicationsOpen(!isMobilePublicationsOpen)}
-                      className={`w-full text-left px-5 py-3.5 text-base font-semibold rounded-lg transition-all duration-200 flex items-center justify-between ${
+                      className={`w-full text-left px-5 py-3.5 text-base font-semibold rounded-lg transition-all duration-200 flex items-center justify-between cursor-pointer ${
                         isActive
                           ? 'text-primary bg-primary/15 shadow-sm border-l-4 border-primary'
                           : 'text-foreground hover:text-primary hover:bg-primary/5'
@@ -178,7 +178,7 @@ const Navbar = () => {
                               setIsMobileMenuOpen(false);
                               setIsMobilePublicationsOpen(false);
                             }}
-                            className={`block px-5 py-2.5 text-sm font-medium rounded-lg transition-all duration-200 ${
+                            className={`block px-5 py-2.5 text-sm font-medium rounded-lg transition-all duration-200 cursor-pointer ${
                               location.pathname === subItem.path
                                 ? 'text-primary bg-primary/10'
                                 : 'text-foreground hover:text-primary hover:bg-primary/5'
@@ -198,7 +198,7 @@ const Navbar = () => {
                   key={item.path}
                   to={item.path}
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className={`block w-full text-left px-5 py-3.5 text-base font-semibold rounded-lg transition-all duration-200 ${
+                  className={`block w-full text-left px-5 py-3.5 text-base font-semibold rounded-lg transition-all duration-200 cursor-pointer ${
                     isActive
                       ? 'text-primary bg-primary/15 shadow-sm border-l-4 border-primary'
                       : 'text-foreground hover:text-primary hover:bg-primary/5'

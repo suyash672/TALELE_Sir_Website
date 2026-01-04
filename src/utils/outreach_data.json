@@ -1,0 +1,783 @@
+{
+    "faculty": {
+      "name": "Dr. Kiran Talele",
+      "institution": "Sardar Patel Institute of Technology",
+      "location": "Andheri, Mumbai",
+      "country": "India",
+      "position": "Dean - Student, Alumni & External Relations",
+      "contact": "9987030881"
+    },
+    "academic_outreach": {
+      "global_outreach": [
+        {
+          "id": 1,
+          "title": "SPIT Collaborates with Worcester Polytechnic Institute (WPI), USA",
+          "role": "Institutional Partnership",
+          "organizer_or_host": "Sardar Patel Institute of Technology",
+          "institution": "Worcester Polytechnic Institute (WPI)",
+          "location": "Worcester, Massachusetts",
+          "country": "USA",
+          "mode": null,
+          "date": null,
+          "date_range": null,
+          "audience": [
+            "Faculty",
+            "Undergraduate Students",
+            "Postgraduate Students",
+            "Researchers"
+          ],
+          "topics_or_focus_areas": [
+            "Educational collaboration",
+            "Joint supervision of research",
+            "Student exchange programs",
+            "Collaborative research funding",
+            "Academic events participation"
+          ],
+          "description": "MoU signed between SPIT and WPI to foster cooperation in expanding educational opportunities, mentoring undergraduate and postgraduate student projects, and enabling joint supervision of postgraduate research work. The agreement includes collaborative research funding applications, student exchange programs, exchange of research personnel, and participation in academic events.",
+          "outcome_or_impact": "Expected to enrich academic experiences, promote global exposure, and strengthen research and educational ties between the two institutions",
+          "documents_or_links": null
+        },
+        {
+          "id": 2,
+          "title": "SPIT Signs MoU with Northeastern University, USA",
+          "role": "Institutional Partnership",
+          "organizer_or_host": "Sardar Patel Institute of Technology",
+          "institution": "Northeastern University",
+          "location": "Boston, Massachusetts",
+          "country": "USA",
+          "mode": null,
+          "date": null,
+          "date_range": null,
+          "audience": [
+            "Faculty",
+            "Students",
+            "Researchers"
+          ],
+          "topics_or_focus_areas": [
+            "Undergraduate to graduate pathways",
+            "Faculty engagement",
+            "Student exchange",
+            "Joint educational programs",
+            "Training programs"
+          ],
+          "description": "MoU between SPIT and Northeastern University to deepen academic cooperation. Key collaborations include creating pathways from undergraduate to graduate programs, joint educational and training programs, and student benefits including waived application fees, 5% tuition scholarship for all admitted students, and 10% merit-based scholarship for up to 20 students.",
+          "outcome_or_impact": "Enhanced global academic opportunities, 25% additional scholarships available through Northeastern's campus and college networks, meaningful international exchange established",
+          "documents_or_links": null
+        },
+        {
+          "id": 3,
+          "title": "SPIT Collaborates with City, University of London to Enhance Academic and Research Ties",
+          "role": "Institutional Partnership",
+          "organizer_or_host": "Sardar Patel Institute of Technology",
+          "institution": "City, St George's – University of London",
+          "location": "London",
+          "country": "United Kingdom",
+          "mode": null,
+          "date": null,
+          "date_range": null,
+          "audience": [
+            "Faculty",
+            "Students",
+            "Researchers"
+          ],
+          "topics_or_focus_areas": [
+            "Joint research initiatives",
+            "Postgraduate program development",
+            "Interdisciplinary minor programs"
+          ],
+          "description": "MoU signed to strengthen academic and research collaboration. Partnership includes launching joint research initiatives, developing postgraduate programs, and designing interdisciplinary minor programs. Follows discussions between Principal Professor B.N. Chaudhari's visit to University of London in May 2025 and Professor Rajkumar Roy's visits to SPIT.",
+          "outcome_or_impact": "Global academic engagement and innovation strengthened, interdisciplinary collaboration established",
+          "documents_or_links": null
+        },
+        {
+          "id": 4,
+          "title": "SPIT Collaborates with Chinese University of Hong Kong (CUHK)",
+          "role": "Institutional Partnership",
+          "organizer_or_host": "Sardar Patel Institute of Technology",
+          "institution": "Chinese University of Hong Kong (CUHK)",
+          "location": "Hong Kong",
+          "country": "Hong Kong",
+          "mode": null,
+          "date": null,
+          "date_range": null,
+          "audience": [
+            "Students",
+            "Faculty"
+          ],
+          "topics_or_focus_areas": [
+            "Education",
+            "Research",
+            "Postgraduate programs",
+            "Scholarships"
+          ],
+          "description": "SPIT initiated collaboration with CUHK Business School in education and research domains. CUHK expressed interest in offering scholarships to deserving students for postgraduate programs at CUHK Business School.",
+          "outcome_or_impact": "Beginning of promising partnership with opportunities for mutual growth",
+          "documents_or_links": null
+        },
+        {
+          "id": 5,
+          "title": "Online Meeting with North Eastern University",
+          "role": "Dean - Student, Alumni & External Relations",
+          "organizer_or_host": "North Eastern University",
+          "institution": "North Eastern University",
+          "location": null,
+          "country": null,
+          "mode": "Online",
+          "date": "2024-09-30",
+          "date_range": null,
+          "audience": [
+            "Faculty",
+            "Students"
+          ],
+          "topics_or_focus_areas": [
+            "Academic collaboration",
+            "Research opportunities",
+            "Innovative practices in higher education"
+          ],
+          "description": "Online meeting to share insights on academic collaboration, research opportunities, and innovative practices in higher education, fostering avenues for future partnership and student development",
+          "outcome_or_impact": "Future partnership pathways established, enhanced understanding of research collaboration opportunities",
+          "documents_or_links": null
+        },
+        {
+          "id": 6,
+          "title": "Meeting with City University, London",
+          "role": "Dean - Student, Alumni & External Relations",
+          "organizer_or_host": "City University, London",
+          "institution": "City University, London",
+          "location": "London",
+          "country": "United Kingdom",
+          "mode": "Online",
+          "date": "2024-10-23",
+          "date_range": null,
+          "audience": [
+            "Faculty",
+            "Administrators"
+          ],
+          "topics_or_focus_areas": [
+            "International collaboration",
+            "Knowledge exchange",
+            "Research and innovation opportunities"
+          ],
+          "description": "Meeting focused on international collaboration, knowledge exchange, and strengthening academic ties to enhance research and innovation opportunities",
+          "outcome_or_impact": "Strengthened academic ties, enhanced understanding of collaboration frameworks",
+          "documents_or_links": null
+        }
+      ],
+      "invited_talks_guest_lectures": [
+        {
+          "id": 7,
+          "title": "Research Funding Opportunities",
+          "role": "Resource Person",
+          "organizer_or_host": "A.G. Patil Institute of Technology",
+          "institution": "A.G. Patil Institute of Technology",
+          "location": "Solapur",
+          "country": "India",
+          "mode": "Offline",
+          "date": "2024-08-17",
+          "date_range": null,
+          "audience": [
+            "Faculty",
+            "Students"
+          ],
+          "topics_or_focus_areas": [
+            "Research funding",
+            "Research proposal writing",
+            "National and international funding agencies",
+            "Startup support schemes"
+          ],
+          "description": "Session guiding faculty and students on writing effective research proposals, understanding various national and international funding agencies, and exploring startup support schemes. Insights provided clarity on building research capacity and securing external grants for innovation and entrepreneurship",
+          "outcome_or_impact": "Participants gained clarity on building research capacity and securing external grants",
+          "documents_or_links": null
+        },
+        {
+          "id": 8,
+          "title": "Angel Investment and VC Funding Opportunities for Early Stage Entrepreneurs",
+          "role": "Expert Lecturer",
+          "organizer_or_host": "Department of Technology, Shivaji University, IIC",
+          "institution": "Shivaji University",
+          "location": "Kolhapur",
+          "country": "India",
+          "mode": "Offline",
+          "date": "2024-08-19",
+          "date_range": null,
+          "audience": [
+            "Students",
+            "Aspiring entrepreneurs"
+          ],
+          "topics_or_focus_areas": [
+            "Angel investment",
+            "VC funding",
+            "Entrepreneurship",
+            "Innovation",
+            "Fundraising"
+          ],
+          "description": "Expert lecture aimed at guiding young innovators on accessing funding and investment opportunities. Talk provided deep insights into entrepreneurship, innovation, and fundraising avenues",
+          "outcome_or_impact": "Highly valuable guidance for aspiring entrepreneurs, university appreciation received",
+          "documents_or_links": null
+        },
+        {
+          "id": 9,
+          "title": "Innovation and Incubation",
+          "role": "Guest Lecturer",
+          "organizer_or_host": "Sardar Patel Institute of Technology",
+          "institution": "Sardar Patel Institute of Technology",
+          "location": "Mumbai",
+          "country": "India",
+          "mode": "Offline",
+          "date": "2024-02-02",
+          "date_range": null,
+          "audience": [
+            "Students",
+            "Faculty"
+          ],
+          "topics_or_focus_areas": [
+            "Innovation",
+            "Incubation",
+            "Startup opportunities"
+          ],
+          "description": "Session highlighting the significance of fostering innovation, the role of incubation centers, and opportunities for startups",
+          "outcome_or_impact": "Highly engaging and well-received by students and faculty",
+          "documents_or_links": null
+        },
+        {
+          "id": 10,
+          "title": "Innovation and Incubation",
+          "role": "Guest Lecturer",
+          "organizer_or_host": "Pravara College of Engineering",
+          "institution": "Pravara College of Engineering",
+          "location": "Loni",
+          "country": "India",
+          "mode": "Offline",
+          "date": "2024-08-20",
+          "date_range": null,
+          "audience": [
+            "Students",
+            "Faculty"
+          ],
+          "topics_or_focus_areas": [
+            "Innovation",
+            "Incubation",
+            "Startup opportunities"
+          ],
+          "description": "Session highlighting the significance of fostering innovation, the role of incubation centers, and opportunities for startups",
+          "outcome_or_impact": "Highly engaging and well-received by students and faculty",
+          "documents_or_links": null
+        },
+        {
+          "id": 11,
+          "title": "Welcome Note at Agile Mumbai 2024 Conference",
+          "role": "Dean - Student, Alumni & External Relations",
+          "organizer_or_host": "Agile Mumbai 2024 Conference",
+          "institution": "Sardar Patel Institute of Technology",
+          "location": "Mumbai",
+          "country": "India",
+          "mode": "Offline",
+          "date": "2024-09-27",
+          "date_range": null,
+          "audience": [
+            "Professionals",
+            "Academicians",
+            "Students"
+          ],
+          "topics_or_focus_areas": [
+            "Agility",
+            "Innovation",
+            "Industry-academia collaboration",
+            "Technological landscape"
+          ],
+          "description": "Welcome address highlighting the importance of agility, innovation, and industry-academia collaboration in today's fast-evolving technological landscape. Set the tone for the conference bringing together professionals, academicians, and students to exchange ideas on agile practices and future-ready skills",
+          "outcome_or_impact": "Successfully set conference tone and fostered participation from diverse stakeholders",
+          "documents_or_links": null
+        },
+        {
+          "id": 12,
+          "title": "Holistic Development of Students and SPIT Students' Empowerment Policy 2023",
+          "role": "Speaker",
+          "organizer_or_host": "Sardar Patel Institute of Technology",
+          "institution": "Sardar Patel Institute of Technology",
+          "location": "Andheri, Mumbai",
+          "country": "India",
+          "mode": "Offline",
+          "date_range": [
+            "2024-09-18",
+            "2024-09-20"
+          ],
+          "date": null,
+          "audience": [
+            "Students"
+          ],
+          "topics_or_focus_areas": [
+            "Student holistic development",
+            "Academic growth",
+            "Leadership",
+            "Innovation",
+            "Personal development",
+            "Research support",
+            "Entrepreneurship",
+            "Career readiness"
+          ],
+          "description": "Talks emphasizing academic growth, leadership, innovation, and personal development, while highlighting structured support for research, entrepreneurship, and career readiness through the SPIT Students' Empowerment Policy 2023",
+          "outcome_or_impact": "Students informed about comprehensive support structures for holistic development",
+          "documents_or_links": null
+        },
+        {
+          "id": 13,
+          "title": "Outcome Based Learning and Digital Literacy & Technical Proficiency",
+          "role": "Guest Lecturer",
+          "organizer_or_host": "Don Bosco Institutions",
+          "institution": "Don Bosco Institutions",
+          "location": null,
+          "country": "India",
+          "mode": "Offline",
+          "date": "2024-09-29",
+          "date_range": null,
+          "audience": [
+            "Faculty",
+            "Educators"
+          ],
+          "topics_or_focus_areas": [
+            "Outcome-based learning",
+            "Digital literacy",
+            "Technical proficiency"
+          ],
+          "description": "Presentations covering two key topics on outcome-based learning and digital literacy & technical proficiency, aiming to provide valuable insights to attendees",
+          "outcome_or_impact": "Faculty equipped with insights on modern learning approaches",
+          "documents_or_links": null
+        },
+        {
+          "id": 14,
+          "title": "Ethics and Morality",
+          "role": "Speaker",
+          "organizer_or_host": null,
+          "institution": null,
+          "location": null,
+          "country": "India",
+          "mode": null,
+          "date": "2024-12-14",
+          "date_range": null,
+          "audience": [
+            "Faculty",
+            "Students"
+          ],
+          "topics_or_focus_areas": [
+            "Ethics",
+            "Morality"
+          ],
+          "description": "Presentation designed to provide a broad overview of ethics and morality in general",
+          "outcome_or_impact": null,
+          "documents_or_links": null
+        },
+        {
+          "id": 15,
+          "title": "Speech at SPIT Alumni Meet",
+          "role": "Speaker",
+          "organizer_or_host": "Sardar Patel Institute of Technology",
+          "institution": "Sardar Patel Institute of Technology",
+          "location": "Mumbai",
+          "country": "India",
+          "mode": "Offline",
+          "date": "2024-12-21",
+          "date_range": null,
+          "audience": [
+            "Alumni"
+          ],
+          "topics_or_focus_areas": [
+            "Alumni engagement",
+            "Institutional pride",
+            "Alumni as brand ambassadors"
+          ],
+          "description": "Welcome and celebration of achievements of former students with special tribute to the Silver Jubilee Batch of 1999. Address emphasized that alumni are the institution's brand ambassadors and called for alumni to stay connected and contribute to the college's future growth",
+          "outcome_or_impact": "Strengthened alumni-institution connection, celebrated 25 years of professional success of graduating batch",
+          "documents_or_links": null
+        },
+        {
+          "id": 16,
+          "title": "Innovation and Incubation and Government Funding for Setting up Incubation Centre and Startup Support",
+          "role": "Expert Guest Lecturer",
+          "organizer_or_host": "University in Worli",
+          "institution": null,
+          "location": "Worli, Mumbai",
+          "country": "India",
+          "mode": "Offline",
+          "date": "2025-01-25",
+          "date_range": null,
+          "audience": [
+            "Faculty",
+            "Students"
+          ],
+          "topics_or_focus_areas": [
+            "Innovation",
+            "Incubation",
+            "Government funding",
+            "Startup support",
+            "Entrepreneurial ecosystem"
+          ],
+          "description": "Expert guest lecture providing strategic roadmap for innovation and incubation, and securing government funding for setting up incubation centers and startup support. Offered practical guide for establishing a self-sustaining entrepreneurial ecosystem within the academic institution",
+          "outcome_or_impact": "Participants equipped with actionable framework for establishing incubation ecosystem",
+          "documents_or_links": null
+        },
+        {
+          "id": 17,
+          "title": "Real-Time Vision Applications based on Machine Learning and Computer Vision",
+          "role": "Guest Lecturer",
+          "organizer_or_host": "Sapat College of Engineering, Gokhale Education Society in association with IEEE Bombay Section",
+          "institution": "Sapat College of Engineering",
+          "location": "Nashik",
+          "country": "India",
+          "mode": "Offline",
+          "date": "2025-04-12",
+          "date_range": null,
+          "audience": [
+            "Students",
+            "Faculty"
+          ],
+          "topics_or_focus_areas": [
+            "Machine learning",
+            "Computer vision",
+            "Real-world applications",
+            "AI implementations",
+            "Problem-solving"
+          ],
+          "description": "Talk emphasizing practical AI implementations, computer vision techniques, and their applications in real-world problem-solving",
+          "outcome_or_impact": "Students inspired with practical applications of ML and computer vision",
+          "documents_or_links": null
+        },
+        {
+          "id": 18,
+          "title": "Innovation and Incubation",
+          "role": "Guest Lecturer",
+          "organizer_or_host": "Vidyavardhini's College of Engineering & Technology",
+          "institution": "Vidyavardhini's College of Engineering & Technology",
+          "location": "Vasai",
+          "country": "India",
+          "mode": "Offline",
+          "date": "2025-07-03",
+          "date_range": null,
+          "audience": [
+            "Students"
+          ],
+          "topics_or_focus_areas": [
+            "Innovation",
+            "Incubation",
+            "Entrepreneurship",
+            "Incubation ecosystem"
+          ],
+          "description": "Session guiding students on nurturing innovative ideas, entrepreneurship, and the incubation ecosystem, inspiring them to transform concepts into impactful ventures",
+          "outcome_or_impact": "Students inspired to pursue entrepreneurial ventures",
+          "documents_or_links": null
+        }
+      ],
+      "faculty_development_programs": [
+        {
+          "id": 19,
+          "title": "Fundraising Initiative for Teachers",
+          "role": "Speaker",
+          "organizer_or_host": "Sardar Patel Institute of Technology",
+          "institution": "Sardar Patel Institute of Technology",
+          "location": "Mumbai",
+          "country": "India",
+          "mode": "Offline",
+          "date": null,
+          "date_range": null,
+          "audience": [
+            "Faculty"
+          ],
+          "topics_or_focus_areas": [
+            "Fundraising",
+            "Resource mobilization",
+            "Funding opportunities",
+            "Entrepreneurial thinking",
+            "Project development",
+            "Networking",
+            "Incubation support",
+            "Sustainable models"
+          ],
+          "description": "Session sharing valuable insights on mobilizing resources for academic growth. Highlighted various funding opportunities from government, industries, and institutions, while showcasing the role of SP-TBI in supporting innovative teacher-led projects. Focused on empowering teachers with practical approaches to fundraising and project development, explaining how effective networking, incubation support, and partnerships with organizations like DST and industry can open doors for innovation",
+          "outcome_or_impact": "Teachers motivated to explore new avenues for professional growth and innovation, enhanced understanding of funding mechanisms",
+          "documents_or_links": null
+        }
+      ],
+      "workshops_training_programs": [
+        {
+          "id": 20,
+          "title": "Innovation and Entrepreneurship Training and Exposure Visit - AICTE Mentor-Mentee Program",
+          "role": "Coordinator",
+          "organizer_or_host": "AICTE Mentor-Mentee Program",
+          "institution": "Sardar Patel Institute of Technology",
+          "location": "Mumbai",
+          "country": "India",
+          "mode": "Hybrid",
+          "date_range": [
+            "2024-08-01",
+            "2024-08-02"
+          ],
+          "date": null,
+          "audience": [
+            "Students",
+            "Faculty"
+          ],
+          "topics_or_focus_areas": [
+            "Entrepreneurship culture",
+            "IPR",
+            "Design thinking",
+            "Startup funding",
+            "Incubation",
+            "Idea Lab"
+          ],
+          "description": "Training and exposure visit including sessions on entrepreneurship culture, IPR, design thinking, startup funding, and an exposure visit to the Incubation Centre and Idea Lab",
+          "outcome_or_impact": "Participants gained practical understanding of entrepreneurship and incubation ecosystem",
+          "documents_or_links": null
+        },
+        {
+          "id": 21,
+          "title": "Intellectual Property Rights (IPRs) and IP Management for Startups",
+          "role": "Workshop Facilitator",
+          "organizer_or_host": "ARM-IET under IIC Quarter 3 Activity",
+          "institution": "ARM-IET",
+          "location": null,
+          "country": "India",
+          "mode": "Online",
+          "date": "2024-08-30",
+          "date_range": null,
+          "audience": [
+            "Students",
+            "Startups"
+          ],
+          "topics_or_focus_areas": [
+            "Intellectual Property Rights",
+            "IP management",
+            "IP protection",
+            "Entrepreneurial growth",
+            "IP strategies",
+            "Innovation ecosystem challenges"
+          ],
+          "description": "Online workshop emphasizing the significance of protecting innovations, different forms of IPR, and their role in entrepreneurial growth. Session guided students and startups on effective IP strategies and overcoming challenges in the innovation ecosystem",
+          "outcome_or_impact": "Participants equipped with knowledge of IP protection and management strategies",
+          "documents_or_links": null
+        },
+        {
+          "id": 22,
+          "title": "Government Funding for Setting up Incubation Centre and Startup support",
+          "role": "Trainer",
+          "organizer_or_host": "Sahyog College of Management Studies",
+          "institution": "Sahyog College of Management Studies",
+          "location": "Thane",
+          "country": "India",
+          "mode": "Online",
+          "date": "2025-01-24",
+          "date_range": null,
+          "audience": [
+            "Faculty",
+            "Administrators"
+          ],
+          "topics_or_focus_areas": [
+            "Government funding",
+            "Incubation centre setup",
+            "Startup support"
+          ],
+          "description": "Online training program focusing on securing government funding for setting up incubation centres and startup support mechanisms",
+          "outcome_or_impact": "Participants gained knowledge on accessing government funding for incubation initiatives",
+          "documents_or_links": null
+        },
+        {
+          "id": 23,
+          "title": "Intellectual Property Rights",
+          "role": "Trainer",
+          "organizer_or_host": "Sardar Patel Institute of Technology",
+          "institution": "Sardar Patel Institute of Technology",
+          "location": "Mumbai",
+          "country": "India",
+          "mode": "Offline",
+          "date": null,
+          "date_range": [
+            "2025-06-01",
+            "2025-06-30"
+          ],
+          "audience": [
+            "Students"
+          ],
+          "topics_or_focus_areas": [
+            "Intellectual Property Rights",
+            "Innovation",
+            "Research",
+            "Entrepreneurship",
+            "IP protection",
+            "Creative work utilization"
+          ],
+          "description": "Session highlighting the role of IPRs in innovation, research, and entrepreneurship while guiding students on protecting and utilizing their creative work",
+          "outcome_or_impact": "Students empowered to protect their creative work and innovations",
+          "documents_or_links": null
+        },
+        {
+          "id": 24,
+          "title": "Class Attendance and Student Discipline Session",
+          "role": "Speaker",
+          "organizer_or_host": "Sardar Patel Institute of Technology",
+          "institution": "Sardar Patel Institute of Technology",
+          "location": "Andheri, Mumbai",
+          "country": "India",
+          "mode": "Offline",
+          "date_range": [
+            "2025-06-12",
+            "2025-06-18"
+          ],
+          "date": null,
+          "audience": [
+            "Defaulter students"
+          ],
+          "topics_or_focus_areas": [
+            "Class attendance",
+            "Discipline",
+            "Consistency",
+            "Responsibility",
+            "Personal growth",
+            "Dependability"
+          ],
+          "description": "Session addressing defaulter students on class attendance, emphasizing the importance of discipline, consistency, and responsibility in shaping future engineers. Highlighted that attendance is not just a requirement but a vital step toward personal growth, curiosity, and dependability. Encouraged students to treat this as a turning point, reset their mindset, and commit to showing up every day for their own success",
+          "outcome_or_impact": "Students motivated to improve attendance and adopt disciplined approach to studies",
+          "documents_or_links": null
+        }
+      ],
+      "conferences_panels_leadership": [
+        {
+          "id": 25,
+          "title": "Mukhyamantri Yuva Karya Prashikshan Yojana (CMYKPY) – Industry Connect Program",
+          "role": "Participant and Contributor",
+          "organizer_or_host": "Government of Maharashtra",
+          "institution": null,
+          "location": "Maharashtra",
+          "country": "India",
+          "mode": "Offline",
+          "date": "2024-07-27",
+          "date_range": null,
+          "audience": [
+            "Government officials",
+            "Industry representatives",
+            "Youth"
+          ],
+          "topics_or_focus_areas": [
+            "Youth employment",
+            "Industry engagement",
+            "Career development"
+          ],
+          "description": "Attendance and engagement in the CMYKPY Industry Connect program. Participation and engagement were acknowledged as valuable contributions toward supporting youth employment initiatives",
+          "outcome_or_impact": "Appreciation letter received from CMYKPY Project Lead, Government of Maharashtra; invitation to continue engagement through Maharashtra Government's official employment portal",
+          "documents_or_links": null
+        },
+        {
+          "id": 26,
+          "title": "Agile Mumbai 2024 Conference - Panel and Leadership Role",
+          "role": "Panel Member and Organizer",
+          "organizer_or_host": "Agile Mumbai 2024 Conference",
+          "institution": "Sardar Patel Institute of Technology",
+          "location": "Mumbai",
+          "country": "India",
+          "mode": "Offline",
+          "date_range": [
+            "2024-09-27",
+            "2024-09-28"
+          ],
+          "date": null,
+          "audience": [
+            "Professionals",
+            "Academicians",
+            "Students"
+          ],
+          "topics_or_focus_areas": [
+            "Agile practices",
+            "AI",
+            "Future of education",
+            "Industry-academia collaboration",
+            "Emerging technologies",
+            "Education reforms"
+          ],
+          "description": "Active contribution to bridging academia and industry. Helped drive discussions on agile practices, AI, and the future of education, ensuring strong participation from both students and professionals. Shared vision in the panel on 'Future of Academic Institutes,' emphasizing the role of emerging technologies in education reforms",
+          "outcome_or_impact": "Successfully bridged academia-industry gap, fostered collaboration and innovation discussions",
+          "documents_or_links": null
+        },
+        {
+          "id": 27,
+          "title": "IEEE IATMSI-2025 Conference - Chair of Publicity and Promotions Committee",
+          "role": "Chair of Publicity and Promotions Committee",
+          "organizer_or_host": "IEEE IATMSI-2025 Conference",
+          "institution": "Sardar Patel Institute of Technology",
+          "location": null,
+          "country": "India",
+          "mode": null,
+          "date": null,
+          "date_range": null,
+          "audience": [
+            "Researchers",
+            "Academics",
+            "Industry professionals"
+          ],
+          "topics_or_focus_areas": [
+            "Conference promotion",
+            "Global outreach",
+            "Event management"
+          ],
+          "description": "Serving as Chair of the Publicity and Promotions Committee responsible for managing the event's global outreach and promotional strategies to attract a wide audience of researchers, academics, and industry professionals",
+          "outcome_or_impact": "Enhanced conference visibility and reach through comprehensive promotional strategies",
+          "documents_or_links": null
+        },
+        {
+          "id": 28,
+          "title": "Cybersecurity Conclave 2024",
+          "role": "Participant/Speaker",
+          "organizer_or_host": "Cybersecurity Conclave 2024",
+          "institution": null,
+          "location": "Mumbai",
+          "country": "India",
+          "mode": "Offline",
+          "date": "2024-11-30",
+          "date_range": null,
+          "audience": [
+            "Security professionals",
+            "Experts",
+            "Industry representatives"
+          ],
+          "topics_or_focus_areas": [
+            "Cybersecurity",
+            "Industry standards",
+            "AI in security",
+            "Legal frameworks"
+          ],
+          "description": "One-day event featuring expert talks and panel discussions on key security topics, including industry standards, AI, and legal frameworks",
+          "outcome_or_impact": "Knowledge dissemination on emerging cybersecurity trends",
+          "documents_or_links": null
+        },
+        {
+          "id": 29,
+          "title": "APEX SYMPOSIUM - National Innovation and Startup Policy Council (NISP)",
+          "role": "Convenor Committee Member and Organizer",
+          "organizer_or_host": "National Innovation and Startup Policy Council (NISP)",
+          "institution": "Sardar Patel Institute of Technology",
+          "location": "Mumbai",
+          "country": "India",
+          "mode": "Offline",
+          "date_range": [
+            "2025-02-18",
+            "2025-02-19"
+          ],
+          "date": null,
+          "audience": [
+            "Entrepreneurs",
+            "Innovators",
+            "Policymakers",
+            "Faculty",
+            "Students"
+          ],
+          "topics_or_focus_areas": [
+            "Innovation ecosystem",
+            "Entrepreneurship",
+            "National startup policies",
+            "Incubation"
+          ],
+          "description": "Two-day event organized by convenor committee from SPIT and its incubator (SP-TBI). Agenda focused on fostering a robust ecosystem for innovation and entrepreneurship through discussions on national startup policies",
+          "outcome_or_impact": "Comprehensive platform for innovation and startup ecosystem development",
+          "documents_or_links": null
+        }
+      ]
+    }
+  }
+  

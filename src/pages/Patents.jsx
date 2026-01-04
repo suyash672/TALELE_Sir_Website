@@ -213,7 +213,7 @@ const Patents = () => {
                 <select
                   value={selectedYear}
                   onChange={(e) => setSelectedYear(e.target.value)}
-                  className="w-full px-4 py-2.5 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent text-gray-900 bg-white"
+                  className="w-full px-4 py-2.5 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent text-gray-900 bg-white cursor-pointer"
                 >
                   <option value="all">All Years</option>
                   {years.map(year => (
@@ -227,7 +227,7 @@ const Patents = () => {
                 <select
                   value={selectedStatus}
                   onChange={(e) => setSelectedStatus(e.target.value)}
-                  className="w-full px-4 py-2.5 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent text-gray-900 bg-white"
+                  className="w-full px-4 py-2.5 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent text-gray-900 bg-white cursor-pointer"
                 >
                   <option value="all">All Status</option>
                   {statuses.map(status => (
@@ -300,7 +300,7 @@ const Patents = () => {
                             <div className="flex items-center gap-4 ml-auto">
                               <a
                                 href={patent.link}
-                                className="flex items-center gap-1 text-sm text-gray-700 hover:text-gray-900 underline"
+                                className="flex items-center gap-1 text-sm text-gray-700 hover:text-gray-900 underline cursor-pointer"
                                 target="_blank"
                                 rel="noopener noreferrer"
                               >
