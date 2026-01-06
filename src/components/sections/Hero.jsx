@@ -9,6 +9,7 @@ import {
   ClipboardDocumentCheckIcon,
   ArrowDownTrayIcon,
   EnvelopeIcon,
+  LightBulbIcon,
 } from '@heroicons/react/24/outline';
 
 const Hero = () => {
@@ -24,9 +25,8 @@ const Hero = () => {
                   <AcademicCapIcon className="w-5 h-5 text-teal-600" />
                   Associate Professor & Dean
                 </Badge>
-                <h1 className="text-6xl lg:text-7xl xl:text-8xl font-bold tracking-tight text-balance">
-                  Dr. Kiran <br />
-                  <span className="text-primary">TALELE</span>
+                <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold tracking-tight whitespace-nowrap leading-tight">
+                  Dr. Kiran <span className="text-primary">TALELE</span>
                 </h1>
               </div>
 
@@ -53,11 +53,11 @@ const Hero = () => {
               </div>
 
               {/* Quick stats */}
-              <div className="grid grid-cols-3 gap-6 pt-8 border-t border-border">
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 pt-8 border-t border-border">
                 <div className="space-y-2">
                   <div className="flex items-center gap-2">
                     <CalendarDaysIcon className="w-6 h-6 text-primary" />
-                    <div className="text-4xl font-bold text-primary">33+</div>
+                    <div className="text-4xl font-bold text-primary">36+</div>
                   </div>
                   <div className="text-base text-muted-foreground">Years Experience</div>
                 </div>
@@ -71,9 +71,16 @@ const Hero = () => {
                 <div className="space-y-2">
                   <div className="flex items-center gap-2">
                     <ClipboardDocumentCheckIcon className="w-6 h-6 text-primary" />
-                    <div className="text-4xl font-bold text-primary">22</div>
+                    <div className="text-4xl font-bold text-primary">24+</div>
                   </div>
                   <div className="text-base text-muted-foreground">Patents</div>
+                </div>
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2">
+                    <LightBulbIcon className="w-6 h-6 text-primary" />
+                    <div className="text-4xl font-bold text-primary">4</div>
+                  </div>
+                  <div className="text-base text-muted-foreground">Startups Mentored</div>
                 </div>
               </div>
             </div>
@@ -85,7 +92,7 @@ const Hero = () => {
                 <div className="relative w-72 h-72 lg:w-96 lg:h-96 rounded-2xl overflow-hidden shadow-2xl ring-1 ring-teal-100">
                   <img
                     src="/pfp1.png"
-                    alt="Dr. K.T.V Talele"
+                    alt="Dr. K.T.V TALELE"
                     className="object-cover w-full h-full"
                   />
                 </div>

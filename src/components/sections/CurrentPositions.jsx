@@ -3,11 +3,17 @@ import { Briefcase, GraduationCap } from 'lucide-react';
 import Card from '../ui/Card';
 
 const CurrentPositions = () => {
-  const additionalPositions = [
-    "Coordinator of Sardar Patel Institute of Technology Business Incubator",
-    "Treasurer of IEEE Bombay Section",
-    "In-Charge of IPR cell of Sardar Patel Institute of Technology",
-    "Member of Governing body of Sardar Patel Institute of Technology",
+  const positions = [
+    {
+      title: "Dean",
+      description: "Students, Alumni & External Relations in Sardar Patel Institute of Technology",
+      icon: GraduationCap,
+    },
+    {
+      title: "Director",
+      description: "Sardar Patel Technology Business Incubator",
+      icon: Briefcase,
+    },
   ];
 
   return (
@@ -20,46 +26,22 @@ const CurrentPositions = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-6">
-            <Card className="p-6 hover:shadow-lg transition-shadow">
-              <div className="flex items-start gap-4">
-                <div className="p-3 bg-teal-100 rounded-lg">
-                  <Briefcase className="w-6 h-6 text-primary" />
-                </div>
-                <div className="space-y-2">
-                  <h3 className="font-semibold text-foreground">Associate Professor</h3>
-                  <p className="text-muted-foreground text-base">Electronics Engineering Department</p>
-                </div>
-              </div>
-            </Card>
-
-            <Card className="p-6 hover:shadow-lg transition-shadow">
-              <div className="flex items-start gap-4">
-                <div className="p-3 bg-teal-100 rounded-lg">
-                  <GraduationCap className="w-6 h-6 text-primary" />
-                </div>
-                <div className="space-y-2">
-                  <h3 className="font-semibold text-foreground">Dean</h3>
-                  <p className="text-muted-foreground text-base">
-                    Students, Alumni & External Relations in Sardar Patel Institute of Technology
-                  </p>
-                </div>
-              </div>
-            </Card>
-          </div>
-
-          <div className="pt-8">
-            <h3 className="text-3xl font-bold text-foreground mb-6">Additional Positions</h3>
-            <div className="grid md:grid-cols-2 gap-4">
-              {additionalPositions.map((position, index) => (
-                <div
-                  key={index}
-                  className="flex items-start gap-3 p-4 bg-white rounded-lg border border-border hover:border-primary/30 transition-colors"
-                >
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
-                  <p className="text-foreground">{position}</p>
-                </div>
-              ))}
-            </div>
+            {positions.map((position, index) => {
+              const Icon = position.icon;
+              return (
+                <Card key={index} className="p-6 hover:shadow-lg transition-shadow">
+                  <div className="flex items-start gap-4">
+                    <div className="p-3 bg-teal-100 rounded-lg">
+                      <Icon className="w-6 h-6 text-primary" />
+                    </div>
+                    <div className="space-y-2">
+                      <h3 className="font-semibold text-foreground">{position.title}</h3>
+                      <p className="text-muted-foreground text-base">{position.description}</p>
+                    </div>
+                  </div>
+                </Card>
+              );
+            })}
           </div>
         </div>
       </div>

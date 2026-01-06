@@ -51,7 +51,7 @@ const Navbar = () => {
             className="flex items-center space-x-2 group cursor-pointer"
           >
             <span className="text-2xl lg:text-3xl font-bold text-foreground group-hover:text-primary transition-colors">
-              Dr. K.T.V <span className="text-primary">Talele</span>
+              Dr. Kiran <span className="text-primary">TALELE</span>
             </span>
           </Link>
 

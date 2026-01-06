@@ -22,7 +22,7 @@ const About = () => {
                   </div>
                   <div className="space-y-1">
                     <div className="font-semibold text-foreground text-base">Associate Professor</div>
-                    <div className="text-sm text-muted-foreground">Electronics & Telecom Engineering</div>
+                    <div className="text-sm text-muted-foreground">Electronics & Telecommunication Engineering</div>
                   </div>
                 </div>
 
@@ -41,8 +41,8 @@ const About = () => {
                     <Lightbulb className="w-5 h-5 text-emerald-700" />
                   </div>
                   <div className="space-y-1">
-                    <div className="font-semibold text-foreground text-base">Coordinator</div>
-                    <div className="text-sm text-muted-foreground">Technology Business Incubator</div>
+                    <div className="font-semibold text-foreground text-base">Director</div>
+                    <div className="text-sm text-muted-foreground">Sardar Patel Technology Business Incubator</div>
                   </div>
                 </div>
               </div>
@@ -53,9 +53,9 @@ const About = () => {
               <div className="prose prose-lg max-w-none">
                 <div className="space-y-6 text-muted-foreground leading-relaxed">
                   <p className="text-xl">
-                    Dr. Kiran Talele is an Associate Professor in the Electronics & Telecommunication Engineering
-                    Department of Bharatiya Vidya Bhavans' Sardar Patel Institute of Technology, Mumbai, bringing over
-                    33 years of distinguished experience in academia.
+                    Dr. Kiran TALELE is a Professor in the Electronics & Telecommunication Engineering Department of
+                    Bharatiya Vidya Bhavans' Sardar Patel Institute of Technology, Mumbai, bringing over 36 years of
+                    distinguished experience in academia.
                   </p>
 
                   <p className="text-lg">
@@ -65,7 +65,7 @@ const About = () => {
                   </p>
 
                   <p className="text-lg">
-                    As the Coordinator of Sardar Patel Technology Business Incubator in Mumbai, Dr. Talele actively
+                    As the Coordinator of Sardar Patel Technology Business Incubator in Mumbai, Dr. TALELE actively
                     contributes to nurturing innovation and entrepreneurship among students and startups.
                   </p>
 
@@ -77,14 +77,15 @@ const About = () => {
                     </p>
                   </div>
 
-                  <div className="grid md:grid-cols-2 gap-6 py-6">
+                  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 py-6">
                     <div className="space-y-2">
                       <div className="flex items-baseline gap-2">
                         <BookOpen className="w-4 h-4 text-primary flex-shrink-0 mt-1" />
                         <div>
                           <div className="font-semibold text-foreground">Publications</div>
                           <div className="text-base">
-                            85+ research papers in national & international refereed conferences and journals
+                            <span className="font-bold">85+ </span>
+                            <span className="text-muted-foreground">research papers in national & international refereed conferences and journals</span>
                           </div>
                         </div>
                       </div>
@@ -96,7 +97,21 @@ const About = () => {
                         <div>
                           <div className="font-semibold text-foreground">Patents</div>
                           <div className="text-base">
-                            22 patents filed at Indian Patent Office, with one granted in 2021
+                            <span className="font-bold">24+ </span>
+                            <span className="text-muted-foreground">patents across India, UK, and Germany</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="space-y-2">
+                      <div className="flex items-baseline gap-2">
+                        <Lightbulb className="w-4 h-4 text-primary flex-shrink-0 mt-1" />
+                        <div>
+                          <div className="font-semibold text-foreground">Startups Mentored</div>
+                          <div className="text-base">
+                            <span className="font-bold">4 </span>
+                            <span className="text-muted-foreground">mentored startups</span>
                           </div>
                         </div>
                       </div>
@@ -104,13 +119,13 @@ const About = () => {
                   </div>
 
                   <p className="text-lg">
-                    Dr. Talele serves as Treasurer of IEEE Bombay Section and is a dedicated mentor for startup
+                    Dr. TALELE is currently a Treasurer of IEEE Mumbai Section and is a dedicated mentor for startup
                     incubation and intellectual asset creation, guiding the next generation of innovators.
                   </p>
 
                   <div className="flex flex-wrap gap-3 pt-4">
                     <Badge variant="secondary" className="px-4 py-1.5">
-                      IEEE Bombay Section Treasurer
+                      IEEE Mumbai Section Treasurer
                     </Badge>
                     <Badge variant="secondary" className="px-4 py-1.5">
                       PG Teacher - Mumbai University
@@ -130,6 +145,10 @@ const About = () => {
                       <li className="flex items-start gap-2">
                         <Award className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5" />
                         <span>P.R. Bapat IEEE Bombay Section Outstanding Volunteer Award (2019)</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <Award className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5" />
+                        <span>Innovative Teaching Learning & Evaluation Methodology Award (2025)</span>
                       </li>
                     </ul>
                   </div>

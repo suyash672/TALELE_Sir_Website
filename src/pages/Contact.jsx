@@ -53,7 +53,7 @@ const Contact = () => {
       const body = encodeURIComponent(
         `Name: ${formData.fullName}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
       );
-      const mailtoLink = `mailto:kiran.talele@spit.ac.in?subject=${subject}&body=${body}`;
+      const mailtoLink = `mailto:kiran.TALELE@spit.ac.in?subject=${subject}&body=${body}`;
       
       // Open email client
       window.location.href = mailtoLink;
@@ -111,7 +111,7 @@ const Contact = () => {
                   <div className="flex items-center gap-3 text-gray-900">
                     <User className="w-5 h-5 text-primary flex-shrink-0" />
                     <div>
-                      <p className="font-semibold text-lg">Dr. K.T.V Talele</p>
+                      <p className="font-semibold text-lg">Dr. K.T.V TALELE</p>
                     </div>
                   </div>
                 </div>
@@ -151,10 +151,10 @@ const Contact = () => {
                   <div className="flex items-center gap-3">
                     <Mail className="w-5 h-5 text-primary flex-shrink-0" />
                     <a
-                      href="mailto:kiran.talele@spit.ac.in"
+                      href="mailto:kiran.TALELE@spit.ac.in"
                       className="text-teal-600 hover:text-teal-700 transition-colors font-medium hover:underline"
                     >
-                      kiran.talele@spit.ac.in
+                      kiran.TALELE@spit.ac.in
                     </a>
                   </div>
                 </div>
@@ -242,7 +242,7 @@ const Contact = () => {
                   <div className="flex items-center gap-3 p-4 bg-green-50 border border-green-200 rounded-lg text-green-800">
                     <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0" />
                     <p className="text-sm font-medium">
-                      Your email client should open shortly. If it doesn't, please send your message to kiran.talele@spit.ac.in
+                      Your email client should open shortly. If it doesn't, please send your message to kiran.TALELE@spit.ac.in
                     </p>
                   </div>
                 )}

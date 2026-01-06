@@ -21,13 +21,8 @@ const VisitingFaculty = () => {
     },
     {
       institution: "Shah & Anchor College of Engineering",
-      period: "--",
+      period: "2021-2022",
       course: "eCommerce & Entreprenurship",
-    },
-    {
-      institution: "Vivekanand Education Society's Institute of Technology",
-      period: "2004-05",
-      course: "Analog & Digital Communication",
     },
   ];
 

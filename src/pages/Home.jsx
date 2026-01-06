@@ -15,15 +15,16 @@ const Home = () => {
       <Hero />
       <About />
       <CurrentPositions />
-      <AreasOfInterest />
-      <AwardsAndRecognition />
-      <TeachingExperience />
-      <VisitingFaculty />
+      {/* <AreasOfInterest /> */}
+      {/* <AwardsAndRecognition /> */}
+      {/* <TeachingExperience /> */}
       <PastPositions />
+      <VisitingFaculty />
       <Contact />
     </main>
   );
 };
 
 export default Home;
+
 
