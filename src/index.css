@@ -128,3 +128,22 @@
     font-size: 16px;
   }
 }
+
+@keyframes infinite-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-infinite-scroll {
+  animation: infinite-scroll 30s linear infinite;
+  display: flex;
+  width: fit-content;
+}
+
+.group:hover .animate-infinite-scroll {
+  animation-play-state: paused;
+}

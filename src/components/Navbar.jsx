@@ -15,7 +15,9 @@ const Navbar = () => {
     { name: 'Projects', path: '/projects' },
     { name: 'Publications', path: '/publications', hasDropdown: true },
     { name: 'Outreach Activities', path: '/outreach-activities' },
-    { name: 'Contact', path: '/contact' },
+    { name: 'CourseZ'},
+    { name: 'Anudaan Jagruti'},
+    { name: 'Contact', path: '/contact' }
   ];
 
   const publicationsSubItems = [
@@ -56,7 +58,7 @@ const Navbar = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-2">
+          <div className="hidden lg:flex items-center space-x-2 overflow-visible">
             {navItems.map((item) => {
               const isActive = location.pathname === item.path || 
                 (item.hasDropdown && publicationsSubItems.some(sub => location.pathname === sub.path));
@@ -71,7 +73,7 @@ const Navbar = () => {
                     onMouseLeave={() => setIsPublicationsDropdownOpen(false)}
                   >
                     <button
-                      className={`px-5 py-3 text-base font-semibold rounded-lg transition-all duration-200 relative flex items-center gap-1 cursor-pointer ${
+                      className={`px-5 py-3 text-base font-semibold rounded-lg transition-all duration-200 relative flex items-center gap-1 cursor-pointer overflow-visible ${
                         isActive
                           ? 'text-primary bg-primary/15 shadow-sm'
                           : 'text-foreground hover:text-primary hover:bg-primary/5'
@@ -80,7 +82,7 @@ const Navbar = () => {
                       {item.name}
                       <ChevronDown className={`w-4 h-4 transition-transform ${isPublicationsDropdownOpen ? 'rotate-180' : ''}`} />
                       {isActive && (
-                        <span className="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-8 h-0.5 bg-primary rounded-full" />
+                        <span className="absolute -bottom-0.5 left-1/2 transform -translate-x-1/2 w-8 h-0.5 bg-primary rounded-full" />
                       )}
                     </button>
                     {isPublicationsDropdownOpen && (
@@ -114,7 +116,7 @@ const Navbar = () => {
                 <Link
                   key={item.path}
                   to={item.path}
-                  className={`px-5 py-3 text-base font-semibold rounded-lg transition-all duration-200 relative cursor-pointer ${
+                  className={`px-5 py-3 text-base font-semibold rounded-lg transition-all duration-200 relative cursor-pointer overflow-visible ${
                     isActive
                       ? 'text-primary bg-primary/15 shadow-sm'
                       : 'text-foreground hover:text-primary hover:bg-primary/5'
@@ -122,7 +124,7 @@ const Navbar = () => {
                 >
                   {item.name}
                   {isActive && (
-                    <span className="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-8 h-0.5 bg-primary rounded-full" />
+                    <span className="absolute -bottom-0.5 left-1/2 transform -translate-x-1/2 w-8 h-0.5 bg-primary rounded-full" />
                   )}
                 </Link>
               );

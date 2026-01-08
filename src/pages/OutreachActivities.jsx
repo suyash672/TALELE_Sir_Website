@@ -1,15 +1,15 @@
-import React, { useState, useMemo, useEffect, useRef } from 'react';
+import React, { useState, useMemo } from 'react';
 import { ChevronDown, ChevronUp, Calendar, MapPin, Users, Globe } from 'lucide-react';
 import Badge from '../components/ui/Badge';
 import outreachData from '../utils/outreach_data.json';
 
 // Section configuration
 const SECTIONS = [
-  { id: 'global_outreach', label: 'Global Outreach', key: 'global_outreach' },
   { id: 'invited_talks', label: 'Invited Talks & Guest Lectures', key: 'invited_talks_guest_lectures' },
   { id: 'faculty_development', label: 'Faculty Development Programs', key: 'faculty_development_programs' },
   { id: 'workshops', label: 'Workshops & Training', key: 'workshops_training_programs' },
   { id: 'conferences', label: 'Conferences & Leadership Roles', key: 'conferences_panels_leadership' },
+  { id: 'global_outreach', label: 'Global Outreach', key: 'global_outreach' },
 ];
 
 // Helper function to get sortable date
@@ -53,8 +53,6 @@ const formatLocation = (activity) => {
 
 const OutreachActivities = () => {
   const [expandedCards, setExpandedCards] = useState(new Set());
-  const [activeSection, setActiveSection] = useState('global_outreach');
-  const sectionRefs = useRef({});
 
   // Extract all activities from data
   const allActivities = useMemo(() => {
@@ -105,40 +103,6 @@ const OutreachActivities = () => {
     setExpandedCards(newExpanded);
   };
 
-  // Scroll to section with smooth transition
-  const scrollToSection = (sectionId) => {
-    const element = sectionRefs.current[sectionId];
-    if (element) {
-      setActiveSection(sectionId);
-      const offset = 100; // Account for sticky nav
-      const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - offset;
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth'
-      });
-    }
-  };
-
-  // Handle scroll to update active section
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY + 150;
-      SECTIONS.forEach(section => {
-        const element = sectionRefs.current[section.id];
-        if (element) {
-          const { offsetTop, offsetHeight } = element;
-          if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
-            setActiveSection(section.id);
-          }
-        }
-      });
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
   return (
     <main className="min-h-screen bg-white pt-24 lg:pt-28">
       <div className="container mx-auto px-4 py-8 lg:py-12">
@@ -156,38 +120,8 @@ const OutreachActivities = () => {
             </p>
           </div>
 
-          <div className="flex flex-col lg:flex-row gap-8">
-            {/* Sticky Side Navigation */}
-            <aside className="lg:w-64 flex-shrink-0">
-              <div className="lg:sticky lg:top-24">
-                <nav className="lg:space-y-1 lg:border-r lg:border-gray-200 lg:pr-4">
-                  {/* Mobile: Wrap navigation items */}
-                  <div className="flex flex-wrap lg:flex-col gap-2 lg:gap-0">
-                    {SECTIONS.map(section => (
-                      <button
-                        key={section.id}
-                        onClick={() => scrollToSection(section.id)}
-                        className={`flex-shrink-0 lg:w-full text-left px-4 py-2.5 rounded-md text-sm font-medium transition-all duration-300 ease-in-out cursor-pointer ${
-                          activeSection === section.id
-                            ? 'bg-gray-100 text-gray-900 lg:border-l-2 lg:border-gray-900'
-                            : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
-                        }`}
-                      >
-                        <div className="flex items-center justify-between gap-2">
-                          <span>{section.label}</span>
-                          <span className="text-xs text-gray-500">
-                            ({sectionCounts[section.id]})
-                          </span>
-                        </div>
-                      </button>
-                    ))}
-                  </div>
-                </nav>
-              </div>
-            </aside>
-
-            {/* Main Content */}
-            <div className="flex-1 min-w-0">
+          {/* Main Content */}
+          <div className="w-full">
               {allActivities.length === 0 ? (
                 <div className="text-center py-12">
                   <p className="text-gray-500 text-lg">No activities available at this time.</p>
@@ -202,18 +136,19 @@ const OutreachActivities = () => {
                       <section
                         key={section.id}
                         id={section.id}
-                        ref={el => sectionRefs.current[section.id] = el}
                         className="scroll-mt-24"
                       >
-                        {/* Section Header */}
-                        <div className="mb-8 pb-3 border-b-2 border-gray-300">
-                          <h2 className="text-3xl font-semibold text-gray-900 mb-1">
-                            {section.label}
-                          </h2>
-                          <p className="text-sm text-gray-600">
-                            {activities.length} {activities.length === 1 ? 'activity' : 'activities'}
-                          </p>
-                        </div>
+                        {/* Section Header - Only for Global Outreach */}
+                        {section.id === 'global_outreach' && (
+                          <div className="mb-8 pb-3 border-b-2 border-gray-300">
+                            <h2 className="text-3xl font-semibold text-gray-900 mb-1">
+                              {section.label}
+                            </h2>
+                            <p className="text-sm text-gray-600">
+                              {activities.length} {activities.length === 1 ? 'activity' : 'activities'}
+                            </p>
+                          </div>
+                        )}
 
                         {/* Activities List */}
                         <div className="space-y-4">
@@ -385,7 +320,7 @@ const OutreachActivities = () => {
             </div>
           </div>
         </div>
-      </div>
+
     </main>
   );
 };

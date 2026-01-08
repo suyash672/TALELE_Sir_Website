@@ -7,6 +7,7 @@ import AwardsAndRecognition from '../components/sections/AwardsAndRecognition';
 import TeachingExperience from '../components/sections/TeachingExperience';
 import VisitingFaculty from '../components/sections/VisitingFaculty';
 import PastPositions from '../components/sections/PastPositions';
+import StartupsCarousel from '../components/sections/StartupsCarousel';
 import Contact from '../components/sections/Contact';
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       {/* <AreasOfInterest /> */}
       {/* <AwardsAndRecognition /> */}
       {/* <TeachingExperience /> */}
+      <StartupsCarousel />
       <PastPositions />
       <VisitingFaculty />
       <Contact />
@@ -26,5 +28,6 @@ const Home = () => {
 };
 
 export default Home;
+
 
 

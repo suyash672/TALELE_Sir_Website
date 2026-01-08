@@ -27,7 +27,7 @@ const VisitingFaculty = () => {
   ];
 
   return (
-    <section className="py-16 lg:py-24 bg-secondary/50">
+    <section className="py-16 lg:py-24 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto space-y-12">
           <div className="text-center space-y-4">
