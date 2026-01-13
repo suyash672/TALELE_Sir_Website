@@ -3,6 +3,29 @@ import { ExternalLink, Link as LinkIcon } from 'lucide-react';
 import Badge from '../components/ui/Badge';
 import patentsData from '../utils/patents_data.json';
 
+// Academic year label (August to May), e.g. "2024-2025"
+const getAcademicYearLabel = (date, fallbackYear) => {
+  if (!date || isNaN(date.getTime())) {
+    if (!fallbackYear) return 'Other';
+    const fy = fallbackYear;
+    return `${fy - 1}-${fy}`;
+  }
+  const year = date.getFullYear();
+  const month = date.getMonth(); // 0-11
+  let startYear;
+
+  if (month >= 7) {
+    // August (7) to December (11): academic year starts this calendar year
+    startYear = year;
+  } else {
+    // January (0) to July (6): academic year started previous calendar year
+    startYear = year - 1;
+  }
+
+  const endYear = startYear + 1;
+  return `${startYear}-${endYear}`;
+};
+
 // Transform JSON data to component format - moved outside component to avoid React compiler warning
 const transformPatentsData = () => {
   const patentsArray = patentsData.patents || [];
@@ -16,13 +39,15 @@ const transformPatentsData = () => {
       let year = new Date().getFullYear();
       let formattedDate = '';
       let formattedPublicationDate = '';
+      let filingDateObj = null;
+      let publicationDateObj = null;
       
       if (patent.date) {
         try {
-          const dateObj = new Date(patent.date);
-          if (!isNaN(dateObj.getTime())) {
-            year = dateObj.getFullYear();
-            formattedDate = dateObj.toLocaleDateString('en-US', { 
+          filingDateObj = new Date(patent.date);
+          if (!isNaN(filingDateObj.getTime())) {
+            year = filingDateObj.getFullYear();
+            formattedDate = filingDateObj.toLocaleDateString('en-US', { 
               year: 'numeric', 
               month: 'long', 
               day: 'numeric' 
@@ -41,9 +66,9 @@ const transformPatentsData = () => {
       
       if (patent.publicationdate) {
         try {
-          const dateObj = new Date(patent.publicationdate);
-          if (!isNaN(dateObj.getTime())) {
-            formattedPublicationDate = dateObj.toLocaleDateString('en-US', { 
+          publicationDateObj = new Date(patent.publicationdate);
+          if (!isNaN(publicationDateObj.getTime())) {
+            formattedPublicationDate = publicationDateObj.toLocaleDateString('en-US', { 
               year: 'numeric', 
               month: 'long', 
               day: 'numeric' 
@@ -64,6 +89,9 @@ const transformPatentsData = () => {
       // Normalize status
       const status = patent.status?.toLowerCase() || 'pending';
       
+      // Academic year label based on filing or publication date
+      const academicYear = getAcademicYearLabel(publicationDateObj || filingDateObj, year);
+      
       return {
         id: patent.id,
         title: patent.title,
@@ -75,6 +103,7 @@ const transformPatentsData = () => {
         date: formattedDate,
         year: year,
         status: status,
+        academicYear: academicYear,
         organisation: patent.organisation || 'Not specified',
         link: patent.reference_link || null,
         remark: patent.remark || '',
@@ -87,13 +116,21 @@ const Patents = () => {
   const [selectedYear, setSelectedYear] = useState('all');
   const [selectedStatus, setSelectedStatus] = useState('all');
 
-  // Use transformed data
-  const patents = transformPatentsData();
+  // Use transformed data and remove "awaiting request for examination" patents
+  const patents = transformPatentsData().filter(
+    (p) => p.status !== 'awaiting request for examination'
+  );
 
-  // Get unique years and statuses
+  // Get unique academic years and statuses
   const years = useMemo(() => {
-    const uniqueYears = [...new Set(patents.map(p => p.year))].sort((a, b) => b - a);
-    return uniqueYears;
+    const uniqueYears = [...new Set(patents.map(p => p.academicYear))].filter(Boolean);
+    const sorted = uniqueYears.sort((a, b) => {
+      const [aStart] = a.split('-').map(Number);
+      const [bStart] = b.split('-').map(Number);
+      if (isNaN(aStart) || isNaN(bStart)) return 0;
+      return bStart - aStart; // Latest academic year first
+    });
+    return sorted;
   }, [patents]);
 
   const statuses = useMemo(() => {
@@ -103,7 +140,6 @@ const Patents = () => {
   // Calculate metadata
   const totalPatents = patents.length;
   const activeYears = years.length;
-  const yearRange = years.length > 0 ? `${years[years.length - 1]}-${years[0]}` : '';
 
   // Filter patents
   const filteredPatents = useMemo(() => {
@@ -114,7 +150,7 @@ const Patents = () => {
         (patent.patentNumber && patent.patentNumber.toLowerCase().includes(searchQuery.toLowerCase())) ||
         (patent.applicationNumber && patent.applicationNumber.toLowerCase().includes(searchQuery.toLowerCase()));
       
-      const matchesYear = selectedYear === 'all' || patent.year === parseInt(selectedYear);
+      const matchesYear = selectedYear === 'all' || patent.academicYear === selectedYear;
       
       const matchesStatus = selectedStatus === 'all' || patent.status === selectedStatus;
       
@@ -122,24 +158,29 @@ const Patents = () => {
     });
   }, [patents, searchQuery, selectedYear, selectedStatus]);
 
-  // Group patents by year and sort by date (most recent first)
+  // Group patents by academic year and sort by date (most recent first)
   const groupedPatents = useMemo(() => {
     const grouped = {};
     filteredPatents.forEach(patent => {
-      if (!grouped[patent.year]) {
-        grouped[patent.year] = [];
+      const label = patent.academicYear || 'Other';
+      if (!grouped[label]) {
+        grouped[label] = [];
       }
-      grouped[patent.year].push(patent);
+      grouped[label].push(patent);
     });
     
-    // Sort years in descending order (2024, 2023, etc.)
-    const sortedYears = Object.keys(grouped).sort((a, b) => parseInt(b) - parseInt(a));
+    const sortedLabels = Object.keys(grouped).sort((a, b) => {
+      const [aStart] = a.split('-').map(Number);
+      const [bStart] = b.split('-').map(Number);
+      if (isNaN(aStart) || isNaN(bStart)) return 0;
+      return bStart - aStart;
+    });
+
     const result = {};
     const sortedYearsArray = [];
     
-    sortedYears.forEach(year => {
-      // Sort items within each year by date (most recent first)
-      result[year] = grouped[year].sort((a, b) => {
+    sortedLabels.forEach(label => {
+      result[label] = grouped[label].sort((a, b) => {
         const dateA = a.publicationDate || a.filingDate || '';
         const dateB = b.publicationDate || b.filingDate || '';
         if (dateA && dateB) {
@@ -147,7 +188,7 @@ const Patents = () => {
         }
         return 0;
       });
-      sortedYearsArray.push(year);
+      sortedYearsArray.push(label);
     });
     
     return { grouped: result, sortedYears: sortedYearsArray };
@@ -189,7 +230,7 @@ const Patents = () => {
               Intellectual property and patent applications
             </p>
             <p className="text-sm text-gray-500">
-              {totalPatents} {totalPatents === 1 ? 'patent' : 'patents'} • {activeYears} {activeYears === 1 ? 'year' : 'years'} {yearRange && `(${yearRange})`}
+              {totalPatents} {totalPatents === 1 ? 'patent' : 'patents'} • {activeYears} {activeYears === 1 ? 'academic year' : 'academic years'}
             </p>
           </div>
 
@@ -208,14 +249,14 @@ const Patents = () => {
 
             {/* Filters */}
             <div className="flex flex-wrap gap-4">
-              {/* Year Filter */}
+              {/* Academic Year Filter */}
               <div className="flex-1 min-w-[150px]">
                 <select
                   value={selectedYear}
                   onChange={(e) => setSelectedYear(e.target.value)}
                   className="w-full px-4 py-2.5 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent text-gray-900 bg-white cursor-pointer"
                 >
-                  <option value="all">All Years</option>
+                  <option value="all">All Academic Years</option>
                   {years.map(year => (
                     <option key={year} value={year}>{year}</option>
                   ))}
@@ -235,6 +276,7 @@ const Patents = () => {
                   ))}
                 </select>
               </div>
+
             </div>
           </div>
 

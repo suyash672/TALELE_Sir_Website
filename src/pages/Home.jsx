@@ -15,7 +15,7 @@ const Home = () => {
     <main className="min-h-screen bg-background">
       <Hero />
       <About />
-      <CurrentPositions />
+      {/* <CurrentPositions /> */}
       {/* <AreasOfInterest /> */}
       {/* <AwardsAndRecognition /> */}
       {/* <TeachingExperience /> */}

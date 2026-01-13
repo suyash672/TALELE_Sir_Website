@@ -3,6 +3,25 @@ import { ExternalLink, Link as LinkIcon } from 'lucide-react';
 import Badge from '../components/ui/Badge';
 import publicationsData from '../utils/publications_data.json';
 
+// Academic year label (August to May), e.g. "2024-2025"
+const getAcademicYearLabel = (date) => {
+  if (!date || isNaN(date.getTime())) return 'Other';
+  const year = date.getFullYear();
+  const month = date.getMonth(); // 0-11
+  let startYear;
+
+  if (month >= 7) {
+    // August (7) to December (11): academic year starts this calendar year
+    startYear = year;
+  } else {
+    // January (0) to July (6): academic year started previous calendar year
+    startYear = year - 1;
+  }
+
+  const endYear = startYear + 1;
+  return `${startYear}-${endYear}`;
+};
+
 const JournalsPublished = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedYear, setSelectedYear] = useState('all');
@@ -14,10 +33,11 @@ const JournalsPublished = () => {
       // Extract year from publicationyear or publicationdate
       let year = paper.publicationyear || new Date().getFullYear();
       let formattedDate = '';
+      let dateObj = null;
       
       if (paper.publicationdate) {
         try {
-          const dateObj = new Date(paper.publicationdate);
+          dateObj = new Date(paper.publicationdate);
           if (!isNaN(dateObj.getTime())) {
             formattedDate = dateObj.toLocaleDateString('en-US', { 
               year: 'numeric', 
@@ -27,7 +47,7 @@ const JournalsPublished = () => {
           } else {
             formattedDate = paper.publicationdate;
           }
-        } catch (e) {
+        } catch {
           formattedDate = paper.publicationdate;
         }
       }
@@ -75,14 +95,21 @@ const JournalsPublished = () => {
         doi: paper.doi && paper.doi !== 'Not available' ? paper.doi : null,
         paperLink: paper.reference_link || null,
         issn: paper.issn && paper.issn !== 'Not available' ? paper.issn : null,
+        academicYear: getAcademicYearLabel(dateObj || new Date(year, 6, 1)),
       };
     });
   }, []);
 
   // Get unique years and publishers
   const years = useMemo(() => {
-    const uniqueYears = [...new Set(publications.map(p => p.year))].sort((a, b) => b - a);
-    return uniqueYears;
+    const uniqueYears = [...new Set(publications.map(p => p.academicYear))].filter(Boolean);
+    const sorted = uniqueYears.sort((a, b) => {
+      const [aStart] = a.split('-').map(Number);
+      const [bStart] = b.split('-').map(Number);
+      if (isNaN(aStart) || isNaN(bStart)) return 0;
+      return bStart - aStart;
+    });
+    return sorted;
   }, [publications]);
 
   const publishers = useMemo(() => {
@@ -92,7 +119,6 @@ const JournalsPublished = () => {
   // Calculate metadata
   const totalPapers = publications.length;
   const activeYears = years.length;
-  const yearRange = years.length > 0 ? `${years[years.length - 1]}-${years[0]}` : '';
 
   // Enhanced search function that tokenizes query and searches across multiple fields
   const matchesSearchQuery = (pub, query) => {
@@ -151,7 +177,7 @@ const JournalsPublished = () => {
     return publications.filter(pub => {
       const matchesSearch = matchesSearchQuery(pub, searchQuery);
       
-      const matchesYear = selectedYear === 'all' || pub.year === parseInt(selectedYear);
+      const matchesYear = selectedYear === 'all' || pub.academicYear === selectedYear;
       
       const matchesPublisher = selectedPublisher === 'all' || 
         (selectedPublisher === 'others' ? !['IEEE', 'ACM', 'Springer'].includes(pub.publisher) : pub.publisher === selectedPublisher);
@@ -164,31 +190,27 @@ const JournalsPublished = () => {
   const groupedPublications = useMemo(() => {
     const grouped = {};
     filteredPublications.forEach(pub => {
-      if (!grouped[pub.year]) {
-        grouped[pub.year] = [];
-      }
-      grouped[pub.year].push(pub);
+      const label = pub.academicYear || 'Other';
+      if (!grouped[label]) grouped[label] = [];
+      grouped[label].push(pub);
     });
     
-    // Sort years in descending order (2024, 2023, etc.)
-    const sortedYears = Object.keys(grouped).sort((a, b) => parseInt(b) - parseInt(a));
+    const sortedLabels = Object.keys(grouped).sort((a, b) => {
+      const [aStart] = a.split('-').map(Number);
+      const [bStart] = b.split('-').map(Number);
+      if (isNaN(aStart) || isNaN(bStart)) return 0;
+      return bStart - aStart;
+    });
+
     const result = {};
-    const sortedYearsArray = [];
+    const sortedArray = [];
     
-    sortedYears.forEach(year => {
-      // Sort items within each year by date (most recent first)
-      result[year] = grouped[year].sort((a, b) => {
-        const dateA = a.date ? new Date(a.date) : null;
-        const dateB = b.date ? new Date(b.date) : null;
-        if (dateA && dateB && !isNaN(dateA.getTime()) && !isNaN(dateB.getTime())) {
-          return dateB - dateA;
-        }
-        return 0;
-      });
-      sortedYearsArray.push(year);
+    sortedLabels.forEach(label => {
+      result[label] = grouped[label];
+      sortedArray.push(label);
     });
     
-    return { grouped: result, sortedYears: sortedYearsArray };
+    return { grouped: result, sortedYears: sortedArray };
   }, [filteredPublications]);
 
   const getPublisherBadgeVariant = (publisher) => {
@@ -211,13 +233,13 @@ const JournalsPublished = () => {
           {/* Header Section */}
           <div className="mb-8 lg:mb-12">
             <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-2">
-              Journals Published
+              Research Journals
             </h1>
             <p className="text-lg text-gray-600 mb-3">
               Peer-reviewed journal articles
             </p>
             <p className="text-sm text-gray-500">
-              {totalPapers} papers • {activeYears} {activeYears === 1 ? 'year' : 'years'} of research {yearRange && `(${yearRange})`}
+              {totalPapers} papers • {activeYears} {activeYears === 1 ? 'academic year' : 'academic years'}
             </p>
           </div>
 
@@ -248,7 +270,7 @@ const JournalsPublished = () => {
                   onChange={(e) => setSelectedYear(e.target.value)}
                   className="w-full px-4 py-2.5 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent text-gray-900 bg-white cursor-pointer"
                 >
-                  <option value="all">All Years</option>
+                  <option value="all">All Academic Years</option>
                   {years.map(year => (
                     <option key={year} value={year}>{year}</option>
                   ))}

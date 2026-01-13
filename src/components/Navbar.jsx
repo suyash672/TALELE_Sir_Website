@@ -16,13 +16,13 @@ const Navbar = () => {
     { name: 'Publications', path: '/publications', hasDropdown: true },
     { name: 'Outreach Activities', path: '/outreach-activities' },
     { name: 'CourseZ'},
-    { name: 'Anudaan Jagruti'},
+    { name: 'Anudaan Jagruti', path:'https://www.anudaanjagruti.com/'},
     { name: 'Contact', path: '/contact' }
   ];
 
   const publicationsSubItems = [
-    { name: 'Conference Papers', path: '/conference-publications' },
-    { name: 'Journals Published', path: '/journals-published' },
+    { name: 'Journal Papers', path: '/journal-publications' },
+    { name: 'Research Journals', path: '/research-journals' },
     { name: 'Patents', path: '/patents' },
   ];
 

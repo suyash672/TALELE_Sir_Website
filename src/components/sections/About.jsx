@@ -16,7 +16,7 @@ const About = () => {
               </div>
 
               <div className="space-y-6">
-                <div className="flex items-start gap-4 p-4 bg-teal-50/50 rounded-xl border border-teal-100">
+                {/* <div className="flex items-start gap-4 p-4 bg-teal-50/50 rounded-xl border border-teal-100">
                   <div className="p-2 bg-teal-100 rounded-lg flex-shrink-0">
                     <Briefcase className="w-5 h-5 text-primary" />
                   </div>
@@ -24,7 +24,7 @@ const About = () => {
                     <div className="font-semibold text-foreground text-base">Associate Professor</div>
                     <div className="text-sm text-muted-foreground">Electronics & Telecommunication Engineering</div>
                   </div>
-                </div>
+                </div> */}
 
                 <div className="flex items-start gap-4 p-4 bg-cyan-50/50 rounded-xl border border-cyan-100">
                   <div className="p-2 bg-cyan-100 rounded-lg flex-shrink-0">
@@ -65,7 +65,7 @@ const About = () => {
                   </p>
 
                   <p className="text-lg">
-                    As the Coordinator of Sardar Patel Technology Business Incubator in Mumbai, Dr. TALELE actively
+                    As the Director of Sardar Patel Technology Business Incubator in Mumbai, Dr. TALELE actively
                     contributes to nurturing innovation and entrepreneurship among students and startups.
                   </p>
 
@@ -73,7 +73,7 @@ const About = () => {
                     <h3 className="text-foreground font-semibold mb-3 text-lg">Research Focus</h3>
                     <p className="text-foreground text-base">
                       His research expertise spans Digital Signal & Image Processing, Computer Vision, Machine
-                      Learning, and Multimedia System Design, contributing significantly to these evolving fields.
+                      Learning, and Multimedia System Design.
                     </p>
                   </div>
 
@@ -85,7 +85,7 @@ const About = () => {
                           <div className="font-semibold text-foreground">Publications</div>
                           <div className="text-base">
                             <span className="font-bold">85+ </span>
-                            <span className="text-muted-foreground">research papers in national & international refereed conferences and journals</span>
+                            <span className="text-muted-foreground">research papers in national & international refered conferences and journals</span>
                           </div>
                         </div>
                       </div>
@@ -118,37 +118,20 @@ const About = () => {
                     </div>
                   </div>
 
-                  <p className="text-lg">
-                    Dr. TALELE is currently a Treasurer of IEEE Mumbai Section and is a dedicated mentor for startup
-                    incubation and intellectual asset creation, guiding the next generation of innovators.
-                  </p>
-
-                  <div className="flex flex-wrap gap-3 pt-4">
-                    <Badge variant="secondary" className="px-4 py-1.5">
-                      IEEE Mumbai Section Treasurer
-                    </Badge>
-                    <Badge variant="secondary" className="px-4 py-1.5">
-                      PG Teacher - Mumbai University
-                    </Badge>
-                    <Badge variant="secondary" className="px-4 py-1.5">
-                      Startup Mentor
-                    </Badge>
-                  </div>
-
                   <div className="bg-emerald-50/50 border border-emerald-100 p-6 rounded-lg mt-6">
                     <h3 className="text-foreground font-semibold mb-2">Awards & Recognition</h3>
-                    <ul className="space-y-2 text-base">
+                    <ul className="space-y-2 ">
                       <li className="flex items-start gap-2">
-                        <Award className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5" />
-                        <span>Excellence in Academics and Research Award (2008-09) from S.P.I.T. Management</span>
+                        <Award className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                        <span className='text-gray-800'>Excellence in Academics and Research Award (2008-09) from S.P.I.T. Management</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <Award className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5" />
-                        <span>P.R. Bapat IEEE Bombay Section Outstanding Volunteer Award (2019)</span>
+                        <Award className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                        <span className='text-gray-800'>P.R. Bapat IEEE Bombay Section Outstanding Volunteer Award (2019)</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <Award className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5" />
-                        <span>Innovative Teaching Learning & Evaluation Methodology Award (2025)</span>
+                        <Award className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                        <span className='text-gray-800'>Innovative Teaching Learning & Evaluation Methodology Award (2025)</span>
                       </li>
                     </ul>
                   </div>

@@ -39,7 +39,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+
     if (!validateForm()) {
       return;
     }
@@ -48,28 +48,29 @@ const Contact = () => {
     setSubmitStatus(null);
 
     try {
-      // Create mailto link with form data
-      const subject = encodeURIComponent(`Contact from ${formData.fullName}`);
-      const body = encodeURIComponent(
-        `Name: ${formData.fullName}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
-      );
-      const mailtoLink = `mailto:kiran.TALELE@spit.ac.in?subject=${subject}&body=${body}`;
-      
-      // Open email client
-      window.location.href = mailtoLink;
-      
-      // Simulate success after a short delay
-      setTimeout(() => {
-        setSubmitStatus('success');
-        setIsSubmitting(false);
-        // Reset form after showing success
-        setTimeout(() => {
-          setFormData({ fullName: '', email: '', message: '' });
-          setSubmitStatus(null);
-        }, 3000);
-      }, 500);
-    // eslint-disable-next-line no-unused-vars
+      const response = await fetch('http://localhost:5000/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to send message');
+      }
+
+      const data = await response.json();
+      if (!data.success) {
+        throw new Error(data.error || 'Failed to send message');
+      }
+
+      setSubmitStatus('success');
+      setIsSubmitting(false);
+      setFormData({ fullName: '', email: '', message: '' });
     } catch (error) {
+      // eslint-disable-next-line no-console
+      console.error(error);
       setSubmitStatus('error');
       setIsSubmitting(false);
     }
@@ -96,7 +97,7 @@ const Contact = () => {
           <div className="grid lg:grid-cols-2 gap-6 lg:gap-8">
             {/* Left Card - Professor Information */}
             <div className="bg-white border border-gray-200 rounded-2xl shadow-lg overflow-hidden">
-              <div className="bg-gradient-to-br from-teal-50/50 via-white to-cyan-50/30 p-6 lg:p-8 border-b border-gray-200">
+              <div className="bg-linear-to-br from-teal-50/50 via-white to-cyan-50/30 p-6 lg:p-8 border-b border-gray-200">
                 <h2 className="text-2xl font-semibold text-gray-900 mb-2">
                   Contact Information
                 </h2>
@@ -109,9 +110,9 @@ const Contact = () => {
                 {/* Name */}
                 <div className="space-y-2">
                   <div className="flex items-center gap-3 text-gray-900">
-                    <User className="w-5 h-5 text-primary flex-shrink-0" />
+                    <User className="w-5 h-5 text-primary shrink-0" />
                     <div>
-                      <p className="font-semibold text-lg">Dr. K.T.V TALELE</p>
+                      <p className="font-semibold text-lg">Dr. Kiran TALELE</p>
                     </div>
                   </div>
                 </div>
@@ -119,7 +120,7 @@ const Contact = () => {
                 {/* Position */}
                 <div className="space-y-2">
                   <div className="flex items-start gap-3 text-gray-700">
-                    <Briefcase className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                    <Briefcase className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                     <div>
                       <p className="font-medium">Dean of Students, Alumni & External Relations</p>
                     </div>
@@ -129,7 +130,7 @@ const Contact = () => {
                 {/* Institute */}
                 <div className="space-y-2">
                   <div className="flex items-start gap-3 text-gray-700">
-                    <Building2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                    <Building2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                     <div>
                       <p className="font-medium">Bharatiya Vidya Bhavans' Sardar Patel Institute of Technology</p>
                     </div>
@@ -139,7 +140,7 @@ const Contact = () => {
                 {/* Address */}
                 <div className="space-y-2">
                   <div className="flex items-start gap-3 text-gray-700">
-                    <MapPin className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                    <MapPin className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                     <div>
                       <p className="font-medium">Andheri, Mumbai</p>
                     </div>
@@ -149,12 +150,12 @@ const Contact = () => {
                 {/* Email */}
                 <div className="space-y-2">
                   <div className="flex items-center gap-3">
-                    <Mail className="w-5 h-5 text-primary flex-shrink-0" />
+                    <Mail className="w-5 h-5 text-primary shrink-0" />
                     <a
                       href="mailto:kiran.TALELE@spit.ac.in"
                       className="text-teal-600 hover:text-teal-700 transition-colors font-medium hover:underline"
                     >
-                      kiran.TALELE@spit.ac.in
+                      kiran.talele@spit.ac.in
                     </a>
                   </div>
                 </div>
@@ -162,7 +163,7 @@ const Contact = () => {
                 {/* Phone */}
                 <div className="space-y-2">
                   <div className="flex items-center gap-3 text-gray-700">
-                    <Phone className="w-5 h-5 text-primary flex-shrink-0" />
+                    <Phone className="w-5 h-5 text-primary shrink-0" />
                     <div>
                       <p className="font-medium">+91 (Contact for phone number)</p>
                     </div>
@@ -173,7 +174,7 @@ const Contact = () => {
 
             {/* Right Card - Message Form */}
             <div className="bg-white border border-gray-200 rounded-2xl shadow-lg overflow-hidden">
-              <div className="bg-gradient-to-br from-teal-50/50 via-white to-cyan-50/30 p-6 lg:p-8 border-b border-gray-200">
+              <div className="bg-linear-to-br from-teal-50/50 via-white to-cyan-50/30 p-6 lg:p-8 border-b border-gray-200">
                 <h2 className="text-2xl font-semibold text-gray-900 mb-2">
                   Send a Message
                 </h2>
@@ -240,19 +241,15 @@ const Contact = () => {
                 {/* Status Messages */}
                 {submitStatus === 'success' && (
                   <div className="flex items-center gap-3 p-4 bg-green-50 border border-green-200 rounded-lg text-green-800">
-                    <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0" />
-                    <p className="text-sm font-medium">
-                      Your email client should open shortly. If it doesn't, please send your message to kiran.TALELE@spit.ac.in
-                    </p>
+                    <CheckCircle className="w-5 h-5 text-green-600 shrink-0" />
+                    <p className="text-sm font-medium">Your message has been sent successfully.</p>
                   </div>
                 )}
 
                 {submitStatus === 'error' && (
                   <div className="flex items-center gap-3 p-4 bg-red-50 border border-red-200 rounded-lg text-red-800">
-                    <AlertCircle className="w-5 h-5 text-red-600 flex-shrink-0" />
-                    <p className="text-sm font-medium">
-                      Please fill in all fields correctly before submitting.
-                    </p>
+                    <AlertCircle className="w-5 h-5 text-red-600 shrink-0" />
+                    <p className="text-sm font-medium">Something went wrong. Please try again later.</p>
                   </div>
                 )}
 
