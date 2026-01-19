@@ -1,31 +1,30 @@
 import React from 'react';
 
 const StartupsCarousel = () => {
-  // Startup data - you can update these with actual startup information
   const startups = [
     {
       id: 1,
-      name: 'Startup 1',
-      image: 'https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400&h=300&fit=crop',
-      url: 'https://example.com/startup1'
+      name: 'Anudaan Jagruti',
+      image: '/aj_logo.png',
+      url: 'https://www.anudaanjagruti.com'
     },
     {
       id: 2,
-      name: 'Startup 2',
-      image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=400&h=300&fit=crop',
-      url: 'https://example.com/startup2'
+      name: 'VehiScrap',
+      image: '/vehiscrap_logo.png',
+      url: 'https://www.vehiscrap.com/#/pages/home'
     },
     {
       id: 3,
-      name: 'Startup 3',
-      image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop',
-      url: 'https://example.com/startup3'
+      name: 'Seam Online',
+      image: '/seam.png',
+      url: 'https://play.google.com/store/apps/details?id=com.softifybd.seamonline&hl=en'
     },
     {
       id: 4,
-      name: 'Startup 4',
-      image: 'https://images.unsplash.com/photo-1556761175-b413da4baf72?w=400&h=300&fit=crop',
-      url: 'https://example.com/startup4'
+      name: 'Serenity Sphere',
+      image: '/serenity.png',
+      url: 'https://qalb-e-rooh-rpa2zx2.gamma.site/'
     }
   ];
 
@@ -33,7 +32,7 @@ const StartupsCarousel = () => {
   const duplicatedStartups = [...startups, ...startups];
 
   return (
-    <section className="py-16 lg:py-24 bg-white overflow-hidden">
+    <section className="relative mt-6 lg:mt-10 pt-16 pb-20 lg:pt-24 lg:pb-28 bg-white overflow-hidden border-t border-border/70 bg-linear-to-b from-muted/20 to-white">
       <div className="container mx-auto px-4 lg:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
@@ -44,41 +43,42 @@ const StartupsCarousel = () => {
           </p>
         </div>
 
-        <div className="relative group">
+        <div className="relative startups-carousel">
           {/* Infinite scroll container */}
           <div className="overflow-hidden">
             <div className="flex animate-infinite-scroll">
               {duplicatedStartups.map((startup, index) => (
-                <a
-                  key={`${startup.id}-${index}`}
-                  href={startup.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex-shrink-0 mx-4 group cursor-pointer"
-                >
-                  <div className="w-80 h-64 bg-card rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-border">
-                    <div className="relative w-full h-48 overflow-hidden">
+                <div key={`${startup.id}-${index}`} className="shrink-0 mx-4">
+                  <a
+                    href={startup.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={startup.name}
+                    className="group block w-80 h-64 bg-card rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 border border-border"
+                  >
+                    <div className="relative w-full h-48 overflow-hidden bg-white">
                       <img
                         src={startup.image}
                         alt={startup.name}
-                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                        loading="lazy"
+                        className="w-full h-full object-contain p-6 transition-transform duration-300 group-hover:scale-[1.03]"
                       />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                      <div className="absolute inset-0 bg-linear-to-t from-black/35 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                     </div>
                     <div className="p-4 bg-card">
-                      <h3 className="text-xl font-semibold text-foreground group-hover:text-primary transition-colors duration-300">
+                      <h3 className="text-xl font-semibold text-center text-foreground transition-colors duration-300 group-hover:text-primary">
                         {startup.name}
                       </h3>
                     </div>
-                  </div>
-                </a>
+                  </a>
+                </div>
               ))}
             </div>
           </div>
 
           {/* Gradient overlays for smooth fade effect */}
-          <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-white to-transparent pointer-events-none z-10" />
-          <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-white to-transparent pointer-events-none z-10" />
+          <div className="absolute left-0 top-0 bottom-0 w-32 bg-linear-to-r from-white to-transparent pointer-events-none z-10" />
+          <div className="absolute right-0 top-0 bottom-0 w-32 bg-linear-to-l from-white to-transparent pointer-events-none z-10" />
         </div>
       </div>
     </section>

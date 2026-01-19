@@ -131,10 +131,10 @@
 
 @keyframes infinite-scroll {
   0% {
-    transform: translateX(0);
+    transform: translate3d(0, 0, 0);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translate3d(-50%, 0, 0);
   }
 }
 
@@ -142,8 +142,10 @@
   animation: infinite-scroll 30s linear infinite;
   display: flex;
   width: fit-content;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
 }
 
-.group:hover .animate-infinite-scroll {
+.startups-carousel:hover .animate-infinite-scroll {
   animation-play-state: paused;
 }
