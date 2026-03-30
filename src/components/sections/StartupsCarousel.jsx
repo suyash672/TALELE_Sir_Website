@@ -16,9 +16,7 @@ const StartupsCarousel = () => {
     },
     {
       id: 3,
-      name: 'Seam Online',
-      image: '/seam.png',
-      url: 'https://play.google.com/store/apps/details?id=com.softifybd.seamonline&hl=en'
+      name: 'CourseZ',
     },
     {
       id: 4,
