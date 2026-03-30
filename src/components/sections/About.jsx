@@ -16,16 +16,6 @@ const About = () => {
               </div>
 
               <div className="space-y-6">
-                {/* <div className="flex items-start gap-4 p-4 bg-teal-50/50 rounded-xl border border-teal-100">
-                  <div className="p-2 bg-teal-100 rounded-lg flex-shrink-0">
-                    <Briefcase className="w-5 h-5 text-primary" />
-                  </div>
-                  <div className="space-y-1">
-                    <div className="font-semibold text-foreground text-base">Associate Professor</div>
-                    <div className="text-sm text-muted-foreground">Electronics & Telecommunication Engineering</div>
-                  </div>
-                </div> */}
-
                 <div className="flex items-start gap-4 p-4 bg-cyan-50/50 rounded-xl border border-cyan-100">
                   <div className="p-2 bg-cyan-100 rounded-lg flex-shrink-0">
                     <Users className="w-5 h-5 text-cyan-700" />
@@ -108,10 +98,10 @@ const About = () => {
                       <div className="flex items-baseline gap-2">
                         <Lightbulb className="w-4 h-4 text-primary flex-shrink-0 mt-1" />
                         <div>
-                          <div className="font-semibold text-foreground">Startups Mentored</div>
+                          <div className="font-semibold text-foreground">Startups</div>
                           <div className="text-base">
                             <span className="font-bold">4 </span>
-                            <span className="text-muted-foreground">mentored startups</span>
+                            <span className="text-muted-foreground">startups</span>
                           </div>
                         </div>
                       </div>
