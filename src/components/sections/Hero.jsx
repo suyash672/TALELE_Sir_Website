@@ -25,7 +25,7 @@ const Hero = () => {
                   <AcademicCapIcon className="w-5 h-5 text-teal-600" />
                   Associate Professor & Dean
                 </Badge>
-                <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight whitespace-nowrap leading-tight">
+                <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold tracking-tight whitespace-nowrap leading-tight">
                   Dr. Kiran <span className="text-primary">TALELE</span>
                 </h1>
               </div>

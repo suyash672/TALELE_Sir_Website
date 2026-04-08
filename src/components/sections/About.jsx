@@ -43,20 +43,16 @@ const About = () => {
               <div className="prose prose-lg max-w-none">
                 <div className="space-y-6 text-muted-foreground leading-relaxed">
                   <p className="text-xl">
-                    Dr. Kiran TALELE is a Professor in the Electronics & Telecommunication Engineering Department of
-                    Bharatiya Vidya Bhavans' Sardar Patel Institute of Technology, Mumbai, bringing over 36 years of
-                    distinguished experience in academia.
+                    Dr. Kiran TALELE is an accomplished academician and researcher serving as an Associate Professor in the Department of Electronics and Telecommunication Engineering at Bharatiya Vidya Bhavan’s Sardar Patel Institute of Technology (S.P.I.T.), Mumbai, with over 37 years of distinguished experience in academia. He currently holds key leadership roles as the Dean of Students, Alumni and External Relations at S.P.I.T., and also serves as the Director of the Sardar Patel Technology Business Incubator, Mumbai, where he actively fosters innovation, entrepreneurship, and industry-academia collaboration.
                   </p>
 
                   <p className="text-lg">
-                    Currently serving as the Dean of Students, Alumni and External Relations at Sardar Patel Institute
-                    of Technology, Andheri Mumbai, he plays a pivotal role in shaping the institution's engagement
-                    with stakeholders and fostering a vibrant academic community.
+                    His research interests span cutting-edge domains such as Digital Signal and Image Processing, Computer Vision, Machine Learning, and Multimedia System Design. Dr. TALELE has made significant scholarly contributions, with over 85+ research papers published in reputed national and international journals and conferences. He is also an active innovator, with 25+ patents filed at the Indian Patent Office. Additionally, he holds five design patents granted by the UK Patent Office and a Utility Model Academic Patent granted in Germany in 2025. He is also a cofounder of Anudaan Jagruti Foundation and SerenitySphere Pvt. Ltd.
                   </p>
 
                   <p className="text-lg">
-                    As the Director of Sardar Patel Technology Business Incubator in Mumbai, Dr. TALELE actively
-                    contributes to nurturing innovation and entrepreneurship among students and startups.
+                    Beyond academia, he plays an active professional role as the Treasurer of the IEEE Mumbai Section and contributes as a mentor in the areas of startup incubation and intellectual asset creation. His dedication to excellence in teaching, research, and professional service has been widely recognized. He has received institutional incentives for outstanding academic and research performance from the management of S.P.I.T. and is a recipient of the prestigious P. R. Bapat IEEE Bombay Section Outstanding Volunteer Award (2019) as well as the Innovative Teaching-Learning and Evaluation Methodology Award (2025).
+
                   </p>
 
                   <div className="bg-teal-50/50 border-l-4 border-primary p-6 rounded-r-lg my-8">

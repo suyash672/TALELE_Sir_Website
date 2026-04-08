@@ -1151,6 +1151,37 @@
         "doi": "10.1109/ICCES61813.2024.10859322",
         "reference_link": "https://ieeexplore.ieee.org/document/10859322",
         "remark": "IEEE Xplore available"
+      },
+      {
+        "id": 85,
+        "date": "2025-12-11",
+        "title": "SE-SwinUNet++: Enhanced Transformer-based Segmentation for Brain Tumors Using FLAIR MRI Images",
+        "conferencename": "11th International Conference on Pattern Recognition and Machine Intelligence",
+        "authors": [
+          "Yash Shah",
+          "Jash Vora",
+          "Maheshkumar H. Kolekar",
+          "Kiran TALELE"
+        ],
+        "hostingvenue": "IIT Delhi, India",
+        "doi": "Not available",
+        "remark": "Organized by IIT Delhi in collaboration with Machine Intelligence Unit, Indian Statistical Institute Kolkata"
+      },
+      {
+        "id": 86,
+        "date": "2026-03-12",
+        "title": "U-Net++ with EfficientNetB7: A Deep Learning Framework for Clinical Brain Tumor Segmentation",
+        "conferencename": "4th IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IEEE IATMSI-2026)",
+        "authors": [
+          "Jash Vora",
+          "Yash Shah",
+          "Aniket Atole",
+          "Adwait Patkhedkar",
+          "Kiran TALELE"
+        ],
+        "hostingvenue": "ABV-IIITM Gwalior, India",
+        "doi": "Not available",
+        "remark": "Organized by IEEE MP Section and ABV-IIITM Gwalior"
       }
     ],
     "journalpapers": [

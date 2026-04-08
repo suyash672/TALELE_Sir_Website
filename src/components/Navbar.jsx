@@ -1,32 +1,74 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, ChevronDown } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [isPublicationsDropdownOpen, setIsPublicationsDropdownOpen] = useState(false);
-  const [isMobilePublicationsOpen, setIsMobilePublicationsOpen] = useState(false);
   const location = useLocation();
-  const dropdownRef = useRef(null);
 
   const navItems = [
     { name: 'Home', path: '/' },
     { name: 'Projects', path: '/projects' },
-    { name: 'Publications', path: '/publications', hasDropdown: true },
+    { name: 'Publications', path: '/publications' },
     { name: 'Outreach Activities', path: '/outreach-activities' },
     { name: 'CourseZ'},
     { name: 'Anudaan Jagruti', path:'https://www.anudaanjagruti.com/'},
     { name: 'Contact', path: '/contact' }
   ];
 
-  const publicationsSubItems = [
-    { name: 'Journal Papers', path: '/journal-publications' },
-    { name: 'Research Journals', path: '/research-journals' },
-    { name: 'Patents', path: '/patents' },
-  ];
+  const renderNavItem = (item, isMobile = false) => {
+    const isExternal = typeof item.path === 'string' && item.path.startsWith('http');
+    const isActive = !isExternal && item.path && location.pathname === item.path;
+    const baseClasses = isMobile
+      ? `block w-full text-left px-5 py-3.5 text-base font-semibold rounded-lg transition-all duration-200 cursor-pointer ${
+          isActive
+            ? 'text-primary bg-primary/15 shadow-sm border-l-4 border-primary'
+            : 'text-foreground hover:text-primary hover:bg-primary/5'
+        }`
+      : `px-5 py-3 text-base font-semibold rounded-lg transition-all duration-200 relative cursor-pointer overflow-visible ${
+          isActive
+            ? 'text-primary bg-primary/15 shadow-sm'
+            : 'text-foreground hover:text-primary hover:bg-primary/5'
+        }`;
 
-  // Handle hover for dropdown - removed separate handler, using inline handlers
+    if (isExternal) {
+      return (
+        <a
+          key={item.name}
+          href={item.path}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={baseClasses}
+          onClick={() => isMobile && setIsMobileMenuOpen(false)}
+        >
+          {item.name}
+        </a>
+      );
+    }
+
+    if (!item.path) {
+      return (
+        <span key={item.name} className={baseClasses}>
+          {item.name}
+        </span>
+      );
+    }
+
+    return (
+      <Link
+        key={item.path}
+        to={item.path}
+        onClick={() => isMobile && setIsMobileMenuOpen(false)}
+        className={baseClasses}
+      >
+        {item.name}
+        {!isMobile && isActive && (
+          <span className="absolute -bottom-0.5 left-1/2 transform -translate-x-1/2 w-8 h-0.5 bg-primary rounded-full" />
+        )}
+      </Link>
+    );
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -52,83 +94,14 @@ const Navbar = () => {
             to="/"
             className="flex items-center space-x-2 group cursor-pointer"
           >
-            <span className="text-2xl lg:text-3xl font-bold text-foreground group-hover:text-primary transition-colors">
+            <span className="text-lg lg:text-2xl font-bold text-foreground group-hover:text-primary transition-colors">
               Dr. Kiran <span className="text-primary">TALELE</span>
             </span>
           </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-2 overflow-visible">
-            {navItems.map((item) => {
-              const isActive = location.pathname === item.path || 
-                (item.hasDropdown && publicationsSubItems.some(sub => location.pathname === sub.path));
-              
-              if (item.hasDropdown) {
-                return (
-                  <div 
-                    key={item.path} 
-                    className="relative" 
-                    ref={dropdownRef}
-                    onMouseEnter={() => setIsPublicationsDropdownOpen(true)}
-                    onMouseLeave={() => setIsPublicationsDropdownOpen(false)}
-                  >
-                    <button
-                      className={`px-5 py-3 text-base font-semibold rounded-lg transition-all duration-200 relative flex items-center gap-1 cursor-pointer overflow-visible ${
-                        isActive
-                          ? 'text-primary bg-primary/15 shadow-sm'
-                          : 'text-foreground hover:text-primary hover:bg-primary/5'
-                      }`}
-                    >
-                      {item.name}
-                      <ChevronDown className={`w-4 h-4 transition-transform ${isPublicationsDropdownOpen ? 'rotate-180' : ''}`} />
-                      {isActive && (
-                        <span className="absolute -bottom-0.5 left-1/2 transform -translate-x-1/2 w-8 h-0.5 bg-primary rounded-full" />
-                      )}
-                    </button>
-                    {isPublicationsDropdownOpen && (
-                      <div 
-                        className="absolute top-full left-0 pt-2 w-56 z-50"
-                        onMouseEnter={() => setIsPublicationsDropdownOpen(true)}
-                        onMouseLeave={() => setIsPublicationsDropdownOpen(false)}
-                      >
-                        <div className="bg-white border border-gray-200 rounded-lg shadow-lg overflow-hidden">
-                          {publicationsSubItems.map((subItem) => (
-                            <Link
-                              key={subItem.path}
-                              to={subItem.path}
-                              className={`block px-4 py-3 text-sm font-medium transition-colors cursor-pointer ${
-                                location.pathname === subItem.path
-                                  ? 'bg-primary/10 text-primary'
-                                  : 'text-foreground hover:bg-primary/5 hover:text-primary'
-                              } ${subItem !== publicationsSubItems[0] ? 'border-t border-gray-200' : ''}`}
-                            >
-                              {subItem.name}
-                            </Link>
-                          ))}
-                        </div>
-                      </div>
-                    )}
-                  </div>
-                );
-              }
-              
-              return (
-                <Link
-                  key={item.path}
-                  to={item.path}
-                  className={`px-5 py-3 text-base font-semibold rounded-lg transition-all duration-200 relative cursor-pointer overflow-visible ${
-                    isActive
-                      ? 'text-primary bg-primary/15 shadow-sm'
-                      : 'text-foreground hover:text-primary hover:bg-primary/5'
-                  }`}
-                >
-                  {item.name}
-                  {isActive && (
-                    <span className="absolute -bottom-0.5 left-1/2 transform -translate-x-1/2 w-8 h-0.5 bg-primary rounded-full" />
-                  )}
-                </Link>
-              );
-            })}
+            {navItems.map((item) => renderNavItem(item, false))}
           </div>
 
           {/* Mobile Menu Button */}
@@ -152,64 +125,7 @@ const Navbar = () => {
           }`}
         >
           <div className="py-4 space-y-2 border-t-2 border-border/50 mt-2 bg-background/98">
-            {navItems.map((item) => {
-              const isActive = location.pathname === item.path || 
-                (item.hasDropdown && publicationsSubItems.some(sub => location.pathname === sub.path));
-              
-              if (item.hasDropdown) {
-                return (
-                  <div key={item.path}>
-                    <button
-                      onClick={() => setIsMobilePublicationsOpen(!isMobilePublicationsOpen)}
-                      className={`w-full text-left px-5 py-3.5 text-base font-semibold rounded-lg transition-all duration-200 flex items-center justify-between cursor-pointer ${
-                        isActive
-                          ? 'text-primary bg-primary/15 shadow-sm border-l-4 border-primary'
-                          : 'text-foreground hover:text-primary hover:bg-primary/5'
-                      }`}
-                    >
-                      {item.name}
-                      <ChevronDown className={`w-4 h-4 transition-transform ${isMobilePublicationsOpen ? 'rotate-180' : ''}`} />
-                    </button>
-                    {isMobilePublicationsOpen && (
-                      <div className="pl-4 mt-2 space-y-1">
-                        {publicationsSubItems.map((subItem) => (
-                          <Link
-                            key={subItem.path}
-                            to={subItem.path}
-                            onClick={() => {
-                              setIsMobileMenuOpen(false);
-                              setIsMobilePublicationsOpen(false);
-                            }}
-                            className={`block px-5 py-2.5 text-sm font-medium rounded-lg transition-all duration-200 cursor-pointer ${
-                              location.pathname === subItem.path
-                                ? 'text-primary bg-primary/10'
-                                : 'text-foreground hover:text-primary hover:bg-primary/5'
-                            }`}
-                          >
-                            {subItem.name}
-                          </Link>
-                        ))}
-                      </div>
-                    )}
-                  </div>
-                );
-              }
-              
-              return (
-                <Link
-                  key={item.path}
-                  to={item.path}
-                  onClick={() => setIsMobileMenuOpen(false)}
-                  className={`block w-full text-left px-5 py-3.5 text-base font-semibold rounded-lg transition-all duration-200 cursor-pointer ${
-                    isActive
-                      ? 'text-primary bg-primary/15 shadow-sm border-l-4 border-primary'
-                      : 'text-foreground hover:text-primary hover:bg-primary/5'
-                  }`}
-                >
-                  {item.name}
-                </Link>
-              );
-            })}
+            {navItems.map((item) => renderNavItem(item, true))}
           </div>
         </div>
       </div>

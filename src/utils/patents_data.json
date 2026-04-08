@@ -255,40 +255,6 @@
       "remark": "Deemed to be withdrawn u/s 11B(4)"
     },
     {
-      "id": 15,
-      "date": "2021-08-13",
-      "title": "GUIDED VISION CONTROLLED PROCTORING SYSTEM FOR DISTANT EXAMINATION",
-      "authors": [
-        "Jay Mehta",
-        "Vaidehi Vatsaraj",
-        "Jainam Jain",
-        "Kiran TALELE"
-      ],
-      "organisation": "India Patent Office",
-      "applicationnumber": "202121036663",
-      "publicationdate": "2021-08-27",
-      "status": "Application Awaiting Examination",
-      "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
-      "remark": "Awaiting examination at Patent Office"
-    },
-    {
-      "id": 16,
-      "date": "2021-10-13",
-      "title": "SMART WEARABLES FOR TRAINING",
-      "authors": [
-        "TALELE Kiran",
-        "Benn Melita",
-        "Pulapaka Anay",
-        "Pulapaka Atharv"
-      ],
-      "organisation": "India Patent Office",
-      "applicationnumber": "202121046623",
-      "publicationdate": "2021-10-29",
-      "status": "Application Awaiting Examination",
-      "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewDocuments",
-      "remark": "Awaiting examination at Patent Office"
-    },
-    {
       "id": 17,
       "date": "2021-08-27",
       "title": "SYSTEM AND METHOD FOR GENERATING INTELLIGENT RESPONSES WITH A SPEAKER",
@@ -344,7 +310,7 @@
     {
       "id": 20,
       "date": "2023-11-30",
-      "title": "REMOTESAK - A REAL-TIME PERSON DETECTION AND SURVEILLANCE SYSTEM",
+      "title": "REMOTES-A REAL-TIME PERSON DETECTION AND SURVEILLANCE SYSTEM",
       "authors": [
         "Shubham Kanhere",
         "Kaustubh Ghare",
@@ -381,7 +347,7 @@
     {
       "id": 22,
       "date": "2024-05-13",
-      "title": "EYESTREAM : A SECURE, REAL-TIME DRONE SURVEILLANCE SYSTEM",
+      "title": "EYE STREAM: A SECURE, REAL-TIME DRONE SURVEILLANCE SYSTEM",
       "authors": [
         "Devraj Panchal",
         "Srushti Gavand",
@@ -431,15 +397,150 @@
       "status": "Awaiting Request for Examination",
       "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
       "remark": "Awaiting request for examination"
+    },
+    {
+      "id": 25,
+      "date": "2023-08-02",
+      "title": "SPEED MAPPING FOR INDIAN ROADS",
+      "authors": [
+        "Gandhi Ronit",
+        "Kumar Mayur",
+        "Dabhane Janhavi",
+        "TALELE Kiran"
+      ],
+      "organisation": "India Patent Office",
+      "applicationnumber": "202321051875",
+      "publicationdate": "2025-02-07",
+      "status": "Awaiting Request for Examination",
+      "remark": "Awaiting request for examination"
+    },
+    {
+      "id": 26,
+      "date": "2024-12-09",
+      "title": "GROUND ROBOT FOR AGRICULTURE",
+      "authors": [
+        "Bhartiya Vidya Bhavans Sardar Patel Institute of Technology",
+        "Mr. Parth Chitre",
+        "Dr. Sujata Kulkarni",
+        "Dr. Kiran TALELE"
+      ],
+      "organisation": "UK Design Registry",
+      "patentnumber": "6409906",
+      "publicationdate": "2025-01-08",
+      "status": "Granted",
+      "remark": "Design registration granted"
+    },
+    {
+      "id": 27,
+      "date": "2025-06-16",
+      "title": "DRONE FOR TUNNEL INSPECTION",
+      "authors": [
+        "Malay Phadke",
+        "Neel Patel",
+        "Preyes Parab",
+        "Om Patil",
+        "Dev Oza",
+        "Gandhar Kulkarni",
+        "Vedant Bhagvat",
+        "Dr. Kiran TALELE",
+        "Dr. Sujata Kulkarni"
+      ],
+      "organisation": "UK Design Registry",
+      "patentnumber": "6451597",
+      "publicationdate": "2025-06-24",
+      "status": "Granted",
+      "remark": "Design registration granted"
+    },
+    {
+      "id": 28,
+      "date": "2025-12-21",
+      "title": "MEDICAL MONITORING DEVICE",
+      "authors": [
+        "Bhakti TALELE",
+        "Chhavi TALELE",
+        "Krishna Gangaramani",
+        "Sanyogeeta Pradhan",
+        "Sharvari Bhagat",
+        "Samruddhi Kolekar",
+        "Kiran TALELE",
+        "Gunarjun Chawla",
+        "Maheshkumar Kolekar"
+      ],
+      "organisation": "UK Design Registry",
+      "patentnumber": "6494545",
+      "publicationdate": "2026-02-23",
+      "status": "Granted",
+      "remark": "Design registration granted"
+    },
+    {
+      "id": 29,
+      "date": "2025-12-21",
+      "title": "SMART SPEAKER WITH PROJECTOR",
+      "authors": [
+        "Bhakti TALELE",
+        "Chhavi TALELE",
+        "Krishna Gangaramani",
+        "Sanyogeeta Pradhan",
+        "Sharvari Bhagat",
+        "Samruddhi Kolekar",
+        "Kiran TALELE",
+        "Gunarjun Chawla",
+        "Maheshkumar Kolekar"
+      ],
+      "organisation": "UK Design Registry",
+      "patentnumber": "6494543",
+      "publicationdate": "2026-01-22",
+      "status": "Granted",
+      "remark": "Design registration granted"
+    },
+    {
+      "id": 30,
+      "date": "2025-12-21",
+      "title": "SERVICE ROBOT",
+      "authors": [
+        "Bhakti TALELE",
+        "Chhavi TALELE",
+        "Krishna Gangaramani",
+        "Sanyogeeta Pradhan",
+        "Sharvari Bhagat",
+        "Samruddhi Kolekar",
+        "Kiran TALELE",
+        "Gunarjun Chawla",
+        "Maheshkumar Kolekar"
+      ],
+      "organisation": "UK Design Registry",
+      "patentnumber": "6494546",
+      "publicationdate": "2026-01-27",
+      "status": "Granted",
+      "remark": "Design registration granted"
+    },
+    {
+      "id": 31,
+      "date": "2026-02-11",
+      "title": "SYSTEM AND METHOD FOR MULTILINGUAL TRANSLATOR WITH SPEAKER IDENTIFICATION ON PORTABLE SINGLE BOARD COMPUTER",
+      "authors": [
+        "Pragati Chandrakant More",
+        "Arya Pradeep Chavhan",
+        "Adnan Qureshi",
+        "Kiran TALELE",
+        "Yerremreddy Srinavasa Rao"
+      ],
+      "organisation": "India Patent Office",
+      "applicant": "Sardar Patel Institute of Technology",
+      "applicationnumber": "202621015022",
+      "publicationdate": "2026-03-27",
+      "status": "Awaiting Request for Examination",
+      "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
+      "remark": "Awaiting request for examination"
     }
   ],
   "summary": {
-    "totalpatents": 24,
-    "granted": 1,
+    "totalpatents": 29,
+    "granted": 6,
     "abandoned": 3,
     "deemedbewithdrawn": 9,
     "awaitingexamination": 11,
     "periodfrom": "2013-06-24",
-    "periodto": "2024-07-26"
+    "periodto": "2026-03-27"
   }
 }

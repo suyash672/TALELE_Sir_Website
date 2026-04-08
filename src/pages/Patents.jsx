@@ -106,6 +106,7 @@ const transformPatentsData = () => {
         academicYear: academicYear,
         organisation: patent.organisation || 'Not specified',
         link: patent.reference_link || null,
+        sortTime: publicationDateObj?.getTime() || filingDateObj?.getTime() || 0,
         remark: patent.remark || '',
       };
     });
@@ -181,12 +182,7 @@ const Patents = () => {
     
     sortedLabels.forEach(label => {
       result[label] = grouped[label].sort((a, b) => {
-        const dateA = a.publicationDate || a.filingDate || '';
-        const dateB = b.publicationDate || b.filingDate || '';
-        if (dateA && dateB) {
-          return new Date(dateB) - new Date(dateA);
-        }
-        return 0;
+        return (b.sortTime || 0) - (a.sortTime || 0);
       });
       sortedYearsArray.push(label);
     });

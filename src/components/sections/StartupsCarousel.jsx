@@ -17,6 +17,7 @@ const StartupsCarousel = () => {
     {
       id: 3,
       name: 'CourseZ',
+      image: '/logo.jpeg',
     },
     {
       id: 4,
@@ -45,15 +46,11 @@ const StartupsCarousel = () => {
           {/* Infinite scroll container */}
           <div className="overflow-hidden">
             <div className="flex animate-infinite-scroll">
-              {duplicatedStartups.map((startup, index) => (
-                <div key={`${startup.id}-${index}`} className="shrink-0 mx-4">
-                  <a
-                    href={startup.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={startup.name}
-                    className="group block w-80 h-64 bg-card rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 border border-border"
-                  >
+              {duplicatedStartups.map((startup, index) => {
+                const cardClasses = 'group block w-80 h-64 bg-card rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 border border-border';
+                const titleClasses = 'text-xl font-semibold text-center text-foreground transition-colors duration-300 group-hover:text-primary';
+                const content = (
+                  <>
                     <div className="relative w-full h-48 overflow-hidden bg-white">
                       <img
                         src={startup.image}
@@ -64,13 +61,33 @@ const StartupsCarousel = () => {
                       <div className="absolute inset-0 bg-linear-to-t from-black/35 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                     </div>
                     <div className="p-4 bg-card">
-                      <h3 className="text-xl font-semibold text-center text-foreground transition-colors duration-300 group-hover:text-primary">
+                      <h3 className={titleClasses}>
                         {startup.name}
                       </h3>
                     </div>
-                  </a>
-                </div>
-              ))}
+                  </>
+                );
+
+                return (
+                  <div key={`${startup.id}-${index}`} className="shrink-0 mx-4">
+                    {startup.url ? (
+                      <a
+                        href={startup.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label={startup.name}
+                        className={cardClasses}
+                      >
+                        {content}
+                      </a>
+                    ) : (
+                      <div aria-label={startup.name} className={cardClasses}>
+                        {content}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
             </div>
           </div>
 

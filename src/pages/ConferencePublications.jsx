@@ -94,6 +94,7 @@ const ConferencePublications = () => {
         publisherLink: paper.reference_link || null,
         isAwarded: isAwarded,
         proceedingpages: paper.proceedingpages || paper.proceedingpage || null,
+        sortTime: dateObj && !isNaN(dateObj.getTime()) ? dateObj.getTime() : new Date(year, 6, 1).getTime(),
         academicYear: getAcademicYearLabel(dateObj || new Date(year, 6, 1)),
       };
     });
@@ -206,7 +207,7 @@ const ConferencePublications = () => {
     const sortedArray = [];
     
     sortedLabels.forEach(label => {
-      result[label] = grouped[label];
+      result[label] = grouped[label].sort((a, b) => (b.sortTime || 0) - (a.sortTime || 0));
       sortedArray.push(label);
     });
     
