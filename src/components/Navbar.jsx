@@ -12,8 +12,8 @@ const Navbar = () => {
     { name: 'Projects', path: '/projects' },
     { name: 'Publications', path: '/publications' },
     { name: 'Outreach Activities', path: '/outreach-activities' },
-    { name: 'CourseZ'},
-    { name: 'Anudaan Jagruti', path:'https://www.anudaanjagruti.com/'},
+    { name: 'CourseZ' , path: 'https://coursez.in/'},
+    { name: 'Scholarship', path:'https://www.anudaanjagruti.com/'},
     { name: 'Contact', path: '/contact' }
   ];
 
