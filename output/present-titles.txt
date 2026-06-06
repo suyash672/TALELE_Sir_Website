@@ -1,0 +1,136 @@
+conf-1 | conference | Face Recognition Using Isodensity Maps: A Neural Network Approach
+conf-2 | conference | Morphological Image Processing Software Toolkit For Undergraduate IT Courses
+conf-3 | conference | Designing Information Security Laboratories For Undergraduate Engineering Courses
+conf-4 | conference | A Novel Approach To Design Intelligent Path Finder
+conf-5 | conference | Low Cost Design Of Automatic Robot : 'Microcart'
+conf-6 | conference | Face Recognition Using Soft Computing Tools
+conf-7 | conference | Image Compression using Hybrid AMBTC+VQ Technique
+conf-8 | conference | VLSI Implementation of Viterbi Decoder
+conf-9 | conference | PC Based Multimedia Messaging Service Transcoding
+conf-10 | conference | Bio-Medical Image Enhancement
+conf-11 | conference | Secure Transfer of Biomedical Images and Patients Information over Public Data Network
+conf-12 | conference | Human Visual System Based Medical Image Compression Using Set Partitioning In Hierarchical Trees (SPIHT)
+conf-13 | conference | Telemedicine System Based On Public Network
+conf-14 | conference | Fault Detection In PCB Using Homotopic Morphological Operator
+conf-15 | conference | An overview of JPEG 2000
+conf-16 | conference | Web Based Education: Pros And Cons
+conf-17 | conference | Wireless Software Device : A Modern Approach To Radio Engineering
+conf-18 | conference | PID CONTROLLER USING DSP TMS320VC5416 PROCESSOR
+conf-19 | conference | Review of Image Segmentation Techniques
+conf-22 | conference | Image Recognition with Discrete Wavelet Transform
+conf-23 | conference | Image Mining using Wavelet Transform
+conf-24 | conference | Face Recognition using DWT + PCA
+conf-25 | conference | CDMA MODEM Using Direct Sequence Spread Spectrum
+conf-26 | conference | AudioWatermarking
+conf-27 | conference | Burrow Wheeler's Transform For Efficient RLE Compression Applied to Audio Files
+conf-28 | conference | Fracture Detection Using Euler Numbers
+conf-29 | conference | Image Enhancement Techniques Pixel Operation In Spatial Domain
+conf-30 | conference | Watermark Logo in Digital Image Using DWT
+conf-32 | conference | Comparison of MPEG Video Encryption Algorithms
+conf-33 | conference | Modified Set Partitioning in Hierarchical Tree
+conf-35 | conference | Face Detection and Geometric Face Normalization
+conf-36 | conference | Dual Watermarking in Video using Discrete Wavelet Transform
+conf-37 | conference | Perceptual Video Encryption for Multimedia Applications
+conf-38 | conference | Face Expression and Detection
+conf-40 | conference | Audio Steganography Using Spectrum Manipulation
+conf-41 | conference | ECG feature Extraction using Wavelet Based Derivative Approach
+conf-42 | conference | Novel Steganography Technique For Dual Independent Data Hiding In An Avi File
+conf-43 | conference | Broad Band Power Line Communication
+conf-45 | conference | Performance Enhancement of Face Recognition Algorithm Using DWT+PCA
+conf-46 | conference | Speech Compression using ADPCM
+conf-47 | conference | Efficient Face Detection using Adaboost
+conf-50 | conference | Comparison of various Image Registration Techniques with the Proposed Hybrid System
+conf-51 | conference | Highway Traffic Surveillance by Unsupervised Learning
+conf-52 | conference | Efficient Heterogeneous Face Recognition using Scale Invariant Feature Transform
+conf-53 | conference | Modified Enhanced Steady State Genetic Algorithm for Scheduling and Optimization Problem
+conf-54 | conference | Person Tracking using Mean Shift with Gray Level Grouping
+conf-55 | conference | Suspicious Movement Detection and Tracking based on Colour Histogram
+conf-56 | conference | Voice Conversion using Gaussian Mixture Models
+conf-57 | conference | Comparison of various Image Registration Techniques with the Proposed Hybrid System
+conf-58 | conference | Determination of Patient Setup Error in Radiotherapy using Feature-Based Multimodal Rigid Image Registration
+conf-59 | conference | Facial Expression Classification using Support Vector Machine Based on Bidirectional Local Binary Pattern Histogram Feature Descriptor
+conf-60 | conference | Two Channel Reconfigurable Digital Receiver for Cloud Radar Applications
+conf-61 | conference | Edge Preserving and Smoothing and Enhancement For Electronic Portal Images
+conf-62 | conference | Human Action Unit Detection of Patient using Geometric Feature Analysis
+conf-63 | conference | Human Body Language Understanding for Action Detection using Geometric Features
+conf-64 | conference | Facial Expression Recognition Using General Regression Neural Network
+conf-65 | conference | C-Indicator : A Mobile App for Crowd Control and Management in Suburban Railways
+conf-66 | conference | Genetic Algorithm for Optimal Feature Vector Selection in Facial Recognition
+conf-67 | conference | Driver Assistant System using Haar Cascade and Convolution Neural Networks (CNN)
+conf-69 | conference | Twitter Sentiment Analysis for COVID-19
+conf-70 | conference | CYBER-BULLYING DETECTION VIA TEXT MINING AND MACHINE LEARNING
+conf-71 | conference | Early Detection of Lung Cancer Using Computer Aided Tomography Images
+conf-72 | conference | Smart Accident Detection And Alert System
+conf-73 | conference | A Review-and-Reviewer based approach for Fake Review Detection
+conf-74 | conference | Mental stress detection using machine learning algorithm
+conf-75 | conference | Microcontroller based Substation Disaster Monitoring System
+conf-76 | conference | Co-Mart - A Daily Necessity Price Comparison Application
+conf-77 | conference | Self Driving Car using Neural Networks
+conf-78 | conference | An Empirical Approach for Tuning an Autonomous Mobile Robot in Gazebo
+conf-79 | conference | EEG Based Human Emotion Analysis
+conf-80 | conference | Implementation of RFID-based Lab Inventory System
+conf-81 | conference | Enhancing Government Scheme Accessibility, User Profiling and Personalized Recommendations using Data Mining
+conf-82 | conference | Enhanced Detection of Maize Leaf Blight in Dynamic Field Conditions Using Modified YOLOv9
+conf-83 | conference | Multi-Stage UAV-Based System for Scalable and Accurate Crop Health Monitoring
+conf-84 | conference | Audio Deepfake Detection using Deep Scattering Network
+conf-85 | conference | SE-SwinUNet++: Enhanced Transformer-based Segmentation for Brain Tumors Using FLAIR MRI Images
+conf-86 | conference | U-Net++ with EfficientNetB7: A Deep Learning Framework for Clinical Brain Tumor Segmentation
+conf-87 | conference | Cyber-Bullying Detection Via Text Mining And Machine Learning
+conf-88 | conference | Early Detection of Lung Cancer Using Computer Aided Tomography Images
+conf-89 | conference | Smart Accident Detection And Alert System
+conf-90 | conference | A Review-and-Reviewer based approach for Fake Review Detection
+conf-91 | conference | Mental stress detection using machine learning algorithm
+conf-92 | conference | Microcontroller based Substation Disaster Monitoring System
+conf-93 | conference | Co-Mart - A Daily Necessity Price Comparison Application
+conf-94 | conference | Self Driving Car using Neural Networks
+conf-95 | conference | An Empirical Approach for Tuning an Autonomous Mobile Robot in Gazebo
+conf-96 | conference | EEG Based Human Emotion Analysis
+conf-97 | conference | Implementation of RFID-based Lab Inventory System
+conf-98 | conference | Enhancing Government Scheme Accessibility, User Profiling and Personalized Recommendations using Data Mining
+conf-99 | conference | Enhanced Detection of Maize Leaf Blight in Dynamic Field Conditions Using Modified YOLOv9
+conf-100 | conference | Multi-Stage UAV-Based System for Scalable and Accurate Crop Health Monitoring
+conf-101 | conference | Audio Deepfake Detection using Deep Scattering Network
+conf-102 | conference | SE-SwinUNet++: Enhanced Transformer-based Segmentation for Brain Tumors Using FLAIR MRI Images
+conf-103 | conference | U-Net++ with EfficientNetB7: A Deep Learning Framework for Clinical Brain Tumor Segmentation
+journal-20 | journal | Intelligent Face Recognition Techniques: A Comparative Study
+journal-21 | journal | Face Recognition Using Contour Matching
+journal-31 | journal | Face Recognition Using Principal Component Analysis
+journal-34 | journal | Steganography Security for Copyright Protections of Digital Images Using DWT
+journal-39 | journal | Performance of Reed-Solomon Codes in AWGN Channel
+journal-44 | journal | DTMF Generation and Detection
+journal-48 | journal | Application of Parallel Genetic algorithm for Exam Timetabling Problem
+journal-68 | journal | Facial Expression Recognition using Digital Signature Feature Descriptor
+patent-1 | patent | SUSTAINABLE PICOHYDRO POWER GENERATION SYSTEM
+patent-2 | patent | PORTABLE, VEHICLE INDEPENDENT AND INTEGRATED DRIVER ALERT, SECURITY, GPS NAVIGATION & ENTERTAINMENT SYSTEM
+patent-3 | patent | SYSTEM FOR PROVIDING INSTANT ASSISTANCE DURING URGENT SITUATIONS
+patent-4 | patent | BIOMETRIC PATTERN RECOGNITION SYSTEM
+patent-5 | patent | DETECTION OF BLOOD ALCOHOL LEVEL BY BREATH ANALYSIS USING SEMICONDUCTOR
+patent-6 | patent | A SYSTEM AND METHOD FOR HUMAN FACE IDENTIFICATION
+patent-7 | patent | SYSTEM AND METHODS FOR GSM BASED SOIL MONITORING
+patent-8 | patent | COMBINATION OF CELLULAR PHONE HAVING ELECTROSHOCKING DEVICE AND REMOTE ALERT SYSTEM
+patent-9 | patent | SYSTEM AND METHOD TO ENABLE VISUALLY CHALLENGED TO DIRECT SIGNALS
+patent-10 | patent | SYSTEMS AND METHODS FOR DECOMPOSITION OF BIOMASS
+patent-11 | patent | SYSTEMS AND METHODS TO FACILITATE COLLECTION & FORWARDING DONATED COMMODITY TO AUTHORIZED CENTRAL COLLECTION CENTRES
+patent-12 | patent | VIRTUAL FITNESS SYSTEM
+patent-13 | patent | SYSTEMS AND METHODS TO TRAIN AND TEST USING AUGMENTED REALITY
+patent-14 | patent | SYSTEM AND METHODS FOR INFORMATION DISPLAY, EVALUATION OF EVENTS AND PERFORMING ACTIONS RELATED TO EVENTS
+patent-17 | patent | SYSTEM AND METHOD FOR GENERATING INTELLIGENT RESPONSES WITH A SPEAKER
+patent-18 | patent | REAL-TIME OBSTACLE DETECTION AND RESPONSE SYSTEM FOR SAFER DRIVING
+patent-19 | patent | SYSTEMS AND METHODS FOR A WEB-BASED LEARNING PLATFORM FOR ONLINE COURSES
+patent-20 | patent | REMOTES-A REAL-TIME PERSON DETECTION AND SURVEILLANCE SYSTEM
+patent-21 | patent | ELECTRIFY MOBILITY
+patent-22 | patent | EYE STREAM: A SECURE, REAL-TIME DRONE SURVEILLANCE SYSTEM
+patent-23 | patent | DOPPEL SCAN: DUAL AUTHENTICATION CONTACTLESS ATTENDANCE SYSTEM
+patent-24 | patent | AUTOMATED CROP HEALTH MONITORING SYSTEM USING UNMANNED AERIAL VEHICLE
+patent-25 | patent | SPEED MAPPING FOR INDIAN ROADS
+patent-26 | patent | GROUND ROBOT FOR AGRICULTURE
+patent-27 | patent | DRONE FOR TUNNEL INSPECTION
+patent-28 | patent | MEDICAL MONITORING DEVICE
+patent-29 | patent | SMART SPEAKER WITH PROJECTOR
+patent-30 | patent | SERVICE ROBOT
+patent-31 | patent | SYSTEM AND METHOD FOR MULTILINGUAL TRANSLATOR WITH SPEAKER IDENTIFICATION ON PORTABLE SINGLE BOARD COMPUTER
+patent-32 | patent | A Bank Safe Deposit Box Security System With Biometric Authentication And Sensor Monitoring
+patent-33 | patent | BIOMETRIC TERMINAL
+patent-34 | patent | TOY ROBOT
+patent-35 | patent | A SECURE SYSTEM FOR BIOMETRIC VOTER IDENTIFICATION AND VOTING AUTHORIZATION
+patent-36 | patent | A WEARABLE PHYSIOLOGICAL MONITORING AND SIGNAL PROCESSING SYSTEM

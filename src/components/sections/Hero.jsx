@@ -1,9 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Button from '../ui/Button';
-import Badge from '../ui/Badge';
+import PhotoSlideshow from './PhotoSlideshow';
 import { 
-  AcademicCapIcon, 
   CalendarDaysIcon, 
   DocumentTextIcon, 
   ClipboardDocumentCheckIcon,
@@ -17,15 +16,11 @@ const Hero = () => {
     <section className="relative overflow-hidden bg-linear-to-br from-teal-50/50 via-white to-cyan-50/30">
       <div className="container mx-auto px-4 py-24 lg:py-32">
         <div className="max-w-7xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
+          <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Left content */}
-            <div className="space-y-8 lg:pr-8">
+            <div className="space-y-8">
               <div className="space-y-4">
-                <Badge variant="outline" className="text-base font-medium px-4 py-1.5 border-teal-200 bg-teal-50/50 flex items-center gap-2 w-fit">
-                  <AcademicCapIcon className="w-5 h-5 text-teal-600" />
-                  Associate Professor & Dean
-                </Badge>
-                <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold tracking-tight whitespace-nowrap leading-tight">
+                <h1 className="text-3xl lg:text-4xl font-bold tracking-tight whitespace-nowrap leading-tight">
                   Dr. Kiran <span className="text-primary">TALELE</span>
                 </h1>
               </div>
@@ -85,18 +80,18 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* Right image */}
-            <div className="flex justify-center lg:justify-end">
-              <div className="relative">
-                <div className="absolute -inset-4 bg-linear-to-br from-teal-200/40 to-cyan-200/40 rounded-full blur-2xl" />
-                <div className="relative w-72 h-72 lg:w-96 lg:h-96 rounded-2xl overflow-hidden shadow-2xl ring-1 ring-teal-100">
-                  <img
-                    src="/pfp1.jpeg"
-                    alt="Dr. K.T.V TALELE"
-                    className="object-cover w-full h-full"
-                  />
-                </div>
-              </div>
+            {/* Right slideshow */}
+            <div className="flex justify-center lg:justify-end items-center lg:translate-x-6">
+              <PhotoSlideshow
+                images={[
+                  '/slideshow/slide1.jpg',
+                  '/slideshow/slide2.jpg',
+                  '/slideshow/slide3.jpg',
+                  '/slideshow/slide4.jpg',
+                  '/slideshow/slide5.jpg',
+                ]}
+                interval={4500}
+              />
             </div>
           </div>
         </div>

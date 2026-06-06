@@ -1,0 +1,691 @@
+{
+  "totalJson": 136,
+  "presentCount": 136,
+  "missingCount": 0,
+  "present": [
+    {
+      "id": "conf-1",
+      "type": "conference",
+      "title": "Face Recognition Using Isodensity Maps: A Neural Network Approach"
+    },
+    {
+      "id": "conf-2",
+      "type": "conference",
+      "title": "Morphological Image Processing Software Toolkit For Undergraduate IT Courses"
+    },
+    {
+      "id": "conf-3",
+      "type": "conference",
+      "title": "Designing Information Security Laboratories For Undergraduate Engineering Courses"
+    },
+    {
+      "id": "conf-4",
+      "type": "conference",
+      "title": "A Novel Approach To Design Intelligent Path Finder"
+    },
+    {
+      "id": "conf-5",
+      "type": "conference",
+      "title": "Low Cost Design Of Automatic Robot : 'Microcart'"
+    },
+    {
+      "id": "conf-6",
+      "type": "conference",
+      "title": "Face Recognition Using Soft Computing Tools"
+    },
+    {
+      "id": "conf-7",
+      "type": "conference",
+      "title": "Image Compression using Hybrid AMBTC+VQ Technique"
+    },
+    {
+      "id": "conf-8",
+      "type": "conference",
+      "title": "VLSI Implementation of Viterbi Decoder"
+    },
+    {
+      "id": "conf-9",
+      "type": "conference",
+      "title": "PC Based Multimedia Messaging Service Transcoding"
+    },
+    {
+      "id": "conf-10",
+      "type": "conference",
+      "title": "Bio-Medical Image Enhancement"
+    },
+    {
+      "id": "conf-11",
+      "type": "conference",
+      "title": "Secure Transfer of Biomedical Images and Patients Information over Public Data Network"
+    },
+    {
+      "id": "conf-12",
+      "type": "conference",
+      "title": "Human Visual System Based Medical Image Compression Using Set Partitioning In Hierarchical Trees (SPIHT)"
+    },
+    {
+      "id": "conf-13",
+      "type": "conference",
+      "title": "Telemedicine System Based On Public Network"
+    },
+    {
+      "id": "conf-14",
+      "type": "conference",
+      "title": "Fault Detection In PCB Using Homotopic Morphological Operator"
+    },
+    {
+      "id": "conf-15",
+      "type": "conference",
+      "title": "An overview of JPEG 2000"
+    },
+    {
+      "id": "conf-16",
+      "type": "conference",
+      "title": "Web Based Education: Pros And Cons"
+    },
+    {
+      "id": "conf-17",
+      "type": "conference",
+      "title": "Wireless Software Device : A Modern Approach To Radio Engineering"
+    },
+    {
+      "id": "conf-18",
+      "type": "conference",
+      "title": "PID CONTROLLER USING DSP TMS320VC5416 PROCESSOR",
+      "match_hint": "5/6 words matched"
+    },
+    {
+      "id": "conf-19",
+      "type": "conference",
+      "title": "Review of Image Segmentation Techniques"
+    },
+    {
+      "id": "conf-22",
+      "type": "conference",
+      "title": "Image Recognition with Discrete Wavelet Transform"
+    },
+    {
+      "id": "conf-23",
+      "type": "conference",
+      "title": "Image Mining using Wavelet Transform"
+    },
+    {
+      "id": "conf-24",
+      "type": "conference",
+      "title": "Face Recognition using DWT + PCA"
+    },
+    {
+      "id": "conf-25",
+      "type": "conference",
+      "title": "CDMA MODEM Using Direct Sequence Spread Spectrum"
+    },
+    {
+      "id": "conf-26",
+      "type": "conference",
+      "title": "AudioWatermarking"
+    },
+    {
+      "id": "conf-27",
+      "type": "conference",
+      "title": "Burrow Wheeler's Transform For Efficient RLE Compression Applied to Audio Files"
+    },
+    {
+      "id": "conf-28",
+      "type": "conference",
+      "title": "Fracture Detection Using Euler Numbers"
+    },
+    {
+      "id": "conf-29",
+      "type": "conference",
+      "title": "Image Enhancement Techniques Pixel Operation In Spatial Domain"
+    },
+    {
+      "id": "conf-30",
+      "type": "conference",
+      "title": "Watermark Logo in Digital Image Using DWT"
+    },
+    {
+      "id": "conf-32",
+      "type": "conference",
+      "title": "Comparison of MPEG Video Encryption Algorithms"
+    },
+    {
+      "id": "conf-33",
+      "type": "conference",
+      "title": "Modified Set Partitioning in Hierarchical Tree"
+    },
+    {
+      "id": "conf-35",
+      "type": "conference",
+      "title": "Face Detection and Geometric Face Normalization"
+    },
+    {
+      "id": "conf-36",
+      "type": "conference",
+      "title": "Dual Watermarking in Video using Discrete Wavelet Transform"
+    },
+    {
+      "id": "conf-37",
+      "type": "conference",
+      "title": "Perceptual Video Encryption for Multimedia Applications"
+    },
+    {
+      "id": "conf-38",
+      "type": "conference",
+      "title": "Face Expression and Detection"
+    },
+    {
+      "id": "conf-40",
+      "type": "conference",
+      "title": "Audio Steganography Using Spectrum Manipulation"
+    },
+    {
+      "id": "conf-41",
+      "type": "conference",
+      "title": "ECG feature Extraction using Wavelet Based Derivative Approach"
+    },
+    {
+      "id": "conf-42",
+      "type": "conference",
+      "title": "Novel Steganography Technique For Dual Independent Data Hiding In An Avi File"
+    },
+    {
+      "id": "conf-43",
+      "type": "conference",
+      "title": "Broad Band Power Line Communication"
+    },
+    {
+      "id": "conf-45",
+      "type": "conference",
+      "title": "Performance Enhancement of Face Recognition Algorithm Using DWT+PCA"
+    },
+    {
+      "id": "conf-46",
+      "type": "conference",
+      "title": "Speech Compression using ADPCM"
+    },
+    {
+      "id": "conf-47",
+      "type": "conference",
+      "title": "Efficient Face Detection using Adaboost"
+    },
+    {
+      "id": "conf-50",
+      "type": "conference",
+      "title": "Comparison of various Image Registration Techniques with the Proposed Hybrid System"
+    },
+    {
+      "id": "conf-51",
+      "type": "conference",
+      "title": "Highway Traffic Surveillance by Unsupervised Learning"
+    },
+    {
+      "id": "conf-52",
+      "type": "conference",
+      "title": "Efficient Heterogeneous Face Recognition using Scale Invariant Feature Transform",
+      "match_hint": "9/9 words matched"
+    },
+    {
+      "id": "conf-53",
+      "type": "conference",
+      "title": "Modified Enhanced Steady State Genetic Algorithm for Scheduling and Optimization Problem"
+    },
+    {
+      "id": "conf-54",
+      "type": "conference",
+      "title": "Person Tracking using Mean Shift with Gray Level Grouping"
+    },
+    {
+      "id": "conf-55",
+      "type": "conference",
+      "title": "Suspicious Movement Detection and Tracking based on Colour Histogram"
+    },
+    {
+      "id": "conf-56",
+      "type": "conference",
+      "title": "Voice Conversion using Gaussian Mixture Models"
+    },
+    {
+      "id": "conf-57",
+      "type": "conference",
+      "title": "Comparison of various Image Registration Techniques with the Proposed Hybrid System"
+    },
+    {
+      "id": "conf-58",
+      "type": "conference",
+      "title": "Determination of Patient Setup Error in Radiotherapy using Feature-Based Multimodal Rigid Image Registration",
+      "match_hint": "14/14 words matched"
+    },
+    {
+      "id": "conf-59",
+      "type": "conference",
+      "title": "Facial Expression Classification using Support Vector Machine Based on Bidirectional Local Binary Pattern Histogram Feature Descriptor"
+    },
+    {
+      "id": "conf-60",
+      "type": "conference",
+      "title": "Two Channel Reconfigurable Digital Receiver for Cloud Radar Applications"
+    },
+    {
+      "id": "conf-61",
+      "type": "conference",
+      "title": "Edge Preserving and Smoothing and Enhancement For Electronic Portal Images"
+    },
+    {
+      "id": "conf-62",
+      "type": "conference",
+      "title": "Human Action Unit Detection of Patient using Geometric Feature Analysis"
+    },
+    {
+      "id": "conf-63",
+      "type": "conference",
+      "title": "Human Body Language Understanding for Action Detection using Geometric Features"
+    },
+    {
+      "id": "conf-64",
+      "type": "conference",
+      "title": "Facial Expression Recognition Using General Regression Neural Network"
+    },
+    {
+      "id": "conf-65",
+      "type": "conference",
+      "title": "C-Indicator : A Mobile App for Crowd Control and Management in Suburban Railways"
+    },
+    {
+      "id": "conf-66",
+      "type": "conference",
+      "title": "Genetic Algorithm for Optimal Feature Vector Selection in Facial Recognition"
+    },
+    {
+      "id": "conf-67",
+      "type": "conference",
+      "title": "Driver Assistant System using Haar Cascade and Convolution Neural Networks (CNN)"
+    },
+    {
+      "id": "conf-69",
+      "type": "conference",
+      "title": "Twitter Sentiment Analysis for COVID-19"
+    },
+    {
+      "id": "conf-70",
+      "type": "conference",
+      "title": "CYBER-BULLYING DETECTION VIA TEXT MINING AND MACHINE LEARNING"
+    },
+    {
+      "id": "conf-71",
+      "type": "conference",
+      "title": "Early Detection of Lung Cancer Using Computer Aided Tomography Images"
+    },
+    {
+      "id": "conf-72",
+      "type": "conference",
+      "title": "Smart Accident Detection And Alert System"
+    },
+    {
+      "id": "conf-73",
+      "type": "conference",
+      "title": "A Review-and-Reviewer based approach for Fake Review Detection"
+    },
+    {
+      "id": "conf-74",
+      "type": "conference",
+      "title": "Mental stress detection using machine learning algorithm"
+    },
+    {
+      "id": "conf-75",
+      "type": "conference",
+      "title": "Microcontroller based Substation Disaster Monitoring System"
+    },
+    {
+      "id": "conf-76",
+      "type": "conference",
+      "title": "Co-Mart - A Daily Necessity Price Comparison Application"
+    },
+    {
+      "id": "conf-77",
+      "type": "conference",
+      "title": "Self Driving Car using Neural Networks"
+    },
+    {
+      "id": "conf-78",
+      "type": "conference",
+      "title": "An Empirical Approach for Tuning an Autonomous Mobile Robot in Gazebo"
+    },
+    {
+      "id": "conf-79",
+      "type": "conference",
+      "title": "EEG Based Human Emotion Analysis"
+    },
+    {
+      "id": "conf-80",
+      "type": "conference",
+      "title": "Implementation of RFID-based Lab Inventory System"
+    },
+    {
+      "id": "conf-81",
+      "type": "conference",
+      "title": "Enhancing Government Scheme Accessibility, User Profiling and Personalized Recommendations using Data Mining"
+    },
+    {
+      "id": "conf-82",
+      "type": "conference",
+      "title": "Enhanced Detection of Maize Leaf Blight in Dynamic Field Conditions Using Modified YOLOv9"
+    },
+    {
+      "id": "conf-83",
+      "type": "conference",
+      "title": "Multi-Stage UAV-Based System for Scalable and Accurate Crop Health Monitoring"
+    },
+    {
+      "id": "conf-84",
+      "type": "conference",
+      "title": "Audio Deepfake Detection using Deep Scattering Network"
+    },
+    {
+      "id": "conf-85",
+      "type": "conference",
+      "title": "SE-SwinUNet++: Enhanced Transformer-based Segmentation for Brain Tumors Using FLAIR MRI Images"
+    },
+    {
+      "id": "conf-86",
+      "type": "conference",
+      "title": "U-Net++ with EfficientNetB7: A Deep Learning Framework for Clinical Brain Tumor Segmentation"
+    },
+    {
+      "id": "conf-87",
+      "type": "conference",
+      "title": "Cyber-Bullying Detection Via Text Mining And Machine Learning"
+    },
+    {
+      "id": "conf-88",
+      "type": "conference",
+      "title": "Early Detection of Lung Cancer Using Computer Aided Tomography Images"
+    },
+    {
+      "id": "conf-89",
+      "type": "conference",
+      "title": "Smart Accident Detection And Alert System"
+    },
+    {
+      "id": "conf-90",
+      "type": "conference",
+      "title": "A Review-and-Reviewer based approach for Fake Review Detection"
+    },
+    {
+      "id": "conf-91",
+      "type": "conference",
+      "title": "Mental stress detection using machine learning algorithm"
+    },
+    {
+      "id": "conf-92",
+      "type": "conference",
+      "title": "Microcontroller based Substation Disaster Monitoring System"
+    },
+    {
+      "id": "conf-93",
+      "type": "conference",
+      "title": "Co-Mart - A Daily Necessity Price Comparison Application"
+    },
+    {
+      "id": "conf-94",
+      "type": "conference",
+      "title": "Self Driving Car using Neural Networks"
+    },
+    {
+      "id": "conf-95",
+      "type": "conference",
+      "title": "An Empirical Approach for Tuning an Autonomous Mobile Robot in Gazebo"
+    },
+    {
+      "id": "conf-96",
+      "type": "conference",
+      "title": "EEG Based Human Emotion Analysis"
+    },
+    {
+      "id": "conf-97",
+      "type": "conference",
+      "title": "Implementation of RFID-based Lab Inventory System"
+    },
+    {
+      "id": "conf-98",
+      "type": "conference",
+      "title": "Enhancing Government Scheme Accessibility, User Profiling and Personalized Recommendations using Data Mining"
+    },
+    {
+      "id": "conf-99",
+      "type": "conference",
+      "title": "Enhanced Detection of Maize Leaf Blight in Dynamic Field Conditions Using Modified YOLOv9"
+    },
+    {
+      "id": "conf-100",
+      "type": "conference",
+      "title": "Multi-Stage UAV-Based System for Scalable and Accurate Crop Health Monitoring"
+    },
+    {
+      "id": "conf-101",
+      "type": "conference",
+      "title": "Audio Deepfake Detection using Deep Scattering Network"
+    },
+    {
+      "id": "conf-102",
+      "type": "conference",
+      "title": "SE-SwinUNet++: Enhanced Transformer-based Segmentation for Brain Tumors Using FLAIR MRI Images"
+    },
+    {
+      "id": "conf-103",
+      "type": "conference",
+      "title": "U-Net++ with EfficientNetB7: A Deep Learning Framework for Clinical Brain Tumor Segmentation"
+    },
+    {
+      "id": "journal-20",
+      "type": "journal",
+      "title": "Intelligent Face Recognition Techniques: A Comparative Study"
+    },
+    {
+      "id": "journal-21",
+      "type": "journal",
+      "title": "Face Recognition Using Contour Matching"
+    },
+    {
+      "id": "journal-31",
+      "type": "journal",
+      "title": "Face Recognition Using Principal Component Analysis"
+    },
+    {
+      "id": "journal-34",
+      "type": "journal",
+      "title": "Steganography Security for Copyright Protections of Digital Images Using DWT"
+    },
+    {
+      "id": "journal-39",
+      "type": "journal",
+      "title": "Performance of Reed-Solomon Codes in AWGN Channel"
+    },
+    {
+      "id": "journal-44",
+      "type": "journal",
+      "title": "DTMF Generation and Detection"
+    },
+    {
+      "id": "journal-48",
+      "type": "journal",
+      "title": "Application of Parallel Genetic algorithm for Exam Timetabling Problem"
+    },
+    {
+      "id": "journal-68",
+      "type": "journal",
+      "title": "Facial Expression Recognition using Digital Signature Feature Descriptor"
+    },
+    {
+      "id": "patent-1",
+      "type": "patent",
+      "title": "SUSTAINABLE PICOHYDRO POWER GENERATION SYSTEM"
+    },
+    {
+      "id": "patent-2",
+      "type": "patent",
+      "title": "PORTABLE, VEHICLE INDEPENDENT AND INTEGRATED DRIVER ALERT, SECURITY, GPS NAVIGATION & ENTERTAINMENT SYSTEM"
+    },
+    {
+      "id": "patent-3",
+      "type": "patent",
+      "title": "SYSTEM FOR PROVIDING INSTANT ASSISTANCE DURING URGENT SITUATIONS"
+    },
+    {
+      "id": "patent-4",
+      "type": "patent",
+      "title": "BIOMETRIC PATTERN RECOGNITION SYSTEM"
+    },
+    {
+      "id": "patent-5",
+      "type": "patent",
+      "title": "DETECTION OF BLOOD ALCOHOL LEVEL BY BREATH ANALYSIS USING SEMICONDUCTOR"
+    },
+    {
+      "id": "patent-6",
+      "type": "patent",
+      "title": "A SYSTEM AND METHOD FOR HUMAN FACE IDENTIFICATION"
+    },
+    {
+      "id": "patent-7",
+      "type": "patent",
+      "title": "SYSTEM AND METHODS FOR GSM BASED SOIL MONITORING"
+    },
+    {
+      "id": "patent-8",
+      "type": "patent",
+      "title": "COMBINATION OF CELLULAR PHONE HAVING ELECTROSHOCKING DEVICE AND REMOTE ALERT SYSTEM"
+    },
+    {
+      "id": "patent-9",
+      "type": "patent",
+      "title": "SYSTEM AND METHOD TO ENABLE VISUALLY CHALLENGED TO DIRECT SIGNALS"
+    },
+    {
+      "id": "patent-10",
+      "type": "patent",
+      "title": "SYSTEMS AND METHODS FOR DECOMPOSITION OF BIOMASS"
+    },
+    {
+      "id": "patent-11",
+      "type": "patent",
+      "title": "SYSTEMS AND METHODS TO FACILITATE COLLECTION & FORWARDING DONATED COMMODITY TO AUTHORIZED CENTRAL COLLECTION CENTRES"
+    },
+    {
+      "id": "patent-12",
+      "type": "patent",
+      "title": "VIRTUAL FITNESS SYSTEM"
+    },
+    {
+      "id": "patent-13",
+      "type": "patent",
+      "title": "SYSTEMS AND METHODS TO TRAIN AND TEST USING AUGMENTED REALITY"
+    },
+    {
+      "id": "patent-14",
+      "type": "patent",
+      "title": "SYSTEM AND METHODS FOR INFORMATION DISPLAY, EVALUATION OF EVENTS AND PERFORMING ACTIONS RELATED TO EVENTS"
+    },
+    {
+      "id": "patent-17",
+      "type": "patent",
+      "title": "SYSTEM AND METHOD FOR GENERATING INTELLIGENT RESPONSES WITH A SPEAKER"
+    },
+    {
+      "id": "patent-18",
+      "type": "patent",
+      "title": "REAL-TIME OBSTACLE DETECTION AND RESPONSE SYSTEM FOR SAFER DRIVING"
+    },
+    {
+      "id": "patent-19",
+      "type": "patent",
+      "title": "SYSTEMS AND METHODS FOR A WEB-BASED LEARNING PLATFORM FOR ONLINE COURSES"
+    },
+    {
+      "id": "patent-20",
+      "type": "patent",
+      "title": "REMOTES-A REAL-TIME PERSON DETECTION AND SURVEILLANCE SYSTEM"
+    },
+    {
+      "id": "patent-21",
+      "type": "patent",
+      "title": "ELECTRIFY MOBILITY"
+    },
+    {
+      "id": "patent-22",
+      "type": "patent",
+      "title": "EYE STREAM: A SECURE, REAL-TIME DRONE SURVEILLANCE SYSTEM"
+    },
+    {
+      "id": "patent-23",
+      "type": "patent",
+      "title": "DOPPEL SCAN: DUAL AUTHENTICATION CONTACTLESS ATTENDANCE SYSTEM"
+    },
+    {
+      "id": "patent-24",
+      "type": "patent",
+      "title": "AUTOMATED CROP HEALTH MONITORING SYSTEM USING UNMANNED AERIAL VEHICLE"
+    },
+    {
+      "id": "patent-25",
+      "type": "patent",
+      "title": "SPEED MAPPING FOR INDIAN ROADS"
+    },
+    {
+      "id": "patent-26",
+      "type": "patent",
+      "title": "GROUND ROBOT FOR AGRICULTURE"
+    },
+    {
+      "id": "patent-27",
+      "type": "patent",
+      "title": "DRONE FOR TUNNEL INSPECTION"
+    },
+    {
+      "id": "patent-28",
+      "type": "patent",
+      "title": "MEDICAL MONITORING DEVICE"
+    },
+    {
+      "id": "patent-29",
+      "type": "patent",
+      "title": "SMART SPEAKER WITH PROJECTOR"
+    },
+    {
+      "id": "patent-30",
+      "type": "patent",
+      "title": "SERVICE ROBOT"
+    },
+    {
+      "id": "patent-31",
+      "type": "patent",
+      "title": "SYSTEM AND METHOD FOR MULTILINGUAL TRANSLATOR WITH SPEAKER IDENTIFICATION ON PORTABLE SINGLE BOARD COMPUTER"
+    },
+    {
+      "id": "patent-32",
+      "type": "patent",
+      "title": "A Bank Safe Deposit Box Security System With Biometric Authentication And Sensor Monitoring"
+    },
+    {
+      "id": "patent-33",
+      "type": "patent",
+      "title": "BIOMETRIC TERMINAL"
+    },
+    {
+      "id": "patent-34",
+      "type": "patent",
+      "title": "TOY ROBOT"
+    },
+    {
+      "id": "patent-35",
+      "type": "patent",
+      "title": "A SECURE SYSTEM FOR BIOMETRIC VOTER IDENTIFICATION AND VOTING AUTHORIZATION"
+    },
+    {
+      "id": "patent-36",
+      "type": "patent",
+      "title": "A WEARABLE PHYSIOLOGICAL MONITORING AND SIGNAL PROCESSING SYSTEM"
+    }
+  ],
+  "missing": []
+}

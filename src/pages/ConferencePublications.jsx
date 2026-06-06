@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { ExternalLink, FileText, Link as LinkIcon } from 'lucide-react';
+import { ExternalLink, FileText } from 'lucide-react';
 import Badge from '../components/ui/Badge';
 import publicationsData from '../utils/publications_data.json';
 
@@ -134,7 +134,6 @@ const ConferencePublications = () => {
       pub.conference,
       pub.venue,
       pub.publisher,
-      pub.doi || '',
       pub.proceedingpages || '',
     ].join(' ').toLowerCase();
     
@@ -250,7 +249,7 @@ const ConferencePublications = () => {
             <div className="relative">
               <input
                 type="text"
-                placeholder="Search by title, authors, conference, venue, DOI, or keywords..."
+                placeholder="Search by title, authors, conference, venue, or keywords..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full px-4 py-2.5 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent text-gray-900 placeholder-gray-400"
@@ -376,17 +375,7 @@ const ConferencePublications = () => {
 
                           {/* Action Links */}
                           <div className="flex items-center gap-4 ml-auto">
-                            {pub.doi && (
-                              <a
-                                href={`https://doi.org/${pub.doi}`}
-                                className="flex items-center gap-1 text-sm text-gray-700 hover:text-gray-900 underline cursor-pointer"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                              >
-                                <LinkIcon className="w-4 h-4" />
-                                DOI
-                              </a>
-                            )}
+                            
                             {pub.paperLink && (
                               <a
                                 href={pub.paperLink}

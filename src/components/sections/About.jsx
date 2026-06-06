@@ -16,6 +16,15 @@ const About = () => {
               </div>
 
               <div className="space-y-6">
+                <div className="mt-6">
+                  <div className="relative inline-block">
+                    <div className="absolute -inset-3 bg-linear-to-br from-teal-200/40 to-cyan-200/40 rounded-full blur-2xl" />
+                    <div className="relative w-44 h-44 sm:w-56 sm:h-56 md:w-72 md:h-72 rounded-2xl overflow-hidden shadow-2xl ring-1 ring-teal-100 bg-white">
+                      <img src="/pfp1.jpeg" alt="Dr. K.T.V TALELE" className="object-cover w-full h-full" />
+                    </div>
+                  </div>
+                </div>
+
                 <div className="flex items-start gap-4 p-4 bg-cyan-50/50 rounded-xl border border-cyan-100">
                   <div className="p-2 bg-cyan-100 rounded-lg flex-shrink-0">
                     <Users className="w-5 h-5 text-cyan-700" />

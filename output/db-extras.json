@@ -1,0 +1,197 @@
+{
+  "totalDb": 136,
+  "provided": 120,
+  "extrasCount": 38,
+  "extras": [
+    {
+      "id": "conf-18",
+      "type": "conference",
+      "title": "PID CONTROLLER USING DSP TMS320VC5416 PROCESSOR"
+    },
+    {
+      "id": "conf-26",
+      "type": "conference",
+      "title": "AudioWatermarking"
+    },
+    {
+      "id": "conf-52",
+      "type": "conference",
+      "title": "Efficient Heterogeneous Face Recognition using Scale Invariant Feature Transform"
+    },
+    {
+      "id": "conf-58",
+      "type": "conference",
+      "title": "Determination of Patient Setup Error in Radiotherapy using Feature-Based Multimodal Rigid Image Registration"
+    },
+    {
+      "id": "patent-1",
+      "type": "patent",
+      "title": "SUSTAINABLE PICOHYDRO POWER GENERATION SYSTEM"
+    },
+    {
+      "id": "patent-2",
+      "type": "patent",
+      "title": "PORTABLE, VEHICLE INDEPENDENT AND INTEGRATED DRIVER ALERT, SECURITY, GPS NAVIGATION & ENTERTAINMENT SYSTEM"
+    },
+    {
+      "id": "patent-3",
+      "type": "patent",
+      "title": "SYSTEM FOR PROVIDING INSTANT ASSISTANCE DURING URGENT SITUATIONS"
+    },
+    {
+      "id": "patent-4",
+      "type": "patent",
+      "title": "BIOMETRIC PATTERN RECOGNITION SYSTEM"
+    },
+    {
+      "id": "patent-5",
+      "type": "patent",
+      "title": "DETECTION OF BLOOD ALCOHOL LEVEL BY BREATH ANALYSIS USING SEMICONDUCTOR"
+    },
+    {
+      "id": "patent-6",
+      "type": "patent",
+      "title": "A SYSTEM AND METHOD FOR HUMAN FACE IDENTIFICATION"
+    },
+    {
+      "id": "patent-7",
+      "type": "patent",
+      "title": "SYSTEM AND METHODS FOR GSM BASED SOIL MONITORING"
+    },
+    {
+      "id": "patent-8",
+      "type": "patent",
+      "title": "COMBINATION OF CELLULAR PHONE HAVING ELECTROSHOCKING DEVICE AND REMOTE ALERT SYSTEM"
+    },
+    {
+      "id": "patent-9",
+      "type": "patent",
+      "title": "SYSTEM AND METHOD TO ENABLE VISUALLY CHALLENGED TO DIRECT SIGNALS"
+    },
+    {
+      "id": "patent-10",
+      "type": "patent",
+      "title": "SYSTEMS AND METHODS FOR DECOMPOSITION OF BIOMASS"
+    },
+    {
+      "id": "patent-11",
+      "type": "patent",
+      "title": "SYSTEMS AND METHODS TO FACILITATE COLLECTION & FORWARDING DONATED COMMODITY TO AUTHORIZED CENTRAL COLLECTION CENTRES"
+    },
+    {
+      "id": "patent-12",
+      "type": "patent",
+      "title": "VIRTUAL FITNESS SYSTEM"
+    },
+    {
+      "id": "patent-13",
+      "type": "patent",
+      "title": "SYSTEMS AND METHODS TO TRAIN AND TEST USING AUGMENTED REALITY"
+    },
+    {
+      "id": "patent-14",
+      "type": "patent",
+      "title": "SYSTEM AND METHODS FOR INFORMATION DISPLAY, EVALUATION OF EVENTS AND PERFORMING ACTIONS RELATED TO EVENTS"
+    },
+    {
+      "id": "patent-17",
+      "type": "patent",
+      "title": "SYSTEM AND METHOD FOR GENERATING INTELLIGENT RESPONSES WITH A SPEAKER"
+    },
+    {
+      "id": "patent-18",
+      "type": "patent",
+      "title": "REAL-TIME OBSTACLE DETECTION AND RESPONSE SYSTEM FOR SAFER DRIVING"
+    },
+    {
+      "id": "patent-19",
+      "type": "patent",
+      "title": "SYSTEMS AND METHODS FOR A WEB-BASED LEARNING PLATFORM FOR ONLINE COURSES"
+    },
+    {
+      "id": "patent-20",
+      "type": "patent",
+      "title": "REMOTES-A REAL-TIME PERSON DETECTION AND SURVEILLANCE SYSTEM"
+    },
+    {
+      "id": "patent-21",
+      "type": "patent",
+      "title": "ELECTRIFY MOBILITY"
+    },
+    {
+      "id": "patent-22",
+      "type": "patent",
+      "title": "EYE STREAM: A SECURE, REAL-TIME DRONE SURVEILLANCE SYSTEM"
+    },
+    {
+      "id": "patent-23",
+      "type": "patent",
+      "title": "DOPPEL SCAN: DUAL AUTHENTICATION CONTACTLESS ATTENDANCE SYSTEM"
+    },
+    {
+      "id": "patent-24",
+      "type": "patent",
+      "title": "AUTOMATED CROP HEALTH MONITORING SYSTEM USING UNMANNED AERIAL VEHICLE"
+    },
+    {
+      "id": "patent-25",
+      "type": "patent",
+      "title": "SPEED MAPPING FOR INDIAN ROADS"
+    },
+    {
+      "id": "patent-26",
+      "type": "patent",
+      "title": "GROUND ROBOT FOR AGRICULTURE"
+    },
+    {
+      "id": "patent-27",
+      "type": "patent",
+      "title": "DRONE FOR TUNNEL INSPECTION"
+    },
+    {
+      "id": "patent-28",
+      "type": "patent",
+      "title": "MEDICAL MONITORING DEVICE"
+    },
+    {
+      "id": "patent-29",
+      "type": "patent",
+      "title": "SMART SPEAKER WITH PROJECTOR"
+    },
+    {
+      "id": "patent-30",
+      "type": "patent",
+      "title": "SERVICE ROBOT"
+    },
+    {
+      "id": "patent-31",
+      "type": "patent",
+      "title": "SYSTEM AND METHOD FOR MULTILINGUAL TRANSLATOR WITH SPEAKER IDENTIFICATION ON PORTABLE SINGLE BOARD COMPUTER"
+    },
+    {
+      "id": "patent-32",
+      "type": "patent",
+      "title": "A Bank Safe Deposit Box Security System With Biometric Authentication And Sensor Monitoring"
+    },
+    {
+      "id": "patent-33",
+      "type": "patent",
+      "title": "BIOMETRIC TERMINAL"
+    },
+    {
+      "id": "patent-34",
+      "type": "patent",
+      "title": "TOY ROBOT"
+    },
+    {
+      "id": "patent-35",
+      "type": "patent",
+      "title": "A SECURE SYSTEM FOR BIOMETRIC VOTER IDENTIFICATION AND VOTING AUTHORIZATION"
+    },
+    {
+      "id": "patent-36",
+      "type": "patent",
+      "title": "A WEARABLE PHYSIOLOGICAL MONITORING AND SIGNAL PROCESSING SYSTEM"
+    }
+  ]
+}

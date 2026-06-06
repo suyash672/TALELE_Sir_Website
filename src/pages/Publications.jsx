@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { ExternalLink, Link as LinkIcon } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 import Badge from '../components/ui/Badge';
 import publicationsData from '../utils/publications_data.json';
 import patentsData from '../utils/patents_data.json';
@@ -8,6 +8,15 @@ const parseDate = (value) => {
   if (!value || typeof value !== 'string') return null;
   const date = new Date(value);
   return Number.isNaN(date.getTime()) ? null : date;
+};
+
+const toTitleCase = (str) => {
+  if (!str || typeof str !== 'string') return str;
+  return str
+    .toLowerCase()
+    .split(' ')
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(' ');
 };
 
 const formatDate = (date, fallback) => {
@@ -101,13 +110,14 @@ const Publications = () => {
     });
 
     const patentItems = (patentsData?.patents || []).map((patent) => {
-      const parsedDate = parseDate(patent.publicationdate) || parseDate(patent.date);
+      const parsedDate = parseDate(patent.publicationdate) || parseDate(patent.registrationdate) || parseDate(patent.date);
       const inventors = Array.isArray(patent.authors) ? patent.authors.join(', ') : patent.authors || '';
+      const title = toTitleCase(patent.title || 'Untitled');
 
       return {
         id: `patent-${patent.id}`,
         type: 'Patent',
-        title: patent.title || 'Untitled',
+        title: title,
         contributors: inventors,
         venue: patent.organisation || 'India Patent Office',
         detail: patent.patentnumber
@@ -119,22 +129,24 @@ const Publications = () => {
         link: patent.reference_link || null,
         sortDate: parsedDate,
         sortTime: parsedDate ? parsedDate.getTime() : 0,
-        displayDate: formatDate(parsedDate, patent.publicationdate || patent.date),
+        displayDate: formatDate(parsedDate, patent.publicationdate || patent.registrationdate || patent.date),
       };
     });
 
     return [...conferenceItems, ...journalItems, ...patentItems].sort((a, b) => b.sortTime - a.sortTime);
   }, []);
 
-  const filteredItems = useMemo(() => {
-    const typeFilteredItems = allItems.filter((item) => {
+  const typeFilteredItems = useMemo(() => {
+    return allItems.filter((item) => {
       if (activeTypeFilter === 'all') return true;
       if (activeTypeFilter === 'conference') return item.type === 'Conference Publication';
       if (activeTypeFilter === 'journal') return item.type === 'Journal Publication';
       if (activeTypeFilter === 'patent') return item.type === 'Patent';
       return false;
     });
+  }, [allItems, activeTypeFilter]);
 
+  const filteredItems = useMemo(() => {
     if (!searchQuery.trim()) return typeFilteredItems;
 
     const terms = searchQuery
@@ -150,7 +162,6 @@ const Publications = () => {
         item.contributors,
         item.venue,
         item.detail,
-        item.doi || '',
         item.displayDate,
       ]
         .join(' ')
@@ -158,19 +169,19 @@ const Publications = () => {
 
       return terms.every((term) => searchable.includes(term));
     });
-  }, [allItems, searchQuery, activeTypeFilter]);
+  }, [typeFilteredItems, searchQuery]);
 
   return (
     <main className="min-h-screen bg-white pt-24 lg:pt-28">
       <div className="container mx-auto px-4 py-8 lg:py-12">
         <div className="max-w-6xl mx-auto">
           <div className="mb-8 lg:mb-12">
-            <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-2">Publications</h1>
+            <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-2">Publications</h1>
             <p className="text-lg text-gray-600 mb-3">
               Combined list of conference papers, journal publications, and patents
             </p>
             <p className="text-sm text-gray-500">
-              {allItems.length} total entries, ordered by latest date first
+              {typeFilteredItems.length} total entries, ordered by latest date first
             </p>
           </div>
 
@@ -181,11 +192,10 @@ const Publications = () => {
                 onClick={() =>
                   setActiveTypeFilter((prev) => (prev === 'patent' ? 'all' : 'patent'))
                 }
-                className={`px-4 py-2 rounded-md border text-sm font-medium transition-colors ${
-                  activeTypeFilter === 'patent'
+                className={`px-4 py-2 rounded-md border text-sm font-medium transition-colors ${activeTypeFilter === 'patent'
                     ? 'bg-gray-900 text-white border-gray-900'
                     : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'
-                }`}
+                  }`}
               >
                 Patents
               </button>
@@ -195,11 +205,10 @@ const Publications = () => {
                 onClick={() =>
                   setActiveTypeFilter((prev) => (prev === 'journal' ? 'all' : 'journal'))
                 }
-                className={`px-4 py-2 rounded-md border text-sm font-medium transition-colors ${
-                  activeTypeFilter === 'journal'
+                className={`px-4 py-2 rounded-md border text-sm font-medium transition-colors ${activeTypeFilter === 'journal'
                     ? 'bg-gray-900 text-white border-gray-900'
                     : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'
-                }`}
+                  }`}
               >
                 Journal Publications
               </button>
@@ -209,11 +218,10 @@ const Publications = () => {
                 onClick={() =>
                   setActiveTypeFilter((prev) => (prev === 'conference' ? 'all' : 'conference'))
                 }
-                className={`px-4 py-2 rounded-md border text-sm font-medium transition-colors ${
-                  activeTypeFilter === 'conference'
+                className={`px-4 py-2 rounded-md border text-sm font-medium transition-colors ${activeTypeFilter === 'conference'
                     ? 'bg-gray-900 text-white border-gray-900'
                     : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'
-                }`}
+                  }`}
               >
                 Conference Publications
               </button>
@@ -222,7 +230,7 @@ const Publications = () => {
             <div className="relative">
               <input
                 type="text"
-                placeholder="Search by title, author/inventor, venue, patent number, DOI, or keyword..."
+                placeholder="Search by title, author/inventor, venue, patent number, or keyword..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full px-4 py-2.5 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent text-gray-900 placeholder-gray-400"
@@ -276,18 +284,6 @@ const Publications = () => {
                   )}
 
                   <div className="flex flex-wrap items-center gap-4 text-sm">
-                    {item.doi && (
-                      <a
-                        href={`https://doi.org/${item.doi}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-600 hover:text-blue-800 inline-flex items-center gap-1"
-                      >
-                        <LinkIcon className="w-4 h-4" />
-                        DOI
-                      </a>
-                    )}
-
                     {item.link && (
                       <a
                         href={item.link}

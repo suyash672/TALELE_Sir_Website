@@ -152,7 +152,7 @@ const OutreachActivities = () => {
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
           <div className="mb-8 lg:mb-12">
-            <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-2">
+            <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-2">
               Outreach & Professional Activities
             </h1>
             <p className="text-lg text-gray-600 mb-3">

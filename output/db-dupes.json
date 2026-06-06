@@ -1,0 +1,295 @@
+{
+  "totalDb": 136,
+  "dupeGroups": 18,
+  "dupeCount": 36,
+  "dupes": [
+    {
+      "normalized": "comparison of various image registration techniques with the proposed hybrid system",
+      "count": 2,
+      "items": [
+        {
+          "id": "conf-50",
+          "type": "conference",
+          "title": "Comparison of various Image Registration Techniques with the Proposed Hybrid System"
+        },
+        {
+          "id": "conf-57",
+          "type": "conference",
+          "title": "Comparison of various Image Registration Techniques with the Proposed Hybrid System"
+        }
+      ]
+    },
+    {
+      "normalized": "cyber bullying detection via text mining and machine learning",
+      "count": 2,
+      "items": [
+        {
+          "id": "conf-70",
+          "type": "conference",
+          "title": "CYBER-BULLYING DETECTION VIA TEXT MINING AND MACHINE LEARNING"
+        },
+        {
+          "id": "conf-87",
+          "type": "conference",
+          "title": "Cyber-Bullying Detection Via Text Mining And Machine Learning"
+        }
+      ]
+    },
+    {
+      "normalized": "early detection of lung cancer using computer aided tomography images",
+      "count": 2,
+      "items": [
+        {
+          "id": "conf-71",
+          "type": "conference",
+          "title": "Early Detection of Lung Cancer Using Computer Aided Tomography Images"
+        },
+        {
+          "id": "conf-88",
+          "type": "conference",
+          "title": "Early Detection of Lung Cancer Using Computer Aided Tomography Images"
+        }
+      ]
+    },
+    {
+      "normalized": "smart accident detection and alert system",
+      "count": 2,
+      "items": [
+        {
+          "id": "conf-72",
+          "type": "conference",
+          "title": "Smart Accident Detection And Alert System"
+        },
+        {
+          "id": "conf-89",
+          "type": "conference",
+          "title": "Smart Accident Detection And Alert System"
+        }
+      ]
+    },
+    {
+      "normalized": "a review and reviewer based approach for fake review detection",
+      "count": 2,
+      "items": [
+        {
+          "id": "conf-73",
+          "type": "conference",
+          "title": "A Review-and-Reviewer based approach for Fake Review Detection"
+        },
+        {
+          "id": "conf-90",
+          "type": "conference",
+          "title": "A Review-and-Reviewer based approach for Fake Review Detection"
+        }
+      ]
+    },
+    {
+      "normalized": "mental stress detection using machine learning algorithm",
+      "count": 2,
+      "items": [
+        {
+          "id": "conf-74",
+          "type": "conference",
+          "title": "Mental stress detection using machine learning algorithm"
+        },
+        {
+          "id": "conf-91",
+          "type": "conference",
+          "title": "Mental stress detection using machine learning algorithm"
+        }
+      ]
+    },
+    {
+      "normalized": "microcontroller based substation disaster monitoring system",
+      "count": 2,
+      "items": [
+        {
+          "id": "conf-75",
+          "type": "conference",
+          "title": "Microcontroller based Substation Disaster Monitoring System"
+        },
+        {
+          "id": "conf-92",
+          "type": "conference",
+          "title": "Microcontroller based Substation Disaster Monitoring System"
+        }
+      ]
+    },
+    {
+      "normalized": "co mart a daily necessity price comparison application",
+      "count": 2,
+      "items": [
+        {
+          "id": "conf-76",
+          "type": "conference",
+          "title": "Co-Mart - A Daily Necessity Price Comparison Application"
+        },
+        {
+          "id": "conf-93",
+          "type": "conference",
+          "title": "Co-Mart - A Daily Necessity Price Comparison Application"
+        }
+      ]
+    },
+    {
+      "normalized": "self driving car using neural networks",
+      "count": 2,
+      "items": [
+        {
+          "id": "conf-77",
+          "type": "conference",
+          "title": "Self Driving Car using Neural Networks"
+        },
+        {
+          "id": "conf-94",
+          "type": "conference",
+          "title": "Self Driving Car using Neural Networks"
+        }
+      ]
+    },
+    {
+      "normalized": "an empirical approach for tuning an autonomous mobile robot in gazebo",
+      "count": 2,
+      "items": [
+        {
+          "id": "conf-78",
+          "type": "conference",
+          "title": "An Empirical Approach for Tuning an Autonomous Mobile Robot in Gazebo"
+        },
+        {
+          "id": "conf-95",
+          "type": "conference",
+          "title": "An Empirical Approach for Tuning an Autonomous Mobile Robot in Gazebo"
+        }
+      ]
+    },
+    {
+      "normalized": "eeg based human emotion analysis",
+      "count": 2,
+      "items": [
+        {
+          "id": "conf-79",
+          "type": "conference",
+          "title": "EEG Based Human Emotion Analysis"
+        },
+        {
+          "id": "conf-96",
+          "type": "conference",
+          "title": "EEG Based Human Emotion Analysis"
+        }
+      ]
+    },
+    {
+      "normalized": "implementation of rfid based lab inventory system",
+      "count": 2,
+      "items": [
+        {
+          "id": "conf-80",
+          "type": "conference",
+          "title": "Implementation of RFID-based Lab Inventory System"
+        },
+        {
+          "id": "conf-97",
+          "type": "conference",
+          "title": "Implementation of RFID-based Lab Inventory System"
+        }
+      ]
+    },
+    {
+      "normalized": "enhancing government scheme accessibility user profiling and personalized recommendations using data mining",
+      "count": 2,
+      "items": [
+        {
+          "id": "conf-81",
+          "type": "conference",
+          "title": "Enhancing Government Scheme Accessibility, User Profiling and Personalized Recommendations using Data Mining"
+        },
+        {
+          "id": "conf-98",
+          "type": "conference",
+          "title": "Enhancing Government Scheme Accessibility, User Profiling and Personalized Recommendations using Data Mining"
+        }
+      ]
+    },
+    {
+      "normalized": "enhanced detection of maize leaf blight in dynamic field conditions using modified yolov9",
+      "count": 2,
+      "items": [
+        {
+          "id": "conf-82",
+          "type": "conference",
+          "title": "Enhanced Detection of Maize Leaf Blight in Dynamic Field Conditions Using Modified YOLOv9"
+        },
+        {
+          "id": "conf-99",
+          "type": "conference",
+          "title": "Enhanced Detection of Maize Leaf Blight in Dynamic Field Conditions Using Modified YOLOv9"
+        }
+      ]
+    },
+    {
+      "normalized": "multi stage uav based system for scalable and accurate crop health monitoring",
+      "count": 2,
+      "items": [
+        {
+          "id": "conf-83",
+          "type": "conference",
+          "title": "Multi-Stage UAV-Based System for Scalable and Accurate Crop Health Monitoring"
+        },
+        {
+          "id": "conf-100",
+          "type": "conference",
+          "title": "Multi-Stage UAV-Based System for Scalable and Accurate Crop Health Monitoring"
+        }
+      ]
+    },
+    {
+      "normalized": "audio deepfake detection using deep scattering network",
+      "count": 2,
+      "items": [
+        {
+          "id": "conf-84",
+          "type": "conference",
+          "title": "Audio Deepfake Detection using Deep Scattering Network"
+        },
+        {
+          "id": "conf-101",
+          "type": "conference",
+          "title": "Audio Deepfake Detection using Deep Scattering Network"
+        }
+      ]
+    },
+    {
+      "normalized": "se swinunet enhanced transformer based segmentation for brain tumors using flair mri images",
+      "count": 2,
+      "items": [
+        {
+          "id": "conf-85",
+          "type": "conference",
+          "title": "SE-SwinUNet++: Enhanced Transformer-based Segmentation for Brain Tumors Using FLAIR MRI Images"
+        },
+        {
+          "id": "conf-102",
+          "type": "conference",
+          "title": "SE-SwinUNet++: Enhanced Transformer-based Segmentation for Brain Tumors Using FLAIR MRI Images"
+        }
+      ]
+    },
+    {
+      "normalized": "u net with efficientnetb7 a deep learning framework for clinical brain tumor segmentation",
+      "count": 2,
+      "items": [
+        {
+          "id": "conf-86",
+          "type": "conference",
+          "title": "U-Net++ with EfficientNetB7: A Deep Learning Framework for Clinical Brain Tumor Segmentation"
+        },
+        {
+          "id": "conf-103",
+          "type": "conference",
+          "title": "U-Net++ with EfficientNetB7: A Deep Learning Framework for Clinical Brain Tumor Segmentation"
+        }
+      ]
+    }
+  ]
+}

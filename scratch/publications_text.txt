@@ -1,0 +1,621 @@
+⮚	Academic Year : July-2005 to June-2006 
+( Patent = Nil,     Journal Paper =  Nil,   Conference Paper = 13 )
+,     
+[1]	S.T.Gandhe, K.T.Talele and A.G.Keskar, “Face Recognition Using Isodensity Maps: A Neural Network Approach”, International Conference on Emerging Applications in Information Technology (EAIT-2006) Organized by Computer Society on India (CSI) Calcutta chapter,10,11 Feb 2006.
+
+[2]	K.T.Talele, “Morphological Image Processing Software Toolkit For Undergraduate IT Courses”, National Conference on “Recent Trends in Information Technology  based Education and Training“(RTITET-2005)Proceeding page no : [ 241 to 252] Bannari Amman Institute of Technology, Sathyamangalam, Tamilnadu, 19, 20 OCT 2005.
+  https://www.spit.ac.in/wp-content/uploads/profkttalele/website/project.html
+
+[3]	D.N.Shah and K.T Talele, “Designing Information Security Laboratories For Undergraduate Engineering Courses”, National Conference on “Recent Trends in Information Technology  based Education and Training“(RTITET-2005) Proceeding page no : [ 37 to 42] Bannari Amman Institute of Technology, Sathyamangalam, Tamil Nadu, 19, 20 OCT 2005.
+
+[4]	S. T. Gandhe, S.S.Pukale, T.E.Gosavi and K. T. Talele, “A Novel Approach To Design Intelligent Path Finder”, National Conference on Control instrumentation system (CISCON-2005) Proceeding page no : 57 to 60, Manipal Institute of technology, Manipal, Karnataka, (won best paper award)  11, 12, Nov 2005
+
+[5]	S. T. Gandhe, S.S.Pukale, B.M. Bhadricha and K. T. Talele, “Low  Cost  Design  Of  Automatic   Robot : ’Microcart’ National conference on Innovations 2005, Baba Banda Singh Bahadur Engineering College, Fateharh Sahib, Punjab, 25,26 Nov 2005.
+
+[6]	S.T.Gandhe and K.T..Talele, Face Recognition Using Soft Computing ToolsNationalConferenceon Artificial Neural Networks Applications in Engineering and Technology (ANNET-2005), Proceeding page No : [45to49], Sreenidhi Institute of Science And Technology, Hyderabad  AP26 Nov 2005.
+                       https://www.spit.ac.in/wp-content/uploads/profkttalele/website/publication05_06.html
+
+[7]	K. T. Talele, “Image Compression using Hybrid AMBTC+VQ Technique “ National Conference on Signal Processing and Communication (SPCOM-2005)  Proceeding page No : 01 to 05, Sreenidhi Institute of Science And Technology, Hyderabad, 5-6 Dec 2005
+  https://www.spit.ac.in/wp-content/uploads/profkttalele/website/publication05_06.html
+   
+[8]	S. S. Rathod, Saurabh Kulkarni, Sachin Chhothani and K. T. Talele, “VLSI Implementation of  Viterbi Decoder'', National Conference under TEQIP at Government College of Engineering, Aurangabad, 23, 24 Jan 2006
+
+[9]	Haresh Jola, Rajesh Rathod and K.T.Talele, “PC Based Multimedia Messaging Service Transcoding”, National Conference on Wíreless Information  and Networking in global System WINGS-2006 at KLN College of Engineering, Pottapalayam, Tamil Nadu, 9, 10 March 2006
+
+[10]	K. T. Talele, S. T. Gandhe, Rinki Gupta,   Vricha Chavan  and KirtiRajadnya,  “Bio-Medical Image Enhancement” National Conference on Biomedical Engineering (NCBME-2006) At Sardar Patel College of Engineering, Andheri(w), 28,29 March 2006.
+
+[11]	Annu Binny and K. T. Talele, “ Secure Transfer of Biomedical Images and Patients Information over Public Data Network” National Conference on Biomedical Engineering (NCBME-2006) At Sardar Patel College of Engineering, Andheri(w), 28,29 March 2006.
+
+[12]	N. A. Bhagat, K. T. Taleleand S.T Gandhe, “Human Visual System Based Medical Image Compression Using Set Partitioning In Hierarchical Trees (SPIHT)”, National Conference on Biomedical Engineering (NCBME-2006) At Sardar Patel College of Engineering, Andheri(w), 28,29 March 2006.
+
+[13]	Amol Madane, K. T. Talele, S.T.Gandhe, “Telemedicine System Based On Public Network”  National Conference on Biomedical Engineering (NCBME-2006) At Sardar Patel College of Engineering, Andheri(w), 28,29 March 2006
+ 
+            ________________________________________________________________________
+
+⮚	Academic Year : July-2006 to June-2007
+⮚	( Patent = Nil,     Journal Paper =  Nil,   Conference Paper = 6)
+
+[14]	K. T. Talele, S. T. Gandhe and M. M. Shah “Fault Detection In PCB Using Homotopic Morphological Operator”, IEEE International Conference INDICON-2006 Delhi, 15, 16 and 17 Sept 2006.
+              https://ieeexplore.ieee.org/document/4086266
+
+[15]	Annu Binny and K. T. Talele, “An overview of JPEG 2000”, National Conference on -"Electro Info Com 2007’ at the ST Francis Institute of Technology, Mumbai, 4, 5 and 6   January 2007.
+              https://www.spit.ac.in/wp-content/uploads/profkttalele/website/publication06_07.html
+	
+[16]	B. L. Mali, K. T. Talele, Gitesh Mahajan and Shraddha Kharate, “Web Based Education:   Pros And Cons”. National Conference on Information and Communication Technology (NCICT-2006) At D.J.Sanghavi College of Engineering, Vile-Parle.
+
+[17]	Jimit Shah, S. T. Gandheand  K. T. Talele, “Wireless Software Device : A Modern Approach To Radio Engineering”, National Conference on Information and Communication Technology (NCICT-2006) At D.J.Sanghavi College of Engineering, Vile-Parle.
+
+[18]	Mohit Daptardar,   Rohit Gharat, Jayesh Parab, Tejas Makwana and K. T. Talele, “PID CONTROLLER USING DSP TMS320VC5416 PROCFESSOR” National Conference on Information and Communication Technology (NCICT-2006) At D.J.Sanghavi College of Engineering, Vile-Parle.
+
+[19]	 S. G. Manwatkar, K. S. Naidu, S.S. Shetty, H.A. Pagare, K.T.Talele and S.T.Gandhe, “Review of Image Segmentation Techniques” ”National Conference on Information and Communication Technology (NCICT-2006) At D. J. Sanghavi College of Engineering, Vile-Parle.
+
+⮚	Academic Year : July-2007 to June-2008 
+⮚	( Patent = Nil,     Journal Paper =  2,   Conference Paper = 9)
+
+
+●	Journal Publications [ Total : 2]
+
+[20]	 S.T.Gandhe, K.T.Taleleand  A.G.Keskar, “Intelligent Face Recognition Techniques: A  Comparative Study” Graphics Vision & Image Processing International Journal (GVIP), Vol.2, pp.53-60. July 2007.
+
+[21]	S.T.Gandhe, K.T.Taleleand  A.G.Keskar, “Face Recognition Using Contour Matching” IAENG International   Journal   of Computer  Science,vol.35,Issue 2, pp nos.226-233  July 2008.
+https://openurl.ebsco.com/EPDB%3Agcd%3A9%3A21377081/detailv2?sid=ebsco%3Aplink%3Ascholar&id=ebsco%3Agcd%3A33424113&crl=c
+
+●	Conference Publications  [Total : 9]
+
+[22]	 S.T.Gandhe, K.T.Talele,and A.G.Keskar “Image Recognition with Discrete Wavelet Transform”,11th KES International Conference  at VetriSul Mare, Italy, 12,13,14th Sept.2007.
+
+[23]	 S.T.Gandhe, K.T.Talele, and A.G.Keskar “Image Mining using Wavelet Transform”, Lecture Notes in Computer Science, Springer Link 12th September 2012.
+               https://link.springer.com/chapter/10.1007/978-3-540-74819-9_98
+
+[24]	 S.T. Gandhe, K.T.Talele, and A.G.Keskar “Face Recognition using DWT + PCA'' IEEE International Conference INDICON-2007 Bangalore, 06,07, and 08  Sept 2007..
+
+[25]	 SrinathIyer, Siddharth Gupta, AmolMadane and K.T.Talele, “CDMA MODEM Using Direct Sequence Spread Spectrum”, IEEE –ACVIT-07 International Conference on Advances in Computer Vision and Information Technology, BAMU Aurangabad, 28, 29 and 30 Nov 2007.
+
+[26]	 Suchit Shah,Manthan Shah,Amol Madane and K.T.Talele, “AudioWatermarking”,IEEE – ACVIT-07 International Conference on Advances in Computer Vision and Information Technology, BAMU Aurangabad, 28,29 and 30 Nov 2007.
+
+[27]	 Harsh Shah, Chinmay Sane, SwapnilSheth, K.T.Talele, “Burrow Wheeler's Transform For Efficient RLE Compression Applied to Audio Files”, SPIT – IEEE R-10 Colloquium & International Conference, Mumbai, 4, 5 Feb 2008.
+https://etrx.spit.ac.in/wp-content/blogs.dir/19/files/2012/ieee_colloquium/Image_Processing/spit-46.pdf
+
+[28]	 Amrapali Sawant, Amita Shinde and K. T. Talele,“Fracture Detection Using Euler Numbers”,     SPIT – IEEE R-10 Colloquium & International Conference, Mumbai, 4, 5 Feb 2008.
+https://etrx.spit.ac.in/wp-content/blogs.dir/19/files/2012/ieee_colloquium/Image_Processing/spit-279.pdf
+
+[29]	Kirti Rajadnya and K. T. Talele“Image Enhancement Techniques Pixel Operation In Spatial Domain”, SPIT – IEEE  R-10 Colloquium & International Conference, Mumbai,4, 5 Feb 2008.
+  https://etrx.spit.ac.in/wp-content/blogs.dir/19/files/2012/ieee_colloquium/Image_Processing/spit-136.pdf
+
+[30]	Amol Madane. K. T. Talele and M.. M. Shah, “Watermark Logo in Digital Image Using DWT”, SPIT – IEEE  R-10 Colloquium & International Conference, Mumbai,4, 5 Feb 2008.
+https://etrx.spit.ac.in/wp-content/blogs.dir/19/files/2012/ieee_colloquium/Image_Processing/spit-101.pdf
+
+⮚	Academic Year : July-2008 to June-2009 
+⮚	( Patent = Nil,     Journal Paper =  1,   Conference Paper = 2)
+
+●	Journal Publications [ Total :  1]
+
+[31]	S.T.Gandhe, K.T.Talele and A.G.Keskar,”Face Recognition Using Principal Component Analysis “, International Journal of Systemic, Cybernetics and Informatics, Pentagram, June 2008.
+
+●	Conference Publications [ Total :  2 ]
+
+[32]	Ujwala Potdar, K. T. Talele, and S. T. Gandhe, “ Comparison of MPEG Video Encryption Algorithms”,  ACM Special Interest Group on Artificial Intelligence, ACM Digital Library, June 2008.
+            https://dl.acm.org/doi/10.1145/1523103.1523163
+
+[33]	N.A.Bhagat, S.T.Gandhe and K.T.Talele, “Modified Set Partitioning in Hierarchical Tree”, By 4th  International Conference  on  Soft Computing and Intelligent  Systems and 9th International Symposium on Advanced Intelligent Systems (SCIS & ISIS 2008), Nagoya University, Nagoya, Japan; 18,19,20th Sept.2008
+             https://www.jstage.jst.go.jp/article/softscis/2008/0/2008_0_1765/_article
+
+⮚	Academic Year : July-2009 to June-2010
+⮚	( Patent = Nil,     Journal Paper =  1,   Conference Paper = 4)
+ 
+●	Journal Publications  [ Total :  1]
+
+[34]	K.T. Talele, S. T. Gandhe and Dr. A.G. Keskar, “Steganography Security for Copyright Protections of Digital Images Using DWT,”  International Journal of Computer and Network Security, Page – 21 Vol 2 No. 4, Apr. 2010
+https://www.researchgate.net/publication/49582818_Steganography_Security_for_Copyright_Protection_of_Digital_Images_Using_DWT
+
+●	Conference Publications  [ Total :  4]
+
+[35]	K T Talele and Sunil Kadam “Face Detection and Geometric Face Normalization,” International Conference on Emerging Technologies for Sustainable Development TENCON, 23, 24, 25 Nov 2009.
+             https://ieeexplore.ieee.org/document/5395980
+
+[36]	Ujwala Potdar, K. T. Talele, and S. T. Gandhe, “Dual Watermarking in Video using Discrete Wavelet Transform”, 2nd International Conference on Machine Vision, Dubai, 28-30thDec 2009.
+             https://ieeexplore.ieee.org/document/5381116
+
+[37]	Ujwala  Potdar, K. T. Talele, and S. T. Gandhe, “Perceptual Video Encryption for Multimedia Applications,” 2nd International Conference on Computer Engineering and Applications –Volume 01, March 2010.
+              https://ieeexplore.ieee.org/document/5445761
+
+[38]	Michelle Araujo, K. T. Talele and Dr. S. T. Gandhe, “Face Expression and Detection” 3rd International Conference on Machine Vision (ICMV-2010) 
+
+⮚	Academic Year : July-2010 to June-2011    
+⮚	( Patent = Nil,     Journal Paper =  1,   Conference Paper = 4)
+
+●	 Journal Publications [Total : 1 ]
+
+[39]	Anish S. Sanghvi, Nishant B. Mishra, Rajkumar Waghmode and K.T. Talele “Performance of Reed-Solomon Codes in AWGN Channel,” International Journal of Electronics and Communication Engineering (IJECE) Volume 4, Number 3, 2011.
+http://www.irphouse.com/ijece/ijecev4n3_02.pdf
+
+●	Conference Publications[Total : 4 ]
+
+[40]	Mark Nathan, Nikhil Parab and K.T. Talele, “Audio Steganography Using Spectrum Manipulation,” International Conference on Technology Systems and Management (Springer Link), Feb 25-27, 2011.
+             https://link.springer.com/chapter/10.1007/978-3-642-20209-4_21
+
+[41]	Anita P and K.T. Talele, “ECG feature Extraction using Wavelet Based Derivative Approach,” International Conference on Technology Systems and Management (Springer Link), Feb 25-27, 2011.
+              https://link.springer.com/chapter/10.1007/978-3-642-20209-4_34
+
+[42]	Balaji M., Iyengar Santosh A., K. T. Talele, “Novel Steganography Technique For Dual Independent Data Hiding In An Avi File”, 3rd International Conference on Signal Acquisition and Processing,ICSAP-2011   Feb 26- Feb 28, 2011.
+https://www.spit.ac.in/wp-content/uploads/profkttalele/website/publication10_11.html
+
+[43]	Anita Purushottam, Prachi Dhannawat and K. T. Talele, “Broad Band Power Line Communication”, ICWET 11 Proceedings of the International Conference & Workshop on Emerging Trends in Technology, 2011  Page : 1365
+
+⮚	Academic Year : July-2011 to June-2012 
+⮚	( Patent = Nil,     Journal Paper =  1,   Conference Paper = 3)
+
+●	Journal Publications [ Total :  1]
+
+[44]	Karna Shah, Nishit Shah, Siddhesh Supekar and K.T. Talele,”DTMF Generation and Detection”, International Journal of Information Sciences and Application (IJISA)Volume 3, Number 2 (2011)  Page 79-85
+            http://www.irphouse.com/ijisa/IJISAv3n2_3.pdf
+
+●	Conference Publications  [Total : 3]
+
+[45]	K. T. Talele, S. T. Gandhe, and A. G. Keskar, “Performance Enhancement of Face Recognition Algorithm Using DWT+PCA ,” at International Conference  on Signal, Image and Video Processing IIT Patna  January 2012.
+
+[46]	K.T. Talele and S T Gandhe. “Speech Compression using ADPCM” IJCA Proceedings on International Conference in Computational Intelligence (ICCIA2012) March 2012. Published by Foundation of Computer Science, New York, USA.
+              https://www.ijcaonline.org/proceedings/iccia/number8/5149-1061/
+
+[47]	K.T.Talele, Sunil Kadam and AtulTikare,  “Efficient Face Detection using Adaboost”  IJCA Proceedings on International Conference in Computational Intelligence (ICCIA2012) iccia(10):-, March 2012. Published by Foundation of Computer Science, New York, USA.
+https://www.ijcaonline.org/proceedings/iccia/number10/5164-1076/
+
+⮚	Academic Year : July-2012 to June-2013 
+⮚	( Patent = Nil,     Journal Paper =  1,   Conference Paper = Nil )
+
+●	Journal Publications [ Total :  1]
+
+[48]	Shiburaj Pappu, K. T. Talele and Junaid Mandviwala,”Application of Parallel Genetic algorithm for Exam Timetabling Problem”  At International Journal of Scientific & Engineering Research Volume 3, Issue 9 September 2012.
+https://www.ijser.org/researchpaper/application-of-parallel-genetic-algorithm-for-exam-timetabling-problem.pdf
+
+⮚	Academic Year : July-2013 to June-2014 
+⮚	( Patent = 2,     Journal Paper =  Nil,   Conference Paper = 4)
+
+●	Conference Publications  [Total : 4]
+
+[49] Neha Prakash Athavale and  K. T. Talele, “Comparison of various Image Registration Techniques with the Proposed Hybrid System” at International Conference on Advances in Recent Technologies in Electrical and Electronics – ARTEE Sep 20-21, 2013; Bangalore, India.
+https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3f306fc299dcdd0ba1008e1da6ef7d5475986c87
+
+[50] Arunkumar Mishra and  K. T. Talele, “Highway Traffic Surveillance by Unsupervised Learning” at International Conference on Electrical, Electronics, Computer Science and Mathematics Physical Education and Management (ICEECMPE) – November 2013, New Delhi, India. 
+
+[51] Vrushali Purandare and  K. T. Talele ,“ Efficient Heterogeneous Face Recognition suing    Scale    Invariant Feature Transform”, at International Conference Advances in Recent Technologies in Electrical and Electronics – ARTEE 2013 organized by the ACEEE and
+sponsored by the ISTE, Sep 19-20, 2013;Bangalore, India.
+ https://www.researchgate.net/publication/271481829
+
+[52] Shiburaj Pappu, K T Talele and K. V. Mehul, “Modified Enhanced Steady State Genetic Algorithm for Scheduling and Optimization Problem, IEEE International Conference  INDICON held at Victor Menezes Convention Centre, Indian Institute of Technology (IIT) Bombay, Mumbai, India from 13-15 December, 2013.
+https://ieeexplore.ieee.org/document/6726018
+
+●	Patent  [Total : 2]
+
+(53) Patent Title:  SUSTAINABLE PICOHYDRO POWER GENERATION SYSTEM	
+       Applicant/Inventor:  Sanjay Trymbak Gandhe and Talele Kiran		
+       Application No:  2140/MUM/2013 { Indian Patent Office)
+       Date of filing of Application: 24/06/2013	
+       Publication Date: 12/07/2013		
+       Web link: https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus
+       Status: Granted Application, Patent Number: 389177
+     
+     (54) Patent Title:  PORTABLE, VEHICLE INDEPENDENT AND INTEGRATED DRIVER    ALERT, SECURITY, GPS NAVIGATION & ENTERTAINMENT SYSTEM	
+    Applicant/Inventor:  Aditya Anand Naravane, Anasree Chatterjee, Talele Kiran, Ruchir     Kanakia and Shivani Prashant Nadkarni	
+    Application No:  1824/MUM/2012	(Indian Patent Office)	
+    Date of filing of Application:  25/06/2012			
+    Publication Date: 27/12/2013
+    Web link: https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus
+    
+⮚	Academic Year : July-2014 to June-2015 
+⮚	(Patent = 2,     Journal Paper =  Nil,   Conference Paper = 4)
+
+●	Conference Publications  [Total : 4]
+
+[55] Ashish Sahi and K. T. Talele, “Person Tracking using Mean Shift with Gray Level Grouping” at IEEE Sponsored International Conference on Communication, Information & Computing Technology (ICCICT-2015), organized by Sardar Patel Institute of Technology, Andheri (w), January 16-17, 2015.
+https://ieeexplore.ieee.org/document/7045705
+
+[56] Sandesh Patil and K. T. Talele, “Suspicious Movement Detection and Tracking based on Colour Histogram” at IEEE Sponsored International Conference on Communication, Information & Computing Technology (ICCICT-2015), organized by Sardar Patel Institute of Technology, Andheri (w), January 16-17, 2015.
+https://ieeexplore.ieee.org/document/7045698
+
+[57] Kevin D'souza and K. T. Talele, “Voice Conversion using Gaussian Mixture Models” at IEEE Sponsored International Conference on Communication, Information & Computing Technology (ICCICT-2015), organized by Sardar Patel Institute of Technology, Andheri (w), January 16-17, 2015.
+https://ieeexplore.ieee.org/document/7045743
+
+[58] Ayesha Hakim and K. T. Talele, “Comparison of various Image Registration Techniques with the Proposed Hybrid System” at IEEE Sponsored forth International Conference on Computation of Power, Energy, Information and Communication-2015, organized by Adhiparasakthi Engineering College, Melmaruvathur, Tamil Nadu, April  20-21, 2015.
+
+(59) Patent Title:  System For Providing Instant Assistance During Urgent   Situations		
+       Applicant/Inventor: Ghurye Ankita, Kamat Jagruti, Gharpure Prachi, Talele Kiran,
+       Ramaswamy Aparna			
+       Application No: 1404/MUM/2013 (Indian Patent Office)
+       Date of filing of Application: 15/04/2013	
+       Publication Date: 17/04/2015
+       Web link: https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStat
+
+ (60) Patent Title:   Biometric Pattern Recognition System
+       Applicant/Inventor:  Kanchar Akshay,Panchal Dhruv,Saxena Richa,Talele Kiran
+       Application No: 1406/MUM/2013 (Indian Patent Office)
+       Date of filing of Application: 15/04/2013						Publication Date: 17/04/2015
+      Web link: https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus
+      
+⮚	Academic Year : July-2015 to June-2016 
+⮚	(Patent = 3,     Journal Paper =  Nil,   Conference Paper = 4)
+
+●	Conference Publications  [Total : 3]
+
+[61]    Aayesha Hakim, K.T.V. Talele, Rajesh Harsh &DharmeshVerma, “Determination of Patient SetupError in Radiotherapy using Feature-Based Multimodal Rigid Image Registration”, at IEEE Bombay Section Signature Symposium (IBSS 2015) September 10-11, 2015.
+            https://ieeexplore.ieee.org/document/7456629
+
+[62]      Kiran Talele and Kushal Tuckley, “Facial Expression Classification using Support Vector Machine Based on Bidirectional Local Binary Pattern Histogram Feature Descriptor”, at 17th IEEE/ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD 2016), May 30 - June 1, 2016, Shanghai, China
+            https://ieeexplore.ieee.org/document/7515888
+
+[63]     Tanmay Patel, K. Aurobindo and K.T.talele, “Two Channel Reconfigurable Digital Receiver for Cloud Radar Applications”, IEEE International Conference on Recent Trends in Electronics Communication Technology, Bangalore May 20-21, 2016
+           https://ieeexplore.ieee.org/abstract/document/7808027
+
+(64)   Patent Title:   Detection of Blood Alcohol Level By Breath Analysis Using Semiconductor	
+         Applicant/Inventor: Mane Dhanashree, Shaikh Banafsha Nikhat, Avanish Balaji, Talele Kiran
+         Application No: 1405/MUM/2013 (Indian Patent Office)		
+         Date of filing of Application: 15/04/2013
+         Publication Date: 10/07/2015	
+        Web link: https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus
+
+(65) Patent Title:  A System And Method For Human Face Identification	
+       Applicant/Inventor: Bairathi Neha, Talele Kiran, Daga Rahul, Darji Jignesh, Panda Rekha
+       Application No: 1408/MUM/2013. (Indian Patent Office)	
+      Date of filing of Application: 15/04/2013 
+      Publication Date: 10/07/2015
+     Web link: https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus
+     
+(66) Patent Title: System and Methods for Gsm Based Soil Monitoring	
+        Applicant/Inventor: Patil Tushar, Gedam Mrunal, Gharat Adwait, Talele Kiran		
+        Application No: 1409/MUM/2013 (Indian Patent Office)
+        Date of filing of Application: 15/04/2013 			
+        Publication Date: 10/07/2015	
+       Web link: https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus
+
+⮚	Academic Year : July-2016 to June-2017
+⮚	(Patent = 2,     Journal Paper =  Nil,   Conference Paper = 4)
+
+●	Conference Publications  [Total : 4]
+
+[67]  Swati Derange, K.T.V. Talele & Soumyabrata Ghosh, “Edge Preserving and Smoothing and Enhancement For Electronic Portal Images”, 2nd International Conference on Computing, Communication, Control & Automation organized by Pimpri Chinchwad College Of Engineering & IEEE Pune Section on 12th & 13th August 2016.
+https://ieeexplore.ieee.org/document/7860058
+
+[68] Kiran Talele & Dr.Kushal Tuckley, “Human Action Unit Detection of Patient using Geometric Feature Analysis”, IEEE TENCON 2016- Technologies for Smart Nation, 22nd-25th Nov, 2016,Marina Bay Sands, Singapore. 
+https://ieeexplore.ieee.org/document/7848408
+
+[69] Neha Shirbhate & Kiran Talele,”Human Body Language Understanding for Action Detection using Geometric Features” , 2nd  International Conference on Contemporary Computing and Informatics, 14th to 17th Dec 2016. 
+  https://ieeexplore.ieee.org/document/7918034
+
+[70] KiranTalele, Archana Shirsat, Tejal Uplenchwar & Kushal Tuckley, “Facial Expression Recognition Using General Regression Neural Network”, IEEE Bombay Section Symposium at VPKBIET, Dec 22nd& 23rd , 2016.
+https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7940203
+
+(71) Patent Title: Combination of Cellular Phone Having Electroshocking Device and Remote         Alert System		
+       Applicant: Gharpure Prachi	
+       Inventor: Jadhav Ninad, Jain Manish, Ostwal Prajakta, Talele Kiran
+       Application No: 817/MUM/2015 (Indian Patent Office)
+       Date of filing of Application: 13/03/2015
+       Publication Date: 16/09/2016	
+
+(72) Patent Title: System and Method To Enable Visually Challenged To Direct Signals
+       Applicant: Gharpure Prachi	
+       Inventor: A Jgaonkar Aarohi, Vishwasrao Priyanka, Jaiswal Supriya, Chakole Kartik,Kabdule       Sahil, Tulsiram Anurag, Gandhi Harshit, Mangaonkar Nikhita,Talele Kiran	
+       Application No: 4482/MUM/2015. (Indian Patent Office)		
+       Date of filing of Application: 30/11/2015
+       Publication Date: 02/06/2017	
+       Web link: https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus
+
+⮚	Academic Year : July-2017 to June-2018 
+⮚	(Patent = 3,     Journal Paper =  Nil,   Conference Paper = 1)
+
+●	Conference Publications  [Total : 1]
+
+[73] Jyoti Singh, Divya Sawant, Sean Pereira, Crispin Lobo and Kiran Talele, “C-Indicator: A Mobile App for Crowd Control and Management in Suburban Railways”, at ICAST-2018 Organized by K.J.Somaiya Institute of Engineering and Information Technology Sion Mumbai during April 6-7, 2018
+
+⮚	 Academic Year : July-2018 to June-2019 
+⮚	( Patent =  3,    Journal Paper =  Nil,   Conference Paper = 2 )
+
+●	Conference Publications  [Total : 2]
+
+[74]   Sai Yerremreddy, K. T. V. Talele and Yash Kokate, “Genetic Algorithm for Optimal Feature Vector Selection in Facial Recognition” at Asia pacific IEEE 5th International conference for Convergence in technology 2019,Pune  during   March 29-31, 2019
+  https://ieeexplore.ieee.org/document/9033608
+
+[75]  Aditya Nair, Shoaib Mansoori, Rajeev Moghe, Payal Shah and Kiran Talele, “Driver Assistant System using Haar Cascade and Convolution Neural Networks (CNN)” 3rd International Conference on Trends in Electronics and Informatics (ICOEI 2019), SCAD College of Engineering and Technology, 23-25 April 2019
+         https://ieeexplore.ieee.org/document/8862779
+
+(76) Patent Title: Systems and Methods for Decomposition of Biomass
+       Applicant: Sutar Rajendra,Modi Arpan,Ghadi Apurv,Ghosh Arijit, Talele Kiran
+       Inventor: Sutar Rajendra,Modi Arpan,Ghadi Apurv,Ghosh Arijit, Talele Kiran 
+       Application No: 201921015246	  (Indian Patent Office)	
+       Date of filing of Application: 16/04/2019		
+       Publication Date: 10/05/2019	
+       Web link: https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus
+
+(77) Patent Title: Systems and Methods to Facilitate Collection & Forwarding Donated      Commodity to Authorized Central Collection Centres		
+         Applicant: Raundale Pooja  	
+         Inventor: Rajput Ravi, Rajput Anshul, Pandey Sumit, Raundale Pooja, Talele Kiran
+         Application No: 201921023085	  (Indian Patent Office)	 
+         Date of filing of Application: 11/06/2019		
+         Publication Date: 21/06/2019	
+        Web link: https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus
+
+(78) Patent Title: Virtual Fitness System
+Applicant: Talele Kiran	
+Inventor:  Dichwalkar Vaibhavi, Patil Pranali, Santosh Sania and Talele Kiran
+Application No: 201921023082 (Indian Patent Office)
+Date of filing of Application: 11/06/2019
+Publication Date: 21/06/2019
+Web link: https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus
+
+⮚	Academic Year : July-2019 to June-2020 
+⮚	( Patent =  2,      Journal Paper =  1,   Conference Paper = Nil )
+
+●	Journal Publications  [Total : 1]
+
+[79] Kiran Talele Dr.Kushal Tuckley, “Facial Expression Recognition using Digital Signature  Feature Descriptor” Signal, Image and Video Processing, Springer Nov-21, 2019.  
+ https://link.springer.com/article/10.1007/s11760-019-01595-1
+
+(80)  Patent Title: Systems and Methods To Train And Test Using Augmented Reality		
+        Applicant: Shah Payal		
+        Inventor: Babu Alwin Eldhose, Gaikwad Abhishek, Desai Saish, Shah Payal, Talele Kiran
+        Application No: 201921023090  (Indian Patent Office)		
+        Date of filing of Application: 11/06/2019		
+        Publication Date: 19/07/2019
+        Web link: https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus
+   
+(81) Patent Title: System and Methods for Information Display, Evaluation Of Events And    Performing Actions Related To Events	
+       Applicant: Sardar Patel Institute of Technology		
+       Inventor: Sonawane Amit, Shastri Akshata, Raut Viraj, Talele Kiran		
+       Application No: 201821006156	(Indian Patent Office)	
+       Date of filing of Application: 19/02/2018		
+        Publication Date: 23/08/2019	
+        Web link: https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus
+
+⮚	Academic Year : July-2020 to June-2021 
+⮚	( Patent =  Nil,   Journal Paper =  Nil,   Conference Paper = 1 )
+
+●	Conference Publications  [Total : 1]
+
+[82]  Sanket Andhale, Pratik Mane, Mandar Vaigankar, Deepak Karia and Kiran Talele, "Twitter    Sentiment Analysis for COVID-19" in Proceedings of IEEE, 4th International Conference on Communication, Information and Computing Technology, ICCICT-2021, 25th June-27th June 2021, Mumbai, India.
+        https://ieeexplore.ieee.org/document/9509933
+
+⮚	Academic Year : July-2021 to June-2022 
+⮚	( Patent =  Nil,   Journal Paper =  Nil,   Conference Paper = 9)
+
+●	Conference Publications  [Total : 9]
+
+[83] Chetna Sharma, Rahul Ramakrishnan, Ayusha Pendse, Priya Chimurkar and Kiran T. Talele,
+Cyber-Bullying Detection Via Text Mining And Machine  Learning, in Proceedings of IEEE,    12th International Conference On Computing, Communication & Networking Technologies (ICCCNT) 2021, 6th Jul, 2021-8th Jul, 2021, IIT Khargpur, India.
+       https://ieeexplore.ieee.org/document/9579625
+
+[84] Varun Mhatre, Vishwesh Vispute, Kiran Talele and Nitin Mishra “Early Detection of Lung Cancer Using Computer Aided Tomography Images “in the proceeding of 12th IEEE International Conference on Computing and Networking Technology (ICCNT) July 6-8, 2021. IIT Khargpur, India.
+https://ieeexplore.ieee.org/document/9579977
+
+[85]   Arnav Chaudhari,  Harsh Agrawal, Smiti Poddar, Kiran Talele and Manisha Bansode. “Smart Accident Detection And Alert System” in the proceedings of IEEE India Council International Subsections Conference (INDISCON), 27-29 Aug. 2021
+https://ieeexplore.ieee.org/document/9582163
+
+[86] Janhavi Bhopale, Rugved Bhise, Arthav Mane and Kiran Talele
+       A Review-and-Reviewer based approach for Fake Review Detection
+Fourth International Conference on Electrical, Computer and Communication Technologies      (ICECCT) Sept 15-17, 2021.
+                                         https://ieeexplore.ieee.org/document/9616697
+
+[87] Aishwarya Bannore, Tejashree Gore, Apoorva Raut and Kiran Talele, 
+“Mental stress detection using machine learning algorithm” in the   Proc. of the International      Conference on Electrical, Computer, Communications and Mechatronics Engineering (ICECCME) 7-8 October 2021, Mauritius 
+https://ieeexplore.ieee.org/document/9590847
+
+[88] Divit Kalathil, Kuldeep Vaishnav, Aditya Tarade, Kiran Talele and Manisha Bansode     “Microcontroller based Substation Disaster Monitoring System”,  2021 Fifth International Conference on I-SMAC (IoT in Social, Mobile, Analytics and Cloud) (I-SMAC) Nov 11-13, 2021.
+       https://ieeexplore.ieee.org/document/9640909
+
+[89] Ayush Asawa, Swapnil Dabre, Shravani Rahise, Manisha Bansode, Kiran T. Talele, Priya  Chimurkar, “Co-Mart - A Daily Necessity Price Comparison Application”, 2022 International Conference on Applied Artificial Intelligence and Computing (ICAAIC), 09-11 May 2022.
+       https://ieeexplore.ieee.org/document/9792935
+
+[90] Divit Kalathil, Vivek Kumar Mandal, Archis Gune, Kiran Talele, Priya Chimurkar, Manisha   Bansode, “Self Driving Car using Neural Networks”
+        In 2022 International Conference on Applied Artificial Intelligence and Computing (ICAAIC)
+        https://ieeexplore.ieee.org/document/9792595
+
+[91] Naveen Bharathiraman, Adwait Kaundanya, Jaiesh Singhal, Yash Wadalkar, and   Kiran Talele, “An Empirical Approach for Tuning an Autonomous Mobile Robot in Gazebo”, Computational Vision and Bio-Inspired Computing ICCVBIC 2021 held in Coimbatore, India March 31, 2022
+       https://link.springer.com/chapter/10.1007/978-981-16-9573-5_22
+
+⮚	Academic Year : July-2022 to June-2023 
+⮚	( Patent =  2,   Journal Paper =  Nil,   Conference Paper = 2 )
+
+●	Conference Publications  [Total : 2]
+
+[92] Aakanksha Garg; Krish Mankar; Shauryavir Singh Manhas, Isha Naik, Hrithik Jain, Harshada    Patil, Pranjal Pimpale, Divit Kalathil, Shravani Rahise; Smiti Poddar; Laukik Deshmukh, Akash Hake, Kiran Talele, “EEG Based Human Emotion Analysis” in 2022 IEEE Region 10 Symposium (TENSYMP) organized by IEEE Bombay Section, July 1-3,2022.
+https://ieeexplore.ieee.org/xpl/conhome/9864330/proceeding
+
+[93] Vishrut Chokshi, Mitash Shah, Param Mehta, Malhar Vairale, Saurabh Mehta; Kiran Talele, “Implementation of RFID-based Lab Inventory System”,  2022 IEEE Bombay Section Signature Conference (IBSSC),  Dec 8-10,2022.
+https://ieeexplore.ieee.org/xpl/conhome/10037242/proceeding
+
+(94) Patent Title:   System and Method for Generating Intelligent Responses with a Speaker
+       Applicant: Darshan Gohil, Akhilesh Aralikatti, Riya Haldar and Kiran Talele
+       Inventor:  Darshan Gohil, Akhilesh Aralikatti, Riya Haldar and Kiran Talele
+       Application No.:     202121038834 (Indian Patent Office)
+       Date of filing of Application:  27/08/2021
+       Publication Date:  03/03/2023
+       Web link: https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatu
+       
+(95) Patent Title:   Real-Time Obstacle Detection and Response System for Safer Driving
+       Applicant: Talele Kiran, Parasnis Guruprasad, Gadgil Tanmay, Bhope Rajas, Joshi Aarnav      and Kanhere Shubham
+      Inventor: Talele Kiran, Parasnis Guruprasad, Gadgil Tanmay, Bhope Rajas,, Joshi Aarnav   and Kanhere Shubham
+     Application No.:   202321027303  (Indian Patent Office)
+     Date of filing of Application:  13/04/2023
+     Publication Date:  05/05/2023
+     Web link: https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus
+
+⮚	Academic Year : July-2023 to June-2024
+⮚	( Patent =  3,   Journal Paper =  Nil,   Conference Paper = 1 )
+
+●	Conference Publications  [Total : 1]
+
+[96]  Vinayak Tripathi, Sandeep  Suthar , Bhavika Vaishnavi, Narendra Bhagat and Kiran Talele, “Enhancing Government Scheme Accessibility, User Profiling and Personalized Recommendations using Data Mining”, at 2023 4th IEEE Global Conference for Advancement in Technology (GCAT) Dec 19, 2023
+         https://ieeexplore.ieee.org/document/10353528
+
+(97) Patent Title:   Systems and Methods for a Web-Based Learning Platform for Online Courses
+       Applicant: Shubham Sawant, Bilal Sani, Niharika Mehta, Kiran Talele
+       Inventor: Shubham Sawant, Bilal Sani, Niharika Mehta, Kiran Talele
+       Application No.: 202321053296 (Indian Patent Office)
+       Date of filing of Application: 09/08/2023 
+       Publication Date: 06/10/2023 
+      Web link: https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus
+
+(98) Patent Title: Remotes-A Real-Time Person Detection and Surveillance System
+       Applicant: Shubham Kanhere, Kaustubh Ghare, Alisha Kadam, Kiran Talele and Anand      Mane
+       Inventor: Shubham Kanhere, Kaustubh Ghare, Alisha Kadam, Kiran Talele and Anand Mane
+       Application No.:   202321081174 (Indian Patent Office)
+       Date of filing of Application:  30/11/2023
+       Publication Date: 02/02/2024
+      Web link: https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus
+
+(99) Patent Title: Electrify Mobility
+  Applicant: Patil Arpit Sanjay, Bhagwat Atharav Rajendra, Vasani Chirag Vidyut,Rodricks        Ferdinand 
+  Inventor: Patil Arpit Sanjay, Bhagwat Atharav Rajendra, Vasani Chirag Vidyut,Rodricks Ferdinand, Kiran Talele And Govind Haldankar
+      Application No.:  202421034129 (Indian Patent Office)
+      Date of filing of Application:  30-04-2024
+      Publication Date: 14-06-2024
+      Web link:  https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus
+
+⮚	Academic Year : July-2024 to June-2025 
+⮚	( Patent =  7,   Journal Paper =  Nil,   Conference Paper = 3 )
+
+●	Conference Publications  [Total : 3]
+
+[100] Kaustubh Gharat, Harshita Jogi, Kaustubh Gode, Dr. Kiran Talele, Dr. Sujata Kulkarni and      Dr. Maheshkumar H.Kolekar,  “Enhanced Detection of Maize Leaf Blight in Dynamic Field Conditions Using Modified YOLOv9”, 2024 IEEE Space, Aerospace and Defence Conference (SPACE), IEEE Explorer 13 September 2024
+       https://ieeexplore.ieee.org/document/10668319
+ 
+[101]  Kaustubh Gharat, Harshita Jogi, Kaustubh Gode, Advait Sapkal; Ronak Thakar; Shubham Vishwakarma, Dr. Kiran Talele, and Dr. Sujata Kulkarni,  “Multi-Stage UAV-Based System for Scalable and Accurate Crop Health Monitoring” 2024 IEEE Space, Aerospace and Defense Conference (SPACE), IEEE Explorer 13 September 2024.
+       https://ieeexplore.ieee.org/document/10667804
+
+[102] Utsav Avaiva, Naman Badlani, Rajas Baadkar and Kiran Talele, “Audio Deepfake Detection    using Deep Scattering Network” at 2024 9th International Conference on Communication and Electronics Systems (ICCES) during Dec 16-18, 2024.
+      https://ieeexplore.ieee.org/document/10859322
+
+(103) Patent Title: Eye stream: A Secure, Real-Time Drone Surveillance System.
+        Applicant:  Devraj Panchal, Srushti Gavand, Hiba Fatima, Kiran Talele, Dayanand     Ambawade
+       Inventor: Devraj Panchal, Srushti Gavand, Hiba Fatima, Kiran Talele, Dayanand Ambawade
+       Application No.:  202421037477  (Indian Patent Office)
+       Date of filing of Application:  13/05/2024
+       Publication Date: 12/07/2024
+       Web link: https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus
+
+(104) Patent Title: Doppel Scan: Dual Authentication Contactless Attendance System
+       Applicant: Kiran Tulshiram Talele, Bhavisha Chafekar, Kris Dcosta, Saket Lad
+       Inventor: Kiran Tulshiram Talele, Bhavisha Chafekar, Kris Dcosta, Saket Lad
+       Application No.: 202421056179  (Indian Patent Office)
+       Date of filing of Application: 23/07/2024  
+       Publication Date: 16/08/2024
+      Web link: https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus
+
+(105) Patent Title: Automated Crop Health Monitoring System Using Unmanned Aerial Vehicle. 
+Applicant:  Harshita Jogi, Kaustubh Gode, Kaustubh Gharat, Dr Sujata Kulkarni, Dr Kiran Talele And Dr   Maheshkumar H. Kolekar		
+       Inventor: Harshita Jogi, Kaustubh Gode, Kaustubh Gharat, Dr Sujata Kulkarni, Dr Kiran Talele and Dr       Maheshkumar H. Kolekar		 	 
+      Application No.:  202421043217. (Indian Patent Office)
+      Date of filing of Application:  04/06/2024
+      Publication Date: 26/07/2024
+     Web link:  https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus
+
+(106) Patent Title: Speed Mapping For Indian Roads
+        Applicant:  Gandhi Ronit, Kumar Mayur, Dabhane Janhavi, Talele Kiran
+        Inventor: Gandhi Ronit, Kumar Mayur, Dabhane Janhavi, Talele Kiran	 	 
+        Application No.:   202321051875   (Indian Patent Office)
+        Date of filing of Application:  02/08/2023
+        Publication Date: 07/02/2025
+        Web link:  https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus
+        
+(107) Patent Title: Ground Robot for Agriculture
+  Applicants:  Bhartiya Vidya Bhavans Sardar Patel Institute of Technology, Mr.Parth       Chitre, Dr. Sujata Kulkarni, Dr. Kiran Talele
+          Design number: 6409906 (UK)
+         Registration date: 09 December 2024
+         Grant date: 08 January 2025
+         Web link:  https://www.registered-design.service.gov.uk/find/6409906
+
+(108) Patent Title: A bank safe deposit box security system with biometric authentication and sensor monitoring
+  Applicants:  Hallur Srushti,  Jain Dishita, Kolekar Maheshkumar, Kulkarni Samruddhi, Kulkarni Sujata, Talele Bhakti, Talele Kiran
+            Application number: 20 2025 100 178.0   (German Patent)
+            Registration date: 10 April 2025
+            Grant date: 22 May 2025
+    Web link: https://register.dpma.de/DPMAregister/pat/register?AKZ=2020251001780&CURSOR=0
+
+(109) Patent Title: Drone for tunnel inspection 
+          Applicants:  Malay Phadke, Neel Patel, Preyes Parab, Om Patil, Dev Oza, Gandhar   Kulkarni, Vedant Bhagvat, Dr. Kiran Talele, Dr. Sujata Kulkarni
+          Design number: 6451597 (UK Patent)
+          Registration date: 16 June 2025
+          Grant date: 24 June 2025
+          Web link:  https://www.registered-design.service.gov.uk/find/6451597
+
+⮚	Academic Year : July-2025 to June-2026
+⮚	( Patent = 8   Journal Paper =  Nil,   Conference Paper = 3 )
+
+●	Conference Publications  [Total : 3]
+
+[110] Aniket Atole, Adwait Patkhedkar, Bhakti Talele and Kiran Talele,  “Analysis of Machine Learning and Deep Learning Models for EEG-Based Emotion Classification”, 15th International Conference Signal Processing, Communications and Computing ( ICSPCC) 2025, Hong Kong  July18-21.
+           https://ieeexplore.ieee.org/document/11194555
+
+[111] Yash Shah, Jash Vora, Maheshkumar H. Kolekar, and Kiran Talele, “SE-SwinUNet++:   Enhanced Transformer-based Segmentation for Brain Tumors Using FLAIR MRI Images“, at 11th International Conference on Pattern Recognition and Machine Intelligence organized by IIT Delhi in collaboration With Machine Intelligence Unit, Indian Statistical Institute Kolkata, India from 11th - 14th December, 2025 at IIT Delhi, India.
+         https://link.springer.com/chapter/10.1007/978-3-032-18477-1_66
+
+[112] Jash Vora, Yash Shah, Aniket Atole, Adwait Patkhedkar, Kiran Talele, “U-Net++ with EfficientNetB7: A Deep Learning Framework for Clinical Brain Tumor Segmentation”, 4
+          th IEEE International Conference on Interdisciplinary Approaches in Technology and   Management for Social Innovation (IEEE IATMSI-2026), organized by IEEE MP Section and ABV-IIITM Gwalior, India on 12-14 March 2026.
+       https://ieeexplore.ieee.org/abstract/document/11194555/
+
+●	Patent  [Total : 8]
+
+(113) Patent Title: Biometric Terminal
+          Applicants:  Bhakti Talele, Chhavi Talele, Krishna Gangaramani, Sanyogeeta Pradhan,
+          Sharvari Bhagat, Samruddhi Kolekar, Kiran Talele, Gunarjun Chawla,
+          Maheshkumar Kolekar
+          Design number: 6494541 (UK Patent)
+          Registration date: 21 December 2025
+          Grant date: 9 January  2026 
+         Web link:  https://www.registered-design.service.gov.uk/find/6494541
+
+(114) Patent Title: Toy Robot
+          Applicants:  Bhakti Talele, Chhavi Talele, Krishna Gangaramani, Sanyogeeta Pradhan,
+          Sharvari Bhagat, Samruddhi Kolekar, Kiran Talele, Gunarjun Chawla,
+          Maheshkumar Kolekar	 
+          Design number: 6494544 (UK Patent)
+          Registration date: 21 December 2025
+          Grant date: 9 January 2026
+         Web link:  https://www.registered-design.service.gov.uk/find/6494544
+
+(115) Patent Title: Smart Speaker with Projector
+          Applicants:  Bhakti Talele, Chhavi Talele, Krishna Gangaramani, Sanyogeeta Pradhan,
+          Sharvari Bhagat, Samruddhi Kolekar, Kiran Talele, Gunarjun Chawla,
+          Maheshkumar Kolekar	 
+          Design number: 6494543 (UK Patent)
+          Registration date: 21 December 2025
+          Grant date: 22 January 2026      
+         Web link:  https://www.registered-design.service.gov.uk/find/6494543
+
+(116) Patent Title: Medical Monitoring Device
+          Applicants:  Bhakti Talele, Chhavi Talele, Krishna Gangaramani, Sanyogeeta Pradhan,
+          Sharvari Bhagat, Samruddhi Kolekar, Kiran Talele, Gunarjun Chawla,
+          Maheshkumar Kolekar
+          Design number: 6494545 (UK Patent)
+          Registration date: 21 December 2025
+          Grant date: 23 February 2026   
+         Web link:  https://www.registered-design.service.gov.uk/find/6494545
+
+(117) Patent Title: Service Robot
+           Applicants:   Bhakti Talele, Chhavi Talele, Krishna Gangaramani, Sanyogeeta Pradhan,
+           Sharvari Bhagat, Samruddhi Kolekar, Kiran Talele, Gunarjun Chawla, Maheshkumar         Kolekar 	 
+          Design number: 6494546 (UK Patent)
+          Registration date: 21 December 2025
+          Grant date: 27 January 2026
+          Web link:  https://www.registered-design.service.gov.uk/find/6494546
+
+(118)Patent Title: System and Method for Multilingual Translator with Speaker       Identification on Portable Single Board Computer
+         Applicant:  Sardar Patel Institute of Technology
+         Inventor: Pragati Chandrakant More, Arya Pradeep Chavhan, Adnan Qureshi, Kiran   Talele, Yerremreddy Srinavasa Rao	 	 
+        Application No.:   202621015022(INDIA)
+        Date of filing of Application:  11/02/2026
+        Publication Date: 27/03/2026
+        Web link:  https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus
+
+(119) Patent Title: A Secure System for Biometric Voter Identification and Voting Authorization
+  Applicants:  Agarwal  Mayank, Barve Aryan, Deshpande Harshit, Dound Ankita, Gangaramani, Krisha, Nadkarni Siddhesh, Pradhan Sanyogeeta, Savai Yash, Talele Chhavi, Talele Kiran
+            Application number:  20 2026 101 645.4 (German Patent)
+                         Application date: 4.04.2026
+            Registration date:  27.04.2026
+      Web link:  https://register.dpma.de/DPMAregister/pat/register?AKZ=2020261019178&CURSOR=0
+
+(120) Patent Title: A Wearable Physiological Monitoring and Signal Processing System
+IPC Classification: A61B 5/021
+  Applicants:  Chitre Parth, Gupta Pulkit, Kulkarni Diya, Pathak Shivang, ,Talele Kiran
+            Application number: 20 2026 101 917 (German Patent)
+                         Application date: 24.03.2026
+            Registration date:  24.04.2026
+      Web link: https://register.dpma.de/DPMAregister/pat/register?AKZ=2020261019178&CURSOR=0

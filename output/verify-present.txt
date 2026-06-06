@@ -1,0 +1,75 @@
+conf-18 | PID CONTROLLER USING DSP TMS320VC5416 PROCESSOR | snippet: 5/6 words matched
+
+conf-26 | AudioWatermarking | snippet: ad 28 29 and 30 nov 2007 26 suchit shah manthan shah amol madane and k t talele audiowatermarking ieee acvit 07 international conference on advances in computer vision and infor
+
+conf-52 | Efficient Heterogeneous Face Recognition using Scale Invariant Feature Transform | snippet: 9/9 words matched
+
+conf-58 | Determination of Patient Setup Error in Radiotherapy using Feature-Based Multimodal Rigid Image Registration | snippet: 14/14 words matched
+
+patent-1 | SUSTAINABLE PICOHYDRO POWER GENERATION SYSTEM | snippet: ge 10 https ieeexplore ieee org document 6726018 patent total 2 53 patent title sustainable picohydro power generation system applicant inventor sanjay trymbak gandhe and talele kiran application no 2140 m
+
+patent-2 | PORTABLE, VEHICLE INDEPENDENT AND INTEGRATED DRIVER ALERT, SECURITY, GPS NAVIGATION & ENTERTAINMENT SYSTEM | snippet: plicationstatus status granted application patent number 389177 54 patent title portable vehicle independent and integrated driver alert security gps navigation entertainment system applicant inventor aditya anand naravane anasree chatterjee talele kiran ruchir
+
+patent-3 | SYSTEM FOR PROVIDING INSTANT ASSISTANCE DURING URGENT SITUATIONS | snippet: i engineering college melmaruvathur tamil nadu april 20 21 2015 59 patent title system for providing instant assistance during urgent situations applicant inventor ghurye ankita kamat jagruti gharpure prachi talele kiran ram
+
+patent-4 | BIOMETRIC PATTERN RECOGNITION SYSTEM | snippet: ch ipindia gov in patentsearch patentsearch viewapplicationstat 60 patent title biometric pattern recognition system applicant inventor kanchar akshay panchal dhruv saxena richa talele kiran appli
+
+patent-5 | DETECTION OF BLOOD ALCOHOL LEVEL BY BREATH ANALYSIS USING SEMICONDUCTOR | snippet: 20 21 2016 https ieeexplore ieee org abstract document 7808027 64 patent title detection of blood alcohol level by breath analysis using semiconductor applicant inventor mane dhanashree shaikh banafsha nikhat avanish balaji talele
+
+patent-6 | A SYSTEM AND METHOD FOR HUMAN FACE IDENTIFICATION | snippet: ipindia gov in patentsearch patentsearch viewapplicationstatus 65 patent title a system and method for human face identification applicant inventor bairathi neha talele kiran daga rahul darji jignesh panda re
+
+patent-7 | SYSTEM AND METHODS FOR GSM BASED SOIL MONITORING | snippet: ipindia gov in patentsearch patentsearch viewapplicationstatus 66 patent title system and methods for gsm based soil monitoring applicant inventor patil tushar gedam mrunal gharat adwait talele kiran applica
+
+patent-8 | COMBINATION OF CELLULAR PHONE HAVING ELECTROSHOCKING DEVICE AND REMOTE ALERT SYSTEM | snippet: ee org stamp stamp jsp arnumber 7940203 dr kiran talele page 14 71 patent title combination of cellular phone having electroshocking device and remote alert system applicant gharpure prachi inventor jadhav ninad jain manish ostwal prajakta tal
+
+patent-9 | SYSTEM AND METHOD TO ENABLE VISUALLY CHALLENGED TO DIRECT SIGNALS | snippet: of filing of application 13 03 2015 publication date 16 09 2016 72 patent title system and method to enable visually challenged to direct signals applicant gharpure prachi inventor a jgaonkar aarohi vishwasrao priyanka jaiswa
+
+patent-10 | SYSTEMS AND METHODS FOR DECOMPOSITION OF BIOMASS | snippet: ogy 23 25 april 2019 https ieeexplore ieee org document 8862779 76 patent title systems and methods for decomposition of biomass applicant sutar rajendra modi arpan ghadi apurv ghosh arijit talele kiran inven
+
+patent-11 | SYSTEMS AND METHODS TO FACILITATE COLLECTION & FORWARDING DONATED COMMODITY TO AUTHORIZED CENTRAL COLLECTION CENTRES | snippet: ipindia gov in patentsearch patentsearch viewapplicationstatus 77 patent title systems and methods to facilitate collection forwarding donated commodity to authorized central collection centres applicant raundale pooja inventor rajput ravi rajput anshul pandey sumit raunda
+
+patent-12 | VIRTUAL FITNESS SYSTEM | snippet: arch patentsearch viewapplicationstatus dr kiran talele page 16 78 patent title virtual fitness system applicant talele kiran inventor dichwalkar vaibhavi patil pranali santosh sania
+
+patent-13 | SYSTEMS AND METHODS TO TRAIN AND TEST USING AUGMENTED REALITY | snippet: 2019 https link springer com article 10 1007 s11760 019 01595 1 80 patent title systems and methods to train and test using augmented reality applicant shah payal inventor babu alwin eldhose gaikwad abhishek desai saish s
+
+patent-14 | SYSTEM AND METHODS FOR INFORMATION DISPLAY, EVALUATION OF EVENTS AND PERFORMING ACTIONS RELATED TO EVENTS | snippet: ipindia gov in patentsearch patentsearch viewapplicationstatus 81 patent title system and methods for information display evaluation of events and performing actions related to events applicant sardar patel institute of technology inventor sonawane amit shastri a
+
+patent-17 | SYSTEM AND METHOD FOR GENERATING INTELLIGENT RESPONSES WITH A SPEAKER | snippet: 2022 https ieeexplore ieee org xpl conhome 10037242 proceeding 94 patent title system and method for generating intelligent responses with a speaker applicant darshan gohil akhilesh aralikatti riya haldar and kiran talele invent
+
+patent-18 | REAL-TIME OBSTACLE DETECTION AND RESPONSE SYSTEM FOR SAFER DRIVING | snippet: h ipindia gov in patentsearch patentsearch viewapplicationstatu 95 patent title real time obstacle detection and response system for safer driving applicant talele kiran parasnis guruprasad gadgil tanmay bhope rajas joshi aarn
+
+patent-19 | SYSTEMS AND METHODS FOR A WEB-BASED LEARNING PLATFORM FOR ONLINE COURSES | snippet: gy gcat dec 19 2023 https ieeexplore ieee org document 10353528 97 patent title systems and methods for a web based learning platform for online courses applicant shubham sawant bilal sani niharika mehta kiran talele inventor shubha
+
+patent-20 | REMOTES-A REAL-TIME PERSON DETECTION AND SURVEILLANCE SYSTEM | snippet: ipindia gov in patentsearch patentsearch viewapplicationstatus 98 patent title remotes a real time person detection and surveillance system applicant shubham kanhere kaustubh ghare alisha kadam kiran talele and anand ma
+
+patent-21 | ELECTRIFY MOBILITY | snippet: ipindia gov in patentsearch patentsearch viewapplicationstatus 99 patent title electrify mobility applicant patil arpit sanjay bhagwat atharav rajendra vasani chirag vidyut rodr
+
+patent-22 | EYE STREAM: A SECURE, REAL-TIME DRONE SURVEILLANCE SYSTEM | snippet: ing dec 16 18 2024 https ieeexplore ieee org document 10859322 103 patent title eye stream a secure real time drone surveillance system applicant devraj panchal srushti gavand hiba fatima kiran talele dayanand ambaw
+
+patent-23 | DOPPEL SCAN: DUAL AUTHENTICATION CONTACTLESS ATTENDANCE SYSTEM | snippet: ipindia gov in patentsearch patentsearch viewapplicationstatus 104 patent title doppel scan dual authentication contactless attendance system applicant kiran tulshiram talele bhavisha chafekar kris dcosta saket lad invent
+
+patent-24 | AUTOMATED CROP HEALTH MONITORING SYSTEM USING UNMANNED AERIAL VEHICLE | snippet: ipindia gov in patentsearch patentsearch viewapplicationstatus 105 patent title automated crop health monitoring system using unmanned aerial vehicle applicant harshita jogi kaustubh gode kaustubh gharat dr sujata kulkarni dr kir
+
+patent-25 | SPEED MAPPING FOR INDIAN ROADS | snippet: ipindia gov in patentsearch patentsearch viewapplicationstatus 106 patent title speed mapping for indian roads applicant gandhi ronit kumar mayur dabhane janhavi talele kiran inventor gandhi
+
+patent-26 | GROUND ROBOT FOR AGRICULTURE | snippet: ipindia gov in patentsearch patentsearch viewapplicationstatus 107 patent title ground robot for agriculture applicants bhartiya vidya bhavans sardar patel institute of technology mr parth
+
+patent-27 | DRONE FOR TUNNEL INSPECTION | snippet: at register akz 2020251001780 cursor 0 dr kiran talele page 23 109 patent title drone for tunnel inspection applicants malay phadke neel patel preyes parab om patil dev oza gandhar kulkar
+
+patent-28 | MEDICAL MONITORING DEVICE | snippet: b link https www registered design service gov uk find 6494543 116 patent title medical monitoring device applicants bhakti talele chhavi talele krishna gangaramani sanyogeeta pradhan s
+
+patent-29 | SMART SPEAKER WITH PROJECTOR | snippet: b link https www registered design service gov uk find 6494544 115 patent title smart speaker with projector applicants bhakti talele chhavi talele krishna gangaramani sanyogeeta pradhan s
+
+patent-30 | SERVICE ROBOT | snippet: b link https www registered design service gov uk find 6494545 117 patent title service robot applicants bhakti talele chhavi talele krishna gangaramani sanyogeeta pradhan s
+
+patent-31 | SYSTEM AND METHOD FOR MULTILINGUAL TRANSLATOR WITH SPEAKER IDENTIFICATION ON PORTABLE SINGLE BOARD COMPUTER | snippet: b link https www registered design service gov uk find 6494546 118 patent title system and method for multilingual translator with speaker identification on portable single board computer applicant sardar patel institute of technology inventor pragati chandrakant mor
+
+patent-32 | A Bank Safe Deposit Box Security System With Biometric Authentication And Sensor Monitoring | snippet: b link https www registered design service gov uk find 6409906 108 patent title a bank safe deposit box security system with biometric authentication and sensor monitoring applicants hallur srushti jain dishita kolekar maheshkumar kulkarni samruddhi k
+
+patent-33 | BIOMETRIC TERMINAL | snippet: ieeexplore ieee org abstract document 11194555 patent total 8 113 patent title biometric terminal applicants bhakti talele chhavi talele krishna gangaramani sanyogeeta pradhan s
+
+patent-34 | TOY ROBOT | snippet: b link https www registered design service gov uk find 6494541 114 patent title toy robot applicants bhakti talele chhavi talele krishna gangaramani sanyogeeta pradhan s
+
+patent-35 | A SECURE SYSTEM FOR BIOMETRIC VOTER IDENTIFICATION AND VOTING AUTHORIZATION | snippet: ipindia gov in patentsearch patentsearch viewapplicationstatus 119 patent title a secure system for biometric voter identification and voting authorization applicants agarwal mayank barve aryan deshpande harshit dound ankita gangaraman
+
+patent-36 | A WEARABLE PHYSIOLOGICAL MONITORING AND SIGNAL PROCESSING SYSTEM | snippet: r dpma de dpmaregister pat register akz 2020261019178 cursor 0 120 patent title a wearable physiological monitoring and signal processing system ipc classification a61b 5 021 applicants chitre parth gupta pulkit kulkarni diy

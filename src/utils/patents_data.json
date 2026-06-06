@@ -532,15 +532,116 @@
       "status": "Awaiting Request for Examination",
       "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
       "remark": "Awaiting request for examination"
+    },
+    {
+      "id": 32,
+      "date": "2025-05-24",
+      "title": "A Bank Safe Deposit Box Security System With Biometric Authentication And Sensor Monitoring",
+      "authors": [
+        "Hallur Srushti",
+        "Jain Dishita",
+        "Kolekar Maheshkumar",
+        "Kulkarni Samruddhi",
+        "Kulkarni Sujata",
+        "Talele Bhakti",
+        "Talele Kiran"
+      ],
+      "organisation": "German Patent Office",
+      "applicationnumber": "20 2025 100 178.0",
+      "registrationdate": "2025-04-10",
+      "publicationdate": "2025-05-22",
+      "status": "Granted",
+      "remark": "German Patent. Registration date: 2025-04-10; Grant date: 2025-05-22"
+    },
+    {
+      "id": 33,
+      "date": "2025-12-21",
+      "title": "BIOMETRIC TERMINAL",
+      "authors": [
+        "Bhakti Talele",
+        "Chhavi Talele",
+        "Krishna Gangaramani",
+        "Sanyogeeta Pradhan",
+        "Sharvari Bhagat",
+        "Samruddhi Kolekar",
+        "Kiran Talele",
+        "Gunarjun Chawla",
+        "Maheshkumar Kolekar"
+      ],
+      "organisation": "UK Design Registry",
+      "patentnumber": "6494541",
+      "publicationdate": "2026-01-09",
+      "status": "Granted",
+      "remark": "Design registration granted"
+    },
+    {
+      "id": 34,
+      "date": "2025-12-21",
+      "title": "TOY ROBOT",
+      "authors": [
+        "Bhakti Talele",
+        "Chhavi Talele",
+        "Krishna Gangaramani",
+        "Sanyogeeta Pradhan",
+        "Sharvari Bhagat",
+        "Samruddhi Kolekar",
+        "Kiran Talele",
+        "Gunarjun Chawla",
+        "Maheshkumar Kolekar"
+      ],
+      "organisation": "UK Design Registry",
+      "patentnumber": "6494544",
+      "publicationdate": "2026-01-09",
+      "status": "Granted",
+      "remark": "Design registration granted"
+    },
+    {
+      "id": 35,
+      "date": "2026-04-27",
+      "title": "A SECURE SYSTEM FOR BIOMETRIC VOTER IDENTIFICATION AND VOTING AUTHORIZATION",
+      "authors": [
+        "Agarwal Mayank",
+        "Barve Aryan",
+        "Deshpande Harshit",
+        "Dound Ankita",
+        "Gangaramani Krisha",
+        "Nadkarni Siddhesh",
+        "Pradhan Sanyogeeta",
+        "Savai Yash",
+        "Talele Chhavi",
+        "Talele Kiran"
+      ],
+      "organisation": "German Patent Office",
+      "applicationnumber": "20 2026 101 645.4",
+      "publicationdate": "2026-04-27",
+      "status": "Granted",
+      "remark": "German Patent"
+    },
+    {
+      "id": 36,
+      "date": "2026-04-24",
+      "title": "A WEARABLE PHYSIOLOGICAL MONITORING AND SIGNAL PROCESSING SYSTEM",
+      "authors": [
+        "Chitre Parth",
+        "Gupta Pulkit",
+        "Kulkarni Diya",
+        "Pathak Shivang",
+        "Talele Kiran"
+      ],
+      "organisation": "German Patent Office",
+      "applicationnumber": "20 2026 101 917",
+      "publicationdate": "2026-04-24",
+      "status": "Granted",
+      "remark": "German Patent"
     }
   ],
   "summary": {
-    "totalpatents": 29,
-    "granted": 6,
+    "totalpatents": 36,
+    "granted": 11,
     "abandoned": 3,
     "deemedbewithdrawn": 9,
     "awaitingexamination": 11,
     "periodfrom": "2013-06-24",
-    "periodto": "2026-03-27"
+    "periodto": "2026-04-27"
   }
 }
