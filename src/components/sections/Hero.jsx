@@ -10,8 +10,14 @@ import {
   EnvelopeIcon,
   LightBulbIcon,
 } from '@heroicons/react/24/outline';
+import publicationsData from '../../utils/publications_data.json';
+import patentsData from '../../utils/patents_data.json';
 
 const Hero = () => {
+  const totalPublications = (publicationsData?.publications?.conferencepapers?.length || 0) + 
+                            (publicationsData?.publications?.journalpapers?.length || 0);
+  const totalPatents = patentsData?.patents?.length || 0;
+
   return (
     <section className="relative overflow-hidden bg-linear-to-br from-teal-50/50 via-white to-cyan-50/30">
       <div className="container mx-auto px-4 py-24 lg:py-32">
@@ -59,14 +65,14 @@ const Hero = () => {
                 <div className="space-y-2">
                   <div className="flex items-center gap-2">
                     <DocumentTextIcon className="w-6 h-6 text-primary" />
-                    <div className="text-4xl font-bold text-primary">85+</div>
+                    <div className="text-4xl font-bold text-primary">{totalPublications}+</div>
                   </div>
                   <div className="text-base text-muted-foreground">Publications</div>
                 </div>
                 <div className="space-y-2">
                   <div className="flex items-center gap-2">
                     <ClipboardDocumentCheckIcon className="w-6 h-6 text-primary" />
-                    <div className="text-4xl font-bold text-primary">24+</div>
+                    <div className="text-4xl font-bold text-primary">{totalPatents}+</div>
                   </div>
                   <div className="text-base text-muted-foreground">Patents</div>
                 </div>

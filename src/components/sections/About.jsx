@@ -72,46 +72,6 @@ const About = () => {
                     </p>
                   </div>
 
-                  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 py-6">
-                    <div className="space-y-2">
-                      <div className="flex items-baseline gap-2">
-                        <BookOpen className="w-4 h-4 text-primary flex-shrink-0 mt-1" />
-                        <div>
-                          <div className="font-semibold text-foreground">Publications</div>
-                          <div className="text-base">
-                            <span className="font-bold">85+ </span>
-                            <span className="text-muted-foreground">research papers in national & international refered conferences and journals</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="space-y-2">
-                      <div className="flex items-baseline gap-2">
-                        <FileText className="w-4 h-4 text-primary flex-shrink-0 mt-1" />
-                        <div>
-                          <div className="font-semibold text-foreground">Patents</div>
-                          <div className="text-base">
-                            <span className="font-bold">24+ </span>
-                            <span className="text-muted-foreground">patents across India, UK, and Germany</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="space-y-2">
-                      <div className="flex items-baseline gap-2">
-                        <Lightbulb className="w-4 h-4 text-primary flex-shrink-0 mt-1" />
-                        <div>
-                          <div className="font-semibold text-foreground">Startups</div>
-                          <div className="text-base">
-                            <span className="font-bold">4 </span>
-                            <span className="text-muted-foreground">startups</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
 
                   <div className="bg-emerald-50/50 border border-emerald-100 p-6 rounded-lg mt-6">
                     <h3 className="text-foreground font-semibold mb-2">Awards & Recognition</h3>
