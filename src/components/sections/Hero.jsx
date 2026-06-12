@@ -58,7 +58,7 @@ const Hero = () => {
                 <div className="space-y-2">
                   <div className="flex items-center gap-2">
                     <CalendarDaysIcon className="w-6 h-6 text-primary" />
-                    <div className="text-4xl font-bold text-primary">36+</div>
+                    <div className="text-4xl font-bold text-primary">37+</div>
                   </div>
                   <div className="text-base text-muted-foreground">Years Experience</div>
                 </div>
