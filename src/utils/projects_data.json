@@ -1,0 +1,118 @@
+{
+  "projects": [
+    {
+      "academicYear": "2022-23",
+      "title": "EyeStream : A Secure, Real-Time Drone Surveillance System",
+      "team": "Hiba Fatima, Srushti Gavand and Devraj Panchal",
+      "abstract": "This project integrates Unmanned Aerial Vehicle (UAV) systems, the Internet of Things (IoT), wireless image transmission, and cybersecurity to introduce a novel remote monitoring and early response system. Designed specifically for environments that are hazardous or difficult for humans to access, the system utilizes a camera-equipped UAV capable of data compression, encryption, and wireless transmission. By combining wireless communication with advanced signal processing and cybersecurity measures, this invention ensures highly secure and efficient data delivery. Ultimately, it overcomes the constraints of traditional surveillance by providing a dependable, real-time monitoring solution for challenging environments."
+    },
+    {
+      "academicYear": "2023-24",
+      "title": "Real-Time Streaming and Surveillance using Video Processing and Transmission",
+      "team": "Kaustubh Ghare, Alisha Kadam, Shubham Kanhere",
+      "abstract": "Illegal trespassing across remote border terrains poses a critical threat to national security, often evading conventional human and aerial surveillance. To address these limitations, this invention introduces an integrated hardware-software surveillance system utilizing proprietary Tx-SAK (Transmitter) and Rx-SAK (Receiver) boards. On the transmitter side, a high-quality day-and-night camera feeds into a processor that captures an image upon intruder detection; this image is then compressed to minimize transmission errors, encoded into ASCII text, and encrypted for secure wireless transmission. At the receiver side, the data is decrypted and decoded back into the image, which is then processed by an image enhancer to restore critical visual details lost during compression. Finally, the enhanced image is simultaneously displayed on a local monitor for real-time monitoring and logged into a secure cloud database for future forensic analysis, providing a robust, end-to-end solution for safeguarding inaccessible border regions."
+    },
+    {
+      "academicYear": "2023-24",
+      "title": "Intelligent Aerial system for Crop Health Monitoring and Precision Agriculture",
+      "team": "Gandhar Kulkarni, Vedant Bhagwat, Dev Oza",
+      "abstract": "This project aims to develop a comprehensive drone-based system for precision agriculture. The system will utilize drones to scan farmland and assess crop quality, detect pests and crop diseases, and automate the application of pesticides and fertilizers.\n\nThe project involves the following key components:\n• Drone hardware: The project will require drones equipped with high-resolution camera and other sensors to collect data on crop health and environmental conditions.\n• Image processing software: The project will require software to process the collected data and identify pests, diseases, and other crop health issues.\n• Flight planning and automation software: The project will require software to plan and automate drone flights over farmland, simplifying and streamlining the scanning process.\n• Pesticide and fertilizer spraying mechanisms: The project will require integrating pesticide and fertilizer spraying mechanisms into drones to automate the application of these chemicals."
+    },
+    {
+      "academicYear": "2023-24",
+      "title": "Electrify Mobility",
+      "team": "Arpit Patil, Atharav Bhagwat, and Chirag Vasani",
+      "abstract": "The project Electrify Mobility introduces an innovative solution aimed atempowering individuals with disabilities to operate essential automobile controls. This project focuses on enabling users to manage critical car functionalities, such as headlights, parking lights, indicators, and horns, with ease and precision. By leveraging advanced technology and user-friendly interfaces, Electrify Mobility seeks to enhance the driving experience for Individuals with disabilities, ensuring greater independence and safety on the road."
+    },
+    {
+      "academicYear": "2024-25",
+      "title": "Autonomous Ground Robot for Agricultural Spraying",
+      "team": "Preyes Parab, Om Patil",
+      "abstract": "This project advances precision agriculture by pairing aerial UAV monitoring with a sophisticated, autonomous Unmanned Ground Vehicle (UGV) for targeted field intervention. Driven by reinforcement learning, the UGV analyzes real-time sensor data to autonomously diagnose crop health and apply pesticides only where needed. Its advanced path-planning algorithm optimizes field navigation to maximize coverage while eliminating redundant movements, while an adaptable, automated spraying mechanism delivers precise chemical doses exclusively to affected areas. By seamlessly integrating intelligent decision-making with optimized navigation, this scalable solution significantly reduces manual labor, lowers operational costs, and minimizes environmental impact for more sustainable farming."
+    },
+    {
+      "academicYear": "2024-25",
+      "title": "Collaborative UAV Swarm for Efficient Tunnel Inspections and Precision Terrain Mapping",
+      "team": "Malay Phadke, Neel Patel",
+      "abstract": "Traditional tunnel inspections and terrain mapping are labor-intensive and risky, but collaborative UAV swarms offer a safer, faster, and more efficient alternative using advanced sensors and image processing. This project evaluates three swarm coordination models—Distributed, Centralized, and Hybrid—based on their accuracy, efficiency, and resilience in complex environments. By delivering high-resolution data and adapting to environmental constraints, this system automates inspections and improves terrain mapping, ultimately advancing infrastructure monitoring and environmental management while reducing operational risks and time."
+    },
+    {
+      "academicYear": "2024-25",
+      "title": "‘Viksith’- A Local Medical Assistant",
+      "team": "Prathamesh Kulkarni, Aditya Parnerkar and Priyanka Waghmare",
+      "abstract": "The advent of multimodal Large Language Models (LLMs) marks a pivotal evolution in artificial intelligence, addressing the intricate tapestry of human communication that extends beyond text. The integration of multiple data types, including text, images, and sounds, into LLMs is not merely an enhancement but a necessity. In regions where healthcare is a privilege rather than a right, such as the rural expanses of India, multimodal LLMs can bridge the gap between medical expertise and the underserved. The need for these advanced AI systems to provide preliminary diagnoses, thus democratizing health information. Multimodal LLMs stand as a testament to technological inclusivity, promising to elevate global health standards by making accurate medical advice accessible to all, irrespective of location or socioeconomic status. This abstract underscores the imperative role of multimodal LLMs in transcending traditional healthcare barriers, fostering a future where equitable health access is not just an ideal, but a reality."
+    },
+    {
+      "academicYear": "2025-26",
+      "title": "Blind spot detection in vehicles in foggy and rainy weathers",
+      "team": "Himanshu Agrawal, Eshaan Golatkar, Ganesh Kakade",
+      "abstract": "Traditional blind spot detection systems using RADAR, LiDAR, or optical cameras frequently degrade in adverse weather like rain, fog, or low light, increasing safety risks. To address these limitations, this report introduces ORAMA, a robust, AI-based blind spot detection and risk evaluation system optimized for foggy and rainy conditions. ORAMA combines the YOLOv8 framework with specialized preprocessing modules—such as dark channel prior dehazing and nighttime contrast enhancement—along side a custom algorithm that estimates collision probability using proximity and direction to provide real-time visual alerts. Designed for future multi-modal sensor fusion, the modular system was evaluated on the BDD100K dataset, achieving an inference speed of 29 FPS with a mean Average Precision (mAP) of 0.472 in normal conditions and 0.274 in fog, demonstrating a scalable, cost-effective solution for real-time edge deployment."
+    },
+    {
+      "academicYear": "2025-26",
+      "title": "Path and Trajectory Planning for UGV and UAV Marsupial Robotic System",
+      "team": "Surabhi Vishwasrao, Akash Mahajan, Yash Surve",
+      "abstract": "This project details an autonomous marsupial robotic system that pairs an Unmanned Ground Vehicle (UGV) and an Unmanned Aerial Vehicle (UAV) for coordinated surveillance, mapping, and monitoring. Built on a Waveshare UGV02 chassis with a Raspberry Pi 4 running ROS, the UGV utilizes LiDAR and an ArUco-marker camera system for perception, obstacle avoidance, and localization while performing SLAM in unknown environments. Complementing the ground platform, a quadcopter drone acts as an aerial scout, executing autonomous vertical take-off and precision landing sequences directly onto the moving UGV using vision-based and inertial sensing. The two vehicles maintain a synchronized communication link via the MAVLink protocol and MAVROS package to share navigation goals and real-time telemetry. This modular, sensor-fused architecture offers a scalable and effective solution for high-risk, human-limited scenarios such as disaster response, search and rescue, and hazardous industrial monitoring."
+    },
+    {
+      "academicYear": "2025-26",
+      "title": "Enhancement of YOLO algorithm for object detection and application using Nvidia Jetson board",
+      "team": "Vedant Kulkarni, Muneeb Shaikh, Satyam Drode",
+      "abstract": "This comprehensive guide documents the decade-long evolution of the YOLO (You Only Look Once) object detection series from version 1 through version 12. It systematically analyzes the architectural and methodological shift from YOLOv1’s grid-based approach to YOLOv12’s attention-centric Flash Attention framework. Key milestones covered include anchor boxes (v2), multi-scale detection (v3), training optimizations (v4), PyTorch transition (v5), industrial deployment (v6), trainable optimization (v7), anchor-free architecture (v8), PGI information preservation (v9), transformer integration (v10), and C3K2 efficiency blocks (v11). Complete with architectural details, mathematical formulations, and comparative performance analysis, this document serves as an educational and technical reference for implementing real-time object detection across autonomous driving, surveillance, and edge computing applications."
+    },
+    {
+      "academicYear": "2025-26",
+      "title": "Blind Spot Detection in Extreme Weather Conditions by Fusion of Multiple Sensors",
+      "team": "Himanshu Agrawal, Eshaan Golatkar, Ganesh Kakade",
+      "abstract": "Traditional blind spot detection systems using RADAR, LiDAR, or optical cameras frequently degrade in adverse weather like rain, fog, or low light, increasing safety risks. To address these limitations, this report introduces ORAMA, a robust, AI-based blind spot detection and risk evaluation system optimized for foggy and rainy conditions. ORAMA combines the YOLOv8 framework with specialized preprocessing modules—such as dark channel prior dehazing and nighttime contrast enhancement—along side a custom algorithm that estimates collision probability using proximity and direction to provide real-time visual alerts. Designed for future multi-modal sensor fusion, the modular system was evaluated on the BDD100K dataset, achieving an inference speed of 29 FPS with a mean Average Precision (mAP) of 0.472 in normal conditions and 0.274 in fog, demonstrating a scalable, cost-effective solution for real-time edge deployment."
+    },
+    {
+      "academicYear": "2026-27",
+      "title": "A Trust-Aware and Causality-Driven Autonomous Intelligence Framework for Risk-Critical Pipeline Infrastructure for Gas and LPG",
+      "team": "Anuraag Bagal, Bhavik Desai Gargi Dhulekar",
+      "abstract": "Pipeline networks for gas and LPG transportation are critical, capital-intensive assets vulnerable to structural degradation and failure under harsh environmental and operational conditions. Traditional inspection methods face significant challenges regarding uncertainty in data and risk interpretation, threatening safety, environmental integrity, and operational reliability. To address these limitations, this project introduces TRUSTLINE, a trust-aware, causality-driven autonomous AI framework designed for continuous pipeline monitoring and anomaly detection. By integrating real-time inspection data, degradation trends, and uncertainty reasoning, TRUSTLINE predicts risk escalation and determines when intervention becomes unavoidable. Ultimately, this framework provides a robust, risk-aware decision-making system that ensures safe, reliable pipeline operation while minimizing severe economic losses and environmental impact."
+    },
+    {
+      "academicYear": "2026-27",
+      "title": "Physics-Informed Machine Learning for Hydro-Climatic Analysis Using Satellite-Derived Hydrometeorological Data on NVIDIA’s Jetson Nano",
+      "team": "Aarushi Ghosh, Vidhi Gond, Anushka Patil",
+      "abstract": "This project proposes a physics-informed ML framework for hydro-climatic analysis using satellite data on Jetson Nano. It provides real-time predictions of water levels, discharge, and flood risk."
+    },
+    {
+      "academicYear": "2016-17",
+      "title": "Text Independent Speaker Recognition System",
+      "team": "Jay Jadhav, Sunil Pore, Vaishnavi Pednekar",
+      "abstract": "This project develops a text-independent speaker recognition system using MFCCs, delta features, and a Probabilistic Neural Network (PNN). MFCC-based feature extraction provides robustness to noise and session variations, while energy-efficient framing improves performance. The system can be optimized by varying parameters such as frame size and filter bank count."
+    },
+    {
+      "academicYear": "2020-21",
+      "title": "Identification of Improper Health Conditions Using Machine Learning Algorithms",
+      "team": "Varun Mhatre, Vishwesh Vispute, Nitin Mishra",
+      "abstract": "This project uses CT scan images and machine learning/deep learning techniques for early lung cancer detection. Abnormal images are segmented to identify tumor regions, and extracted features are used for classification. The system also detects the cancer stage to support timely diagnosis and treatment."
+    },
+    {
+      "academicYear": "2020-21",
+      "title": "Detection of Cyber Bullying on Social Media Using Text Mining and Machine Learning",
+      "team": "Rahul Ramakrishnan, Ayusha Pendse and Chetna sharma",
+      "abstract": "Cyber Bullying is one of the most recent evils of social media. With a boom in the usage of social media, the freedom of expression is being exploited. Statistics show that overall 36.5 percent people think they've been cyberbullied in their lifetime. These numbers are more than double of what thev were in 2007, and there is an increase from 2018-19, suggesting we are heading in the wrong direction. Solutions to curtail this issue to a certain extent have already been deployed in the market. However, they possess limitations of usage, or simply do not use efficient algorithms. This paper aims at identifying cyberbullying at is origin, that is when it is being drafted in real-time. Using Machine Learning and with the support of Natural Language Processing(NLP), better performance of cyberbullying detection is obtained."
+    },
+    {
+      "academicYear": "2020-21",
+      "title": "Crisis Management using Social Media Analysis",
+      "team": "Sanket Andhale and Pratik Mane",
+      "abstract": "The COVID-19 pandemic highlighted the critical need for effective crisis management and a deeper understanding of public sentiment during large-scale disasters. As social media platforms generate vast amounts of real-world data, leveraging this digital footprint offers a powerful avenue to enhance disaster response frameworks. This study utilizes advanced machine learning and Natural Language Processing (NLP) techniques, including Support Vector Machines (SVM), to analyze social media data during the pandemic. By integrating sentiment analysis, frequency distribution, and geographical distribution, we provide a comparative evaluation of the socioeconomic and psychological impacts of COVID-19 across major metropolitan cities in India. Ultimately, this research demonstrates how data-driven insights can optimize urban crisis management and inform targeted policy responses."
+    },
+    {
+      "academicYear": "2018-19",
+      "title": "Design of Tethered multirotor system for payload applications",
+      "team": "Srijal Poojari, Shah Chirag Shah and Adithya Ramanujam",
+      "abstract": "A major setback in current multirotors is flight time. This is limited by the modern battery technologies, which need to be light, have high capacity and high discharge rates. Although there is significant research ongoing around the globe to tackle this problem, for suitable applications, tethered multirotors may be a solution. The power required by the multirotor is sent over a tether from the ground to the multirotor. We aim to design such a system for a multirotor with high payload applications, thus demanding significantly large amounts of power. The designed system would be capable of sustained flight having an AUW of 10Kgs and at a height of 10ft. Another aspect of this project is to explore the tether as a mode of obtaining precise localization of the multirotor by creating a specialized tether winch."
+    },
+    {
+      "academicYear": "2018-19",
+      "title": "Campus Placement Guide",
+      "team": "Razdan Vidushi Vijay, Ravipalli Saiprathik Prasad and Pinto Nikhil Movin",
+      "abstract": "The campus placement of the students plays an important role in an educational institution. Companies identify talented and qualified students before they complete their education. There are a plethora of factors that determine the placement of a student. Based on the student performance in Aptitude tests, group activities, Technical interviews, marks in subjects in various semesters of technical education and demographics, our system predicts the placement of a student in upcoming recruitment session. The system will automatically match the interest and skill set with the requirements of companies that visit our campus and determine the company you are best fit for. The system will also determine the shortcomings and gives suggestions to improve them. The proposed methodology involves various Machine Learning Classifiers on the training dataset. The predictive model can act as a tool to provide the information of students about their performance in the classroom and their chances of placement which in turn would help colleges to take informed decisions and maximize the results of the efforts made by the students."
+    }
+  ]
+}
