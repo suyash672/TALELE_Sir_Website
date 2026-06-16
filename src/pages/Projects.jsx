@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
+import Badge from '../components/ui/Badge';
 
 import projectsData from '../utils/projects_data.json';
 
 const Projects = () => {
-  const [activeTab, setActiveTab] = useState('Major Project');
+  const [activeTab, setActiveTab] = useState('all');
 
   const tabs = ['Mini Project', 'Major Project', 'Internship Project'];
 
   const projects = [...(projectsData.projects || [])]
     .filter((p) => {
+      if (activeTab === 'all') return true;
       if (activeTab === 'Major Project') {
         return !p.type || p.type === 'Major Project' || p.type === 'Major';
       }
@@ -45,7 +47,7 @@ const Projects = () => {
               <button
                 key={tab}
                 type="button"
-                onClick={() => setActiveTab(tab)}
+                onClick={() => setActiveTab((prev) => (prev === tab ? 'all' : tab))}
                 className={`px-4 py-2 rounded-md border text-sm font-medium transition-colors ${
                   activeTab === tab
                     ? 'bg-gray-900 text-white border-gray-900'
@@ -61,7 +63,10 @@ const Projects = () => {
             {projects.length > 0 ? (
               projects.map((project, index) => (
                 <article key={index} className="border border-gray-200 rounded-md p-5">
-                  <p className="text-sm text-gray-600 mb-1">Academic Year : {project.academicYear}</p>
+                  <div className="flex flex-wrap items-center gap-3 mb-3">
+                    <Badge variant="outline">{project.type || 'Major Project'}</Badge>
+                    <span className="text-sm text-gray-500">Academic Year: {project.academicYear}</span>
+                  </div>
                   <h2 className="text-xl font-semibold text-gray-900 mb-3">Title : {project.title}</h2>
                   <p className="text-gray-700 mb-2">Team : {project.team}</p>
                   <p className="text-gray-700 mb-2 leading-relaxed">Abstract : {project.abstract}</p>

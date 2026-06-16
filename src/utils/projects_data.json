@@ -113,6 +113,27 @@
       "title": "Campus Placement Guide",
       "team": "Razdan Vidushi Vijay, Ravipalli Saiprathik Prasad and Pinto Nikhil Movin",
       "abstract": "The campus placement of the students plays an important role in an educational institution. Companies identify talented and qualified students before they complete their education. There are a plethora of factors that determine the placement of a student. Based on the student performance in Aptitude tests, group activities, Technical interviews, marks in subjects in various semesters of technical education and demographics, our system predicts the placement of a student in upcoming recruitment session. The system will automatically match the interest and skill set with the requirements of companies that visit our campus and determine the company you are best fit for. The system will also determine the shortcomings and gives suggestions to improve them. The proposed methodology involves various Machine Learning Classifiers on the training dataset. The predictive model can act as a tool to provide the information of students about their performance in the classroom and their chances of placement which in turn would help colleges to take informed decisions and maximize the results of the efforts made by the students."
+    },
+    {
+      "type": "Mini Project",
+      "academicYear": "2025-26",
+      "title": "Bird Hazard Prediction System for Indian Airfields Using Jetson Nano",
+      "team": "Gargi Dhulekar, Aksh Khator and Navya Sinha",
+      "abstract": "Bird strikes pose a significant threat to aviation safety, particularly at Indian Air Force (IAF) airfields. This project presents an AI-powered Bird Hazard Prediction System implemented on NVIDIA Jetson Nano that predicts, detects, and quantifies bird strike risks in real time. The system integrates bird density prediction using historical eBird and weather data, real-time bird detection and tracking using YOLOv11 and ByteTrack, and hazard risk assessment based on strike frequency and severity. With integrated weather sensors for autonomous offline operation, the system achieved 0.79 precision, 0.75 recall, and 0.80 mAP@50 while maintaining 25–30 FPS performance. This low-power edge AI solution provides a proactive and scalable approach to enhancing flight safety through early bird strike risk prediction and warning generation."
+    },
+    {
+      "type": "Mini Project",
+      "academicYear": "2025-26",
+      "title": "Automated Cockpit Reading System: Deep Learning-Based Multi-Gauge Digitization for Aircraft Telemetry",
+      "team": "Aarushi Ghosh, Vedanth Dhagay and Vidhi Gond",
+      "abstract": "This project presents a deep learning-based system for automated digitization and real-time monitoring of multiple aircraft cockpit analog instruments, including engine pressure, RPM, airspeed, and vertical speed indicators. Using a unified YOLOv11 model and gauge-specific calibration algorithms, the system accurately detects gauge readings and converts needle positions into physical measurements. Implemented on a Raspberry Pi 4B with a camera module, it achieved 94.8% mAP50, a mean needle angle error of 1.31°, and real-time performance of 10–12 FPS with low power consumption. The solution enables continuous flight data logging, enhanced safety monitoring, post-flight analysis, and predictive maintenance for legacy analog cockpit systems."
+    },
+    {
+      "type": "Mini Project",
+      "academicYear": "2025-26",
+      "title": "Autonomous Navigation and Mapping for UGV Using LiDAR",
+      "team": "Kushal Deshmukh, Vinay Gupta and Soham Jadhav",
+      "abstract": "This project presents a cost-effective Unmanned Ground Vehicle (UGV) for autonomous navigation and environmental mapping using LiDAR technology. Built around a Raspberry Pi, the system combines LiDAR and vision sensing for obstacle detection and SLAM-based localization and mapping. The prototype demonstrates stable navigation, accurate environment perception, and efficient 2D map generation. Its modular design and open-source architecture support future integration of multi-sensor fusion and advanced path-planning capabilities."
     }
   ]
 }
