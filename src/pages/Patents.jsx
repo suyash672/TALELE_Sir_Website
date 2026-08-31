@@ -26,6 +26,20 @@ const getAcademicYearLabel = (date, fallbackYear) => {
   return `${startYear}-${endYear}`;
 };
 
+// Format a date string to a readable format
+const formatDateStr = (dateStr) => {
+  if (!dateStr) return '';
+  try {
+    const d = new Date(dateStr);
+    if (!isNaN(d.getTime())) {
+      return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+    }
+    return dateStr;
+  } catch {
+    return dateStr;
+  }
+};
+
 // Transform JSON data to component format - moved outside component to avoid React compiler warning
 const transformPatentsData = () => {
   const patentsArray = patentsData.patents || [];
@@ -37,10 +51,10 @@ const transformPatentsData = () => {
   return patentsArray.map((patent) => {
       // Extract year from date or publicationdate
       let year = new Date().getFullYear();
-      let formattedDate = '';
-      let formattedPublicationDate = '';
       let filingDateObj = null;
       let publicationDateObj = null;
+      let formattedDate = '';
+      let formattedPublicationDate = '';
       
       if (patent.date) {
         try {
@@ -80,6 +94,10 @@ const transformPatentsData = () => {
           formattedPublicationDate = patent.publicationdate;
         }
       }
+
+      // Registration and Grant dates (UK Design / German patents)
+      const formattedRegistrationDate = formatDateStr(patent.registrationdate);
+      const formattedGrantDate = formatDateStr(patent.grantdate);
       
       // Format authors/inventors
       const inventors = Array.isArray(patent.authors) 
@@ -89,7 +107,7 @@ const transformPatentsData = () => {
       // Normalize status
       const status = patent.status?.toLowerCase() || 'pending';
       
-      // Academic year label based on filing or publication date
+      // Academic year label based on publication/grant date, then filing date
       const academicYear = getAcademicYearLabel(publicationDateObj || filingDateObj, year);
       
       return {
@@ -100,6 +118,8 @@ const transformPatentsData = () => {
         applicationNumber: patent.applicationnumber || null,
         filingDate: formattedDate,
         publicationDate: formattedPublicationDate,
+        registrationDate: formattedRegistrationDate,
+        grantDate: formattedGrantDate,
         date: formattedDate,
         year: year,
         status: status,
@@ -320,10 +340,19 @@ const Patents = () => {
                           {patent.organisation && `${(patent.applicationNumber || patent.patentNumber) ? ' • ' : ''}${patent.organisation}`}
                         </p>
 
-                        {/* Filing Date, Publication Date */}
+                        {/* Dates: show Registration Date/Grant Date for design patents, Filed/Published for Indian patents */}
                         <p className="text-sm text-gray-600 mb-4">
-                          {patent.filingDate && `Filed: ${patent.filingDate}`}
-                          {patent.publicationDate && `${patent.filingDate ? ' • ' : ''}Published: ${patent.publicationDate}`}
+                          {patent.registrationDate ? (
+                            <>
+                              {`Registration Date: ${patent.registrationDate}`}
+                              {patent.grantDate && ` • Grant Date: ${patent.grantDate}`}
+                            </>
+                          ) : (
+                            <>
+                              {patent.filingDate && `Filed: ${patent.filingDate}`}
+                              {patent.publicationDate && `${patent.filingDate ? ' • ' : ''}Published: ${patent.publicationDate}`}
+                            </>
+                          )}
                         </p>
 
                         {/* Badges and Action Links */}

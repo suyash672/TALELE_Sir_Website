@@ -114,6 +114,14 @@ const Publications = () => {
       const inventors = Array.isArray(patent.authors) ? patent.authors.join(', ') : patent.authors || '';
       const title = toTitleCase(patent.title || 'Untitled');
 
+      let datesStr = '';
+      if (patent.registrationdate) {
+        datesStr += `Registration Date: ${formatDate(parseDate(patent.registrationdate), patent.registrationdate)}`;
+        if (patent.grantdate) {
+          datesStr += ` • Grant Date: ${formatDate(parseDate(patent.grantdate), patent.grantdate)}`;
+        }
+      }
+
       return {
         id: `patent-${patent.id}`,
         type: 'Patent',
@@ -125,6 +133,7 @@ const Publications = () => {
           : patent.applicationnumber
             ? `Application No. ${patent.applicationnumber}`
             : '',
+        datesDetail: datesStr,
         doi: null,
         link: patent.reference_link || null,
         sortDate: parsedDate,
@@ -280,6 +289,13 @@ const Publications = () => {
                     <p
                       className="text-sm text-gray-600 mb-2"
                       dangerouslySetInnerHTML={{ __html: highlightText(item.detail, searchQuery) }}
+                    />
+                  )}
+
+                  {item.datesDetail && (
+                    <p
+                      className="text-sm text-gray-600 mb-2"
+                      dangerouslySetInnerHTML={{ __html: highlightText(item.datesDetail, searchQuery) }}
                     />
                   )}
 

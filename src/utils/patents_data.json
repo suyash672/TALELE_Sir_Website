@@ -412,6 +412,7 @@
       "applicationnumber": "202321051875",
       "publicationdate": "2025-02-07",
       "status": "Awaiting Request for Examination",
+      "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
       "remark": "Awaiting request for examination"
     },
     {
@@ -426,9 +427,12 @@
       ],
       "organisation": "UK Design Registry",
       "patentnumber": "6409906",
+      "registrationdate": "2024-12-09",
+      "grantdate": "2025-01-08",
       "publicationdate": "2025-01-08",
       "status": "Granted",
-      "remark": "Design registration granted"
+      "reference_link": "https://www.registered-design.service.gov.uk/find/6409906",
+      "remark": "Design number: 6409906. Registration date: 09 December 2024. Grant date: 08 January 2025."
     },
     {
       "id": 27,
@@ -447,9 +451,12 @@
       ],
       "organisation": "UK Design Registry",
       "patentnumber": "6451597",
+      "registrationdate": "2025-06-16",
+      "grantdate": "2025-06-24",
       "publicationdate": "2025-06-24",
       "status": "Granted",
-      "remark": "Design registration granted"
+      "reference_link": "https://www.registered-design.service.gov.uk/find/6451597",
+      "remark": "Design number: 6451597. Registration date: 16 June 2025. Grant date: 24 June 2025."
     },
     {
       "id": 28,
@@ -468,9 +475,12 @@
       ],
       "organisation": "UK Design Registry",
       "patentnumber": "6494545",
+      "registrationdate": "2025-12-21",
+      "grantdate": "2026-02-23",
       "publicationdate": "2026-02-23",
       "status": "Granted",
-      "remark": "Design registration granted"
+      "reference_link": "https://www.registered-design.service.gov.uk/find/6494545",
+      "remark": "Design number: 6494545. Registration date: 21 December 2025. Grant date: 23 February 2026."
     },
     {
       "id": 29,
@@ -489,9 +499,12 @@
       ],
       "organisation": "UK Design Registry",
       "patentnumber": "6494543",
+      "registrationdate": "2025-12-21",
+      "grantdate": "2026-01-22",
       "publicationdate": "2026-01-22",
       "status": "Granted",
-      "remark": "Design registration granted"
+      "reference_link": "https://www.registered-design.service.gov.uk/find/6494543",
+      "remark": "Design number: 6494543. Registration date: 21 December 2025. Grant date: 22 January 2026."
     },
     {
       "id": 30,
@@ -510,9 +523,12 @@
       ],
       "organisation": "UK Design Registry",
       "patentnumber": "6494546",
+      "registrationdate": "2025-12-21",
+      "grantdate": "2026-01-27",
       "publicationdate": "2026-01-27",
       "status": "Granted",
-      "remark": "Design registration granted"
+      "reference_link": "https://www.registered-design.service.gov.uk/find/6494546",
+      "remark": "Design number: 6494546. Registration date: 21 December 2025. Grant date: 27 January 2026."
     },
     {
       "id": 31,
@@ -535,8 +551,8 @@
     },
     {
       "id": 32,
-      "date": "2025-05-24",
-      "title": "A Bank Safe Deposit Box Security System With Biometric Authentication And Sensor Monitoring",
+      "date": "2025-04-10",
+      "title": "A BANK SAFE DEPOSIT BOX SECURITY SYSTEM WITH BIOMETRIC AUTHENTICATION AND SENSOR MONITORING",
       "authors": [
         "Hallur Srushti",
         "Jain Dishita",
@@ -549,9 +565,11 @@
       "organisation": "German Patent Office",
       "applicationnumber": "20 2025 100 178.0",
       "registrationdate": "2025-04-10",
+      "grantdate": "2025-05-22",
       "publicationdate": "2025-05-22",
       "status": "Granted",
-      "remark": "German Patent. Registration date: 2025-04-10; Grant date: 2025-05-22"
+      "reference_link": "https://register.dpma.de/DPMAregister/pat/register?AKZ=2020251001780&CURSOR=0",
+      "remark": "German Patent. Application number: 20 2025 100 178.0. Registration date: 10 April 2025. Grant date: 22 May 2025."
     },
     {
       "id": 33,
@@ -570,9 +588,12 @@
       ],
       "organisation": "UK Design Registry",
       "patentnumber": "6494541",
+      "registrationdate": "2025-12-21",
+      "grantdate": "2026-01-09",
       "publicationdate": "2026-01-09",
       "status": "Granted",
-      "remark": "Design registration granted"
+      "reference_link": "https://www.registered-design.service.gov.uk/find/6494541",
+      "remark": "Design number: 6494541. Registration date: 21 December 2025. Grant date: 09 January 2026."
     },
     {
       "id": 34,
@@ -591,13 +612,16 @@
       ],
       "organisation": "UK Design Registry",
       "patentnumber": "6494544",
+      "registrationdate": "2025-12-21",
+      "grantdate": "2026-01-09",
       "publicationdate": "2026-01-09",
       "status": "Granted",
-      "remark": "Design registration granted"
+      "reference_link": "https://www.registered-design.service.gov.uk/find/6494544",
+      "remark": "Design number: 6494544. Registration date: 21 December 2025. Grant date: 09 January 2026."
     },
     {
       "id": 35,
-      "date": "2026-04-27",
+      "date": "2026-04-04",
       "title": "A SECURE SYSTEM FOR BIOMETRIC VOTER IDENTIFICATION AND VOTING AUTHORIZATION",
       "authors": [
         "Agarwal Mayank",
@@ -613,13 +637,15 @@
       ],
       "organisation": "German Patent Office",
       "applicationnumber": "20 2026 101 645.4",
+      "registrationdate": "2026-04-27",
       "publicationdate": "2026-04-27",
       "status": "Granted",
-      "remark": "German Patent"
+      "reference_link": "https://register.dpma.de/DPMAregister/pat/register?AKZ=2020261019178&CURSOR=0",
+      "remark": "German Patent. Application number: 20 2026 101 645.4. Application date: 04 April 2026. Registration date: 27 April 2026."
     },
     {
       "id": 36,
-      "date": "2026-04-24",
+      "date": "2026-03-24",
       "title": "A WEARABLE PHYSIOLOGICAL MONITORING AND SIGNAL PROCESSING SYSTEM",
       "authors": [
         "Chitre Parth",
@@ -630,9 +656,11 @@
       ],
       "organisation": "German Patent Office",
       "applicationnumber": "20 2026 101 917",
+      "registrationdate": "2026-04-24",
       "publicationdate": "2026-04-24",
       "status": "Granted",
-      "remark": "German Patent"
+      "reference_link": "https://register.dpma.de/DPMAregister/pat/register?AKZ=2020261019178&CURSOR=0",
+      "remark": "German Patent. Application number: 20 2026 101 917. Application date: 24 March 2026. Registration date: 24 April 2026."
     },
     {
       "id": 37,
@@ -657,6 +685,8 @@
       ],
       "organisation": "UK Design Registry",
       "patentnumber": "6543211",
+      "registrationdate": "2026-07-29",
+      "grantdate": "2026-08-20",
       "publicationdate": "2026-08-20",
       "status": "Granted",
       "reference_link": "https://www.registered-design.service.gov.uk/find/6543211",
@@ -685,6 +715,8 @@
       ],
       "organisation": "UK Design Registry",
       "patentnumber": "6543213",
+      "registrationdate": "2026-07-29",
+      "grantdate": "2026-08-11",
       "publicationdate": "2026-08-11",
       "status": "Granted",
       "reference_link": "https://www.registered-design.service.gov.uk/find/6543213",
@@ -713,6 +745,8 @@
       ],
       "organisation": "UK Design Registry",
       "patentnumber": "6543210",
+      "registrationdate": "2026-07-29",
+      "grantdate": "2026-08-20",
       "publicationdate": "2026-08-20",
       "status": "Granted",
       "reference_link": "https://www.registered-design.service.gov.uk/find/6543210",
@@ -741,6 +775,8 @@
       ],
       "organisation": "UK Design Registry",
       "patentnumber": "6543209",
+      "registrationdate": "2026-07-29",
+      "grantdate": "2026-08-20",
       "publicationdate": "2026-08-20",
       "status": "Granted",
       "reference_link": "https://www.registered-design.service.gov.uk/find/6543209",
@@ -769,6 +805,8 @@
       ],
       "organisation": "UK Design Registry",
       "patentnumber": "6543208",
+      "registrationdate": "2026-07-29",
+      "grantdate": "2026-08-20",
       "publicationdate": "2026-08-20",
       "status": "Granted",
       "reference_link": "https://www.registered-design.service.gov.uk/find/6543208",
@@ -797,6 +835,8 @@
       ],
       "organisation": "UK Design Registry",
       "patentnumber": "6543214",
+      "registrationdate": "2026-07-29",
+      "grantdate": "2026-08-11",
       "publicationdate": "2026-08-11",
       "status": "Granted",
       "reference_link": "https://www.registered-design.service.gov.uk/find/6543214",
@@ -825,6 +865,8 @@
       ],
       "organisation": "UK Design Registry",
       "patentnumber": "6543215",
+      "registrationdate": "2026-07-29",
+      "grantdate": "2026-08-11",
       "publicationdate": "2026-08-11",
       "status": "Granted",
       "reference_link": "https://www.registered-design.service.gov.uk/find/6543215",
@@ -853,6 +895,8 @@
       ],
       "organisation": "UK Design Registry",
       "patentnumber": "6543223",
+      "registrationdate": "2026-07-29",
+      "grantdate": "2026-08-12",
       "publicationdate": "2026-08-12",
       "status": "Granted",
       "reference_link": "https://www.registered-design.service.gov.uk/find/6543223",
@@ -881,6 +925,8 @@
       ],
       "organisation": "UK Design Registry",
       "patentnumber": "6543222",
+      "registrationdate": "2026-07-29",
+      "grantdate": "2026-08-20",
       "publicationdate": "2026-08-20",
       "status": "Granted",
       "reference_link": "https://www.registered-design.service.gov.uk/find/6543222",
@@ -909,19 +955,171 @@
       ],
       "organisation": "UK Design Registry",
       "patentnumber": "6543220",
+      "registrationdate": "2026-07-29",
+      "grantdate": "2026-08-20",
       "publicationdate": "2026-08-20",
       "status": "Granted",
       "reference_link": "https://www.registered-design.service.gov.uk/find/6543220",
       "remark": "Design number: 6543220. Registration date: 29 July 2026. Grant date: 20 August 2026."
+    },
+    {
+      "id": 47,
+      "date": "2026-07-29",
+      "title": "Portable Medical Diagnostic Kiosk",
+      "authors": [
+        "Yash Savai",
+        "Ankita Dound",
+        "Venkatesh Ghule",
+        "Romit Jadhav",
+        "Pradyut Manjarekar",
+        "Aashka Dave",
+        "Avani Paygude",
+        "Tanish Parakh",
+        "Sahil Singh",
+        "Nimit Mitthani",
+        "Harsh Lad",
+        "Chinmay Mhaskar",
+        "Pranav Bharadwaj",
+        "Darshan Gohil",
+        "Dr. Kiran Talele"
+      ],
+      "organisation": "UK Design Registry",
+      "patentnumber": "6543212",
+      "registrationdate": "2026-07-29",
+      "grantdate": "2026-08-26",
+      "publicationdate": "2026-08-26",
+      "status": "Granted",
+      "reference_link": "https://www.registered-design.service.gov.uk/find/6543212",
+      "remark": "Design number: 6543212. Registration date: 29 July 2026. Grant date: 26 August 2026."
+    },
+    {
+      "id": 48,
+      "date": "2026-07-29",
+      "title": "Portable Charging Station For Ev's",
+      "authors": [
+        "Yash Savai",
+        "Ankita Dound",
+        "Venkatesh Ghule",
+        "Romit Jadhav",
+        "Pradyut Manjarekar",
+        "Aashka Dave",
+        "Avani Paygude",
+        "Tanish Parakh",
+        "Sahil Singh",
+        "Nimit Mitthani",
+        "Harsh Lad",
+        "Chinmay Mhaskar",
+        "Pranav Bharadwaj",
+        "Darshan Gohil",
+        "Dr. Kiran Talele"
+      ],
+      "organisation": "UK Design Registry",
+      "patentnumber": "6543217",
+      "registrationdate": "2026-07-29",
+      "grantdate": "2026-08-26",
+      "publicationdate": "2026-08-26",
+      "status": "Granted",
+      "reference_link": "https://www.registered-design.service.gov.uk/find/6543217",
+      "remark": "Design number: 6543217. Registration date: 29 July 2026. Grant date: 26 August 2026."
+    },
+    {
+      "id": 49,
+      "date": "2026-07-29",
+      "title": "Spider Robot",
+      "authors": [
+        "Yash Savai",
+        "Ankita Dound",
+        "Venkatesh Ghule",
+        "Romit Jadhav",
+        "Pradyut Manjarekar",
+        "Aashka Dave",
+        "Avani Paygude",
+        "Tanish Parakh",
+        "Sahil Singh",
+        "Nimit Mitthani",
+        "Harsh Lad",
+        "Chinmay Mhaskar",
+        "Pranav Bharadwaj",
+        "Darshan Gohil",
+        "Dr. Kiran Talele"
+      ],
+      "organisation": "UK Design Registry",
+      "patentnumber": "6543221",
+      "registrationdate": "2026-07-29",
+      "grantdate": "2026-08-26",
+      "publicationdate": "2026-08-26",
+      "status": "Granted",
+      "reference_link": "https://www.registered-design.service.gov.uk/find/6543221",
+      "remark": "Design number: 6543221. Registration date: 29 July 2026. Grant date: 26 August 2026."
+    },
+    {
+      "id": 50,
+      "date": "2026-07-29",
+      "title": "Computer Mouse",
+      "authors": [
+        "Yash Savai",
+        "Ankita Dound",
+        "Venkatesh Ghule",
+        "Romit Jadhav",
+        "Pradyut Manjarekar",
+        "Aashka Dave",
+        "Avani Paygude",
+        "Tanish Parakh",
+        "Sahil Singh",
+        "Nimit Mitthani",
+        "Harsh Lad",
+        "Chinmay Mhaskar",
+        "Pranav Bharadwaj",
+        "Darshan Gohil",
+        "Dr. Kiran Talele"
+      ],
+      "organisation": "UK Design Registry",
+      "patentnumber": "6543226",
+      "registrationdate": "2026-07-29",
+      "grantdate": "2026-08-26",
+      "publicationdate": "2026-08-26",
+      "status": "Granted",
+      "reference_link": "https://www.registered-design.service.gov.uk/find/6543226",
+      "remark": "Design number: 6543226. Registration date: 29 July 2026. Grant date: 26 August 2026."
+    },
+    {
+      "id": 51,
+      "date": "2026-07-29",
+      "title": "Bee Drone",
+      "authors": [
+        "Yash Savai",
+        "Ankita Dound",
+        "Venkatesh Ghule",
+        "Romit Jadhav",
+        "Pradyut Manjarekar",
+        "Aashka Dave",
+        "Avani Paygude",
+        "Tanish Parakh",
+        "Sahil Singh",
+        "Nimit Mitthani",
+        "Harsh Lad",
+        "Chinmay Mhaskar",
+        "Pranav Bharadwaj",
+        "Darshan Gohil",
+        "Dr. Kiran Talele"
+      ],
+      "organisation": "UK Design Registry",
+      "patentnumber": "6543227",
+      "registrationdate": "2026-07-29",
+      "grantdate": "2026-08-26",
+      "publicationdate": "2026-08-26",
+      "status": "Granted",
+      "reference_link": "https://www.registered-design.service.gov.uk/find/6543227",
+      "remark": "Design number: 6543227. Registration date: 29 July 2026. Grant date: 26 August 2026."
     }
   ],
   "summary": {
-    "totalpatents": 46,
-    "granted": 21,
-    "abandoned": 3,
+    "totalpatents": 51,
+    "granted": 26,
+    "abandoned": 2,
     "deemedbewithdrawn": 9,
-    "awaitingexamination": 11,
-    "periodfrom": "2013-06-24",
-    "periodto": "2026-08-20"
+    "awaitingexamination": 12,
+    "periodfrom": "2012-06-25",
+    "periodto": "2026-08-26"
   }
 }
