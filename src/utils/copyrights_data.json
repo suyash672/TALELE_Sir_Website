@@ -2,8 +2,13 @@
   "copyrights": [
     {
       "id": "LD-20250175758",
-      "title": "collaborative UAV swarm for Efficient Tunnel inspection and precision terrain mapping",
-      "authors": ["Neel Patel", "Malay Phadke", "Dr. Kiran Talele", "Dr. Sujata Kulkarni"],
+      "title": "Collaborative UAV swarm for Efficient Tunnel inspection and precision terrain mapping",
+      "authors": [
+        "Neel Patel",
+        "Malay Phadke",
+        "Dr. Kiran Talele",
+        "Dr. Sujata Kulkarni"
+      ],
       "registrationdate": "2025-10-13",
       "description": "Designed a UAV swarm system for efficient tunnel inspection and terrain mapping using centralized, distributed, and hybrid coordination to enhance accuracy, speed, and data reliability.",
       "images": [
@@ -14,7 +19,11 @@
     {
       "id": "LD-20260180713",
       "title": "Intelligent Aerial System for Crop Health Monitoring and Precision Agriculture",
-      "authors": ["Gandhar Suhas Kulkarni", "Vedant Amit Bhagwat", "Dr. Kiran Talele"],
+      "authors": [
+        "Gandhar Suhas Kulkarni",
+        "Vedant Amit Bhagwat",
+        "Dr. Kiran Talele"
+      ],
       "registrationdate": "2026-01-22",
       "description": "Intelligent autonomous drone system for crop health monitoring using multispectral imaging, real time processing, and precision agriculture technology.",
       "images": [
@@ -25,7 +34,10 @@
     {
       "id": "LD-20260192664",
       "title": "Biometric multimodal authentication system with adaptive challenge protocol consisting of combined optical-neuropsychological validation",
-      "authors": ["Adwait Patkhedkar", "Dr. Kiran Talele"],
+      "authors": [
+        "Adwait Patkhedkar",
+        "Dr. Kiran Talele"
+      ],
       "registrationdate": "2026-07-22",
       "description": "Multimodal biometric authentication system using iris/fingerprint verification, corneal reflection tracking, gaze mapping, and EEGbased P300 cognitive response for adaptive antispoofing validation.",
       "images": [

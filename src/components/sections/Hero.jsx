@@ -12,11 +12,13 @@ import {
 } from '@heroicons/react/24/outline';
 import publicationsData from '../../utils/publications_data.json';
 import patentsData from '../../utils/patents_data.json';
+import copyrightsData from '../../utils/copyrights_data.json';
 
 const Hero = () => {
   const totalPublications = (publicationsData?.publications?.conferencepapers?.length || 0) + 
                             (publicationsData?.publications?.journalpapers?.length || 0);
   const totalPatents = patentsData?.patents?.length || 0;
+  const totalCopyrights = copyrightsData?.copyrights?.length || 0;
 
   return (
     <section className="relative overflow-hidden bg-linear-to-br from-teal-50/50 via-white to-cyan-50/30">
@@ -54,34 +56,45 @@ const Hero = () => {
               </div>
 
               {/* Quick stats */}
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 pt-8 border-t border-border">
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 pt-8 border-t border-border">
                 <div className="space-y-2">
                   <div className="flex items-center gap-2">
-                    <CalendarDaysIcon className="w-6 h-6 text-primary" />
-                    <div className="text-4xl font-bold text-primary">37+</div>
+                    <CalendarDaysIcon className="w-5 h-5 text-primary" />
+                    <div className="text-3xl font-bold text-primary">37+</div>
                   </div>
-                  <div className="text-base text-muted-foreground">Years Experience</div>
+                  <div className="text-sm text-muted-foreground">Years Experience</div>
                 </div>
                 <div className="space-y-2">
                   <div className="flex items-center gap-2">
-                    <DocumentTextIcon className="w-6 h-6 text-primary" />
-                    <div className="text-4xl font-bold text-primary">{totalPublications}+</div>
+                    <DocumentTextIcon className="w-5 h-5 text-primary" />
+                    <div className="text-3xl font-bold text-primary">{totalPublications}+</div>
                   </div>
-                  <div className="text-base text-muted-foreground">Publications</div>
+                  <div className="text-sm text-muted-foreground">Publications</div>
                 </div>
                 <div className="space-y-2">
                   <div className="flex items-center gap-2">
-                    <ClipboardDocumentCheckIcon className="w-6 h-6 text-primary" />
-                    <div className="text-4xl font-bold text-primary">{totalPatents}+</div>
+                    <ClipboardDocumentCheckIcon className="w-5 h-5 text-primary" />
+                    <div className="text-3xl font-bold text-primary">{totalPatents}+</div>
                   </div>
-                  <div className="text-base text-muted-foreground">Patents</div>
+                  <div className="text-sm text-muted-foreground">Patents</div>
                 </div>
                 <div className="space-y-2">
                   <div className="flex items-center gap-2">
-                    <LightBulbIcon className="w-6 h-6 text-primary" />
-                    <div className="text-4xl font-bold text-primary">4</div>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <circle cx="12" cy="12" r="10" />
+                      <path d="M14 9.5c0-.83-.67-1.5-1.5-1.5h-1c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5h1c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5h-1c-.83 0-1.5-.67-1.5-1.5" />
+                      <path d="M12 6v1.5M12 16.5V18" />
+                    </svg>
+                    <div className="text-3xl font-bold text-primary">{totalCopyrights}</div>
                   </div>
-                  <div className="text-base text-muted-foreground">Startups</div>
+                  <div className="text-sm text-muted-foreground">Copyrights</div>
+                </div>
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2">
+                    <LightBulbIcon className="w-5 h-5 text-primary" />
+                    <div className="text-3xl font-bold text-primary">4</div>
+                  </div>
+                  <div className="text-sm text-muted-foreground">Startups</div>
                 </div>
               </div>
             </div>
