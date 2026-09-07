@@ -3,6 +3,7 @@ import { ExternalLink } from 'lucide-react';
 import Badge from '../components/ui/Badge';
 import publicationsData from '../utils/publications_data.json';
 import patentsData from '../utils/patents_data.json';
+import copyrightsData from '../utils/copyrights_data.json';
 
 const parseDate = (value) => {
   if (!value || typeof value !== 'string') return null;
@@ -142,7 +143,28 @@ const Publications = () => {
       };
     });
 
-    return [...conferenceItems, ...journalItems, ...patentItems].sort((a, b) => b.sortTime - a.sortTime);
+    const copyrightItems = (copyrightsData?.copyrights || []).map((copyright) => {
+      const parsedDate = parseDate(copyright.registrationdate);
+      const authors = Array.isArray(copyright.authors) ? copyright.authors.join(', ') : copyright.authors || '';
+      
+      return {
+        id: `copyright-${copyright.id}`,
+        type: 'Copyright',
+        title: copyright.title || 'Untitled',
+        contributors: authors,
+        venue: 'Copyright Office, Government of India',
+        detail: copyright.description || '',
+        datesDetail: `Registration Date: ${formatDate(parsedDate, copyright.registrationdate)}`,
+        doi: null,
+        link: null,
+        images: copyright.images || [],
+        sortDate: parsedDate,
+        sortTime: parsedDate ? parsedDate.getTime() : 0,
+        displayDate: formatDate(parsedDate, copyright.registrationdate),
+      };
+    });
+
+    return [...conferenceItems, ...journalItems, ...patentItems, ...copyrightItems].sort((a, b) => b.sortTime - a.sortTime);
   }, []);
 
   const typeFilteredItems = useMemo(() => {
@@ -151,6 +173,7 @@ const Publications = () => {
       if (activeTypeFilter === 'conference') return item.type === 'Conference Publication';
       if (activeTypeFilter === 'journal') return item.type === 'Journal Publication';
       if (activeTypeFilter === 'patent') return item.type === 'Patent';
+      if (activeTypeFilter === 'copyright') return item.type === 'Copyright';
       return false;
     });
   }, [allItems, activeTypeFilter]);
@@ -234,6 +257,19 @@ const Publications = () => {
               >
                 Conference Publications
               </button>
+
+              <button
+                type="button"
+                onClick={() =>
+                  setActiveTypeFilter((prev) => (prev === 'copyright' ? 'all' : 'copyright'))
+                }
+                className={`px-4 py-2 rounded-md border text-sm font-medium transition-colors ${activeTypeFilter === 'copyright'
+                    ? 'bg-gray-900 text-white border-gray-900'
+                    : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'
+                  }`}
+              >
+                Copyrights
+              </button>
             </div>
 
             <div className="relative">
@@ -297,6 +333,16 @@ const Publications = () => {
                       className="text-sm text-gray-600 mb-2"
                       dangerouslySetInnerHTML={{ __html: highlightText(item.datesDetail, searchQuery) }}
                     />
+                  )}
+
+                  {item.images && item.images.length > 0 && (
+                    <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                      {item.images.map((imgSrc, idx) => (
+                        <a key={idx} href={imgSrc} target="_blank" rel="noopener noreferrer" className="block border border-gray-200 rounded-md overflow-hidden hover:opacity-90 transition-opacity">
+                          <img src={imgSrc} alt={`${item.title} - Image ${idx + 1}`} className="w-full h-auto object-contain bg-gray-50" style={{ maxHeight: '400px' }} />
+                        </a>
+                      ))}
+                    </div>
                   )}
 
                   <div className="flex flex-wrap items-center gap-4 text-sm">
