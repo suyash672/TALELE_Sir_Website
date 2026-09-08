@@ -128,6 +128,7 @@ const transformPatentsData = () => {
         link: patent.reference_link || null,
         sortTime: publicationDateObj?.getTime() || filingDateObj?.getTime() || 0,
         remark: patent.remark || '',
+        images: patent.images || [],
       };
     });
 };
@@ -136,6 +137,7 @@ const Patents = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedYear, setSelectedYear] = useState('all');
   const [selectedStatus, setSelectedStatus] = useState('all');
+  const [expandedCerts, setExpandedCerts] = useState({});
 
   // Use transformed data and remove "awaiting request for examination" patents
   const patents = transformPatentsData().filter(
@@ -354,6 +356,35 @@ const Patents = () => {
                             </>
                           )}
                         </p>
+
+                        {/* Certificate Toggle & Images */}
+                        {patent.images && patent.images.length > 0 && (
+                          <div className="mb-4">
+                            <button
+                              type="button"
+                              onClick={() => setExpandedCerts((prev) => ({ ...prev, [patent.id]: !prev[patent.id] }))}
+                              className="inline-flex items-center gap-2 px-4 py-2 rounded-md border border-gray-300 text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 transition-colors"
+                            >
+                              <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                {expandedCerts[patent.id] ? (
+                                  <><polyline points="4 14 10 14 10 20" /><polyline points="20 10 14 10 14 4" /><line x1="14" y1="10" x2="21" y2="3" /><line x1="3" y1="21" x2="10" y2="14" /></>
+                                ) : (
+                                  <><polyline points="15 3 21 3 21 9" /><polyline points="9 21 3 21 3 15" /><line x1="21" y1="3" x2="14" y2="10" /><line x1="3" y1="21" x2="10" y2="14" /></>
+                                )}
+                              </svg>
+                              {expandedCerts[patent.id] ? 'Hide Certificate' : 'Show Certificate'}
+                            </button>
+                            {expandedCerts[patent.id] && (
+                              <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                {patent.images.map((imgSrc, idx) => (
+                                  <a key={idx} href={imgSrc} target="_blank" rel="noopener noreferrer" className="block border border-gray-200 rounded-md overflow-hidden hover:opacity-90 transition-opacity">
+                                    <img src={imgSrc} alt={`${patent.title} - Certificate ${idx + 1}`} className="w-full h-auto object-contain bg-gray-50" style={{ maxHeight: '400px' }} />
+                                  </a>
+                                ))}
+                              </div>
+                            )}
+                          </div>
+                        )}
 
                         {/* Badges and Action Links */}
                         <div className="flex flex-wrap items-center gap-3">

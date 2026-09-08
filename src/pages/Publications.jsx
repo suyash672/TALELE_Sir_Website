@@ -1,5 +1,4 @@
 import React, { useMemo, useState } from 'react';
-import { ExternalLink } from 'lucide-react';
 import Badge from '../components/ui/Badge';
 import publicationsData from '../utils/publications_data.json';
 import patentsData from '../utils/patents_data.json';
@@ -138,6 +137,7 @@ const Publications = () => {
         datesDetail: datesStr,
         doi: null,
         link: patent.reference_link || null,
+        images: patent.images || [],
         sortDate: parsedDate,
         sortTime: parsedDate ? parsedDate.getTime() : 0,
         displayDate: formatDate(parsedDate, patent.publicationdate || patent.registrationdate || patent.date),
@@ -363,20 +363,6 @@ const Publications = () => {
                       )}
                     </div>
                   )}
-
-                  <div className="flex flex-wrap items-center gap-4 text-sm">
-                    {item.link && (
-                      <a
-                        href={item.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-600 hover:text-blue-800 inline-flex items-center gap-1"
-                      >
-                        <ExternalLink className="w-4 h-4" />
-                        View Reference
-                      </a>
-                    )}
-                  </div>
                 </article>
               ))
             )}

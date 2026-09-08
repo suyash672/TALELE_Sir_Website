@@ -43,6 +43,22 @@
       "images": [
         "/copyrights/biometric_multimodal_page1.jpg"
       ]
+    },
+    {
+      "id": "LD-20260191825",
+      "title": "Autonomous Aerial System for Precision Crop Monitoring",
+      "authors": [
+        "Vedant Amit Bhagwat",
+        "Gandhar Suhas Kulkarni",
+        "Dev Oza",
+        "Dr. Kiran Talele"
+      ],
+      "registrationdate": "2026-07-14",
+      "description": "Our work discusses a weather resilient aerial system for large area coverage with live video, image processing, and data analysis integration.",
+      "images": [
+        "/copyrights/autonomous_aerial_system_page1.jpg",
+        "/copyrights/autonomous_aerial_system_page2.jpg"
+      ]
     }
   ]
 }
