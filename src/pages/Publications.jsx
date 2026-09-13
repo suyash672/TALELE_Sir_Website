@@ -64,6 +64,7 @@ const highlightText = (text, query) => {
 const Publications = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [activeTypeFilter, setActiveTypeFilter] = useState('all');
+  const [patentSubFilter, setPatentSubFilter] = useState('all');
   const [expandedCerts, setExpandedCerts] = useState({});
 
   const allItems = useMemo(() => {
@@ -123,9 +124,15 @@ const Publications = () => {
         }
       }
 
+      const org = (patent.organisation || '').toLowerCase();
+      const remark = (patent.remark || '').toLowerCase();
+      const isDesign = org.includes('design') || remark.includes('design');
+      const patentSubtype = isDesign ? 'design' : 'utility';
+
       return {
         id: `patent-${patent.id}`,
         type: 'Patent',
+        patentSubtype: patentSubtype,
         title: title,
         contributors: inventors,
         venue: patent.organisation || 'India Patent Office',
@@ -168,16 +175,27 @@ const Publications = () => {
     return [...conferenceItems, ...journalItems, ...patentItems, ...copyrightItems].sort((a, b) => b.sortTime - a.sortTime);
   }, []);
 
+  const patentCounts = useMemo(() => {
+    const patents = allItems.filter((item) => item.type === 'Patent');
+    const design = patents.filter((item) => item.patentSubtype === 'design').length;
+    const utility = patents.filter((item) => item.patentSubtype === 'utility').length;
+    return { all: patents.length, design, utility };
+  }, [allItems]);
+
   const typeFilteredItems = useMemo(() => {
     return allItems.filter((item) => {
       if (activeTypeFilter === 'all') return true;
       if (activeTypeFilter === 'conference') return item.type === 'Conference Publication';
       if (activeTypeFilter === 'journal') return item.type === 'Journal Publication';
-      if (activeTypeFilter === 'patent') return item.type === 'Patent';
+      if (activeTypeFilter === 'patent') {
+        if (patentSubFilter === 'design') return item.type === 'Patent' && item.patentSubtype === 'design';
+        if (patentSubFilter === 'utility') return item.type === 'Patent' && item.patentSubtype === 'utility';
+        return item.type === 'Patent';
+      }
       if (activeTypeFilter === 'copyright') return item.type === 'Copyright';
       return false;
     });
-  }, [allItems, activeTypeFilter]);
+  }, [allItems, activeTypeFilter, patentSubFilter]);
 
   const filteredItems = useMemo(() => {
     if (!searchQuery.trim()) return typeFilteredItems;
@@ -191,6 +209,7 @@ const Publications = () => {
     return typeFilteredItems.filter((item) => {
       const searchable = [
         item.type,
+        item.patentSubtype ? `${item.patentSubtype} patent` : '',
         item.title,
         item.contributors,
         item.venue,
@@ -218,13 +237,14 @@ const Publications = () => {
             </p>
           </div>
 
-          <div className="mb-8 space-y-3">
+          <div className="mb-8 space-y-4">
             <div className="flex flex-wrap items-center gap-4">
               <button
                 type="button"
-                onClick={() =>
-                  setActiveTypeFilter((prev) => (prev === 'patent' ? 'all' : 'patent'))
-                }
+                onClick={() => {
+                  setActiveTypeFilter((prev) => (prev === 'patent' ? 'all' : 'patent'));
+                  setPatentSubFilter('all');
+                }}
                 className={`px-4 py-2 rounded-md border text-sm font-medium transition-colors ${activeTypeFilter === 'patent'
                     ? 'bg-gray-900 text-white border-gray-900'
                     : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'
@@ -235,9 +255,10 @@ const Publications = () => {
 
               <button
                 type="button"
-                onClick={() =>
-                  setActiveTypeFilter((prev) => (prev === 'journal' ? 'all' : 'journal'))
-                }
+                onClick={() => {
+                  setActiveTypeFilter((prev) => (prev === 'journal' ? 'all' : 'journal'));
+                  setPatentSubFilter('all');
+                }}
                 className={`px-4 py-2 rounded-md border text-sm font-medium transition-colors ${activeTypeFilter === 'journal'
                     ? 'bg-gray-900 text-white border-gray-900'
                     : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'
@@ -248,9 +269,10 @@ const Publications = () => {
 
               <button
                 type="button"
-                onClick={() =>
-                  setActiveTypeFilter((prev) => (prev === 'conference' ? 'all' : 'conference'))
-                }
+                onClick={() => {
+                  setActiveTypeFilter((prev) => (prev === 'conference' ? 'all' : 'conference'));
+                  setPatentSubFilter('all');
+                }}
                 className={`px-4 py-2 rounded-md border text-sm font-medium transition-colors ${activeTypeFilter === 'conference'
                     ? 'bg-gray-900 text-white border-gray-900'
                     : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'
@@ -261,9 +283,10 @@ const Publications = () => {
 
               <button
                 type="button"
-                onClick={() =>
-                  setActiveTypeFilter((prev) => (prev === 'copyright' ? 'all' : 'copyright'))
-                }
+                onClick={() => {
+                  setActiveTypeFilter((prev) => (prev === 'copyright' ? 'all' : 'copyright'));
+                  setPatentSubFilter('all');
+                }}
                 className={`px-4 py-2 rounded-md border text-sm font-medium transition-colors ${activeTypeFilter === 'copyright'
                     ? 'bg-gray-900 text-white border-gray-900'
                     : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'
@@ -272,6 +295,48 @@ const Publications = () => {
                 Copyrights
               </button>
             </div>
+
+            {/* Patent Subtabs (Design Patents & Utility Patents) */}
+            {activeTypeFilter === 'patent' && (
+              <div className="flex flex-wrap items-center gap-2 pt-2 border-t border-gray-100">
+                <span className="text-xs font-semibold text-gray-500 uppercase tracking-wider mr-1">
+                  Patent Type:
+                </span>
+                <button
+                  type="button"
+                  onClick={() => setPatentSubFilter('all')}
+                  className={`px-3 py-1.5 rounded-md text-xs font-medium border transition-colors ${
+                    patentSubFilter === 'all'
+                      ? 'bg-gray-900 text-white border-gray-900 shadow-sm'
+                      : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'
+                  }`}
+                >
+                  All Patents ({patentCounts.all})
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setPatentSubFilter('design')}
+                  className={`px-3 py-1.5 rounded-md text-xs font-medium border transition-colors ${
+                    patentSubFilter === 'design'
+                      ? 'bg-gray-900 text-white border-gray-900 shadow-sm'
+                      : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'
+                  }`}
+                >
+                  Design Patents ({patentCounts.design})
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setPatentSubFilter('utility')}
+                  className={`px-3 py-1.5 rounded-md text-xs font-medium border transition-colors ${
+                    patentSubFilter === 'utility'
+                      ? 'bg-gray-900 text-white border-gray-900 shadow-sm'
+                      : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'
+                  }`}
+                >
+                  Utility Patents ({patentCounts.utility})
+                </button>
+              </div>
+            )}
 
             <div className="relative">
               <input
@@ -301,7 +366,13 @@ const Publications = () => {
                   className="border-b border-gray-200 pb-6 last:border-b-0 last:pb-0"
                 >
                   <div className="flex flex-wrap items-center gap-3 mb-2">
-                    <Badge variant="outline">{item.type}</Badge>
+                    <Badge variant="outline">
+                      {item.type === 'Patent'
+                        ? item.patentSubtype === 'design'
+                          ? 'Design Patent'
+                          : 'Utility Patent'
+                        : item.type}
+                    </Badge>
                     <span className="text-sm text-gray-500">{item.displayDate}</span>
                   </div>
 

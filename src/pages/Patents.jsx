@@ -107,12 +107,19 @@ const transformPatentsData = () => {
       // Normalize status
       const status = patent.status?.toLowerCase() || 'pending';
       
+      // Patent subtype: design vs utility
+      const org = (patent.organisation || '').toLowerCase();
+      const remark = (patent.remark || '').toLowerCase();
+      const isDesign = org.includes('design') || remark.includes('design');
+      const patentSubtype = isDesign ? 'design' : 'utility';
+      
       // Academic year label based on publication/grant date, then filing date
       const academicYear = getAcademicYearLabel(publicationDateObj || filingDateObj, year);
       
       return {
         id: patent.id,
         title: patent.title,
+        patentSubtype: patentSubtype,
         inventors: inventors,
         patentNumber: patent.patentnumber || null,
         applicationNumber: patent.applicationnumber || null,
@@ -136,6 +143,7 @@ const transformPatentsData = () => {
 const Patents = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedYear, setSelectedYear] = useState('all');
+  const [selectedType, setSelectedType] = useState('all');
   const [selectedStatus, setSelectedStatus] = useState('all');
   const [expandedCerts, setExpandedCerts] = useState({});
 
@@ -175,11 +183,13 @@ const Patents = () => {
       
       const matchesYear = selectedYear === 'all' || patent.academicYear === selectedYear;
       
+      const matchesType = selectedType === 'all' || patent.patentSubtype === selectedType;
+      
       const matchesStatus = selectedStatus === 'all' || patent.status === selectedStatus;
       
-      return matchesSearch && matchesYear && matchesStatus;
+      return matchesSearch && matchesYear && matchesType && matchesStatus;
     });
-  }, [patents, searchQuery, selectedYear, selectedStatus]);
+  }, [patents, searchQuery, selectedYear, selectedType, selectedStatus]);
 
   // Group patents by academic year and sort by date (most recent first)
   const groupedPatents = useMemo(() => {
@@ -267,6 +277,19 @@ const Patents = () => {
 
             {/* Filters */}
             <div className="flex flex-wrap gap-4">
+              {/* Patent Type Filter */}
+              <div className="flex-1 min-w-[150px]">
+                <select
+                  value={selectedType}
+                  onChange={(e) => setSelectedType(e.target.value)}
+                  className="w-full px-4 py-2.5 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent text-gray-900 bg-white cursor-pointer"
+                >
+                  <option value="all">All Patent Types</option>
+                  <option value="design">Design Patents</option>
+                  <option value="utility">Utility Patents</option>
+                </select>
+              </div>
+
               {/* Academic Year Filter */}
               <div className="flex-1 min-w-[150px]">
                 <select
@@ -388,6 +411,11 @@ const Patents = () => {
 
                         {/* Badges and Action Links */}
                         <div className="flex flex-wrap items-center gap-3">
+                          {/* Patent Type Badge */}
+                          <Badge variant="outline" className="text-xs border-gray-400 text-gray-700 bg-white font-medium">
+                            {patent.patentSubtype === 'design' ? 'Design Patent' : 'Utility Patent'}
+                          </Badge>
+
                           {/* Status Badge */}
                           <Badge variant={getStatusBadgeVariant(patent.status)} className="text-xs border-gray-400 text-gray-700 bg-white font-medium">
                             {formatStatus(patent.status)}
