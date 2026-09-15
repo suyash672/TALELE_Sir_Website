@@ -64,7 +64,6 @@ const highlightText = (text, query) => {
 const Publications = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [activeTypeFilter, setActiveTypeFilter] = useState('all');
-  const [patentSubFilter, setPatentSubFilter] = useState('all');
   const [expandedCerts, setExpandedCerts] = useState({});
 
   const allItems = useMemo(() => {
@@ -175,27 +174,17 @@ const Publications = () => {
     return [...conferenceItems, ...journalItems, ...patentItems, ...copyrightItems].sort((a, b) => b.sortTime - a.sortTime);
   }, []);
 
-  const patentCounts = useMemo(() => {
-    const patents = allItems.filter((item) => item.type === 'Patent');
-    const design = patents.filter((item) => item.patentSubtype === 'design').length;
-    const utility = patents.filter((item) => item.patentSubtype === 'utility').length;
-    return { all: patents.length, design, utility };
-  }, [allItems]);
-
   const typeFilteredItems = useMemo(() => {
     return allItems.filter((item) => {
       if (activeTypeFilter === 'all') return true;
-      if (activeTypeFilter === 'conference') return item.type === 'Conference Publication';
+      if (activeTypeFilter === 'design-patent') return item.type === 'Patent' && item.patentSubtype === 'design';
+      if (activeTypeFilter === 'utility-patent') return item.type === 'Patent' && item.patentSubtype === 'utility';
       if (activeTypeFilter === 'journal') return item.type === 'Journal Publication';
-      if (activeTypeFilter === 'patent') {
-        if (patentSubFilter === 'design') return item.type === 'Patent' && item.patentSubtype === 'design';
-        if (patentSubFilter === 'utility') return item.type === 'Patent' && item.patentSubtype === 'utility';
-        return item.type === 'Patent';
-      }
+      if (activeTypeFilter === 'conference') return item.type === 'Conference Publication';
       if (activeTypeFilter === 'copyright') return item.type === 'Copyright';
       return false;
     });
-  }, [allItems, activeTypeFilter, patentSubFilter]);
+  }, [allItems, activeTypeFilter]);
 
   const filteredItems = useMemo(() => {
     if (!searchQuery.trim()) return typeFilteredItems;
@@ -241,24 +230,35 @@ const Publications = () => {
             <div className="flex flex-wrap items-center gap-4">
               <button
                 type="button"
-                onClick={() => {
-                  setActiveTypeFilter((prev) => (prev === 'patent' ? 'all' : 'patent'));
-                  setPatentSubFilter('all');
-                }}
-                className={`px-4 py-2 rounded-md border text-sm font-medium transition-colors ${activeTypeFilter === 'patent'
+                onClick={() =>
+                  setActiveTypeFilter((prev) => (prev === 'design-patent' ? 'all' : 'design-patent'))
+                }
+                className={`px-4 py-2 rounded-md border text-sm font-medium transition-colors ${activeTypeFilter === 'design-patent'
                     ? 'bg-gray-900 text-white border-gray-900'
                     : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'
                   }`}
               >
-                Patents
+                Design Patents
               </button>
 
               <button
                 type="button"
-                onClick={() => {
-                  setActiveTypeFilter((prev) => (prev === 'journal' ? 'all' : 'journal'));
-                  setPatentSubFilter('all');
-                }}
+                onClick={() =>
+                  setActiveTypeFilter((prev) => (prev === 'utility-patent' ? 'all' : 'utility-patent'))
+                }
+                className={`px-4 py-2 rounded-md border text-sm font-medium transition-colors ${activeTypeFilter === 'utility-patent'
+                    ? 'bg-gray-900 text-white border-gray-900'
+                    : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'
+                  }`}
+              >
+                Utility Patents
+              </button>
+
+              <button
+                type="button"
+                onClick={() =>
+                  setActiveTypeFilter((prev) => (prev === 'journal' ? 'all' : 'journal'))
+                }
                 className={`px-4 py-2 rounded-md border text-sm font-medium transition-colors ${activeTypeFilter === 'journal'
                     ? 'bg-gray-900 text-white border-gray-900'
                     : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'
@@ -269,10 +269,9 @@ const Publications = () => {
 
               <button
                 type="button"
-                onClick={() => {
-                  setActiveTypeFilter((prev) => (prev === 'conference' ? 'all' : 'conference'));
-                  setPatentSubFilter('all');
-                }}
+                onClick={() =>
+                  setActiveTypeFilter((prev) => (prev === 'conference' ? 'all' : 'conference'))
+                }
                 className={`px-4 py-2 rounded-md border text-sm font-medium transition-colors ${activeTypeFilter === 'conference'
                     ? 'bg-gray-900 text-white border-gray-900'
                     : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'
@@ -283,10 +282,9 @@ const Publications = () => {
 
               <button
                 type="button"
-                onClick={() => {
-                  setActiveTypeFilter((prev) => (prev === 'copyright' ? 'all' : 'copyright'));
-                  setPatentSubFilter('all');
-                }}
+                onClick={() =>
+                  setActiveTypeFilter((prev) => (prev === 'copyright' ? 'all' : 'copyright'))
+                }
                 className={`px-4 py-2 rounded-md border text-sm font-medium transition-colors ${activeTypeFilter === 'copyright'
                     ? 'bg-gray-900 text-white border-gray-900'
                     : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'
@@ -295,48 +293,6 @@ const Publications = () => {
                 Copyrights
               </button>
             </div>
-
-            {/* Patent Subtabs (Design Patents & Utility Patents) */}
-            {activeTypeFilter === 'patent' && (
-              <div className="flex flex-wrap items-center gap-2 pt-2 border-t border-gray-100">
-                <span className="text-xs font-semibold text-gray-500 uppercase tracking-wider mr-1">
-                  Patent Type:
-                </span>
-                <button
-                  type="button"
-                  onClick={() => setPatentSubFilter('all')}
-                  className={`px-3 py-1.5 rounded-md text-xs font-medium border transition-colors ${
-                    patentSubFilter === 'all'
-                      ? 'bg-gray-900 text-white border-gray-900 shadow-sm'
-                      : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'
-                  }`}
-                >
-                  All Patents ({patentCounts.all})
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setPatentSubFilter('design')}
-                  className={`px-3 py-1.5 rounded-md text-xs font-medium border transition-colors ${
-                    patentSubFilter === 'design'
-                      ? 'bg-gray-900 text-white border-gray-900 shadow-sm'
-                      : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'
-                  }`}
-                >
-                  Design Patents ({patentCounts.design})
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setPatentSubFilter('utility')}
-                  className={`px-3 py-1.5 rounded-md text-xs font-medium border transition-colors ${
-                    patentSubFilter === 'utility'
-                      ? 'bg-gray-900 text-white border-gray-900 shadow-sm'
-                      : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50'
-                  }`}
-                >
-                  Utility Patents ({patentCounts.utility})
-                </button>
-              </div>
-            )}
 
             <div className="relative">
               <input

@@ -67,12 +67,23 @@ const Projects = () => {
                     {project.academicYear && (
                       <span className="text-sm text-gray-500">Academic Year: {project.academicYear}</span>
                     )}
+                    {project.industryProject && (
+                      <span className="text-xs font-semibold text-blue-700 bg-blue-50 px-2.5 py-1 rounded border border-blue-200">
+                        {project.industryProject}
+                      </span>
+                    )}
                   </div>
                   <h2 className="text-xl font-semibold text-gray-900 mb-3">Title : {project.title}</h2>
+                  {project.mentor && (
+                    <p className="text-gray-700 mb-2 font-medium">Mentor : {project.mentor}</p>
+                  )}
                   {project.duration && (
                     <p className="text-gray-700 mb-2">Duration : {project.duration}</p>
                   )}
-                  <p className="text-gray-700 mb-2">Team : {project.team}</p>
+                  <div className="text-gray-700 mb-2 whitespace-pre-line">
+                    <span className="font-normal">Team : </span>
+                    {project.team}
+                  </div>
                   <p className="text-gray-700 mb-2 leading-relaxed">Abstract : {project.abstract}</p>
                 </article>
               ))
