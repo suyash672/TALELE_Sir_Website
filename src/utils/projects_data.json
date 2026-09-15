@@ -137,7 +137,8 @@
     },
     {
       "type": "Internship Project",
-      "academicYear": "2025-26",
+      "academicYear": "2026",
+      "organization": "2026 Summer Internship at SPTBI",
       "title": "Students Directory",
       "mentor": "Dr. Kiran TALELE and Dr. Jignesh Sisodia",
       "duration": "1 Feb 2026 to 30 July 2026",
@@ -146,16 +147,18 @@
     },
     {
       "type": "Internship Project",
-      "academicYear": "2025-26",
+      "academicYear": "2026",
+      "organization": "2026 Summer Internship at SPTBI",
       "title": "Alumni Network",
       "mentor": "Dr. Kiran TALELE",
       "duration": "1 Feb 2026 to 30 July 2026",
       "team": "Rohit Basak, Suyash Gawande",
-      "abstract": "A scalable multi-tenant MERN SaaS platform enabling universities and colleges to create custom-branded alumni portals. It integrates professional networking, interactive alumni geo-directories, real-time mentorship, job opportunities, and career engagement. Institutions can manage alumni, events, chapters, communications, fundraising, donations, and industry connections through a unified platform. The platform provides secure, tenant-wise data isolation, analytics, customization, and scalability for multiple institutions on a common technology infrastructure."
+      "abstract": "A scalable multi-tenant MERN SaaS platform enabling universities and colleges to create custom-branded alumni portals. It integrates professional networking, interactive alumni geo-directories, real-time mentorship, job opportunities, and career engagement. Institutions can manage alumni, events, chapters, communications, fundraising, donations, and industry connections through a unified platform. .The platform provides secure, tenant-wise data isolation, analytics, customization, and scalability for multiple institutions on a common technology infrastructure."
     },
     {
       "type": "Internship Project",
-      "academicYear": "2025-26",
+      "academicYear": "2026",
+      "organization": "2026 Summer Internship at SPTBI",
       "title": "ExamShield",
       "mentor": "Dr. Kiran TALELE",
       "duration": "1 Feb 2026 to 30 July 2026",
@@ -164,17 +167,17 @@
     },
     {
       "type": "Internship Project",
-      "academicYear": "2025-26",
+      "academicYear": "2026",
+      "organization": "2026 Summer Internship at SPTBI",
       "title": "CourseZ",
-      "industryProject": "Industry Project by Anudaan Jagruti Foundation",
       "mentor": "Dr. Kiran TALELE",
-      "team": "1. Krisha Gangaramani and Sanyogita Pradhan (Duration : 1 January 2026 to 30 September 2026)\n2. Rohit Basak and Suyash Gawande (Duration : 1 August 2026 to 30 September 2026)",
-      "duration": "1 January 2026 to 30 September 2026",
+      "team": "1. Krisha Gangaramani and Sanyogita Pradhan (1 January 2026 to 30 September 2026)\n2. Rohit Basak and Suyash Gawande (1 August 2026 to 30 September 2026)",
       "abstract": "CourseZ is an online learning platform designed to provide high-quality, structured education in a flexible and accessible way. It enables learners to gain knowledge, develop practical skills, and improve professional competence through well-organized digital courses. The platform offers courses across technology, management, entrepreneurship, and professional development. Each course is created by academic experts and includes video lectures, assessments, and certificates to ensure clear and measurable learning outcomes. Blending proven educational methods with modern digital tools, CourseZ enables learners to build practical skills, enhance professional competence, and advance their careers with confidence."
     },
     {
       "type": "Internship Project",
-      "academicYear": "2025-26",
+      "academicYear": "2026",
+      "organization": "2026 Summer Internship at SPTBI",
       "title": "Auction Price Prediction and Performance-Based Player Classification for IPL Franchises: A Data-Driven Approach",
       "mentor": "Dr. Saurabh Mehta and Dr Kiran TALELE",
       "duration": "15 June 2026 to 15 September 2026",
@@ -183,7 +186,8 @@
     },
     {
       "type": "Internship Project",
-      "academicYear": "2025-26",
+      "academicYear": "2026",
+      "organization": "2026 Summer Internship at SPTBI",
       "title": "EduMind: Development of an Agentic AI Assistant for Engineering College SOPs, Policies, Circulars, and Institutional Knowledge Management",
       "mentor": "Dr. Saurabh Mehta and Dr Kiran TALELE",
       "duration": "15 June 2026 to 15 September 2026",
@@ -192,7 +196,8 @@
     },
     {
       "type": "Internship Project",
-      "academicYear": "2025-26",
+      "academicYear": "2026",
+      "organization": "2026 Summer Internship at SPTBI",
       "title": "SuccessPath: An Agentic AI Framework for Student Success and Retention",
       "mentor": "Dr. Saurabh Mehta and Dr Kiran TALELE",
       "duration": "15 June 2026 to 15 September 2026",
@@ -201,7 +206,8 @@
     },
     {
       "type": "Internship Project",
-      "academicYear": "2025-26",
+      "academicYear": "2026",
+      "organization": "2026 Summer Internship at SPTBI",
       "title": "Weapon Detection with Person Association for Intelligent Surveillance Systems",
       "mentor": "Dr Kiran TALELE and Dr. Jignesh Sisodia",
       "duration": "15 June 2026 to 15 September 2026",
@@ -210,7 +216,8 @@
     },
     {
       "type": "Internship Project",
-      "academicYear": "2025-26",
+      "academicYear": "2026",
+      "organization": "2026 Summer Internship at SPTBI",
       "title": "Communication-Aware Semantic Networking in Heterogeneous Unmanned Vehicle Systems",
       "mentor": "Dr Kiran TALELE",
       "duration": "15 June 2026 to 15 September 2026",
@@ -219,32 +226,13 @@
     },
     {
       "type": "Internship Project",
-      "academicYear": "2025-26",
+      "academicYear": "2026",
+      "organization": "2026 Summer Internship at SPTBI",
       "title": "Multimodal Authentication System",
       "mentor": "Dr Kiran TALELE",
       "duration": "15 June 2026 to 15 September 2026",
       "team": "Yash Sandeep Savai, Ankita Sanjay Dound, Samudra Banerjee, Krisha Gangaramani, Avani Nilesh Paygude, Saakar Ambure, Aashka Pankaj Dave and Chhavi Talele",
       "abstract": "This research proposes a robust multimodal authentication framework for secure user identity verification by integrating face, voice, iris, contactless fingerprint, and unique ID authentication. Each modality is independently evaluated for liveness, anti-spoofing, reliability, and confidence under varying sensor and environmental conditions. A dynamic weighting mechanism assigns normalized weights to valid modalities while excluding unavailable, degraded, or spoofed inputs. The weighted authentication evidence is combined through decision-level fusion to generate a unified confidence score for access authorization. The proposed framework enhances authentication reliability, security, and resilience against modality degradation and spoofing attacks."
-    },
-    {
-      "type": "Internship Project",
-      "academicYear": "2025-26",
-      "title": "Pallet Box Counting Using a Three-Camera Vision Architecture",
-      "industryProject": "Industry Project by Quantum Four Pvt Ltd",
-      "mentor": "Dr. Kiran TALELE",
-      "duration": "15 June 2026 to 15 September 2026",
-      "team": "Aashka Pankaj Dave, Vedant Mane, Avani Nilesh Paygude, and Krisha Gangaramani",
-      "abstract": "This project presents the design and implementation of a robust, multi-camera video analytics system engineered for automated, dynamic box counting on moving industrial pallets. Addressing the limitations of traditional static image-based object detection—such as motion blur, occlusions, perspective distortion, and variable warehouse lighting—the system employs a synchronized three-camera architecture integrating top, front, and side views. Through intelligent sensor fusion, the framework leverages the top camera for layer estimation, the front camera for face detection, and the side camera for depth inference. Rather than relying on naive frame-by-frame summation, the core tracking and counting pipeline implements temporal consistency algorithms and multi-sensor evidence accumulation to eliminate redundancy and dynamically determine valid pallet boundaries. To ensure operational viability in high-throughput industrial environments, the PyTorch models are compiled into optimized ONNX and TensorRT runtimes, carefully balancing inference latency, frame-drop mitigation, and hardware utilization. The final system delivers a single, highly reliable box count per pallet pass under demanding physical constraints."
-    },
-    {
-      "type": "Internship Project",
-      "academicYear": "2025-26",
-      "title": "Automated Number Plate Recognition (ANPR) for Logistics Gate Management",
-      "industryProject": "Industry Project by Quantum Four Pvt Ltd",
-      "mentor": "Dr. Kiran TALELE",
-      "duration": "15 June 2026 to 15 September 2026",
-      "team": "Dev Gaglani, Gadge Pranav Mahendra, Abhimanyu Sah, Ojayit Telang and Samiksha Davare",
-      "abstract": "This paper details the design and implementation of a robust, video-based Automatic Number Plate Recognition (ANPR) system engineered for high-throughput logistics gate environments. Unlike traditional static image processing, the proposed solution processes continuous live or recorded video streams to reliably detect vehicles, localize license plates, and extract alphanumeric text under demanding operational constraints. To overcome real-world challenges such as motion blur, perspective distortion, severe lighting variations, plate degradation, and partial occlusions, the system employs a comprehensive six-stage pipeline. This architecture integrates vehicle detection, precise plate localization, and advanced preprocessing—including perspective correction and contrast enhancement—prior to optical character recognition (OCR). Furthermore, it implements sophisticated temporal consolidation algorithms to aggregate multi-frame reads, mitigating noise and ensuring a single, accurate plate string per vehicle pass. Optimized for continuous, unsupervised industrial operation, the system records valid plate data alongside timestamps and confidence metrics while prioritizing precision to minimize false reads. Additionally, the framework incorporates vehicle dwell-time tracking to monitor passage intervals between entry and exit checkpoints, delivering a scalable and production-ready solution for automated gate management."
     }
   ]
 }
