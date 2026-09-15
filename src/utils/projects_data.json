@@ -134,6 +134,30 @@
       "title": "Autonomous Navigation and Mapping for UGV Using LiDAR",
       "team": "Kushal Deshmukh, Vinay Gupta and Soham Jadhav",
       "abstract": "This project presents a cost-effective Unmanned Ground Vehicle (UGV) for autonomous navigation and environmental mapping using LiDAR technology. Built around a Raspberry Pi, the system combines LiDAR and vision sensing for obstacle detection and SLAM-based localization and mapping. The prototype demonstrates stable navigation, accurate environment perception, and efficient 2D map generation. Its modular design and open-source architecture support future integration of multi-sensor fusion and advanced path-planning capabilities."
+    },
+    {
+      "type": "Internship Project",
+      "academicYear": "2025-26",
+      "title": "Students Directory",
+      "duration": "1 Feb 2026 to 30 July 2026",
+      "team": "Shantanu Joshi, Hridaya Patil",
+      "abstract": "To design a responsive student portfolio app that enables students, faculty, institute administrators, and super administrators to manage academic identities, portfolio profiles, institute onboarding, and role-based access through a unified web platform."
+    },
+    {
+      "type": "Internship Project",
+      "academicYear": "2025-26",
+      "title": "Alumni Portal",
+      "duration": "1 Feb 2026 to 30 July 2026",
+      "team": "Rohit Basak, Suyash Gawande",
+      "abstract": "A scalable Multi-Tenant MERN SaaS platform that empowers universities and colleges to run custom-branded alumni portals—combining LinkedIn-style professional networking, interactive geo-directories, real-time mentorship chat, job boards, and fundraising tools into a single, unified ecosystem."
+    },
+    {
+      "type": "Internship Project",
+      "academicYear": "2025-26",
+      "title": "ExamShield",
+      "duration": "1 Feb 2026 to 30 July 2026",
+      "team": "Vedant Onkar, Suyash Gawande",
+      "abstract": "ExamShield is a full-stack online examination and proctoring platform engineered to conduct secure digital assessments. Built using Next.js, Express (TypeScript), and MongoDB (Prisma), it enables teachers to organize question banks, bulk-import questions (CSV, DOCX, Moodle HTML), and generate customized, randomized tests. During exams, the platform enforces client-side anti-cheat mechanisms—including fullscreen lock, focus/tab-switch tracking, and copy-paste prevention—while logging violations in real time and automatically scoring submissions."
     }
   ]
 }

@@ -64,9 +64,14 @@ const Projects = () => {
                 <article key={index} className="border border-gray-200 rounded-md p-5">
                   <div className="flex flex-wrap items-center gap-3 mb-3">
                     <Badge variant="outline">{project.type || 'Major Project'}</Badge>
-                    <span className="text-sm text-gray-500">Academic Year: {project.academicYear}</span>
+                    {project.academicYear && (
+                      <span className="text-sm text-gray-500">Academic Year: {project.academicYear}</span>
+                    )}
                   </div>
                   <h2 className="text-xl font-semibold text-gray-900 mb-3">Title : {project.title}</h2>
+                  {project.duration && (
+                    <p className="text-gray-700 mb-2">Duration : {project.duration}</p>
+                  )}
                   <p className="text-gray-700 mb-2">Team : {project.team}</p>
                   <p className="text-gray-700 mb-2 leading-relaxed">Abstract : {project.abstract}</p>
                 </article>
