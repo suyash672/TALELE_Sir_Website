@@ -1,5 +1,4 @@
 import React, { useState, useMemo } from 'react';
-import { ExternalLink, Link as LinkIcon } from 'lucide-react';
 import Badge from '../components/ui/Badge';
 import patentsData from '../utils/patents_data.json';
 
@@ -420,21 +419,6 @@ const Patents = () => {
                           <Badge variant={getStatusBadgeVariant(patent.status)} className="text-xs border-gray-400 text-gray-700 bg-white font-medium">
                             {formatStatus(patent.status)}
                           </Badge>
-
-                          {/* Action Links */}
-                          {patent.link && (
-                            <div className="flex items-center gap-4 ml-auto">
-                              <a
-                                href={patent.link}
-                                className="flex items-center gap-1 text-sm text-gray-700 hover:text-gray-900 underline cursor-pointer"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                              >
-                                <ExternalLink className="w-4 h-4" />
-                                View Patent
-                              </a>
-                            </div>
-                          )}
                         </div>
                       </article>
                     ))}

@@ -108,6 +108,7 @@ const Hero = () => {
                   '/slideshow/slide3.jpg',
                   '/slideshow/slide4.jpg',
                   '/slideshow/slide5.jpg',
+                  '/slideshow/slide6.jpeg',
                 ]}
                 interval={4500}
               />
