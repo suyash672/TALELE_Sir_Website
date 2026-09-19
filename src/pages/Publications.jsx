@@ -79,7 +79,7 @@ const Publications = () => {
         venue: paper.conferencename || '',
         detail: paper.hostingvenue || '',
         doi: paper.doi && paper.doi !== 'Not available' ? paper.doi : null,
-        link: paper.reference_link || null,
+        link: paper.reference_link || (paper.doi && paper.doi !== 'Not available' ? `https://doi.org/${paper.doi}` : null),
         sortDate: parsedDate,
         sortTime: parsedDate ? parsedDate.getTime() : 0,
         displayDate: formatDate(parsedDate, paper.date),
@@ -99,7 +99,7 @@ const Publications = () => {
         venue: paper.journaltitle || '',
         detail: paper.publisher || '',
         doi: paper.doi && paper.doi !== 'Not available' ? paper.doi : null,
-        link: paper.reference_link || null,
+        link: paper.reference_link || (paper.doi && paper.doi !== 'Not available' ? `https://doi.org/${paper.doi}` : null),
         sortDate: parsedDate,
         sortTime: parsedDate
           ? parsedDate.getTime()
@@ -363,30 +363,17 @@ const Publications = () => {
                     />
                   )}
 
-                  {(item.type === 'Conference Publication' || item.type === 'Journal Publication') && (item.doi || item.link) && (
+                  {(item.type === 'Conference Publication' || item.type === 'Journal Publication') && item.link && (
                     <div className="flex flex-wrap gap-3 mt-2 mb-2">
-                      {item.doi && (
-                        <a
-                          href={`https://doi.org/${item.doi}`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-1 text-sm text-blue-600 hover:text-blue-800 hover:underline"
-                        >
-                          <svg xmlns="http://www.w3.org/2000/svg" className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
-                          DOI: {item.doi}
-                        </a>
-                      )}
-                      {item.link && (
-                        <a
-                          href={item.link}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-1 text-sm text-blue-600 hover:text-blue-800 hover:underline"
-                        >
-                          <svg xmlns="http://www.w3.org/2000/svg" className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
-                          View Paper
-                        </a>
-                      )}
+                      <a
+                        href={item.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1 text-sm text-blue-600 hover:text-blue-800 hover:underline"
+                      >
+                        <svg xmlns="http://www.w3.org/2000/svg" className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+                        View Paper
+                      </a>
                     </div>
                   )}
 

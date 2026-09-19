@@ -93,7 +93,7 @@ const JournalsPublished = () => {
         year: year,
         publisher: publisher,
         doi: paper.doi && paper.doi !== 'Not available' ? paper.doi : null,
-        paperLink: paper.reference_link || null,
+        paperLink: paper.reference_link || (paper.doi && paper.doi !== 'Not available' ? `https://doi.org/${paper.doi}` : null),
         issn: paper.issn && paper.issn !== 'Not available' ? paper.issn : null,
         academicYear: getAcademicYearLabel(dateObj || new Date(year, 6, 1)),
       };
@@ -353,18 +353,7 @@ const JournalsPublished = () => {
                           </Badge>
 
                           {/* Action Links */}
-                          <div className="flex flex-wrap items-center gap-4 ml-auto">
-                            {pub.doi && (
-                              <a
-                                href={`https://doi.org/${pub.doi}`}
-                                className="flex items-center gap-1 text-sm text-blue-600 hover:text-blue-800 underline cursor-pointer"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                              >
-                                <ExternalLink className="w-4 h-4" />
-                                DOI: {pub.doi}
-                              </a>
-                            )}
+                          <div className="flex items-center gap-4 ml-auto">
                             {pub.paperLink && (
                               <a
                                 href={pub.paperLink}
