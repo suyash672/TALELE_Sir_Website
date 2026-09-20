@@ -165,7 +165,7 @@ const Contact = () => {
                   <div className="flex items-center gap-3 text-gray-700">
                     <Phone className="w-5 h-5 text-primary shrink-0" />
                     <div>
-                      <p className="font-medium">+91 (Contact for phone number)</p>
+                      <p className="font-medium">+91 9987030881</p>
                     </div>
                   </div>
                 </div>

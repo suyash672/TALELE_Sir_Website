@@ -1151,8 +1151,10 @@
           "Kiran TALELE"
         ],
         "hostingvenue": "IIT Delhi, India",
-        "doi": "Not available",
-        "remark": "Organized by IIT Delhi in collaboration with Machine Intelligence Unit, Indian Statistical Institute Kolkata"
+        "organizedby": "IIT Delhi in collaboration with Machine Intelligence Unit, Indian Statistical Institute Kolkata, India",
+        "doi": "10.1007/978-3-032-18477-1_66",
+        "reference_link": "https://link.springer.com/chapter/10.1007/978-3-032-18477-1_66",
+        "remark": "Springer"
       },
       {
         "id": 86,
@@ -1167,8 +1169,10 @@
           "Kiran TALELE"
         ],
         "hostingvenue": "ABV-IIITM Gwalior, India",
+        "organizedby": "IEEE MP Section and ABV-IIITM Gwalior, India",
         "doi": "Not available",
-        "remark": "Organized by IEEE MP Section and ABV-IIITM Gwalior"
+        "reference_link": "https://ieeexplore.ieee.org/abstract/document/11194555/",
+        "remark": "IEEE"
       },
       {
         "id": 87,
