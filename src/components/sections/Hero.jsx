@@ -1,13 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import Button from '../ui/Button';
 import PhotoSlideshow from './PhotoSlideshow';
 import { 
   CalendarDaysIcon, 
   DocumentTextIcon, 
   ClipboardDocumentCheckIcon,
-  ArrowDownTrayIcon,
-  EnvelopeIcon,
   LightBulbIcon,
 } from '@heroicons/react/24/outline';
 import publicationsData from '../../utils/publications_data.json';
@@ -40,19 +36,6 @@ const Hero = () => {
                 <p className="text-lg lg:text-xl text-muted-foreground leading-relaxed flex items-center gap-2">
                   Bharatiya Vidya Bhavan's Sardar Patel Institute of Technology, Mumbai
                 </p>
-              </div>
-
-              <div className="flex flex-wrap gap-4 pt-4">
-                <Button size="lg" className="px-8 flex items-center gap-2">
-                  <ArrowDownTrayIcon className="w-5 h-5" />
-                  View Resume
-                </Button>
-                <Link to="/contact">
-                  <Button size="lg" variant="outline" className="px-8 bg-transparent flex items-center gap-2">
-                    <EnvelopeIcon className="w-5 h-5" />
-                    Contact
-                  </Button>
-                </Link>
               </div>
 
               {/* Quick stats */}
