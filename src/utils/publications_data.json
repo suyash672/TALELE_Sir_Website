@@ -1190,6 +1190,22 @@
         "doi": "Not available",
         "reference_link": "https://ieeexplore.ieee.org/abstract/document/7259436",
         "remark": "IEEE"
+      },
+      {
+        "id": 88,
+        "date": "2023-11-06",
+        "title": "Adaptive Ambiance Mode For Noise Cancelling Headphones",
+        "conferencename": "2023 IEEE Industrial Electronics and Applications Conference (IEACon)",
+        "authors": [
+          "Rajas Bhope",
+          "Kiran TALELE",
+          "Tao Huang"
+        ],
+        "hostingvenue": "Penang, Malaysia",
+        "proceedingpages": "231-236",
+        "doi": "10.1109/IEACon55029.2023.10370069",
+        "reference_link": "https://ieeexplore.ieee.org/document/10370069",
+        "remark": "IEEE"
       }
     ],
     "journalpapers": [
