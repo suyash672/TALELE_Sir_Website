@@ -146,9 +146,9 @@ const Patents = () => {
   const [selectedStatus, setSelectedStatus] = useState('all');
   const [expandedCerts, setExpandedCerts] = useState({});
 
-  // Use transformed data and remove "awaiting request for examination" patents
+  // Use transformed data and ensure patents with certificates or valid statuses are displayed
   const patents = transformPatentsData().filter(
-    (p) => p.status !== 'awaiting request for examination'
+    (p) => p.status !== 'awaiting request for examination' || (p.images && p.images.length > 0)
   );
 
   // Get unique academic years and statuses

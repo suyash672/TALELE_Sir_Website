@@ -269,7 +269,10 @@
       "publicationdate": "2023-03-03",
       "status": "Application Awaiting Examination",
       "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
-      "remark": "Awaiting examination at Patent Office"
+      "remark": "Awaiting examination at Patent Office",
+      "images": [
+        "/patents/SYSTEM AND METHOD FOR GENERATING INTELLIGENT RESPONSESWITH A SPEAKER.jpg"
+      ]
     },
     {
       "id": 18,
@@ -288,7 +291,10 @@
       "publicationdate": "2023-05-05",
       "status": "Awaiting Request for Examination",
       "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
-      "remark": "Awaiting request for examination"
+      "remark": "Awaiting request for examination",
+      "images": [
+        "/patents/REAL-TIME OBSTACLE DETECTION AND RESPONSE SYSTEM FORSAFER DRIVING.jpg"
+      ]
     },
     {
       "id": 19,
@@ -305,7 +311,10 @@
       "publicationdate": "2023-10-06",
       "status": "Awaiting Request for Examination",
       "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
-      "remark": "Awaiting request for examination"
+      "remark": "Awaiting request for examination",
+      "images": [
+        "/patents/SYSTEMS AND METHODS FOR A WEB - BASED LEARNING PLATFORMFOR ONLINE COURSES.jpg"
+      ]
     },
     {
       "id": 20,
@@ -323,7 +332,10 @@
       "publicationdate": "2024-02-02",
       "status": "Awaiting Request for Examination",
       "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
-      "remark": "Awaiting request for examination"
+      "remark": "Awaiting request for examination",
+      "images": [
+        "/patents/REMOTESAK-A REAL-TIME PERSON DETECTION AND SURVEILLANCESYSTEM.jpg"
+      ]
     },
     {
       "id": 21,
@@ -342,7 +354,10 @@
       "publicationdate": "2024-06-14",
       "status": "Awaiting Request for Examination",
       "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
-      "remark": "Awaiting request for examination"
+      "remark": "Awaiting request for examination",
+      "images": [
+        "/patents/Electrify Mobility.jpg"
+      ]
     },
     {
       "id": 22,
@@ -360,7 +375,10 @@
       "publicationdate": "2024-07-12",
       "status": "Awaiting Request for Examination",
       "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
-      "remark": "Awaiting request for examination"
+      "remark": "Awaiting request for examination",
+      "images": [
+        "/patents/EYESTREAM  A SECURE, REAL-TIME DRONE SURVEILLANCE SYSTEM.jpg"
+      ]
     },
     {
       "id": 23,
@@ -377,7 +395,10 @@
       "publicationdate": "2024-08-16",
       "status": "Awaiting Request for Examination",
       "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
-      "remark": "Awaiting request for examination"
+      "remark": "Awaiting request for examination",
+      "images": [
+        "/patents/DOPPELSCAN DUAL AUTHENTICATION CONTACTLESS ATTENDANCESYSTEM.jpg"
+      ]
     },
     {
       "id": 24,
@@ -413,7 +434,10 @@
       "publicationdate": "2025-02-07",
       "status": "Awaiting Request for Examination",
       "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
-      "remark": "Awaiting request for examination"
+      "remark": "Awaiting request for examination",
+      "images": [
+        "/patents/SPEED MAPPING FOR INDIAN ROADS.jpg"
+      ]
     },
     {
       "id": 26,
@@ -559,7 +583,10 @@
       "publicationdate": "2026-03-27",
       "status": "Awaiting Request for Examination",
       "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
-      "remark": "Awaiting request for examination"
+      "remark": "Awaiting request for examination",
+      "images": [
+        "/patents/SYSTEM AND METHOD FOR MULTILINGUAL TRANSLATOR WITHSPEAKER IDENTIFICATION ON PORTABLE SINGLE BOARD COMPUTER.jpg"
+      ]
     },
     {
       "id": 32,
@@ -659,7 +686,10 @@
       "publicationdate": "2026-04-27",
       "status": "Granted",
       "reference_link": "https://register.dpma.de/DPMAregister/pat/register?AKZ=2020261019178&CURSOR=0",
-      "remark": "German Patent. Application number: 20 2026 101 645.4. Application date: 04 April 2026. Registration date: 27 April 2026."
+      "remark": "German Patent. Application number: 20 2026 101 645.4. Application date: 04 April 2026. Registration date: 27 April 2026.",
+      "images": [
+        "/patents/A secure system for biometric voter identification and authorization to cast a vote.jpg"
+      ]
     },
     {
       "id": 36,
@@ -678,7 +708,10 @@
       "publicationdate": "2026-04-24",
       "status": "Granted",
       "reference_link": "https://register.dpma.de/DPMAregister/pat/register?AKZ=2020261019178&CURSOR=0",
-      "remark": "German Patent. Application number: 20 2026 101 917. Application date: 24 March 2026. Registration date: 24 April 2026."
+      "remark": "German Patent. Application number: 20 2026 101 917. Application date: 24 March 2026. Registration date: 24 April 2026.",
+      "images": [
+        "/patents/A wearable system for physiological monitoring and signal processing.jpg"
+      ]
     },
     {
       "id": 37,
@@ -1173,6 +1206,47 @@
       "remark": "Design number: 6543227. Registration date: 29 July 2026. Grant date: 26 August 2026.",
       "images": [
         "/patents/Bee Drone_page-0001.jpg"
+      ]
+    },
+    {
+      "id": 52,
+      "date": "2021-10-13",
+      "title": "SMART WEARABLES FOR TRAINING",
+      "authors": [
+        "TALELE Kiran",
+        "Benn Melita",
+        "Pulapaka Anay",
+        "Pulapaka Atharv"
+      ],
+      "organisation": "India Patent Office",
+      "applicant": "TALELE Kiran",
+      "applicationnumber": "202121046623",
+      "publicationdate": "2021-10-29",
+      "status": "Deemed to be withdrawn",
+      "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
+      "remark": "Deemed to be withdrawn u/s 11B(4)",
+      "images": [
+        "/patents/SMART WEARABLES FOR TRAINING.jpg"
+      ]
+    },
+    {
+      "id": 53,
+      "date": "2021-08-13",
+      "title": "GUIDED VISION CONTROLLED PROCTORING SYSTEM FOR DISTANT EXAMINATION",
+      "authors": [
+        "Jay Mehta",
+        "Vaidehi Vatsaraj",
+        "Jainam Jain",
+        "Kiran TALELE"
+      ],
+      "organisation": "India Patent Office",
+      "applicationnumber": "202121036663",
+      "publicationdate": "2021-08-27",
+      "status": "Deemed to be withdrawn",
+      "reference_link": "https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus",
+      "remark": "Deemed to be withdrawn u/s 11B(4)",
+      "images": [
+        "/patents/GUIDED VISION CONTROLLED PROCTORING SYSTEM FOR DISTANTEXAMINATION.jpg"
       ]
     }
   ],
